@@ -1,7 +1,7 @@
 1
 00:00:00,380 --> 00:00:04,200
 Hello, I'm Michael
-form and this is
+Fourman and this is
 
 2
 00:00:04,200 --> 00:00:05,760
@@ -10,7 +10,7 @@ the first video in
 3
 00:00:05,760 --> 00:00:08,925
 the computation and logic
-stream of implant a,
+stream of Inf1A at,
 
 4
 00:00:08,925 --> 00:00:10,200
@@ -85,7 +85,7 @@ subject or event.
 19
 00:00:57,020 --> 00:00:59,750
 That of which one
-is the prized or
+is apprised or
 
 20
 00:00:59,750 --> 00:01:03,065
@@ -108,7 +108,7 @@ subject or event.
 24
 00:01:14,150 --> 00:01:17,585
 It's something we
-can be told learn.
+can be told or learn.
 
 25
 00:01:17,585 --> 00:01:21,365
@@ -126,7 +126,7 @@ So this is not a new concept.
 
 28
 00:01:28,850 --> 00:01:30,920
-It's very old concept,
+It's a very old concept,
 
 29
 00:01:30,920 --> 00:01:33,650
@@ -171,8 +171,8 @@ It turns out there are
 
 38
 00:01:52,790 --> 00:01:55,340
-items of information
-that are indivisible,
+atoms of information,
+there are indivisible
 
 39
 00:01:55,340 --> 00:01:57,110
@@ -185,7 +185,7 @@ the smallest possible amount of
 41
 00:01:59,300 --> 00:02:02,555
 information you can get
-and will come to them.
+and we'll come to them.
 
 42
 00:02:02,555 --> 00:02:04,865
@@ -198,7 +198,7 @@ Then we have in 1852 to use a.
 
 44
 00:02:08,180 --> 00:02:10,250
-Similarly, the brain may be
+simile, the brain may be
 
 45
 00:02:10,250 --> 00:02:14,090
@@ -296,13 +296,13 @@ can be for good or for evil.
 
 65
 00:03:26,160 --> 00:03:30,895
-I went to Google and search
+I went to Google and searched
 for examples of information.
 
 66
 00:03:30,895 --> 00:03:33,550
 And this is what I found
-is one of the many,
+or at least one of the many,
 
 67
 00:03:33,550 --> 00:03:36,309
@@ -398,7 +398,7 @@ is to keep it simple.
 
 87
 00:04:47,390 --> 00:04:50,360
-Keep it simple. Principle states
+The keep it simple. Principle states
 
 88
 00:04:50,360 --> 00:04:53,239
@@ -406,11 +406,11 @@ that most systems work best.
 
 89
 00:04:53,239 --> 00:04:54,665
-If they kept simple,
+If they are kept simple,
 
 90
 00:04:54,665 --> 00:04:56,705
-rather them made complicated.
+rather than made complicated.
 
 91
 00:04:56,705 --> 00:04:59,600
@@ -457,12 +457,12 @@ will look at
 100
 00:05:23,495 --> 00:05:27,034
 is that every question
-gets announcer.
+gets an answer.
 
 101
 00:05:27,034 --> 00:05:31,220
 So there is at least one
-will eliminate questions
+we'll eliminate questions
 
 102
 00:05:31,220 --> 00:05:33,080
@@ -470,7 +470,7 @@ with no answers or questions that
 
 103
 00:05:33,080 --> 00:05:35,405
-don't give you announcer,
+don't give you an answer,
 
 104
 00:05:35,405 --> 00:05:39,215
@@ -524,11 +524,11 @@ questions with 0 answers,
 
 115
 00:06:04,925 --> 00:06:07,505
-questions with one. I'll answer.
+questions with one answer,
 
 116
 00:06:07,505 --> 00:06:09,650
-Our big, uninteresting.
+are a bit uninteresting.
 
 117
 00:06:09,650 --> 00:06:10,940
@@ -537,11 +537,11 @@ They're not totally useless,
 118
 00:06:10,940 --> 00:06:14,840
 but they are not particularly
-interesting questions with
+interesting. Questions with
 
 119
 00:06:14,840 --> 00:06:19,730
-two ounces or the first
+two answers are the first
 interesting case of a question.
 
 120
@@ -552,7 +552,7 @@ question we can think
 121
 00:06:22,130 --> 00:06:26,210
 of is a question
-that has two ounces.
+that has two answers.
 
 122
 00:06:26,210 --> 00:06:29,370
@@ -564,7 +564,7 @@ We can represent the two answers
 
 124
 00:06:31,990 --> 00:06:34,240
-is zeros and ones, yeses and nos,
+as zeros and ones, yeses and nos,
 
 125
 00:06:34,240 --> 00:06:39,055
@@ -587,7 +587,7 @@ only two possible answers,
 
 129
 00:06:46,660 --> 00:06:48,880
-yes or no, will use
+yes or no, we'll use
 
 130
 00:06:48,880 --> 00:06:52,584
@@ -668,7 +668,7 @@ When we're thinking like
 
 147
 00:07:34,750 --> 00:07:37,420
-engineers will
+engineers we'll
 often use zeros and
 
 148
@@ -679,7 +679,7 @@ and one for true.
 149
 00:07:42,805 --> 00:07:46,780
 But it doesn't really matter
-what the names of these on.
+what the names of these are.
 
 150
 00:07:46,780 --> 00:07:48,880
@@ -719,7 +719,7 @@ introduce the idea of
 
 158
 00:08:09,185 --> 00:08:11,480
-information as a
+information as the
 kind of thing that
 
 159
@@ -734,12 +734,12 @@ simple questions
 
 161
 00:08:17,180 --> 00:08:19,040
-which always given out,
+which always give an answer,
 
 162
 00:08:19,040 --> 00:08:24,020
-sir, but only have finite
-in many possible answers.
+but only have finitely
+many possible answers.
 
 163
 00:08:24,020 --> 00:08:27,604
