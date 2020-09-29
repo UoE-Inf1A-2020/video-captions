@@ -32,7 +32,7 @@ the kinds of piece
 8
 00:00:25,460 --> 00:00:29,315
 using codes that are
-13 or four bits long.
+one, three or four bits long.
 
 9
 00:00:29,315 --> 00:00:31,010
@@ -116,7 +116,7 @@ the third bit are a,
 
 27
 00:01:17,015 --> 00:01:19,880
-B, and C. A is the one.
+B, and C. A is a one.
 
 28
 00:01:19,880 --> 00:01:21,365
@@ -129,11 +129,11 @@ a rock or a royal.
 
 30
 00:01:24,035 --> 00:01:26,795
-So here we have a rock or a roil,
+So here we have a rock or a royal,
 
 31
 00:01:26,795 --> 00:01:31,475
-That's a V For the
+That's A. B For the
 second bit is one.
 
 32
@@ -146,7 +146,7 @@ B is a bishop or a royal bit,
 
 34
 00:01:37,880 --> 00:01:39,620
-c is the last bit.
+C is the last bit.
 
 35
 00:01:39,620 --> 00:01:41,120
@@ -158,24 +158,24 @@ If we have a knight or a king,
 
 37
 00:01:43,925 --> 00:01:46,100
-that it's night or Cain,
+that it's night or king,
 
 38
 00:01:46,100 --> 00:01:49,205
-the porn has no bit set.
+the pawn has no bit set.
 
 39
 00:01:49,205 --> 00:01:52,100
-So the point is encoded by zeros
+So the pawn is encoded by
 
 40
 00:01:52,100 --> 00:01:56,330
-00 and falls outside
+000 and falls outside
 all of the circles.
 
 41
 00:01:56,330 --> 00:01:59,195
-This band diagram
+This Venn diagram
 has eight regions.
 
 42
@@ -194,7 +194,7 @@ And if you look at it or find
 
 45
 00:02:10,190 --> 00:02:12,680
-those patents that are
+those patterns that are
 missing from this list,
 
 46
@@ -221,7 +221,7 @@ Is it true, or is it false?
 
 51
 00:02:26,060 --> 00:02:29,390
-On the second bit? Is it true
+Then on the second bit? Is it true
 or is it false, and so on.
 
 52
@@ -230,19 +230,19 @@ So we fill that in.
 
 53
 00:02:30,815 --> 00:02:35,045
-0.0.0 gives us the pole.
+000 gives us the pawn.
 
 54
 00:02:35,045 --> 00:02:38,705
-001 gives us the night.
+001 gives us the knight.
 
 55
 00:02:38,705 --> 00:02:42,185
-One. 0-0 gives us the rock.
+100 gives us the rook.
 
 56
 00:02:42,185 --> 00:02:45,650
-And 110 gives us a queen.
+And 110 gives us the queen.
 
 57
 00:02:45,650 --> 00:02:48,880
@@ -259,7 +259,7 @@ the code back to a tree.
 
 60
 00:02:53,480 --> 00:02:55,460
-Now if we take a tree and
+Now if we take the tree and
 
 61
 00:02:55,460 --> 00:02:57,695
@@ -282,7 +282,7 @@ the only place we can end up
 
 65
 00:03:03,635 --> 00:03:05,600
-here with the bishop over here,
+here with the bishop. Over here
 
 66
 00:03:05,600 --> 00:03:08,555
@@ -291,7 +291,7 @@ again, but this time.
 
 67
 00:03:08,555 --> 00:03:11,750
-Cutting these decisions because
+Shortcutting these decisions because
 
 68
 00:03:11,750 --> 00:03:13,460
@@ -300,13 +300,13 @@ ask any questions
 
 69
 00:03:13,460 --> 00:03:16,025
-that we know that if
+there we know that if
 it's a proper code
 
 70
 00:03:16,025 --> 00:03:19,730
 by this stage will have a
-bishop or we'll have a look.
+bishop or we'll have a rook.
 
 71
 00:03:19,730 --> 00:03:23,000
@@ -315,7 +315,7 @@ in. At the top.
 
 72
 00:03:23,000 --> 00:03:26,495
-We ask the question which
+We ask a question which
 is true for these three.
 
 73
@@ -325,7 +325,7 @@ That is true.
 74
 00:03:27,994 --> 00:03:31,910
 If we have a major piece
-that we ask, is it major?
+so we ask, is it major?
 
 75
 00:03:31,910 --> 00:03:34,100
@@ -333,17 +333,17 @@ Then we ask, is it royal?
 
 76
 00:03:34,100 --> 00:03:36,245
-If it's not roil, it's a rock.
+If it's not royal, it's a rook.
 
 77
 00:03:36,245 --> 00:03:39,725
 If it is royal than we
-ask, is this a king?
+ask, is it a king?
 
 78
 00:03:39,725 --> 00:03:43,070
 And if it's not a
-king than its queen,
+king then its queen,
 
 79
 00:03:43,070 --> 00:03:44,975
@@ -356,12 +356,12 @@ that we ask, is it a bishop?
 81
 00:03:47,030 --> 00:03:50,674
 If it's not a bishop than
-we ask, is it night?
+we ask, is it a knight?
 
 82
 00:03:50,674 --> 00:03:54,095
-If it's not a night than
-we find that it is upon.
+If it's not a knight than
+we find that it is a pawn.
 
 83
 00:03:54,095 --> 00:03:58,400
@@ -402,12 +402,12 @@ four with our previous encoding.
 
 91
 00:04:19,340 --> 00:04:23,750
-But every now count the number
-of questions will ask you
+But if we now count the number
+of questions we'll ask if
 
 92
 00:04:23,750 --> 00:04:26,000
-reclassified every piece in
+we classified every piece in
 
 93
 00:04:26,000 --> 00:04:28,490
@@ -422,11 +422,11 @@ here with 16 pieces.
 95
 00:04:32,870 --> 00:04:35,450
 The major pieces
-malaria four of them.
+well there are four of them.
 
 96
 00:04:35,450 --> 00:04:36,650
-So forego this way.
+So four go this way.
 
 97
 00:04:36,650 --> 00:04:38,585
@@ -439,38 +439,38 @@ bishop that uses two of them?
 
 99
 00:04:43,745 --> 00:04:46,025
-So they're maintaining go here.
+So the remaining ten go here.
 
 100
 00:04:46,025 --> 00:04:48,665
 And for these ten, we
-ask, is it a night?
+ask, is it a knight?
 
 101
 00:04:48,665 --> 00:04:50,255
-Two of them are nice,
+Two of them are knights,
 
 102
 00:04:50,255 --> 00:04:52,220
-but the rest a poems
+but the rest are pawns
 and end up here.
 
 103
 00:04:52,220 --> 00:04:53,370
-So we have eight points,
+So we have eight pawns,
 
 104
 00:04:53,370 --> 00:04:56,885
-two nights through bishops
-to kings and as before,
+two knights, two bishops
+two kings and as before,
 
 105
 00:04:56,885 --> 00:04:58,670
-one queen among cane.
+one queen and one king.
 
 106
 00:04:58,670 --> 00:05:01,985
-And for the bishop and the ROCC,
+And for the bishop and the rook,
 
 107
 00:05:01,985 --> 00:05:04,820
@@ -493,7 +493,7 @@ with three questions.
 
 111
 00:05:13,835 --> 00:05:15,500
-And then read that together.
+And if we add that together.
 
 112
 00:05:15,500 --> 00:05:19,580
@@ -526,7 +526,7 @@ this decision tree which
 
 118
 00:05:34,790 --> 00:05:38,345
-asks 44 questions you who
+asks 44 questions if you're
 presented with all of them.
 
 119
@@ -550,7 +550,7 @@ tree than this one.
 
 123
 00:05:53,000 --> 00:05:55,400
-Here a couple of
+Here are a couple of
 questions for you to
 
 124
@@ -595,12 +595,12 @@ We encoded six values
 
 133
 00:06:15,530 --> 00:06:17,360
-using three bits book
+using three bits but
 that left us with
 
 134
 00:06:17,360 --> 00:06:19,040
-two spec codes that we
+two spare codes that we
 
 135
 00:06:19,040 --> 00:06:21,454
@@ -628,7 +628,7 @@ representation of 42?
 140
 00:06:34,640 --> 00:06:39,935
 How many bits do we
-need to code 42 values?
+need to encode 42 values?
 
 141
 00:06:39,935 --> 00:06:41,690
@@ -668,7 +668,7 @@ interesting example is always
 
 149
 00:07:01,715 --> 00:07:06,530
-encoding to values with one bit.
+encoding two values with one bit.
 
 150
 00:07:06,530 --> 00:07:08,810
@@ -677,7 +677,7 @@ There are two ways to do it.
 151
 00:07:08,810 --> 00:07:11,405
 You can decide which one's
-true and which one false,
+true and which one's false,
 
 152
 00:07:11,405 --> 00:07:13,680
