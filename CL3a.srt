@@ -1,0 +1,326 @@
+1
+00:00:00,000 --> 00:00:03,870
+We finished last time
+looking at this.
+
+2
+00:00:03,870 --> 00:00:06,750
+If we know that in Scotland,
+
+3
+00:00:06,750 --> 00:00:09,660
+one is between
+10:00 AM, 10:00 PM.
+
+4
+00:00:09,660 --> 00:00:11,309
+You can legally buy alcohol
+
+5
+00:00:11,309 --> 00:00:13,020
+than if we know
+we're in Scotland,
+
+6
+00:00:13,020 --> 00:00:14,940
+but we cannot
+legally buy alcohol.
+
+7
+00:00:14,940 --> 00:00:16,575
+We know it's not like time.
+
+8
+00:00:16,575 --> 00:00:19,905
+And if we know it is
+
+9
+00:00:19,905 --> 00:00:23,820
+between those times and
+become legally buy alcohol,
+
+10
+00:00:23,820 --> 00:00:27,340
+we can infer that
+were not in Scotland.
+
+11
+00:00:27,340 --> 00:00:29,390
+It's true that there might be
+
+12
+00:00:29,390 --> 00:00:32,900
+other countries with similar
+regulations that make me,
+
+13
+00:00:32,900 --> 00:00:34,535
+we're not in those countries
+
+14
+00:00:34,535 --> 00:00:36,590
+if we know something
+else about the world,
+
+15
+00:00:36,590 --> 00:00:40,760
+but from these two
+things and that rule,
+
+16
+00:00:40,760 --> 00:00:43,310
+we can only infer that
+were not in Scotland.
+
+17
+00:00:43,310 --> 00:00:44,630
+We can't, for instance,
+
+18
+00:00:44,630 --> 00:00:47,540
+say We're not in Saudi Arabia,
+
+19
+00:00:47,540 --> 00:00:50,660
+even if you can't legally
+buy alcohol in Saudi Arabia.
+
+20
+00:00:50,660 --> 00:00:52,460
+So it's only the
+things that logically
+
+21
+00:00:52,460 --> 00:00:54,530
+follow that we're interested in.
+
+22
+00:00:54,530 --> 00:00:57,695
+What I left you with. With this.
+
+23
+00:00:57,695 --> 00:01:00,875
+Say, we take that pattern,
+
+24
+00:01:00,875 --> 00:01:04,775
+but we apply it to
+our first syllogism.
+
+25
+00:01:04,775 --> 00:01:08,030
+The one that everybody
+knows is true.
+
+26
+00:01:08,030 --> 00:01:11,810
+The one that says
+everything that satisfies
+
+27
+00:01:11,810 --> 00:01:15,740
+a satisfies P and everything
+satisfies P satisfies c,
+
+28
+00:01:15,740 --> 00:01:18,110
+then everything
+satisfies a satisfy
+
+29
+00:01:18,110 --> 00:01:22,550
+C. Now how do we read
+the other one is suppose
+
+30
+00:01:22,550 --> 00:01:25,205
+that everything that's in B
+
+31
+00:01:25,205 --> 00:01:29,780
+satisfy c. Looking appear
+on the right hand side.
+
+32
+00:01:29,780 --> 00:01:33,200
+Everything resumed.
+P satisfies c. Two,
+
+33
+00:01:33,200 --> 00:01:34,505
+what is this saying?
+
+34
+00:01:34,505 --> 00:01:40,100
+It's not true that everything
+that's in a satisfies S0.
+
+35
+00:01:40,100 --> 00:01:43,310
+That means that there must
+be something in a way that
+
+36
+00:01:43,310 --> 00:01:46,415
+does not satisfy C.
+Or put the other way,
+
+37
+00:01:46,415 --> 00:01:48,905
+something in a pair satisfies
+
+38
+00:01:48,905 --> 00:01:52,400
+not C. So let's go and
+look at these rules.
+
+39
+00:01:52,400 --> 00:01:54,364
+What can we deduce?
+
+40
+00:01:54,364 --> 00:01:58,250
+We can deduce by
+
+41
+00:01:58,250 --> 00:02:03,035
+swapping these two from
+where they were before.
+
+42
+00:02:03,035 --> 00:02:07,025
+In the thing above, we swap
+them and negated them both.
+
+43
+00:02:07,025 --> 00:02:09,500
+What we're seeing here is
+
+44
+00:02:09,500 --> 00:02:10,895
+the different level of argument
+
+45
+00:02:10,895 --> 00:02:12,845
+from the one we looked at before.
+
+46
+00:02:12,845 --> 00:02:16,730
+Earlier. Contraposition with
+swapping things and changing
+
+47
+00:02:16,730 --> 00:02:17,930
+whether they've been negated or
+
+48
+00:02:17,930 --> 00:02:20,525
+not on either side
+of the turnstile.
+
+49
+00:02:20,525 --> 00:02:22,310
+Now we're swapping things
+
+50
+00:02:22,310 --> 00:02:24,665
+above and below the
+influence line.
+
+51
+00:02:24,665 --> 00:02:27,830
+This is a good
+place to talk about
+
+52
+00:02:27,830 --> 00:02:29,420
+two different levels of
+
+53
+00:02:29,420 --> 00:02:33,360
+talking that we do when
+we're studying logic.
+
+54
+00:02:33,700 --> 00:02:38,435
+We say that when we do
+contraposition here,
+
+55
+00:02:38,435 --> 00:02:42,320
+we're working in the
+logic statements
+
+56
+00:02:42,320 --> 00:02:44,810
+in logic and we're manipulating,
+
+57
+00:02:44,810 --> 00:02:46,550
+then this statement
+is equivalent to
+
+58
+00:02:46,550 --> 00:02:50,105
+that statement when
+Tommy contraposition.
+
+59
+00:02:50,105 --> 00:02:53,240
+When we do what we're doing now,
+
+60
+00:02:53,240 --> 00:02:55,520
+this is an argument at
+the national level.
+
+61
+00:02:55,520 --> 00:02:59,720
+It's an argument about
+rules, about propositions.
+
+62
+00:02:59,720 --> 00:03:01,790
+Rules about propositions.
+
+63
+00:03:01,790 --> 00:03:03,710
+Propositions,
+there's something at
+
+64
+00:03:03,710 --> 00:03:05,750
+a higher level will
+come back to that.
+
+65
+00:03:05,750 --> 00:03:07,550
+But this is your first
+example of really
+
+66
+00:03:07,550 --> 00:03:09,455
+seeing an object level thing,
+
+67
+00:03:09,455 --> 00:03:13,310
+country contraposition on
+either side of the turnstile.
+
+68
+00:03:13,310 --> 00:03:15,365
+And the mezzo level thing,
+
+69
+00:03:15,365 --> 00:03:20,765
+contraposition on either
+side of the influence line.
+
+70
+00:03:20,765 --> 00:03:23,180
+Now you should hope the video,
+
+71
+00:03:23,180 --> 00:03:27,510
+take a break, do the
+exercise, and then come back.

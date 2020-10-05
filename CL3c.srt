@@ -1,0 +1,153 @@
+1
+00:00:00,000 --> 00:00:05,295
+So these are Aristotle's
+categorical propositions
+
+2
+00:00:05,295 --> 00:00:07,305
+as the all ISP,
+
+3
+00:00:07,305 --> 00:00:10,620
+where we say there
+is nothing that is
+
+4
+00:00:10,620 --> 00:00:15,135
+a and not p grave
+it is not really.
+
+5
+00:00:15,135 --> 00:00:16,560
+So there's nothing like that.
+
+6
+00:00:16,560 --> 00:00:19,005
+In other words, all a is b.
+
+7
+00:00:19,005 --> 00:00:23,250
+Here. We say there's nothing
+that's both a and B.
+
+8
+00:00:23,250 --> 00:00:25,945
+That means no a is B,
+
+9
+00:00:25,945 --> 00:00:29,345
+which is the same as
+every egg is not b.
+
+10
+00:00:29,345 --> 00:00:32,960
+This is the negation of that.
+
+11
+00:00:32,960 --> 00:00:35,750
+Because saying there's
+nothing in here to say that's
+
+12
+00:00:35,750 --> 00:00:38,330
+not true is to say there
+is something in here.
+
+13
+00:00:38,330 --> 00:00:40,790
+This is the negation of this to
+
+14
+00:00:40,790 --> 00:00:42,200
+say there's nothing in
+
+15
+00:00:42,200 --> 00:00:44,375
+here and there's
+something in here.
+
+16
+00:00:44,375 --> 00:00:50,675
+So these are some a is b and
+this is sum a is not re,
+
+17
+00:00:50,675 --> 00:00:53,360
+just by the way, we made them.
+
+18
+00:00:53,360 --> 00:00:55,985
+The things diagonally opposite
+
+19
+00:00:55,985 --> 00:00:59,070
+our contradictions of each other.
+
+20
+00:01:00,550 --> 00:01:04,640
+So this is every area
+
+21
+00:01:04,640 --> 00:01:08,060
+is B and this is
+that does not hold.
+
+22
+00:01:08,060 --> 00:01:10,835
+It's not the case that every ISP,
+
+23
+00:01:10,835 --> 00:01:13,730
+this is every eye is not B,
+
+24
+00:01:13,730 --> 00:01:19,020
+and this is that does
+not hold some ISP.
+
+25
+00:01:19,360 --> 00:01:22,325
+Could you find a way of saying
+
+26
+00:01:22,325 --> 00:01:24,860
+each of those in your language?
+
+27
+00:01:24,860 --> 00:01:26,750
+But it's not ambiguous.
+
+28
+00:01:26,750 --> 00:01:29,285
+It's actually quite
+hard in English
+
+29
+00:01:29,285 --> 00:01:31,910
+to find something that says
+
+30
+00:01:31,910 --> 00:01:36,800
+these simply and precisely
+without people saying,
+
+31
+00:01:36,800 --> 00:01:38,480
+well, what does that really mean?
+
+32
+00:01:38,480 --> 00:01:40,190
+And if you put it inside
+another sentence,
+
+33
+00:01:40,190 --> 00:01:41,750
+It might be taken differently.
+
+34
+00:01:41,750 --> 00:01:43,610
+Try doing that in your language.
+
+35
+00:01:43,610 --> 00:01:45,930
+You say you've got it straight.

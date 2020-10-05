@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:01,965
+Boolean operations.
+
+2
+00:00:01,965 --> 00:00:05,190
+This tells us how
+the operations work.
+
+3
+00:00:05,190 --> 00:00:07,740
+So we have truth tables
+
+4
+00:00:07,740 --> 00:00:10,890
+for how the operations
+work on the Booleans.
+
+5
+00:00:10,890 --> 00:00:13,425
+And I just want to say something
+
+6
+00:00:13,425 --> 00:00:17,700
+about what happens in Haskell.
+
+7
+00:00:17,700 --> 00:00:20,715
+When we'd look at
+the documentation,
+
+8
+00:00:20,715 --> 00:00:25,410
+it says infix x3 and infix to.
+
+9
+00:00:25,410 --> 00:00:28,620
+Or what that means is that when I
+
+10
+00:00:28,620 --> 00:00:32,879
+write false and true or true,
+
+11
+00:00:32,879 --> 00:00:35,760
+it means one of these
+two computations.
+
+12
+00:00:35,760 --> 00:00:39,120
+Either it means I take
+these truths and do the OH,
+
+13
+00:00:39,120 --> 00:00:41,500
+and then at the end.
+
+14
+00:00:41,500 --> 00:00:45,605
+Or I take these two due the end,
+
+15
+00:00:45,605 --> 00:00:47,210
+an entity or in other words,
+
+16
+00:00:47,210 --> 00:00:51,215
+we either put brackets
+here or brackets here.
+
+17
+00:00:51,215 --> 00:00:55,505
+There are a lot of ideas here
+which we will come back to.
+
+18
+00:00:55,505 --> 00:00:58,970
+The most important idea
+is that when I write
+
+19
+00:00:58,970 --> 00:01:03,455
+something like false
+and true or true,
+
+20
+00:01:03,455 --> 00:01:07,040
+you should never think of it
+as just a string of symbols.
+
+21
+00:01:07,040 --> 00:01:09,620
+You should think of it
+as a tree like this
+
+22
+00:01:09,620 --> 00:01:11,990
+that tells you what to
+do with these values,
+
+23
+00:01:11,990 --> 00:01:13,130
+to put them together,
+
+24
+00:01:13,130 --> 00:01:14,330
+what to do with this,
+
+25
+00:01:14,330 --> 00:01:15,620
+and how to put them together.
+
+26
+00:01:15,620 --> 00:01:18,830
+So that diagram is
+what we really want
+
+27
+00:01:18,830 --> 00:01:22,265
+to think about when we
+think about an expression.
+
+28
+00:01:22,265 --> 00:01:24,890
+And the other thing is, That's
+
+29
+00:01:24,890 --> 00:01:27,365
+actually a very simple
+form of computation.
+
+30
+00:01:27,365 --> 00:01:31,950
+This is a different
+computation from that one.
+
+31
+00:01:32,620 --> 00:01:36,500
+This one comes out false,
+
+32
+00:01:36,500 --> 00:01:38,000
+that one comes out true.
+
+33
+00:01:38,000 --> 00:01:43,400
+So we can use Haskell to
+tell us what's going on.
+
+34
+00:01:43,400 --> 00:01:47,570
+And we can try doing this
+without the brackets.
+
+35
+00:01:47,570 --> 00:01:49,610
+We get true doing it
+with the brackets.
+
+36
+00:01:49,610 --> 00:01:50,960
+One way we get false doing it
+
+37
+00:01:50,960 --> 00:01:52,445
+with brackets the
+other way we get true.
+
+38
+00:01:52,445 --> 00:01:54,800
+So this is the way that it's red.
+
+39
+00:01:54,800 --> 00:01:58,220
+I'm going to leave you there.
+
+40
+00:01:58,220 --> 00:01:59,720
+Thanks very much indeed,
+
+41
+00:01:59,720 --> 00:02:03,270
+and I will see you tomorrow
+at a slightly later era.

@@ -1,0 +1,277 @@
+1
+00:00:00,000 --> 00:00:02,790
+It's often helpful in situations
+
+2
+00:00:02,790 --> 00:00:05,070
+like an exam setting
+where you can't just
+
+3
+00:00:05,070 --> 00:00:07,950
+pointed the Board appointed
+the region to use
+
+4
+00:00:07,950 --> 00:00:11,520
+these codes to talk about
+regions of the Venn diagram.
+
+5
+00:00:11,520 --> 00:00:13,980
+These correspond to
+the binary codes
+
+6
+00:00:13,980 --> 00:00:16,500
+we get by putting a, B, C,
+
+7
+00:00:16,500 --> 00:00:17,715
+a 0 or one,
+
+8
+00:00:17,715 --> 00:00:20,910
+and taking this as a
+three-digit binary number,
+
+9
+00:00:20,910 --> 00:00:23,145
+or three bit binary number.
+
+10
+00:00:23,145 --> 00:00:27,495
+So 0 is 000 where
+no things are true.
+
+11
+00:00:27,495 --> 00:00:30,600
+Seven is 111 where
+everything is true.
+
+12
+00:00:30,600 --> 00:00:31,980
+And one for instance,
+
+13
+00:00:31,980 --> 00:00:35,460
+is 001, where c is true.
+
+14
+00:00:35,460 --> 00:00:38,715
+For is 1-0-0, where a is true,
+
+15
+00:00:38,715 --> 00:00:40,755
+you can work out the rest
+of them for yourself.
+
+16
+00:00:40,755 --> 00:00:44,285
+Now we're going to use
+these. Another example.
+
+17
+00:00:44,285 --> 00:00:51,140
+Here's our example.
+B, C sum C is a.
+
+18
+00:00:51,140 --> 00:00:57,935
+Therefore, some a is not be no B,
+
+19
+00:00:57,935 --> 00:00:59,855
+C. What does that mean?
+
+20
+00:00:59,855 --> 00:01:02,990
+No, VC every B is not.
+
+21
+00:01:02,990 --> 00:01:05,810
+See, here's the brown one.
+
+22
+00:01:05,810 --> 00:01:07,835
+Every day he's not say.
+
+23
+00:01:07,835 --> 00:01:09,725
+So 37 are empty.
+
+24
+00:01:09,725 --> 00:01:14,645
+Everyone agree? Right? Some CSA.
+
+25
+00:01:14,645 --> 00:01:16,910
+Sum C is a,
+
+26
+00:01:16,910 --> 00:01:21,680
+so something in the blue is in a,
+
+27
+00:01:21,680 --> 00:01:24,050
+at least one of several m5
+
+28
+00:01:24,050 --> 00:01:25,970
+is inhabited, but we
+don't know which one.
+
+29
+00:01:25,970 --> 00:01:28,805
+Here. We want to show that
+the conclusion is valid.
+
+30
+00:01:28,805 --> 00:01:32,765
+So we've got both 37 are empty.
+
+31
+00:01:32,765 --> 00:01:38,975
+At least one of 75 is inhabited.
+
+32
+00:01:38,975 --> 00:01:41,674
+One of 75 is inhabited.
+
+33
+00:01:41,674 --> 00:01:43,160
+37 are empty.
+
+34
+00:01:43,160 --> 00:01:45,335
+What can we deduce from that?
+
+35
+00:01:45,335 --> 00:01:47,435
+Five is inhabited.
+
+36
+00:01:47,435 --> 00:01:49,550
+And five is inhabited
+
+37
+00:01:49,550 --> 00:01:54,890
+means that at least
+145 is inhabited,
+
+38
+00:01:54,890 --> 00:01:57,095
+which is what we need
+for the conclusion.
+
+39
+00:01:57,095 --> 00:02:00,049
+When we look at one
+of these rules,
+
+40
+00:02:00,049 --> 00:02:03,395
+what we're trying to
+do is to work out,
+
+41
+00:02:03,395 --> 00:02:06,230
+does it apply in every universe?
+
+42
+00:02:06,230 --> 00:02:10,100
+So if I give an argument
+like this that says,
+
+43
+00:02:10,100 --> 00:02:12,230
+I know that 37 are empty,
+
+44
+00:02:12,230 --> 00:02:14,900
+I know that one of
+75 is inhabited,
+
+45
+00:02:14,900 --> 00:02:16,640
+but because seven is empty,
+
+46
+00:02:16,640 --> 00:02:18,455
+that means five is inhabited.
+
+47
+00:02:18,455 --> 00:02:22,355
+That tells me that at
+least 1045 is inhabited.
+
+48
+00:02:22,355 --> 00:02:25,745
+That argument shows
+that the rule is sized.
+
+49
+00:02:25,745 --> 00:02:29,990
+Rule is sound if in every model,
+
+50
+00:02:29,990 --> 00:02:35,600
+when its premises are valid
+and its conclusion is valid.
+
+51
+00:02:35,600 --> 00:02:38,480
+So if we want to
+show it's not sound,
+
+52
+00:02:38,480 --> 00:02:41,885
+we find a model in which
+the premises are valid,
+
+53
+00:02:41,885 --> 00:02:43,835
+but the conclusion isn't valid.
+
+54
+00:02:43,835 --> 00:02:46,700
+And if you want to find
+those counterexamples,
+
+55
+00:02:46,700 --> 00:02:48,575
+what we just did is
+a good way to do it.
+
+56
+00:02:48,575 --> 00:02:50,615
+You try and make the proof
+and then you find now it
+
+57
+00:02:50,615 --> 00:02:51,710
+doesn't work because I
+
+58
+00:02:51,710 --> 00:02:53,030
+can put things here,
+here and here.
+
+59
+00:02:53,030 --> 00:02:55,055
+The mean, the proof doesn't work.
+
+60
+00:02:55,055 --> 00:02:58,910
+Now, I am going to leave
+you with the task of using
+
+61
+00:02:58,910 --> 00:03:02,450
+that method to give a
+proof that this example,
+
+62
+00:03:02,450 --> 00:03:06,180
+which we looked at
+earlier is not sound.

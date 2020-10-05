@@ -1,0 +1,455 @@
+1
+00:00:00,000 --> 00:00:02,310
+Now we're going to take
+
+2
+00:00:02,310 --> 00:00:04,770
+some control positions and
+
+3
+00:00:04,770 --> 00:00:07,034
+we're going to make more rules.
+
+4
+00:00:07,034 --> 00:00:11,280
+So you remember that we made
+the first rule barbara.
+
+5
+00:00:11,280 --> 00:00:13,349
+Then we put Nazi emphases.
+
+6
+00:00:13,349 --> 00:00:15,930
+Leprosy is putting a
+different Lateran at
+
+7
+00:00:15,930 --> 00:00:17,550
+different predicate
+Nazi instead of
+
+8
+00:00:17,550 --> 00:00:20,100
+C. But once we put
+the Nazi law and we
+
+9
+00:00:20,100 --> 00:00:22,965
+could do control
+positions because
+
+10
+00:00:22,965 --> 00:00:30,375
+B satisfies not c is the
+same as c satisfies not B.
+
+11
+00:00:30,375 --> 00:00:32,280
+So we could just
+swap those around.
+
+12
+00:00:32,280 --> 00:00:34,620
+Those two things mean
+exactly the same,
+
+13
+00:00:34,620 --> 00:00:37,900
+but it gave us a new proposition.
+
+14
+00:00:38,000 --> 00:00:42,355
+We can do the same thing
+now with other rules.
+
+15
+00:00:42,355 --> 00:00:44,299
+Look at this example.
+
+16
+00:00:44,299 --> 00:00:47,945
+The ruler at the top is
+an exercise for you.
+
+17
+00:00:47,945 --> 00:00:49,550
+You should be able to derive
+
+18
+00:00:49,550 --> 00:00:51,260
+it from the mathematicians and
+
+19
+00:00:51,260 --> 00:00:55,010
+programmers syllogism we
+derived in earlier video.
+
+20
+00:00:55,010 --> 00:00:58,680
+Suppose we have this
+rule at the top.
+
+21
+00:00:58,870 --> 00:01:03,410
+Then we can do something
+like substitute not b for b.
+
+22
+00:01:03,410 --> 00:01:06,650
+So here we've got NOT B and B.
+
+23
+00:01:06,650 --> 00:01:08,570
+Just by substituting not b for b,
+
+24
+00:01:08,570 --> 00:01:11,180
+we change that to a b to not
+
+25
+00:01:11,180 --> 00:01:14,330
+be just substituting justice we
+
+26
+00:01:14,330 --> 00:01:17,210
+before we substituted Nazi for C.
+
+27
+00:01:17,210 --> 00:01:20,810
+But when you substitute
+not B and not B,
+
+28
+00:01:20,810 --> 00:01:22,910
+you get not, not p. So
+you get a feedback.
+
+29
+00:01:22,910 --> 00:01:25,595
+And then we can say, Oh, look,
+
+30
+00:01:25,595 --> 00:01:31,700
+this can be contrapposto.
+So we take that.
+
+31
+00:01:31,700 --> 00:01:34,085
+So this is another new rule.
+
+32
+00:01:34,085 --> 00:01:36,785
+How many new rules can you get?
+
+33
+00:01:36,785 --> 00:01:41,375
+Right? You will be expected
+to remember all of these.
+
+34
+00:01:41,375 --> 00:01:44,150
+In fact, when they are
+given in this form,
+
+35
+00:01:44,150 --> 00:01:46,250
+it's really hard even
+if you are given
+
+36
+00:01:46,250 --> 00:01:49,925
+a rule to find out whether
+it is one of the one snare,
+
+37
+00:01:49,925 --> 00:01:52,550
+cuz it's quite hard
+to recognize a rule.
+
+38
+00:01:52,550 --> 00:01:55,100
+You do need to remember this one.
+
+39
+00:01:55,100 --> 00:01:59,060
+This is Barbara, and this
+is where it all starts.
+
+40
+00:01:59,060 --> 00:02:00,620
+That's the rule that we all
+
+41
+00:02:00,620 --> 00:02:03,200
+know is valid the moment
+we first think of it,
+
+42
+00:02:03,200 --> 00:02:04,550
+you didn't even have to think
+
+43
+00:02:04,550 --> 00:02:06,350
+if one thing is
+contained in another,
+
+44
+00:02:06,350 --> 00:02:07,490
+is contained in another than
+
+45
+00:02:07,490 --> 00:02:09,275
+the first one is
+contained in the third.
+
+46
+00:02:09,275 --> 00:02:12,500
+And it's so easy that we
+don't even think about it.
+
+47
+00:02:12,500 --> 00:02:19,115
+What you should be
+able to do is to say,
+
+48
+00:02:19,115 --> 00:02:22,355
+okay, how does this come
+from the one above?
+
+49
+00:02:22,355 --> 00:02:24,830
+We just put Nazi.
+
+50
+00:02:24,830 --> 00:02:28,110
+How do we go from
+this one to this one?
+
+51
+00:02:30,940 --> 00:02:34,970
+We direct transposition there.
+
+52
+00:02:34,970 --> 00:02:38,580
+Ok, where does this
+one come from?
+
+53
+00:02:39,400 --> 00:02:41,570
+Philip at the tops and
+
+54
+00:02:41,570 --> 00:02:42,830
+the top of that is
+the same as that
+
+55
+00:02:42,830 --> 00:02:45,410
+if I look at the bottom and
+the bottom of this type,
+
+56
+00:02:45,410 --> 00:02:47,030
+just the contraposition, then we
+
+57
+00:02:47,030 --> 00:02:49,415
+know that when we do
+that contraposition,
+
+58
+00:02:49,415 --> 00:02:51,020
+we are basically
+saying the same things
+
+59
+00:02:51,020 --> 00:02:52,595
+or if one is valid,
+the other one is.
+
+60
+00:02:52,595 --> 00:02:54,470
+So this rule is also valid.
+
+61
+00:02:54,470 --> 00:02:56,600
+How do we go from here to here?
+
+62
+00:02:56,600 --> 00:02:59,000
+We went here, we did that.
+
+63
+00:02:59,000 --> 00:03:00,755
+We swapped the first one.
+
+64
+00:03:00,755 --> 00:03:02,450
+We swap the second one.
+
+65
+00:03:02,450 --> 00:03:06,240
+And now what are we going to
+do coming from here to here?
+
+66
+00:03:06,460 --> 00:03:09,095
+Swap the first one back.
+
+67
+00:03:09,095 --> 00:03:11,705
+We have the original, we
+have the one substituted,
+
+68
+00:03:11,705 --> 00:03:14,540
+and then we can either
+swap none of them,
+
+69
+00:03:14,540 --> 00:03:17,270
+swap one of them, swap
+the other row, swap both.
+
+70
+00:03:17,270 --> 00:03:21,020
+That's what we did on Tuesday.
+
+71
+00:03:21,020 --> 00:03:24,890
+What happens now is we
+can play another game.
+
+72
+00:03:24,890 --> 00:03:26,525
+We can go this way.
+
+73
+00:03:26,525 --> 00:03:30,155
+What I've done here is to say,
+
+74
+00:03:30,155 --> 00:03:35,090
+what happens if I take a
+implies b and leave it alone.
+
+75
+00:03:35,090 --> 00:03:37,505
+But swap these two.
+
+76
+00:03:37,505 --> 00:03:40,835
+But of course, when we swap them,
+
+77
+00:03:40,835 --> 00:03:43,249
+it's just like the
+alcohol in Scotland.
+
+78
+00:03:43,249 --> 00:03:45,605
+The conclusion is false.
+
+79
+00:03:45,605 --> 00:03:48,980
+Then we know that one of
+the assumptions is false.
+
+80
+00:03:48,980 --> 00:03:52,835
+So I've taken the conclusion
+and said we know it's false.
+
+81
+00:03:52,835 --> 00:03:55,070
+One of the assumptions,
+
+82
+00:03:55,070 --> 00:03:56,270
+and this is the same, it's
+
+83
+00:03:56,270 --> 00:03:58,490
+the conclusion you
+may say it's false.
+
+84
+00:03:58,490 --> 00:04:00,770
+But we've taken the other of
+
+85
+00:04:00,770 --> 00:04:03,860
+the assumptions of this
+retains that assumption.
+
+86
+00:04:03,860 --> 00:04:05,840
+This retains that assumption.
+
+87
+00:04:05,840 --> 00:04:09,695
+And this one has it
+negated down there.
+
+88
+00:04:09,695 --> 00:04:14,990
+And this one has this
+assumption negated down there.
+
+89
+00:04:14,990 --> 00:04:17,690
+That line is just
+
+90
+00:04:17,690 --> 00:04:21,995
+doing the logic we did for
+the alcohol in Scotland.
+
+91
+00:04:21,995 --> 00:04:24,740
+We get two new rules that
+
+92
+00:04:24,740 --> 00:04:27,275
+have not seen them
+out of one rule,
+
+93
+00:04:27,275 --> 00:04:29,840
+but didn't have the
+knots at the meta level.
+
+94
+00:04:29,840 --> 00:04:36,180
+Can anyone find this from
+whatever the adjacent rules?
+
+95
+00:04:37,960 --> 00:04:42,140
+I think that one's done by
+during the bottom line,
+
+96
+00:04:42,140 --> 00:04:44,195
+just a contra position there.
+
+97
+00:04:44,195 --> 00:04:47,945
+Can we find something
+that corresponds to
+
+98
+00:04:47,945 --> 00:04:52,265
+swapping these two
+and negating them?
+
+99
+00:04:52,265 --> 00:04:55,820
+Which we know should be that
+if we got a complete set and
+
+100
+00:04:55,820 --> 00:05:00,810
+the answer is the one next to it.

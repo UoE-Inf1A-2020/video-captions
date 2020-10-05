@@ -1,0 +1,356 @@
+1
+00:00:00,560 --> 00:00:05,970
+And now we're going to
+look at how we can use
+
+2
+00:00:05,970 --> 00:00:11,145
+the Venn Diagrams to
+show some syllogisms,
+
+3
+00:00:11,145 --> 00:00:14,985
+but include these
+things his a syllogism.
+
+4
+00:00:14,985 --> 00:00:17,655
+We're going to try and prove.
+
+5
+00:00:17,655 --> 00:00:21,990
+We're going to try
+and prove this one.
+
+6
+00:00:21,990 --> 00:00:27,569
+Here. This is every baby
+
+7
+00:00:27,569 --> 00:00:33,945
+is not C. So that means
+here's b and c up here.
+
+8
+00:00:33,945 --> 00:00:37,785
+And to say, every day is not c,
+
+9
+00:00:37,785 --> 00:00:41,060
+is to say there are now obese RC.
+
+10
+00:00:41,060 --> 00:00:46,205
+So no B and C means
+that bit is empty.
+
+11
+00:00:46,205 --> 00:00:50,010
+Every city is not a is false.
+
+12
+00:00:50,890 --> 00:00:54,695
+That means that some say is a.
+
+13
+00:00:54,695 --> 00:00:58,890
+So that means this
+one is inhabited.
+
+14
+00:01:00,070 --> 00:01:03,500
+If I put those together,
+
+15
+00:01:03,500 --> 00:01:08,075
+then I put the green in here,
+
+16
+00:01:08,075 --> 00:01:13,535
+those two, but now I
+put the gray in here.
+
+17
+00:01:13,535 --> 00:01:16,520
+Now why have I drawn
+it that way rather
+
+18
+00:01:16,520 --> 00:01:19,655
+than leaving that
+middle bit green?
+
+19
+00:01:19,655 --> 00:01:22,670
+Why have I chosen Detroit
+where trust in Detroit.
+
+20
+00:01:22,670 --> 00:01:25,010
+We know two facts.
+
+21
+00:01:25,010 --> 00:01:28,640
+We know that this pits empty.
+
+22
+00:01:28,640 --> 00:01:33,320
+And we know that this
+bit's got something in it.
+
+23
+00:01:33,320 --> 00:01:37,025
+If we know that
+something's empty,
+
+24
+00:01:37,025 --> 00:01:39,140
+and we divided into two parts,
+
+25
+00:01:39,140 --> 00:01:42,470
+we know both parts are empty.
+
+26
+00:01:42,470 --> 00:01:45,110
+But now we're going to
+think about what happens if
+
+27
+00:01:45,110 --> 00:01:46,970
+we know that this pit
+
+28
+00:01:46,970 --> 00:01:49,010
+empty and that bit's
+
+29
+00:01:49,010 --> 00:01:51,455
+got something any,
+what's it? Tell us?
+
+30
+00:01:51,455 --> 00:01:53,060
+The thing that's in
+
+31
+00:01:53,060 --> 00:01:56,120
+here can't be in the
+top half of here,
+
+32
+00:01:56,120 --> 00:01:58,055
+so it must be in the bottom half.
+
+33
+00:01:58,055 --> 00:02:00,020
+If you think about
+it and you were
+
+34
+00:02:00,020 --> 00:02:02,000
+doing it with apples and
+oranges or something,
+
+35
+00:02:02,000 --> 00:02:04,145
+it will be perfectly obvious.
+
+36
+00:02:04,145 --> 00:02:05,960
+But by the time you've taken
+
+37
+00:02:05,960 --> 00:02:08,495
+a new turn it into
+symbols plus c,
+
+38
+00:02:08,495 --> 00:02:13,355
+what we now do is to
+say this is inhabited.
+
+39
+00:02:13,355 --> 00:02:18,065
+What I'm trying to show is
+that this plate is inhabited,
+
+40
+00:02:18,065 --> 00:02:20,150
+which you see this
+works completely
+
+41
+00:02:20,150 --> 00:02:21,575
+differently from being empty.
+
+42
+00:02:21,575 --> 00:02:23,254
+If we say something is empty
+
+43
+00:02:23,254 --> 00:02:25,100
+and every part of it is empty.
+
+44
+00:02:25,100 --> 00:02:28,460
+If we want to show that
+something is inhabited,
+
+45
+00:02:28,460 --> 00:02:30,710
+it's sufficient to show
+that one piece of it is
+
+46
+00:02:30,710 --> 00:02:33,605
+inhabited because that means
+there is something in here.
+
+47
+00:02:33,605 --> 00:02:35,645
+We don't know where it
+is, but it's in here.
+
+48
+00:02:35,645 --> 00:02:40,820
+So this is a valid syllogism.
+
+49
+00:02:40,820 --> 00:02:43,730
+Syllogisms don't have to
+correspond with the world.
+
+50
+00:02:43,730 --> 00:02:45,170
+First of all, as a supposition,
+
+51
+00:02:45,170 --> 00:02:47,165
+no mathematician is infallible.
+
+52
+00:02:47,165 --> 00:02:49,430
+Some programmers
+and mathematicians,
+
+53
+00:02:49,430 --> 00:02:52,700
+so some programmers are fallible,
+
+54
+00:02:52,700 --> 00:02:54,950
+fallible and infallible are
+negations of each other.
+
+55
+00:02:54,950 --> 00:02:57,140
+So in natural language we
+don't always have the not.
+
+56
+00:02:57,140 --> 00:02:59,090
+So that's what you get for
+being a mathematician.
+
+57
+00:02:59,090 --> 00:03:01,820
+You, you get the fallibility
+of mathematicians.
+
+58
+00:03:01,820 --> 00:03:03,200
+But of course, from being
+
+59
+00:03:03,200 --> 00:03:05,029
+a mathematician and a programmer,
+
+60
+00:03:05,029 --> 00:03:06,530
+you also get some good things
+
+61
+00:03:06,530 --> 00:03:08,330
+like you can make little proofs
+
+62
+00:03:08,330 --> 00:03:09,920
+like this and they'll
+
+63
+00:03:09,920 --> 00:03:12,630
+actually help you write
+correct programs.
+
+64
+00:03:13,350 --> 00:03:16,060
+Now here's an example
+for you to look
+
+65
+00:03:16,060 --> 00:03:18,550
+at all plants, fungi,
+
+66
+00:03:18,550 --> 00:03:20,815
+some flowers and plants,
+
+67
+00:03:20,815 --> 00:03:24,130
+therefore, some
+flowers or not fungi.
+
+68
+00:03:24,130 --> 00:03:25,915
+The question for you is,
+
+69
+00:03:25,915 --> 00:03:28,060
+is this a valid argument?
+
+70
+00:03:28,060 --> 00:03:31,135
+But I want you to do is
+give it as a syllogism.
+
+71
+00:03:31,135 --> 00:03:33,580
+Then use Venn diagrams
+to either show it's
+
+72
+00:03:33,580 --> 00:03:36,520
+valid or produce
+a counterexample.
+
+73
+00:03:36,520 --> 00:03:38,440
+So first of all,
+
+74
+00:03:38,440 --> 00:03:42,010
+I would like you
+to use for plants,
+
+75
+00:03:42,010 --> 00:03:45,850
+fungi, and see for flowers.
+
+76
+00:03:45,850 --> 00:03:48,070
+And then try and do this and
+
+77
+00:03:48,070 --> 00:03:49,915
+see whether it is a
+correct argument.
+
+78
+00:03:49,915 --> 00:03:51,670
+Now you should hope the video,
+
+79
+00:03:51,670 --> 00:03:56,000
+take a break, do the
+exercise, and then come back.

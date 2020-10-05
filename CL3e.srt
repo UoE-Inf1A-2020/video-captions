@@ -1,0 +1,370 @@
+1
+00:00:00,000 --> 00:00:02,265
+Do the first bit for you.
+
+2
+00:00:02,265 --> 00:00:04,740
+We've got the hypotheses.
+
+3
+00:00:04,740 --> 00:00:07,230
+Some C is not a,
+
+4
+00:00:07,230 --> 00:00:09,735
+so this is inhabited.
+
+5
+00:00:09,735 --> 00:00:13,110
+And sum C is not
+
+6
+00:00:13,110 --> 00:00:18,700
+p. So your question
+is, does this follow?
+
+7
+00:00:19,630 --> 00:00:23,015
+If it doesn't follow,
+
+8
+00:00:23,015 --> 00:00:24,920
+what could we find?
+
+9
+00:00:24,920 --> 00:00:27,410
+How can we show that
+it doesn't follow?
+
+10
+00:00:27,410 --> 00:00:29,390
+It doesn't follow.
+
+11
+00:00:29,390 --> 00:00:30,860
+That means that there's
+
+12
+00:00:30,860 --> 00:00:36,530
+some Universe in which
+we've interpreted a,
+
+13
+00:00:36,530 --> 00:00:39,020
+B, and C as predicates.
+
+14
+00:00:39,020 --> 00:00:41,225
+So there's some
+collection of things.
+
+15
+00:00:41,225 --> 00:00:44,405
+Then there are three
+subsets of that collection.
+
+16
+00:00:44,405 --> 00:00:49,235
+And they satisfy the
+premises of this rule,
+
+17
+00:00:49,235 --> 00:00:52,550
+but they don't satisfy
+the conclusion.
+
+18
+00:00:52,550 --> 00:00:54,230
+Now we start to discover
+
+19
+00:00:54,230 --> 00:00:56,510
+something interesting
+about these models.
+
+20
+00:00:56,510 --> 00:00:58,250
+I want to make a model,
+
+21
+00:00:58,250 --> 00:01:01,970
+and I'm only talking
+about three predicates,
+
+22
+00:01:01,970 --> 00:01:03,755
+then there are really
+
+23
+00:01:03,755 --> 00:01:07,115
+only a few kinds of things
+that I can contemplate.
+
+24
+00:01:07,115 --> 00:01:09,965
+That could be something in
+here or they could know.
+
+25
+00:01:09,965 --> 00:01:11,525
+There could be something in here.
+
+26
+00:01:11,525 --> 00:01:14,330
+Or they could know
+or here, or here,
+
+27
+00:01:14,330 --> 00:01:15,590
+or here, or here,
+
+28
+00:01:15,590 --> 00:01:17,240
+or all the way out here.
+
+29
+00:01:17,240 --> 00:01:20,855
+How many possible kinds
+of thing are there?
+
+30
+00:01:20,855 --> 00:01:22,670
+When I'm just talking
+about whether
+
+31
+00:01:22,670 --> 00:01:25,775
+their flowers, fungi, or plants.
+
+32
+00:01:25,775 --> 00:01:27,695
+There's the only things
+I can say about them.
+
+33
+00:01:27,695 --> 00:01:29,150
+We'll say that things
+
+34
+00:01:29,150 --> 00:01:30,980
+which don't differ
+in that way we'll
+
+35
+00:01:30,980 --> 00:01:32,500
+count is the same for
+the moment because
+
+36
+00:01:32,500 --> 00:01:34,415
+I've got an example
+of one of them.
+
+37
+00:01:34,415 --> 00:01:36,230
+Or I haven't any examples
+doesn't matter if
+
+38
+00:01:36,230 --> 00:01:38,165
+I got 20 examples or one.
+
+39
+00:01:38,165 --> 00:01:39,499
+For this purpose.
+
+40
+00:01:39,499 --> 00:01:41,210
+We're just interested
+whether there is
+
+41
+00:01:41,210 --> 00:01:43,505
+something in there,
+nothing in there.
+
+42
+00:01:43,505 --> 00:01:47,250
+How many different kinds
+of thing might I think of?
+
+43
+00:01:47,410 --> 00:01:50,045
+Who think seven.
+
+44
+00:01:50,045 --> 00:01:55,070
+Any advance on 78, y eight,
+
+45
+00:01:55,070 --> 00:01:57,575
+if I think of is there's an,
+
+46
+00:01:57,575 --> 00:02:00,545
+a two possibilities, yes or no.
+
+47
+00:02:00,545 --> 00:02:03,395
+Is this a pay another
+two possibilities.
+
+48
+00:02:03,395 --> 00:02:06,200
+So altogether there's four
+possibilities for the ice.
+
+49
+00:02:06,200 --> 00:02:08,615
+And please, let me have C,
+
+50
+00:02:08,615 --> 00:02:10,760
+two possibilities for
+each of these four.
+
+51
+00:02:10,760 --> 00:02:12,530
+I can have one that
+has or doesn't
+
+52
+00:02:12,530 --> 00:02:14,405
+have C. So that's
+coupling it again.
+
+53
+00:02:14,405 --> 00:02:16,835
+So it's two cubed is eight.
+
+54
+00:02:16,835 --> 00:02:21,050
+And in general, if I had
+n propositional letters,
+
+55
+00:02:21,050 --> 00:02:24,560
+there will be two to the
+power n kinds of thing.
+
+56
+00:02:24,560 --> 00:02:27,845
+So when we're looking
+for a model here,
+
+57
+00:02:27,845 --> 00:02:30,470
+what we're really
+doing is saying,
+
+58
+00:02:30,470 --> 00:02:33,770
+which of these things
+have something in them,
+
+59
+00:02:33,770 --> 00:02:37,520
+which go to make your model
+checking for the moment.
+
+60
+00:02:37,520 --> 00:02:39,020
+Let's try and make a model with
+
+61
+00:02:39,020 --> 00:02:40,940
+as many kinds of things as
+
+62
+00:02:40,940 --> 00:02:45,830
+possible that still
+makes this fall.
+
+63
+00:02:45,830 --> 00:02:51,180
+So let's say I don't want
+to put anything in here.
+
+64
+00:02:51,220 --> 00:02:54,260
+So I won't put anything in there.
+
+65
+00:02:54,260 --> 00:02:56,300
+I will put something in here.
+
+66
+00:02:56,300 --> 00:02:58,670
+For all these other white ones.
+
+67
+00:02:58,670 --> 00:03:00,800
+I could put something in or not.
+
+68
+00:03:00,800 --> 00:03:03,620
+It would still make
+the premises are true,
+
+69
+00:03:03,620 --> 00:03:06,980
+and it would still make
+the conclusion false.
+
+70
+00:03:06,980 --> 00:03:08,750
+We have to put one in there to
+
+71
+00:03:08,750 --> 00:03:10,145
+make this conclusion false.
+
+72
+00:03:10,145 --> 00:03:11,390
+And that would be enough. But it
+
+73
+00:03:11,390 --> 00:03:14,010
+feels like a very strange model.
+
+74
+00:03:14,110 --> 00:03:18,890
+But we can put in all of
+
+75
+00:03:18,890 --> 00:03:23,915
+those and still make
+this conclusion false.
+
+76
+00:03:23,915 --> 00:03:26,570
+So that's the largest
+model we could make
+
+77
+00:03:26,570 --> 00:03:30,635
+that satisfies the premises.
+
+78
+00:03:30,635 --> 00:03:33,860
+But doesn't satisfy
+the conclusion.
+
+79
+00:03:33,860 --> 00:03:37,115
+This is empty because
+if the assumption,
+
+80
+00:03:37,115 --> 00:03:41,330
+this is empty because
+
+81
+00:03:41,330 --> 00:03:43,250
+we're trying to make it
+so that C does satisfy B.
+
+82
+00:03:43,250 --> 00:03:45,750
+To show that this
+thing isn't true.
