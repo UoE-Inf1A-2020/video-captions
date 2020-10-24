@@ -1,0 +1,609 @@
+1
+00:00:00,000 --> 00:00:02,070
+When we were doing that,
+
+2
+00:00:02,070 --> 00:00:06,450
+we were writing things down
+like a and B and not B.
+
+3
+00:00:06,450 --> 00:00:10,715
+And these are talking
+about actual predicate.
+
+4
+00:00:10,715 --> 00:00:12,870
+So I'm thinking of
+those just the way
+
+5
+00:00:12,870 --> 00:00:15,780
+when you write in algebra,
+
+6
+00:00:15,780 --> 00:00:18,780
+you write down things
+like a squared minus b,
+
+7
+00:00:18,780 --> 00:00:21,360
+x plus c. But they're
+really talking
+
+8
+00:00:21,360 --> 00:00:24,300
+about numbers set quite
+often in algebra,
+
+9
+00:00:24,300 --> 00:00:25,860
+we just think of
+ourselves as dealing with
+
+10
+00:00:25,860 --> 00:00:27,745
+equations and we're
+gonna do the same.
+
+11
+00:00:27,745 --> 00:00:30,200
+It's logic. Are we going
+to do it a bit more
+
+12
+00:00:30,200 --> 00:00:33,320
+formally than you
+normally do in algebra?
+
+13
+00:00:33,320 --> 00:00:34,970
+So far, we've been
+treating logic just
+
+14
+00:00:34,970 --> 00:00:36,620
+the same way as you
+normally use algebra.
+
+15
+00:00:36,620 --> 00:00:37,730
+We're talking about things.
+
+16
+00:00:37,730 --> 00:00:38,915
+We write connectives down.
+
+17
+00:00:38,915 --> 00:00:40,040
+When we interpret it,
+
+18
+00:00:40,040 --> 00:00:42,800
+we give values to the variables.
+
+19
+00:00:42,800 --> 00:00:45,575
+For us, the values
+were predicates.
+
+20
+00:00:45,575 --> 00:00:48,065
+The operators were and are not.
+
+21
+00:00:48,065 --> 00:00:51,409
+Here. The values are
+numbers, the operators,
+
+22
+00:00:51,409 --> 00:00:55,130
+multiplication and so forth.
+But it's very similar.
+
+23
+00:00:55,130 --> 00:00:57,785
+We've talked about
+predicates because
+
+24
+00:00:57,785 --> 00:01:01,340
+they enable you to
+have this picture of
+
+25
+00:01:01,340 --> 00:01:05,420
+every a is b means the
+collection of things that have
+
+26
+00:01:05,420 --> 00:01:07,370
+the property a is contained
+
+27
+00:01:07,370 --> 00:01:10,310
+in the collection of things
+that have the property B.
+
+28
+00:01:10,310 --> 00:01:14,074
+You have a nice picture of
+this inclusion relation.
+
+29
+00:01:14,074 --> 00:01:15,620
+And actually everything has come
+
+30
+00:01:15,620 --> 00:01:17,330
+out of that inclusion relation.
+
+31
+00:01:17,330 --> 00:01:21,920
+The way we axiomatize where
+we gave the roles for and,
+
+32
+00:01:21,920 --> 00:01:26,225
+and or was by looking at that
+picture and saying, well,
+
+33
+00:01:26,225 --> 00:01:28,040
+how do we describe the way
+
+34
+00:01:28,040 --> 00:01:30,755
+the intersection of
+these two things work?
+
+35
+00:01:30,755 --> 00:01:33,890
+Some things contained in the
+intersection if and only
+
+36
+00:01:33,890 --> 00:01:35,090
+if it's contained in
+
+37
+00:01:35,090 --> 00:01:37,010
+both of the things you
+were intersecting.
+
+38
+00:01:37,010 --> 00:01:38,765
+And similarly with all
+the other way round,
+
+39
+00:01:38,765 --> 00:01:41,705
+the union is contained
+in something.
+
+40
+00:01:41,705 --> 00:01:43,670
+If each of the things in
+
+41
+00:01:43,670 --> 00:01:45,710
+that union is contained
+in something,
+
+42
+00:01:45,710 --> 00:01:47,510
+what I want to do now is
+
+43
+00:01:47,510 --> 00:01:49,430
+to look at it
+
+44
+00:01:49,430 --> 00:01:51,965
+slightly differently because
+we can simplify things.
+
+45
+00:01:51,965 --> 00:01:54,380
+We don't need to think
+of all Universities
+
+46
+00:01:54,380 --> 00:01:55,610
+where there might be millions
+
+47
+00:01:55,610 --> 00:01:56,840
+of them and these
+people and stuff,
+
+48
+00:01:56,840 --> 00:01:59,720
+we can apply our stuff
+to those universes.
+
+49
+00:01:59,720 --> 00:02:01,205
+But when we're working,
+
+50
+00:02:01,205 --> 00:02:04,460
+we can actually focus
+down and look at
+
+51
+00:02:04,460 --> 00:02:08,330
+a much smaller set of things
+to see what's going on.
+
+52
+00:02:08,330 --> 00:02:10,370
+Let's just see what we've done.
+
+53
+00:02:10,370 --> 00:02:12,755
+We've got predicates.
+
+54
+00:02:12,755 --> 00:02:14,780
+We've got various operations on
+
+55
+00:02:14,780 --> 00:02:17,315
+predicates like and, and, or.
+
+56
+00:02:17,315 --> 00:02:21,395
+And. We have these
+subsets as predicates.
+
+57
+00:02:21,395 --> 00:02:23,030
+Propositions are predicates.
+
+58
+00:02:23,030 --> 00:02:25,775
+There just functions
+from U to blue.
+
+59
+00:02:25,775 --> 00:02:29,915
+And we can lift the
+logical operations,
+
+60
+00:02:29,915 --> 00:02:34,520
+like not up to operations
+on predicates.
+
+61
+00:02:34,520 --> 00:02:36,365
+And we've done the same friend.
+
+62
+00:02:36,365 --> 00:02:37,729
+And that's quite confusing,
+
+63
+00:02:37,729 --> 00:02:39,080
+but it's something
+you really should
+
+64
+00:02:39,080 --> 00:02:40,820
+keep looking and get
+your head around because
+
+65
+00:02:40,820 --> 00:02:42,590
+it's a very important
+idea that we
+
+66
+00:02:42,590 --> 00:02:44,765
+lift the operations from
+
+67
+00:02:44,765 --> 00:02:47,585
+just operations on Boolean values
+
+68
+00:02:47,585 --> 00:02:50,990
+to operations on
+predicates or sets.
+
+69
+00:02:50,990 --> 00:02:53,045
+How many things are there?
+
+70
+00:02:53,045 --> 00:02:55,220
+How many properties?
+
+71
+00:02:55,220 --> 00:02:57,365
+We don't actually need to look at
+
+72
+00:02:57,365 --> 00:02:59,465
+everything that might be,
+
+73
+00:02:59,465 --> 00:03:01,460
+because we're going
+to treat things the
+
+74
+00:03:01,460 --> 00:03:04,910
+same if they're the same for
+the properties we've got.
+
+75
+00:03:04,910 --> 00:03:06,410
+So this is a principle.
+
+76
+00:03:06,410 --> 00:03:08,180
+Leibnitz protein.
+
+77
+00:03:08,180 --> 00:03:09,860
+Lipid says, well, what does it
+
+78
+00:03:09,860 --> 00:03:11,900
+mean to say there are two things.
+
+79
+00:03:11,900 --> 00:03:13,430
+If there are two
+things, you need to be
+
+80
+00:03:13,430 --> 00:03:14,960
+able to tell the
+difference between them.
+
+81
+00:03:14,960 --> 00:03:19,400
+So if you can't tell the
+difference that the same.
+
+82
+00:03:19,400 --> 00:03:21,574
+And we're going to
+use that principle,
+
+83
+00:03:21,574 --> 00:03:23,360
+but we're going to use it in the,
+
+84
+00:03:23,360 --> 00:03:25,580
+in the formal setting off.
+
+85
+00:03:25,580 --> 00:03:29,930
+If we're just talking
+about five properties,
+
+86
+00:03:29,930 --> 00:03:32,420
+then we can only ever need
+
+87
+00:03:32,420 --> 00:03:34,190
+a universe that has two to
+
+88
+00:03:34,190 --> 00:03:36,560
+the fifth different individuals.
+
+89
+00:03:36,560 --> 00:03:37,790
+Because that was the only
+
+90
+00:03:37,790 --> 00:03:39,710
+different possibilities
+we can have.
+
+91
+00:03:39,710 --> 00:03:41,270
+And as far as we're concerned,
+
+92
+00:03:41,270 --> 00:03:43,820
+either we have something
+with that combination of
+
+93
+00:03:43,820 --> 00:03:45,560
+properties or we don't have
+
+94
+00:03:45,560 --> 00:03:48,005
+something with that
+combination of properties.
+
+95
+00:03:48,005 --> 00:03:53,360
+Here you see, we say end is done
+
+96
+00:03:53,360 --> 00:04:01,055
+on properties by extending this,
+
+97
+00:04:01,055 --> 00:04:07,140
+lifting it up to this
+to get that's a and b.
+
+98
+00:04:09,370 --> 00:04:12,810
+That a or B.
+
+99
+00:04:13,900 --> 00:04:18,125
+But in general, when we do that,
+
+100
+00:04:18,125 --> 00:04:22,115
+we just get some collection
+of these regions.
+
+101
+00:04:22,115 --> 00:04:27,620
+Each part of this is either
+in our property or it's not.
+
+102
+00:04:27,620 --> 00:04:30,245
+So we only need
+one representative
+
+103
+00:04:30,245 --> 00:04:32,225
+for each of those things.
+
+104
+00:04:32,225 --> 00:04:35,090
+So I've now label these.
+
+105
+00:04:35,090 --> 00:04:38,090
+There is no label in
+the white PIT outside
+
+106
+00:04:38,090 --> 00:04:40,655
+because none of the
+properties is true.
+
+107
+00:04:40,655 --> 00:04:45,935
+This is a Venn diagram
+for four variables.
+
+108
+00:04:45,935 --> 00:04:47,930
+And these are the various labels
+
+109
+00:04:47,930 --> 00:04:49,760
+where these are the
+things that are true.
+
+110
+00:04:49,760 --> 00:04:52,055
+So right in the
+middle that as ABCD,
+
+111
+00:04:52,055 --> 00:04:53,630
+all four of them are true.
+
+112
+00:04:53,630 --> 00:04:55,160
+Elsewhere, there
+are a lot of things
+
+113
+00:04:55,160 --> 00:04:56,525
+with three of them true.
+
+114
+00:04:56,525 --> 00:04:58,940
+Withdraw them true, with
+only one of them true,
+
+115
+00:04:58,940 --> 00:05:00,620
+and then outside with
+none of them true.
+
+116
+00:05:00,620 --> 00:05:09,125
+Ok. So these things can be
+labeled just with here.
+
+117
+00:05:09,125 --> 00:05:11,825
+A is true, P is false,
+
+118
+00:05:11,825 --> 00:05:13,955
+C is false, and this is true.
+
+119
+00:05:13,955 --> 00:05:19,160
+All we need to look
+at is individuals.
+
+120
+00:05:19,160 --> 00:05:22,159
+Like this. As an individual,
+
+121
+00:05:22,159 --> 00:05:23,690
+which we'll call tau false,
+
+122
+00:05:23,690 --> 00:05:25,580
+false true as an individual
+
+123
+00:05:25,580 --> 00:05:27,680
+which we'll call false,
+false, true, true.
+
+124
+00:05:27,680 --> 00:05:31,205
+If we have those individuals,
+that's all we need.
+
+125
+00:05:31,205 --> 00:05:33,290
+Cost terror, the labels a, b, c,
+
+126
+00:05:33,290 --> 00:05:36,080
+d. So what are these?
+
+127
+00:05:36,080 --> 00:05:38,780
+For each of my variables,
+
+128
+00:05:38,780 --> 00:05:40,535
+I got a truth value.
+
+129
+00:05:40,535 --> 00:05:46,340
+So each one of these could
+be done as a list of pairs.
+
+130
+00:05:46,340 --> 00:05:48,980
+It could play a is
+true, b is true,
+
+131
+00:05:48,980 --> 00:05:53,240
+c is false, or it could be
+besides just the function.
+
+132
+00:05:53,240 --> 00:05:55,310
+So again, we're going
+to use functions.
+
+133
+00:05:55,310 --> 00:05:57,305
+There's going to be
+called valuations.
+
+134
+00:05:57,305 --> 00:06:01,170
+And that's where I'm going to
+stop for today. Thank you.

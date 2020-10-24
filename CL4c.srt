@@ -1,0 +1,460 @@
+1
+00:00:04,760 --> 00:00:07,650
+Now I want you to
+
+2
+00:00:07,650 --> 00:00:12,585
+draw in your minds or a piece
+of paper in front of you.
+
+3
+00:00:12,585 --> 00:00:14,730
+One of these tiny Venn diagrams
+
+4
+00:00:14,730 --> 00:00:16,860
+that just has two predicates,
+
+5
+00:00:16,860 --> 00:00:20,220
+a and b, and it's a Venn
+diagram so they overlap,
+
+6
+00:00:20,220 --> 00:00:23,980
+they know inside each
+other just a and b.
+
+7
+00:00:24,080 --> 00:00:26,190
+And I want you to think
+
+8
+00:00:26,190 --> 00:00:32,940
+about what we might
+say about a and B.
+
+9
+00:00:32,940 --> 00:00:37,690
+You can fill in a and b on
+a Venn diagram, can't you?
+
+10
+00:00:37,910 --> 00:00:41,605
+So think of the relationship.
+
+11
+00:00:41,605 --> 00:00:45,230
+Everything in C. So draw a,
+
+12
+00:00:45,230 --> 00:00:51,785
+C such that everything
+in C is in a and B.
+
+13
+00:00:51,785 --> 00:00:55,530
+So you've got your IMB.
+
+14
+00:00:55,540 --> 00:00:59,615
+You're going to introduce
+see somewhere such that.
+
+15
+00:00:59,615 --> 00:01:01,130
+And now it's going to
+be an Euler diagram,
+
+16
+00:01:01,130 --> 00:01:02,150
+not a Venn diagram because
+
+17
+00:01:02,150 --> 00:01:04,910
+this new one comes in somewhere.
+
+18
+00:01:04,910 --> 00:01:07,820
+And I want it to be
+such that everything in
+
+19
+00:01:07,820 --> 00:01:11,510
+C is in both a and
+
+20
+00:01:11,510 --> 00:01:19,580
+B. I hope you've drawn a
+diagram, something like that.
+
+21
+00:01:19,580 --> 00:01:26,250
+So here we have a at the bottom.
+
+22
+00:01:26,920 --> 00:01:30,545
+As a, there's B.
+
+23
+00:01:30,545 --> 00:01:33,320
+And I asked you to draw something
+
+24
+00:01:33,320 --> 00:01:37,025
+that was contained in a and B.
+
+25
+00:01:37,025 --> 00:01:39,125
+So I hope you drew
+something like that.
+
+26
+00:01:39,125 --> 00:01:40,610
+I should have done this without
+
+27
+00:01:40,610 --> 00:01:42,470
+putting a picture in the video.
+
+28
+00:01:42,470 --> 00:01:44,330
+Because I want not only to
+
+29
+00:01:44,330 --> 00:01:46,265
+train you to draw these pictures,
+
+30
+00:01:46,265 --> 00:01:48,200
+but also to conjure
+up in your mind.
+
+31
+00:01:48,200 --> 00:01:50,000
+So you think of things like this.
+
+32
+00:01:50,000 --> 00:01:51,860
+When you are trying to
+think about problems,
+
+33
+00:01:51,860 --> 00:01:53,915
+you actually bring the
+pictures in your mind.
+
+34
+00:01:53,915 --> 00:01:56,300
+And for those of you
+who find pictures,
+
+35
+00:01:56,300 --> 00:01:58,115
+not the best way
+of seeing things,
+
+36
+00:01:58,115 --> 00:02:00,890
+then probably the algebra
+works better for you.
+
+37
+00:02:00,890 --> 00:02:03,020
+So you do the algebra, let's see,
+
+38
+00:02:03,020 --> 00:02:07,865
+everything in C is in a and b.
+
+39
+00:02:07,865 --> 00:02:11,270
+It's exactly the same
+as saying two things.
+
+40
+00:02:11,270 --> 00:02:16,100
+Everything in C is in a
+and everything in C is NB.
+
+41
+00:02:16,100 --> 00:02:18,320
+Everyone agree, this
+is a good rule for,
+
+42
+00:02:18,320 --> 00:02:21,350
+and so you see what the game is.
+
+43
+00:02:21,350 --> 00:02:27,485
+The game is to try and describe
+these things with rules.
+
+44
+00:02:27,485 --> 00:02:29,600
+And if we now do what we did for,
+
+45
+00:02:29,600 --> 00:02:31,535
+not do it for,
+
+46
+00:02:31,535 --> 00:02:34,985
+and then we have
+this function and
+
+47
+00:02:34,985 --> 00:02:38,840
+goes from Booleans to booleans
+and gives you a Boolean.
+
+48
+00:02:38,840 --> 00:02:40,310
+Let's truth table is up in
+
+49
+00:02:40,310 --> 00:02:42,275
+the top left hand corner there.
+
+50
+00:02:42,275 --> 00:02:44,720
+This is just a description
+of what Haskell
+
+51
+00:02:44,720 --> 00:02:48,815
+does when you take the
+and of two booleans.
+
+52
+00:02:48,815 --> 00:02:51,560
+If it's false, false,
+it gives you false.
+
+53
+00:02:51,560 --> 00:02:53,900
+If it's false, true,
+it gives you false.
+
+54
+00:02:53,900 --> 00:02:56,630
+If it's false, true the other
+way it gives you false.
+
+55
+00:02:56,630 --> 00:02:59,240
+But if it's true, true,
+it gives you true.
+
+56
+00:02:59,240 --> 00:03:04,490
+We extend that to a corresponding
+function on predicates,
+
+57
+00:03:04,490 --> 00:03:08,120
+which you know as the function
+you see on venn diagrams.
+
+58
+00:03:08,120 --> 00:03:11,690
+By saying that a and we
+
+59
+00:03:11,690 --> 00:03:13,850
+introduce another name for
+
+60
+00:03:13,850 --> 00:03:17,015
+end because it's a function
+of a different type.
+
+61
+00:03:17,015 --> 00:03:18,890
+And we already have
+
+62
+00:03:18,890 --> 00:03:22,400
+this e1 is of type bool
+arrow is Polaris bu.
+
+63
+00:03:22,400 --> 00:03:24,260
+We want something
+that goes from the
+
+64
+00:03:24,260 --> 00:03:26,585
+predicate on you to
+a predicate on you.
+
+65
+00:03:26,585 --> 00:03:30,740
+So we have to say a
+and in this funny way,
+
+66
+00:03:30,740 --> 00:03:32,990
+be applied to x
+
+67
+00:03:32,990 --> 00:03:34,865
+because we want to say
+what the predicate is,
+
+68
+00:03:34,865 --> 00:03:37,880
+is I applied to x
+and p applied 2x.
+
+69
+00:03:37,880 --> 00:03:41,780
+When we are talking about the
+operations on predicates,
+
+70
+00:03:41,780 --> 00:03:46,264
+we're always going back to
+operations on booleans.
+
+71
+00:03:46,264 --> 00:03:47,930
+We have a rule, we have a way of
+
+72
+00:03:47,930 --> 00:03:50,420
+writing it down in Haskell.
+
+73
+00:03:50,420 --> 00:03:51,920
+We don't need much more.
+
+74
+00:03:51,920 --> 00:03:54,800
+What I want you to
+do now is to take
+
+75
+00:03:54,800 --> 00:03:59,195
+a couple of minutes to do the
+corresponding rule for all,
+
+76
+00:03:59,195 --> 00:04:01,730
+most of it is that easy?
+
+77
+00:04:01,730 --> 00:04:04,940
+We can take the o function now we
+
+78
+00:04:04,940 --> 00:04:08,060
+can define a function that
+we'll call Funny or here,
+
+79
+00:04:08,060 --> 00:04:10,640
+and we'll use the old
+function that, that's fine.
+
+80
+00:04:10,640 --> 00:04:12,560
+But how do we draw
+
+81
+00:04:12,560 --> 00:04:14,975
+the diagram for all
+where with the blue,
+
+82
+00:04:14,975 --> 00:04:16,820
+red, blue circle P,
+
+83
+00:04:16,820 --> 00:04:18,724
+Start with a Venn diagram.
+
+84
+00:04:18,724 --> 00:04:20,630
+And then you will turn it into
+
+85
+00:04:20,630 --> 00:04:22,715
+an Euler diagram by
+adding the circle.
+
+86
+00:04:22,715 --> 00:04:25,040
+And what's the rule look like,
+
+87
+00:04:25,040 --> 00:04:26,495
+which is even more interesting.
+
+88
+00:04:26,495 --> 00:04:27,710
+So we'll do the same again,
+
+89
+00:04:27,710 --> 00:04:30,200
+start with the same Venn
+Diagram that we started with.
+
+90
+00:04:30,200 --> 00:04:33,590
+But now may the Euler diagram
+where you say something
+
+91
+00:04:33,590 --> 00:04:40,950
+about the relationship between
+your new thing and a or B.
+
+92
+00:04:41,110 --> 00:04:44,555
+And I have 0B is of
+course the union.
+
+93
+00:04:44,555 --> 00:04:47,670
+And try and write down a rule.
+
+94
+00:04:47,950 --> 00:04:50,150
+Because what we will see over
+
+95
+00:04:50,150 --> 00:04:52,610
+the next few lectures
+
+96
+00:04:52,610 --> 00:04:54,845
+is that once we get
+these rolls right,
+
+97
+00:04:54,845 --> 00:04:58,280
+we really understood everything
+about these operations.
+
+98
+00:04:58,280 --> 00:05:01,730
+So your task now is to draw
+
+99
+00:05:01,730 --> 00:05:05,330
+a C such that everything in a or
+
+100
+00:05:05,330 --> 00:05:09,575
+B is contained in C. And use that
+
+101
+00:05:09,575 --> 00:05:11,300
+to write a rule for
+
+102
+00:05:11,300 --> 00:05:14,850
+all will give the answer
+in the next video.

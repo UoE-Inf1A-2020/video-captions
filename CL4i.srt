@@ -1,0 +1,387 @@
+1
+00:00:00,000 --> 00:00:02,070
+Now we're going to see how to
+
+2
+00:00:02,070 --> 00:00:05,490
+use these rules constructively.
+
+3
+00:00:05,490 --> 00:00:08,640
+Going to take an
+expression and use
+
+4
+00:00:08,640 --> 00:00:12,225
+the rules to simplify it to
+an equivalent expression.
+
+5
+00:00:12,225 --> 00:00:15,495
+The expression I've
+chosen to simplify it,
+
+6
+00:00:15,495 --> 00:00:18,690
+just a randomly chosen example
+
+7
+00:00:18,690 --> 00:00:23,085
+created using the
+connectives and, or and not.
+
+8
+00:00:23,085 --> 00:00:26,700
+The procedure we use will
+work for any example.
+
+9
+00:00:26,700 --> 00:00:30,990
+I wanted to find a rule
+that will leave me above
+
+10
+00:00:30,990 --> 00:00:32,520
+the line with something
+
+11
+00:00:32,520 --> 00:00:36,465
+simpler than what I
+have below the line.
+
+12
+00:00:36,465 --> 00:00:40,260
+How can I make something
+simpler above the line?
+
+13
+00:00:40,260 --> 00:00:42,010
+By simpler?
+
+14
+00:00:42,010 --> 00:00:45,920
+What I mean is I'll get rid of
+
+15
+00:00:45,920 --> 00:00:50,045
+some of these connective
+so we call NOT and, OR,
+
+16
+00:00:50,045 --> 00:00:51,710
+and later on other operations
+
+17
+00:00:51,710 --> 00:00:53,750
+on Boolean values connectives,
+
+18
+00:00:53,750 --> 00:00:55,070
+because we're thinking now is
+
+19
+00:00:55,070 --> 00:00:58,055
+connecting this statement
+with this statement.
+
+20
+00:00:58,055 --> 00:01:00,080
+This is made up by saying
+
+21
+00:01:00,080 --> 00:01:02,315
+we have this thing
+within brackets
+
+22
+00:01:02,315 --> 00:01:07,670
+or p. That means we have an
+OH on the right hand side.
+
+23
+00:01:07,670 --> 00:01:11,640
+So we look at this
+rule to simplify it.
+
+24
+00:01:12,850 --> 00:01:15,155
+How has that happened?
+
+25
+00:01:15,155 --> 00:01:16,955
+We took the rule here.
+
+26
+00:01:16,955 --> 00:01:21,365
+The a was matched against
+this thing in parentheses.
+
+27
+00:01:21,365 --> 00:01:23,570
+The B was matched against that
+
+28
+00:01:23,570 --> 00:01:27,169
+P. Those are the things
+that are joined by all.
+
+29
+00:01:27,169 --> 00:01:30,905
+And we replace that
+or by a comma.
+
+30
+00:01:30,905 --> 00:01:32,600
+And then of course we
+could take off some of
+
+31
+00:01:32,600 --> 00:01:34,445
+the brackets because they
+just get in the way.
+
+32
+00:01:34,445 --> 00:01:35,645
+We don't need them anymore.
+
+33
+00:01:35,645 --> 00:01:37,130
+So what's going to happen next?
+
+34
+00:01:37,130 --> 00:01:39,155
+Which rule are we going to use?
+
+35
+00:01:39,155 --> 00:01:42,770
+The only thing we can do is
+to take the main connective.
+
+36
+00:01:42,770 --> 00:01:44,420
+We can't get inside these things.
+
+37
+00:01:44,420 --> 00:01:49,350
+We can't reach those knots
+yet because they're inside.
+
+38
+00:01:49,360 --> 00:01:52,415
+An expression that's
+been made with
+
+39
+00:01:52,415 --> 00:01:54,875
+end and is the main thing here,
+
+40
+00:01:54,875 --> 00:01:57,140
+and it's on the right.
+We'll use the rule.
+
+41
+00:01:57,140 --> 00:02:03,440
+And on the right, we should
+expect to get that rule.
+
+42
+00:02:03,440 --> 00:02:04,910
+And what will we get on top?
+
+43
+00:02:04,910 --> 00:02:08,915
+Try thinking what it'll
+pay and see if you agree.
+
+44
+00:02:08,915 --> 00:02:16,175
+There. We have this
+piece and this piece,
+
+45
+00:02:16,175 --> 00:02:18,980
+and then delta is
+just p. So we're
+
+46
+00:02:18,980 --> 00:02:21,920
+here and we've got
+the end on the right,
+
+47
+00:02:21,920 --> 00:02:24,244
+and the delta is
+just a singleton.
+
+48
+00:02:24,244 --> 00:02:27,380
+It's got p. So I take the
+left-hand thing of this,
+
+49
+00:02:27,380 --> 00:02:29,585
+which is not p or q,
+
+50
+00:02:29,585 --> 00:02:32,300
+and the right hand thing
+of this which is not p,
+
+51
+00:02:32,300 --> 00:02:35,540
+and I split them and I put
+this one here with delta,
+
+52
+00:02:35,540 --> 00:02:39,155
+and this one here
+with delta was next.
+
+53
+00:02:39,155 --> 00:02:41,990
+We can do that one because
+it's not a simple one.
+
+54
+00:02:41,990 --> 00:02:44,690
+Will do the rule not are.
+
+55
+00:02:44,690 --> 00:02:49,430
+If I do that, then I
+get the p on the left.
+
+56
+00:02:49,430 --> 00:02:51,305
+And then immediately
+I can notice that,
+
+57
+00:02:51,305 --> 00:02:54,125
+wow, there is the same
+thing, left and right.
+
+58
+00:02:54,125 --> 00:02:57,380
+What does this tell me
+if I stop at this stage,
+
+59
+00:02:57,380 --> 00:03:03,485
+it tells me that this is
+satisfied in some universe.
+
+60
+00:03:03,485 --> 00:03:07,040
+If and only if this is
+satisfied in the same universe.
+
+61
+00:03:07,040 --> 00:03:12,290
+If and only if this and this
+are satisfied in a universe.
+
+62
+00:03:12,290 --> 00:03:14,750
+And by the way, this
+is satisfied and
+
+63
+00:03:14,750 --> 00:03:16,130
+the universe if and only if this
+
+64
+00:03:16,130 --> 00:03:17,585
+is, and they certainly is.
+
+65
+00:03:17,585 --> 00:03:19,640
+So this pits, we
+don't need anymore.
+
+66
+00:03:19,640 --> 00:03:22,310
+And what we've now shown
+is that this thing
+
+67
+00:03:22,310 --> 00:03:25,805
+satisfied is equivalent
+to that being satisfied.
+
+68
+00:03:25,805 --> 00:03:29,255
+We can keep going next row.
+What's it going to be?
+
+69
+00:03:29,255 --> 00:03:31,820
+What's the main
+connective is not o.
+
+70
+00:03:31,820 --> 00:03:33,635
+The o is the o.
+
+71
+00:03:33,635 --> 00:03:36,755
+We do the 4x and that just
+replaces the O with a comma.
+
+72
+00:03:36,755 --> 00:03:38,585
+And now what we do,
+
+73
+00:03:38,585 --> 00:03:40,340
+we're gonna get rid of
+all the connectives
+
+74
+00:03:40,340 --> 00:03:41,480
+and we've only got one left.
+
+75
+00:03:41,480 --> 00:03:43,160
+So we're going to use
+not on the right,
+
+76
+00:03:43,160 --> 00:03:45,065
+we move the p across
+with the not,
+
+77
+00:03:45,065 --> 00:03:47,315
+then we have an immediate rule.
+
+78
+00:03:47,315 --> 00:03:49,940
+Now what we've found is these are
+
+79
+00:03:49,940 --> 00:03:53,360
+both valid in any universe.
+
+80
+00:03:53,360 --> 00:03:55,175
+So these are valid.
+
+81
+00:03:55,175 --> 00:03:57,230
+This is valid, this is valid.
+
+82
+00:03:57,230 --> 00:03:59,165
+This is valid in every universe.
+
+83
+00:03:59,165 --> 00:04:02,180
+We've started with
+some expression
+
+84
+00:04:02,180 --> 00:04:05,220
+and we've broken
+it down like that.

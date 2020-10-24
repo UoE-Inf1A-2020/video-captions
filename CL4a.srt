@@ -1,0 +1,514 @@
+1
+00:00:02,930 --> 00:00:05,280
+Somebody end of the session
+
+2
+00:00:05,280 --> 00:00:06,960
+yesterday came out
+and said, okay,
+
+3
+00:00:06,960 --> 00:00:09,870
+so that's what you do if
+you've got a Venn diagram with
+
+4
+00:00:09,870 --> 00:00:11,280
+three things and we
+
+5
+00:00:11,280 --> 00:00:14,250
+understand the syllogisms
+there and what's going on.
+
+6
+00:00:14,250 --> 00:00:17,370
+But what would you
+do if you have more?
+
+7
+00:00:17,370 --> 00:00:20,520
+And the answer is not quite
+
+8
+00:00:20,520 --> 00:00:23,740
+that you do something
+completely different.
+
+9
+00:00:23,740 --> 00:00:27,050
+That's an important idea
+that we're going to keep.
+
+10
+00:00:27,050 --> 00:00:32,180
+Which is the idea that this
+relationship between a and b,
+
+11
+00:00:32,180 --> 00:00:36,125
+that every a is b
+is very important.
+
+12
+00:00:36,125 --> 00:00:37,910
+But we'll talk about it in ways
+
+13
+00:00:37,910 --> 00:00:40,550
+that Aristotle didn't manage.
+
+14
+00:00:40,550 --> 00:00:43,025
+So let's just see what
+we've done so far.
+
+15
+00:00:43,025 --> 00:00:46,040
+Yesterday we got to
+these syllogisms.
+
+16
+00:00:46,040 --> 00:00:50,180
+Here's a nice way
+of organizing them.
+
+17
+00:00:50,180 --> 00:00:52,505
+These ones down the left.
+
+18
+00:00:52,505 --> 00:00:54,500
+This one comes because we
+
+19
+00:00:54,500 --> 00:00:56,600
+just look at it and see that it's
+
+20
+00:00:56,600 --> 00:00:57,980
+true and we check it on
+
+21
+00:00:57,980 --> 00:01:00,440
+the Venn diagram or
+even the Euler diagram.
+
+22
+00:01:00,440 --> 00:01:02,300
+This is the substitution.
+
+23
+00:01:02,300 --> 00:01:06,395
+These are the various
+contra, positions down here.
+
+24
+00:01:06,395 --> 00:01:10,040
+So we get this column
+very easily just by
+
+25
+00:01:10,040 --> 00:01:14,285
+making those contract positions.
+
+26
+00:01:14,285 --> 00:01:17,810
+In this layout, what I've
+done to go from here to
+
+27
+00:01:17,810 --> 00:01:19,970
+here is exactly the
+
+28
+00:01:19,970 --> 00:01:21,950
+same as I did to go
+from here to here.
+
+29
+00:01:21,950 --> 00:01:25,085
+Remember we went from here to
+here by swapping these two,
+
+30
+00:01:25,085 --> 00:01:27,275
+negating them compared with that.
+
+31
+00:01:27,275 --> 00:01:29,270
+And by swapping these two
+
+32
+00:01:29,270 --> 00:01:32,000
+negating them
+compared with there.
+
+33
+00:01:32,000 --> 00:01:34,280
+I've done the same on each line.
+
+34
+00:01:34,280 --> 00:01:36,950
+So this time it's more
+organized because if
+
+35
+00:01:36,950 --> 00:01:39,650
+you go down on the left,
+we know what we're doing.
+
+36
+00:01:39,650 --> 00:01:41,600
+We're doing those local
+control positions.
+
+37
+00:01:41,600 --> 00:01:45,095
+And if you come across
+column by column,
+
+38
+00:01:45,095 --> 00:01:47,450
+we're doing exactly the
+same in each column,
+
+39
+00:01:47,450 --> 00:01:48,965
+so it's easier to remember.
+
+40
+00:01:48,965 --> 00:01:53,690
+And in fact, what you'll
+see now is that the names,
+
+41
+00:01:53,690 --> 00:01:59,030
+these are the traditional
+medieval names.
+
+42
+00:01:59,030 --> 00:02:02,555
+They line up all the ones
+beginning with C. Are there,
+
+43
+00:02:02,555 --> 00:02:03,830
+all the ones beginning with F,
+
+44
+00:02:03,830 --> 00:02:05,960
+eta, all the ones
+beginning with you there.
+
+45
+00:02:05,960 --> 00:02:08,780
+That's because their names helped
+
+46
+00:02:08,780 --> 00:02:11,885
+them to remember where
+these things came from.
+
+47
+00:02:11,885 --> 00:02:14,630
+They also use the
+code for each of
+
+48
+00:02:14,630 --> 00:02:20,405
+the four different forms of
+categorical proposition.
+
+49
+00:02:20,405 --> 00:02:22,385
+This is the four forms we've got.
+
+50
+00:02:22,385 --> 00:02:26,690
+They labeled them
+a, E, I, O minds.
+
+51
+00:02:26,690 --> 00:02:28,070
+We'll label them with something.
+
+52
+00:02:28,070 --> 00:02:30,890
+They labeled them with
+the letters a, E, I, O.
+
+53
+00:02:30,890 --> 00:02:33,515
+And what Barbara tells us,
+
+54
+00:02:33,515 --> 00:02:35,210
+because there's three a's.
+
+55
+00:02:35,210 --> 00:02:37,895
+It means that we've got
+three of these in it.
+
+56
+00:02:37,895 --> 00:02:40,085
+123 A's.
+
+57
+00:02:40,085 --> 00:02:44,675
+Morocco tells me I have one.
+
+58
+00:02:44,675 --> 00:02:48,815
+A, that's that 12 of
+these, what are they?
+
+59
+00:02:48,815 --> 00:02:52,070
+They are this 00
+fascinating piece
+
+60
+00:02:52,070 --> 00:02:54,650
+of history as to
+how people organize
+
+61
+00:02:54,650 --> 00:02:57,080
+this kind of stuff
+when they didn't have
+
+62
+00:02:57,080 --> 00:03:00,920
+the kind of algebraic
+notation that we're using.
+
+63
+00:03:00,920 --> 00:03:03,230
+Here are the same syllogisms.
+
+64
+00:03:03,230 --> 00:03:06,020
+Is time, the variables to change,
+
+65
+00:03:06,020 --> 00:03:08,270
+to label them with
+a standard names.
+
+66
+00:03:08,270 --> 00:03:10,370
+We have S for the subject and
+
+67
+00:03:10,370 --> 00:03:13,130
+p for the predicate
+of the conclusion,
+
+68
+00:03:13,130 --> 00:03:15,590
+and N for the middle
+variable that
+
+69
+00:03:15,590 --> 00:03:18,080
+is eliminated from
+the assumptions.
+
+70
+00:03:18,080 --> 00:03:21,665
+So I relabeled the variables
+from the previous diagram,
+
+71
+00:03:21,665 --> 00:03:23,930
+and that is basically the
+way they will present them.
+
+72
+00:03:23,930 --> 00:03:27,440
+They're not in the notation
+that they would use.
+
+73
+00:03:27,440 --> 00:03:30,620
+That was where Aristotle got to.
+
+74
+00:03:30,620 --> 00:03:33,770
+Basically, it was
+where things stayed
+
+75
+00:03:33,770 --> 00:03:36,810
+until the late 18 hundreds para,
+
+76
+00:03:36,810 --> 00:03:38,060
+a 150 years ago.
+
+77
+00:03:38,060 --> 00:03:41,465
+Aristotle certainly
+knew about these rules.
+
+78
+00:03:41,465 --> 00:03:43,699
+He knew about these
+forms of deduction.
+
+79
+00:03:43,699 --> 00:03:46,550
+But he didn't think they were
+important to write about
+
+80
+00:03:46,550 --> 00:03:49,760
+because he was only focused
+on the difficult ones.
+
+81
+00:03:49,760 --> 00:03:52,940
+These everybody knows
+if every a is NOT B,
+
+82
+00:03:52,940 --> 00:03:54,080
+then every p is not a.
+
+83
+00:03:54,080 --> 00:03:55,640
+He would use it, but he didn't
+
+84
+00:03:55,640 --> 00:03:57,440
+think he was an important
+part of the system.
+
+85
+00:03:57,440 --> 00:04:00,440
+It was just a fact you
+used to prove things
+
+86
+00:04:00,440 --> 00:04:03,920
+about the system
+or even more so he
+
+87
+00:04:03,920 --> 00:04:07,040
+never bothered saying
+this because why would we
+
+88
+00:04:07,040 --> 00:04:10,685
+say it on no premises?
+
+89
+00:04:10,685 --> 00:04:15,515
+I can always deduce that
+every ASA as the phrase goes,
+
+90
+00:04:15,515 --> 00:04:17,915
+it goes without saying.
+
+91
+00:04:17,915 --> 00:04:21,635
+But one of the things you'll
+learn in this course,
+
+92
+00:04:21,635 --> 00:04:25,475
+which is not specific to logic,
+
+93
+00:04:25,475 --> 00:04:28,250
+is that it's often worth writing
+
+94
+00:04:28,250 --> 00:04:31,310
+down the things that
+go without saying.
+
+95
+00:04:31,310 --> 00:04:33,695
+So it's worth considering
+
+96
+00:04:33,695 --> 00:04:37,040
+what do I mean when
+I say every ISP,
+
+97
+00:04:37,040 --> 00:04:39,140
+when there are now a,
+
+98
+00:04:39,140 --> 00:04:44,315
+what do I mean when
+I say sum a is B?
+
+99
+00:04:44,315 --> 00:04:48,275
+What do I mean when I say
+one of these things is true,
+
+100
+00:04:48,275 --> 00:04:50,120
+or every one of these
+things is true.
+
+101
+00:04:50,120 --> 00:04:52,235
+What happens if
+there's nothing there?
+
+102
+00:04:52,235 --> 00:04:55,775
+So we need to think about
+those things because it makes
+
+103
+00:04:55,775 --> 00:05:00,500
+the rules more general
+and easier to use.
+
+104
+00:05:00,500 --> 00:05:03,110
+We were able to get
+these very easy rules
+
+105
+00:05:03,110 --> 00:05:04,760
+when you do the tutorial.
+
+106
+00:05:04,760 --> 00:05:08,390
+Next week, you will see
+that Aristotle also had
+
+107
+00:05:08,390 --> 00:05:12,320
+this existence assumption
+that lead to further rules.
+
+108
+00:05:12,320 --> 00:05:13,865
+We can still get those,
+
+109
+00:05:13,865 --> 00:05:16,475
+but they make the system
+more complicated.
+
+110
+00:05:16,475 --> 00:05:21,020
+There's a simplicity in doing
+it where you do it cleanly.
+
+111
+00:05:21,020 --> 00:05:23,760
+So that's what we're
+always trying to do.

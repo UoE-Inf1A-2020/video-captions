@@ -1,0 +1,367 @@
+1
+00:00:00,000 --> 00:00:02,245
+In the previous video,
+
+2
+00:00:02,245 --> 00:00:05,080
+we introduced the room for n and
+
+3
+00:00:05,080 --> 00:00:08,455
+justified it by looking
+at this Venn diagram.
+
+4
+00:00:08,455 --> 00:00:13,975
+C is contained in the
+intersection of a and b.
+
+5
+00:00:13,975 --> 00:00:18,100
+If and only if C is
+contained in a and C is
+
+6
+00:00:18,100 --> 00:00:23,155
+contained in B. I asked
+you to do the same again.
+
+7
+00:00:23,155 --> 00:00:26,005
+Start with the same Venn
+Diagram that we started with,
+
+8
+00:00:26,005 --> 00:00:29,395
+but now made the Euler diagram
+where you say something
+
+9
+00:00:29,395 --> 00:00:36,740
+about the relationship between
+your new thing and a or B.
+
+10
+00:00:36,870 --> 00:00:40,330
+And I have 0B is of
+course the union.
+
+11
+00:00:40,330 --> 00:00:43,460
+And try and write down a rule.
+
+12
+00:00:44,670 --> 00:00:48,280
+If we're going to draw
+a general thing that's
+
+13
+00:00:48,280 --> 00:00:51,759
+related to a or B.
+
+14
+00:00:51,759 --> 00:00:54,625
+And what we want to do
+is to draw outside.
+
+15
+00:00:54,625 --> 00:00:58,299
+If you went back and
+imagine this on the sphere,
+
+16
+00:00:58,299 --> 00:01:00,085
+it wouldn't look so different.
+
+17
+00:01:00,085 --> 00:01:03,310
+If you imagine the original
+one for end on the sphere,
+
+18
+00:01:03,310 --> 00:01:05,980
+and imagine this
+one on the sphere,
+
+19
+00:01:05,980 --> 00:01:07,719
+then they'd be the same,
+
+20
+00:01:07,719 --> 00:01:10,870
+except that you
+will be considering
+
+21
+00:01:10,870 --> 00:01:14,349
+the positive direction for
+a and b to be reversed.
+
+22
+00:01:14,349 --> 00:01:15,910
+That's all the differences.
+
+23
+00:01:15,910 --> 00:01:19,405
+I'm not going to try and
+draw it on the board.
+
+24
+00:01:19,405 --> 00:01:21,715
+It's easier to do with
+the physical pole,
+
+25
+00:01:21,715 --> 00:01:24,130
+but it's worth thinking
+about it because
+
+26
+00:01:24,130 --> 00:01:26,750
+that fact, really
+DeMorgan's laws.
+
+27
+00:01:26,750 --> 00:01:28,310
+Try and think of this stretched
+
+28
+00:01:28,310 --> 00:01:30,200
+out, wrapped round sphere.
+
+29
+00:01:30,200 --> 00:01:31,640
+And try and think of the previous
+
+30
+00:01:31,640 --> 00:01:33,620
+diagram done the same way.
+
+31
+00:01:33,620 --> 00:01:35,210
+And you will find that they are
+
+32
+00:01:35,210 --> 00:01:39,320
+the same diagram that just
+looked at upside down.
+
+33
+00:01:39,320 --> 00:01:42,380
+Again, it's this thing of
+if we change the direction,
+
+34
+00:01:42,380 --> 00:01:43,940
+if we go to negatives,
+
+35
+00:01:43,940 --> 00:01:45,410
+then we get these
+nice symmetry is
+
+36
+00:01:45,410 --> 00:01:47,615
+going that we've seen
+with contraposition.
+
+37
+00:01:47,615 --> 00:01:50,075
+This blue thing is C,
+
+38
+00:01:50,075 --> 00:01:53,360
+and C is greater than this.
+
+39
+00:01:53,360 --> 00:01:56,900
+In other words,
+everything in here is x3,
+
+40
+00:01:56,900 --> 00:01:58,835
+it everything in AC,
+
+41
+00:01:58,835 --> 00:02:02,390
+and everything in
+B is C. So again,
+
+42
+00:02:02,390 --> 00:02:05,705
+we get a row, goes two ways.
+
+43
+00:02:05,705 --> 00:02:08,869
+And it really is the same rule,
+
+44
+00:02:08,869 --> 00:02:12,425
+same backwards if you
+draw it on the sphere.
+
+45
+00:02:12,425 --> 00:02:15,020
+This is just like a slide for n,
+
+46
+00:02:15,020 --> 00:02:18,290
+except we've changed
+the truth table up
+
+47
+00:02:18,290 --> 00:02:20,870
+the top to be the truth table
+
+48
+00:02:20,870 --> 00:02:23,585
+for all its only
+when both are false,
+
+49
+00:02:23,585 --> 00:02:26,330
+then we return a
+false part from that.
+
+50
+00:02:26,330 --> 00:02:29,510
+This is just the name
+for all the semantic or,
+
+51
+00:02:29,510 --> 00:02:33,425
+the, or on predicates it sort of.
+
+52
+00:02:33,425 --> 00:02:36,320
+Returning to the previous slide.
+
+53
+00:02:36,320 --> 00:02:40,910
+Notice that a or B
+satisfy C if and
+
+54
+00:02:40,910 --> 00:02:45,890
+only if a satisfies C
+and B satisfies S0.
+
+55
+00:02:45,890 --> 00:02:49,205
+Sometimes people think
+this should be an O.
+
+56
+00:02:49,205 --> 00:02:50,870
+That's an and here,
+
+57
+00:02:50,870 --> 00:02:54,110
+just as there was in
+the room for end.
+
+58
+00:02:54,110 --> 00:02:57,320
+But the a's and b's
+are on the left here,
+
+59
+00:02:57,320 --> 00:03:00,560
+whereas in the roof and
+they're on the right.
+
+60
+00:03:00,560 --> 00:03:02,360
+Look, look at this diagram.
+
+61
+00:03:02,360 --> 00:03:05,495
+It's not one of them is
+contained in the blue one.
+
+62
+00:03:05,495 --> 00:03:08,015
+They both have to be
+contained in the blue one
+
+63
+00:03:08,015 --> 00:03:11,360
+is the blue one is going
+to encompass a or b,
+
+64
+00:03:11,360 --> 00:03:13,085
+which is what we are saying.
+
+65
+00:03:13,085 --> 00:03:15,995
+This is I obey and it says,
+
+66
+00:03:15,995 --> 00:03:19,160
+the blue one includes
+everything and I obey.
+
+67
+00:03:19,160 --> 00:03:20,450
+You have to get your
+head around it.
+
+68
+00:03:20,450 --> 00:03:22,625
+But once you get your
+head around it, it works.
+
+69
+00:03:22,625 --> 00:03:26,000
+I hope if I draw
+
+70
+00:03:26,000 --> 00:03:30,995
+a blue one and I've got
+to draw it around AOB.
+
+71
+00:03:30,995 --> 00:03:33,425
+Aob is just the union
+of those two circles.
+
+72
+00:03:33,425 --> 00:03:37,325
+So the only way to
+draw it around AOB is
+
+73
+00:03:37,325 --> 00:03:39,185
+it certainly has to go around a
+
+74
+00:03:39,185 --> 00:03:41,390
+and it has to go
+around B and said,
+
+75
+00:03:41,390 --> 00:03:43,070
+oh, I could draw
+
+76
+00:03:43,070 --> 00:03:46,145
+something around a that
+doesn't go ramping.
+
+77
+00:03:46,145 --> 00:03:49,850
+Now we have simple rules for not.
+
+78
+00:03:49,850 --> 00:03:51,950
+And, and all.
+
+79
+00:03:51,950 --> 00:03:53,690
+These are valid in
+
+80
+00:03:53,690 --> 00:03:58,680
+any universe for any
+predicates a, B, and C.

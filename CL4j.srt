@@ -1,0 +1,1134 @@
+1
+00:00:00,000 --> 00:00:01,815
+What I want you to do now
+
+2
+00:00:01,815 --> 00:00:04,395
+is to try and keep
+up with the machine.
+
+3
+00:00:04,395 --> 00:00:07,725
+It'll just start doing
+this itself slowly.
+
+4
+00:00:07,725 --> 00:00:10,140
+I want you to look
+at what's here and
+
+5
+00:00:10,140 --> 00:00:13,005
+think what's the next
+stage going to be?
+
+6
+00:00:13,005 --> 00:00:16,125
+For instance, here, this
+is the main connective,
+
+7
+00:00:16,125 --> 00:00:18,240
+is to the right of the turnstile.
+
+8
+00:00:18,240 --> 00:00:20,460
+So we'll use or on the right.
+
+9
+00:00:20,460 --> 00:00:21,720
+That's this one.
+
+10
+00:00:21,720 --> 00:00:22,995
+We'll replace it with a comma,
+
+11
+00:00:22,995 --> 00:00:25,980
+or what I want you to do is
+to just try and keep up.
+
+12
+00:00:25,980 --> 00:00:28,365
+We've identified the or
+
+13
+00:00:28,365 --> 00:00:30,645
+the comma goes in and we
+get that one on the right.
+
+14
+00:00:30,645 --> 00:00:32,384
+Now what's the main connective?
+
+15
+00:00:32,384 --> 00:00:34,410
+It's not on the outside there.
+
+16
+00:00:34,410 --> 00:00:36,450
+When there's a choice
+between doing something
+
+17
+00:00:36,450 --> 00:00:38,940
+that moves one thing or
+something, branches.
+
+18
+00:00:38,940 --> 00:00:42,470
+Do the one thing first,
+because you'll get rid of it.
+
+19
+00:00:42,470 --> 00:00:43,715
+You won't have two copies of it.
+
+20
+00:00:43,715 --> 00:00:45,350
+So what's the next connective?
+
+21
+00:00:45,350 --> 00:00:47,060
+We could either do an end on
+
+22
+00:00:47,060 --> 00:00:49,220
+the left or on or on the right.
+
+23
+00:00:49,220 --> 00:00:50,780
+And since those are both easy,
+
+24
+00:00:50,780 --> 00:00:52,040
+because what do we do with ans on
+
+25
+00:00:52,040 --> 00:00:54,650
+the left replaced
+them with commerce.
+
+26
+00:00:54,650 --> 00:00:56,555
+And what do we do with
+Always On the right
+
+27
+00:00:56,555 --> 00:00:58,595
+replaced them with commerce.
+
+28
+00:00:58,595 --> 00:01:03,575
+So this time we will just
+replace those with commerce.
+
+29
+00:01:03,575 --> 00:01:06,440
+And now let's start on the left,
+
+30
+00:01:06,440 --> 00:01:07,970
+I think is where I've
+decided to do it.
+
+31
+00:01:07,970 --> 00:01:12,420
+Yes. What happens
+within or on the left?
+
+32
+00:01:12,670 --> 00:01:15,710
+This all this proves
+
+33
+00:01:15,710 --> 00:01:18,605
+that means that we have to
+have, this proves that.
+
+34
+00:01:18,605 --> 00:01:21,560
+And this proves that both of
+them have to go on the left,
+
+35
+00:01:21,560 --> 00:01:23,060
+so we have to duplicate it.
+
+36
+00:01:23,060 --> 00:01:26,435
+We get the not a
+and then the rest,
+
+37
+00:01:26,435 --> 00:01:29,615
+and we get the b.
+And then the rest.
+
+38
+00:01:29,615 --> 00:01:32,030
+Now doesn't have to be
+
+39
+00:01:32,030 --> 00:01:34,790
+a single letter that's
+repeated there.
+
+40
+00:01:34,790 --> 00:01:38,465
+We've seen that not a
+occurs on both sides.
+
+41
+00:01:38,465 --> 00:01:42,065
+So we can immediately
+say it's immediate.
+
+42
+00:01:42,065 --> 00:01:44,495
+And bore line on top.
+
+43
+00:01:44,495 --> 00:01:46,700
+That deals with that side.
+
+44
+00:01:46,700 --> 00:01:48,605
+What happens on the other side?
+
+45
+00:01:48,605 --> 00:01:50,450
+Again, we got the all rule.
+
+46
+00:01:50,450 --> 00:01:51,890
+So we get this Nazi at
+
+47
+00:01:51,890 --> 00:01:54,469
+the beginning and a
+not b and we replace,
+
+48
+00:01:54,469 --> 00:01:57,394
+we do both of those
+with the resp repeated.
+
+49
+00:01:57,394 --> 00:01:59,990
+So the first one is
+the B and then the
+
+50
+00:01:59,990 --> 00:02:03,650
+Nazi that comes from left
+hand side of the 4x,
+
+51
+00:02:03,650 --> 00:02:05,330
+and then whatever's on the right,
+
+52
+00:02:05,330 --> 00:02:08,015
+next one is the B, the B again.
+
+53
+00:02:08,015 --> 00:02:10,430
+And then whatever
+came on the right.
+
+54
+00:02:10,430 --> 00:02:12,335
+So now we're going to move that
+
+55
+00:02:12,335 --> 00:02:14,690
+see across while
+moving that c across.
+
+56
+00:02:14,690 --> 00:02:16,175
+This gives me two
+things on the right,
+
+57
+00:02:16,175 --> 00:02:17,330
+I might as well just write one of
+
+58
+00:02:17,330 --> 00:02:19,010
+them because this is a set.
+
+59
+00:02:19,010 --> 00:02:22,040
+If I look at that, I
+can now move the a,
+
+60
+00:02:22,040 --> 00:02:23,780
+it's a not, so I move
+it to the other side.
+
+61
+00:02:23,780 --> 00:02:25,865
+There's a stray comma
+there, but never mind.
+
+62
+00:02:25,865 --> 00:02:27,395
+And once we have that,
+
+63
+00:02:27,395 --> 00:02:28,730
+we can't go any further.
+
+64
+00:02:28,730 --> 00:02:31,025
+So we come down here and look
+up what's happening here.
+
+65
+00:02:31,025 --> 00:02:33,950
+We had to be so we'll just
+keep one of them and they
+
+66
+00:02:33,950 --> 00:02:37,265
+say we'll move over to the
+left and that's the end.
+
+67
+00:02:37,265 --> 00:02:38,900
+We can't go any further.
+
+68
+00:02:38,900 --> 00:02:41,630
+We can't do anything with this.
+
+69
+00:02:41,630 --> 00:02:43,430
+And well, this is the same,
+
+70
+00:02:43,430 --> 00:02:45,079
+but that's just by chance.
+
+71
+00:02:45,079 --> 00:02:46,805
+What does this tell me?
+
+72
+00:02:46,805 --> 00:02:49,790
+Here? We know that
+this is always valid.
+
+73
+00:02:49,790 --> 00:02:53,450
+So if this is valid,
+tendencies apart,
+
+74
+00:02:53,450 --> 00:02:56,090
+in order to say
+that this is valid,
+
+75
+00:02:56,090 --> 00:02:57,890
+we have to say that this one is
+
+76
+00:02:57,890 --> 00:03:00,545
+valid and this one's valid.
+
+77
+00:03:00,545 --> 00:03:04,700
+So we've got a much simpler
+way of talking about this.
+
+78
+00:03:04,700 --> 00:03:06,740
+Let's suppose this is valid than
+
+79
+00:03:06,740 --> 00:03:08,960
+we've deduced that
+these must be valid.
+
+80
+00:03:08,960 --> 00:03:10,100
+And in fact, since
+they're the same,
+
+81
+00:03:10,100 --> 00:03:12,215
+but we've deduced that
+this must be valid.
+
+82
+00:03:12,215 --> 00:03:15,005
+Similarly, if these are valid,
+
+83
+00:03:15,005 --> 00:03:17,165
+then we can track back down
+
+84
+00:03:17,165 --> 00:03:20,240
+because these are all
+double, double line rules.
+
+85
+00:03:20,240 --> 00:03:21,770
+And say this is valid,
+
+86
+00:03:21,770 --> 00:03:27,395
+this is valid if and only if
+this is valid. It's magic.
+
+87
+00:03:27,395 --> 00:03:30,695
+So the upshot of that is,
+
+88
+00:03:30,695 --> 00:03:34,265
+these things are valid
+in some universe U,
+
+89
+00:03:34,265 --> 00:03:37,835
+if and only if this is
+valid in that universe.
+
+90
+00:03:37,835 --> 00:03:42,755
+That means effectively,
+we've derived a new rule.
+
+91
+00:03:42,755 --> 00:03:45,380
+Has to be a bit silly to
+have around as a rule
+
+92
+00:03:45,380 --> 00:03:48,365
+because this is rather
+special purpose thing.
+
+93
+00:03:48,365 --> 00:03:49,385
+Why would we want it?
+
+94
+00:03:49,385 --> 00:03:52,100
+But if it was some very
+important thing to us,
+
+95
+00:03:52,100 --> 00:03:53,585
+we can have that there and say,
+
+96
+00:03:53,585 --> 00:03:56,900
+actually, we've got a rule
+that deals with this,
+
+97
+00:03:56,900 --> 00:03:59,315
+whatever that funny
+combination is.
+
+98
+00:03:59,315 --> 00:04:04,130
+Okay? So this is a way that
+you can make new rows.
+
+99
+00:04:04,130 --> 00:04:06,650
+If you're given
+something like this,
+
+100
+00:04:06,650 --> 00:04:08,240
+you can make a rule that says,
+
+101
+00:04:08,240 --> 00:04:10,640
+how do I treat it when
+it's on the right.
+
+102
+00:04:10,640 --> 00:04:13,190
+You could also take
+something and put
+
+103
+00:04:13,190 --> 00:04:15,440
+it on the left of the
+turnstile and then say,
+
+104
+00:04:15,440 --> 00:04:17,900
+how do I treat it when
+it's on the left?
+
+105
+00:04:17,900 --> 00:04:20,180
+Using the same tricks?
+
+106
+00:04:20,180 --> 00:04:21,800
+And in this example, of course,
+
+107
+00:04:21,800 --> 00:04:25,475
+because those two things are
+actually the same thing,
+
+108
+00:04:25,475 --> 00:04:28,130
+we can write it as that rule.
+
+109
+00:04:28,130 --> 00:04:31,835
+This also lets us
+
+110
+00:04:31,835 --> 00:04:38,555
+show when some complicated
+expression is false,
+
+111
+00:04:38,555 --> 00:04:39,890
+if I want to produce
+
+112
+00:04:39,890 --> 00:04:43,175
+a universe in which
+this doesn't hold,
+
+113
+00:04:43,175 --> 00:04:45,710
+then I just need to produce
+
+114
+00:04:45,710 --> 00:04:48,785
+a universe where
+this doesn't hold.
+
+115
+00:04:48,785 --> 00:04:51,905
+Because any universe
+where this is valid,
+
+116
+00:04:51,905 --> 00:04:54,095
+this is valid and vice versa.
+
+117
+00:04:54,095 --> 00:04:56,360
+So if I make something
+where this doesn't hold,
+
+118
+00:04:56,360 --> 00:04:58,925
+I know that in that
+universe, this won't hope.
+
+119
+00:04:58,925 --> 00:05:03,950
+How do I make a comma b
+satisfies, say not hold.
+
+120
+00:05:03,950 --> 00:05:06,110
+What kind of individual
+Do I need to
+
+121
+00:05:06,110 --> 00:05:08,510
+show you to show that
+that's not true?
+
+122
+00:05:08,510 --> 00:05:10,670
+Because remember
+saying it holds is
+
+123
+00:05:10,670 --> 00:05:13,160
+to say for every individual,
+
+124
+00:05:13,160 --> 00:05:17,975
+if a and B are both properties
+of that individual,
+
+125
+00:05:17,975 --> 00:05:19,745
+then c is a property.
+
+126
+00:05:19,745 --> 00:05:22,310
+So in order to show
+that that's not true,
+
+127
+00:05:22,310 --> 00:05:24,920
+we just needed to
+produce one individual
+
+128
+00:05:24,920 --> 00:05:28,700
+for which a holds and p holds,
+
+129
+00:05:28,700 --> 00:05:30,515
+but C doesn't hold.
+
+130
+00:05:30,515 --> 00:05:34,100
+So how do we do that? Make
+a world with an individual?
+
+131
+00:05:34,100 --> 00:05:36,290
+A is true, that
+individual pay is true,
+
+132
+00:05:36,290 --> 00:05:39,625
+that individual and C is false
+that you can, for example,
+
+133
+00:05:39,625 --> 00:05:43,070
+counterexample to that,
+makes every antecedent,
+
+134
+00:05:43,070 --> 00:05:45,170
+everything on the left True,
+
+135
+00:05:45,170 --> 00:05:46,880
+and every succeeding false,
+
+136
+00:05:46,880 --> 00:05:48,500
+everything on the right false.
+
+137
+00:05:48,500 --> 00:05:50,555
+And then we've got
+a counterexample
+
+138
+00:05:50,555 --> 00:05:54,215
+that will work to provide
+a counterexample.
+
+139
+00:05:54,215 --> 00:05:58,550
+Even if you've got 20
+things on the right,
+
+140
+00:05:58,550 --> 00:06:00,095
+30 things on the left,
+
+141
+00:06:00,095 --> 00:06:02,240
+nothing on the right,
+nothing on the left.
+
+142
+00:06:02,240 --> 00:06:05,270
+Any number any number
+as big as you like.
+
+143
+00:06:05,270 --> 00:06:08,405
+That's what it means to have
+a counterexample is to say,
+
+144
+00:06:08,405 --> 00:06:10,100
+I'll give you something for
+
+145
+00:06:10,100 --> 00:06:12,425
+which everything on
+the left is true.
+
+146
+00:06:12,425 --> 00:06:14,765
+Everything on the right is false.
+
+147
+00:06:14,765 --> 00:06:17,240
+The only time you
+could get something
+
+148
+00:06:17,240 --> 00:06:19,520
+that looks a bit like this
+
+149
+00:06:19,520 --> 00:06:25,640
+and couldn't do that
+would be the same.
+
+150
+00:06:25,640 --> 00:06:28,955
+Latter occurred both on
+the left and the right.
+
+151
+00:06:28,955 --> 00:06:30,575
+But when the same letter
+
+152
+00:06:30,575 --> 00:06:32,540
+occurs both on the
+left and the right,
+
+153
+00:06:32,540 --> 00:06:33,950
+then we can apply
+the immediate rule.
+
+154
+00:06:33,950 --> 00:06:35,345
+So we'd never get one of those.
+
+155
+00:06:35,345 --> 00:06:39,965
+If we end up with one
+of these sequence,
+
+156
+00:06:39,965 --> 00:06:43,265
+then we can always
+produce a counterexample.
+
+157
+00:06:43,265 --> 00:06:45,800
+If there are many of them
+counterexample to any one of
+
+158
+00:06:45,800 --> 00:06:48,380
+them will be a counter-example
+to what's at the bottom,
+
+159
+00:06:48,380 --> 00:06:50,420
+two different inference trees.
+
+160
+00:06:50,420 --> 00:06:53,975
+On the left, we've got
+the first one we did.
+
+161
+00:06:53,975 --> 00:06:57,290
+Every branch is terminated.
+
+162
+00:06:57,290 --> 00:06:58,955
+We think that this is a tree
+
+163
+00:06:58,955 --> 00:07:00,620
+that we draw the tree for you.
+
+164
+00:07:00,620 --> 00:07:02,870
+Trees start from
+the ground and they
+
+165
+00:07:02,870 --> 00:07:05,790
+grow up and they have branches.
+
+166
+00:07:09,130 --> 00:07:13,220
+Cedar trees. That's what
+a tree is mathematically.
+
+167
+00:07:13,220 --> 00:07:15,980
+The tree on the left,
+
+168
+00:07:15,980 --> 00:07:19,640
+every branch is terminated
+by an immediate rule.
+
+169
+00:07:19,640 --> 00:07:21,650
+So we call those pieces of
+
+170
+00:07:21,650 --> 00:07:24,080
+the tree branches
+paths ago of flight.
+
+171
+00:07:24,080 --> 00:07:27,650
+That sequent we started from
+is valid in every universe.
+
+172
+00:07:27,650 --> 00:07:28,805
+That's what we get from that.
+
+173
+00:07:28,805 --> 00:07:31,610
+On the other hand, we can
+get a case like this where
+
+174
+00:07:31,610 --> 00:07:35,795
+some branches lead,
+lead to leaves.
+
+175
+00:07:35,795 --> 00:07:39,170
+And these leaves are
+sequences with only atoms
+
+176
+00:07:39,170 --> 00:07:42,170
+because we couldn't get
+rid of any connective.
+
+177
+00:07:42,170 --> 00:07:43,910
+There's a role for
+it. So we just keep
+
+178
+00:07:43,910 --> 00:07:46,399
+applying the rules to be got
+rid of all the connectives.
+
+179
+00:07:46,399 --> 00:07:47,690
+That's what simpler means.
+
+180
+00:07:47,690 --> 00:07:50,300
+We're making them simpler by
+getting rid of connective.
+
+181
+00:07:50,300 --> 00:07:53,690
+If anatomy occurs on both sides,
+
+182
+00:07:53,690 --> 00:07:55,070
+then we can apply the immediate
+
+183
+00:07:55,070 --> 00:07:56,435
+rule so we don't get a leaf.
+
+184
+00:07:56,435 --> 00:07:58,115
+But if it doesn't,
+
+185
+00:07:58,115 --> 00:08:00,860
+then we can make a counterexample
+jaw starting sequence
+
+186
+00:08:00,860 --> 00:08:02,780
+is valid in some universe U,
+
+187
+00:08:02,780 --> 00:08:06,020
+if and only if each of
+the leaves is valid.
+
+188
+00:08:06,020 --> 00:08:07,160
+To make it invalid,
+
+189
+00:08:07,160 --> 00:08:09,965
+we just have to invalidate
+one of the leaves.
+
+190
+00:08:09,965 --> 00:08:11,900
+That gives you huge power.
+
+191
+00:08:11,900 --> 00:08:13,430
+I can make it very complicated
+
+192
+00:08:13,430 --> 00:08:15,395
+down the bottom and mechanically,
+
+193
+00:08:15,395 --> 00:08:18,095
+just now, find the right rule.
+
+194
+00:08:18,095 --> 00:08:20,870
+Sometimes there will be more
+than one rule that applies,
+
+195
+00:08:20,870 --> 00:08:22,850
+doesn't matter which
+one you do first,
+
+196
+00:08:22,850 --> 00:08:24,485
+you will get an
+equivalent answer.
+
+197
+00:08:24,485 --> 00:08:27,020
+Whichever way you do it, it
+might take longer for you.
+
+198
+00:08:27,020 --> 00:08:29,435
+Sometimes if you choose
+to do a branching thing
+
+199
+00:08:29,435 --> 00:08:32,435
+before you do a single
+continuing one,
+
+200
+00:08:32,435 --> 00:08:34,100
+you'll get there in
+the end, it will
+
+201
+00:08:34,100 --> 00:08:35,765
+terminate. Why will it terminate?
+
+202
+00:08:35,765 --> 00:08:38,104
+Why does this procedure stop?
+
+203
+00:08:38,104 --> 00:08:40,220
+How do I know I can get
+
+204
+00:08:40,220 --> 00:08:44,210
+some really tricky formula
+where it will keep going.
+
+205
+00:08:44,210 --> 00:08:46,280
+I think the easiest
+way is to talk
+
+206
+00:08:46,280 --> 00:08:48,860
+about the death of connectors.
+
+207
+00:08:48,860 --> 00:08:50,450
+We talk about, but not next to
+
+208
+00:08:50,450 --> 00:08:52,355
+pay years having
+depth one let say.
+
+209
+00:08:52,355 --> 00:08:53,570
+And then if I put that together,
+
+210
+00:08:53,570 --> 00:08:54,590
+that's got depth true.
+
+211
+00:08:54,590 --> 00:08:56,510
+So we're talking about
+how deeply nested
+
+212
+00:08:56,510 --> 00:08:58,640
+It is and the depth,
+
+213
+00:08:58,640 --> 00:09:00,890
+the maximum depth is coming
+down cuz you always take
+
+214
+00:09:00,890 --> 00:09:03,455
+the maximum depth one
+and get rid of it.
+
+215
+00:09:03,455 --> 00:09:05,150
+Now you bought
+smaller ones and that
+
+216
+00:09:05,150 --> 00:09:06,980
+can only be finite
+many of that depth.
+
+217
+00:09:06,980 --> 00:09:08,735
+So you'll get through all
+those finite the many.
+
+218
+00:09:08,735 --> 00:09:10,250
+And now you've taken
+the depth down.
+
+219
+00:09:10,250 --> 00:09:11,960
+So you can write
+that kind of proof.
+
+220
+00:09:11,960 --> 00:09:14,180
+All I want you to do is
+not write down the proof.
+
+221
+00:09:14,180 --> 00:09:15,920
+I want you to really believe
+
+222
+00:09:15,920 --> 00:09:17,870
+it in your head that
+this is going to stop.
+
+223
+00:09:17,870 --> 00:09:19,220
+It may get complicated.
+
+224
+00:09:19,220 --> 00:09:21,875
+You may need more paper,
+but it will start it.
+
+225
+00:09:21,875 --> 00:09:23,690
+That's achieved what I want
+
+226
+00:09:23,690 --> 00:09:25,940
+you to get over in this lecture,
+
+227
+00:09:25,940 --> 00:09:29,330
+there are these roles with
+the gammas and deltas.
+
+228
+00:09:29,330 --> 00:09:30,635
+The gammas and deltas
+
+229
+00:09:30,635 --> 00:09:32,270
+can be added to rules
+because they're
+
+230
+00:09:32,270 --> 00:09:35,420
+just talking about some
+particular sub universe.
+
+231
+00:09:35,420 --> 00:09:38,945
+I think Amazon deltas aren't
+conceptually difficult.
+
+232
+00:09:38,945 --> 00:09:41,480
+The sense of what does it mean,
+
+233
+00:09:41,480 --> 00:09:43,745
+they just mean you're looking
+at some sub universe.
+
+234
+00:09:43,745 --> 00:09:46,280
+They are very useful
+because they enable you to
+
+235
+00:09:46,280 --> 00:09:48,770
+do proofs in ways you
+couldn't without having them.
+
+236
+00:09:48,770 --> 00:09:51,425
+That this keeps track all
+complicated arguments.
+
+237
+00:09:51,425 --> 00:09:52,670
+If this word then
+we could look at
+
+238
+00:09:52,670 --> 00:09:54,140
+this sub universe and
+that will be true.
+
+239
+00:09:54,140 --> 00:09:55,460
+And you don't need to do that.
+
+240
+00:09:55,460 --> 00:09:58,550
+You just manipulate the rules
+and it's doing it for you.
+
+241
+00:09:58,550 --> 00:10:01,955
+And you can apply those
+rules mechanically.
+
+242
+00:10:01,955 --> 00:10:06,019
+And either you'll end up with
+immediate rules everywhere.
+
+243
+00:10:06,019 --> 00:10:08,630
+In which case, the
+thing you were talking
+
+244
+00:10:08,630 --> 00:10:12,095
+about is valid in every
+universe or you weren't.
+
+245
+00:10:12,095 --> 00:10:15,980
+In which case, you will
+find various sequence at
+
+246
+00:10:15,980 --> 00:10:18,125
+the top that enable
+you to construct
+
+247
+00:10:18,125 --> 00:10:21,930
+counterexamples that show that
+it's not valid everywhere.

@@ -1,0 +1,435 @@
+1
+00:00:00,000 --> 00:00:01,905
+Now we have these rules,
+
+2
+00:00:01,905 --> 00:00:06,210
+and these rules are
+valid in any universe.
+
+3
+00:00:06,210 --> 00:00:07,725
+Fluid, in some universe,
+
+4
+00:00:07,725 --> 00:00:10,695
+I add gammas and deltas,
+
+5
+00:00:10,695 --> 00:00:13,410
+basically everywhere, the
+same gamma everywhere on
+
+6
+00:00:13,410 --> 00:00:16,860
+the left and the same delta
+everywhere on the right.
+
+7
+00:00:16,860 --> 00:00:19,880
+If I put a gamma here,
+
+8
+00:00:19,880 --> 00:00:23,405
+gamma here, a delta there,
+
+9
+00:00:23,405 --> 00:00:25,685
+and a delta there,
+
+10
+00:00:25,685 --> 00:00:29,930
+that I'm saying that that
+rule that is only there in
+
+11
+00:00:29,930 --> 00:00:33,935
+black is valid in the universe
+
+12
+00:00:33,935 --> 00:00:37,790
+where everything in
+gamma is true and
+
+13
+00:00:37,790 --> 00:00:41,734
+everything in delta is false,
+that's another universe.
+
+14
+00:00:41,734 --> 00:00:44,885
+And this rule is valid
+in all universes.
+
+15
+00:00:44,885 --> 00:00:46,760
+So that's certainly the case.
+
+16
+00:00:46,760 --> 00:00:48,080
+So if I have any one of
+
+17
+00:00:48,080 --> 00:00:50,000
+my rules that we've
+already written
+
+18
+00:00:50,000 --> 00:00:51,830
+down and I decorate it
+
+19
+00:00:51,830 --> 00:00:54,125
+with these extra
+gammas and deltas.
+
+20
+00:00:54,125 --> 00:00:56,300
+I'm really not saying
+anything different.
+
+21
+00:00:56,300 --> 00:00:57,980
+I'm just saying in
+these particular
+
+22
+00:00:57,980 --> 00:01:00,245
+places that rule holds.
+
+23
+00:01:00,245 --> 00:01:05,330
+So these roles are valid
+because now this is saying
+
+24
+00:01:05,330 --> 00:01:10,820
+that if this holds
+in that universe,
+
+25
+00:01:10,820 --> 00:01:13,100
+of that part of the
+universe where every gamma
+
+26
+00:01:13,100 --> 00:01:15,665
+is true and everything
+and delta is false,
+
+27
+00:01:15,665 --> 00:01:18,830
+then this happens in that
+part of the universe.
+
+28
+00:01:18,830 --> 00:01:20,555
+So I put the gammas
+and deltas here.
+
+29
+00:01:20,555 --> 00:01:23,780
+If we write the rules without
+the gammas and deltas,
+
+30
+00:01:23,780 --> 00:01:25,610
+provided they sound, we can add
+
+31
+00:01:25,610 --> 00:01:28,040
+the gammas and deltas
+and they still sound.
+
+32
+00:01:28,040 --> 00:01:30,590
+So we add them. This is
+
+33
+00:01:30,590 --> 00:01:32,810
+the form in which you
+will normally see
+
+34
+00:01:32,810 --> 00:01:34,580
+these rules learned to love
+
+35
+00:01:34,580 --> 00:01:38,465
+them to the end or all
+rules which are here.
+
+36
+00:01:38,465 --> 00:01:42,725
+I've added one which
+is the immediate rule.
+
+37
+00:01:42,725 --> 00:01:46,295
+I normally draw that with
+a single line on top.
+
+38
+00:01:46,295 --> 00:01:48,590
+That doesn't mean it
+doesn't go both ways.
+
+39
+00:01:48,590 --> 00:01:50,720
+It just means that actually you
+
+40
+00:01:50,720 --> 00:01:53,165
+don't need anything
+on top to come down.
+
+41
+00:01:53,165 --> 00:01:56,150
+This rule says, it is
+
+42
+00:01:56,150 --> 00:01:59,839
+always the case if a
+occurs on both sides.
+
+43
+00:01:59,839 --> 00:02:03,650
+Remember, the sequence is valid.
+
+44
+00:02:03,650 --> 00:02:06,875
+If when I make
+everything here true,
+
+45
+00:02:06,875 --> 00:02:10,205
+then I make something here true.
+
+46
+00:02:10,205 --> 00:02:11,420
+If I make everything here true,
+
+47
+00:02:11,420 --> 00:02:13,130
+I make a true and a is here.
+
+48
+00:02:13,130 --> 00:02:14,390
+So I've made something
+that troops.
+
+49
+00:02:14,390 --> 00:02:17,255
+So that's, that's
+trivially it's immediate.
+
+50
+00:02:17,255 --> 00:02:19,160
+That's the eye. It's
+an immediate rule.
+
+51
+00:02:19,160 --> 00:02:20,255
+We just write it down.
+
+52
+00:02:20,255 --> 00:02:22,670
+And if we ever want to know why
+
+53
+00:02:22,670 --> 00:02:25,430
+that's true or say,
+why is that true?
+
+54
+00:02:25,430 --> 00:02:27,620
+We put a line with nothing
+above it to say it's
+
+55
+00:02:27,620 --> 00:02:30,620
+true because from
+nothing I can get that.
+
+56
+00:02:30,620 --> 00:02:36,005
+Whereas these rules, if I
+have this valid somewhere,
+
+57
+00:02:36,005 --> 00:02:38,570
+then I have this and vice versa.
+
+58
+00:02:38,570 --> 00:02:40,190
+That's what the
+double line means.
+
+59
+00:02:40,190 --> 00:02:41,720
+We never need to use this one
+
+60
+00:02:41,720 --> 00:02:43,055
+backward because it would say,
+
+61
+00:02:43,055 --> 00:02:46,385
+if I know the I satisfies a,
+
+62
+00:02:46,385 --> 00:02:48,050
+then I would know that true.
+
+63
+00:02:48,050 --> 00:02:49,445
+Well, that's a bit useless.
+
+64
+00:02:49,445 --> 00:02:52,595
+Whereas here it says,
+if I know that gamma
+
+65
+00:02:52,595 --> 00:02:56,599
+satisfies a and B or Delta,
+
+66
+00:02:56,599 --> 00:02:59,255
+and think of that
+cameras and all.
+
+67
+00:02:59,255 --> 00:03:00,980
+Then I know that,
+
+68
+00:03:00,980 --> 00:03:02,540
+and I know this,
+
+69
+00:03:02,540 --> 00:03:04,010
+and I know that.
+
+70
+00:03:04,010 --> 00:03:08,000
+So these rules say
+if everything above
+
+71
+00:03:08,000 --> 00:03:10,400
+the line is valid
+
+72
+00:03:10,400 --> 00:03:13,115
+in some universe than
+in the same universe,
+
+73
+00:03:13,115 --> 00:03:15,335
+the thing below
+the line is valid.
+
+74
+00:03:15,335 --> 00:03:19,130
+The other thing is, these
+are formerly finite sets.
+
+75
+00:03:19,130 --> 00:03:21,620
+So really, I should write this as
+
+76
+00:03:21,620 --> 00:03:26,390
+the set delta together with
+the singleton a and B.
+
+77
+00:03:26,390 --> 00:03:28,910
+But if we get too many
+brackets all over
+
+78
+00:03:28,910 --> 00:03:30,410
+the place and it's
+much easier just to
+
+79
+00:03:30,410 --> 00:03:32,270
+know that assets in our head.
+
+80
+00:03:32,270 --> 00:03:34,580
+So it doesn't matter what order
+we write things in and it
+
+81
+00:03:34,580 --> 00:03:37,175
+doesn't matter how many
+times I duplicate something,
+
+82
+00:03:37,175 --> 00:03:40,940
+but I'll write them
+just as lists.
+
+83
+00:03:40,940 --> 00:03:44,120
+Commerce, I got a negation
+rule down the bottom.
+
+84
+00:03:44,120 --> 00:03:48,245
+The assumption says, if
+everything gamma is true,
+
+85
+00:03:48,245 --> 00:03:50,540
+then either a is
+true or something
+
+86
+00:03:50,540 --> 00:03:52,040
+adultery is true
+because something
+
+87
+00:03:52,040 --> 00:03:53,540
+in this list altogether,
+
+88
+00:03:53,540 --> 00:03:56,105
+this is set on the right
+altogether is true.
+
+89
+00:03:56,105 --> 00:03:59,345
+So either it's a or it's
+something that's in delta.
+
+90
+00:03:59,345 --> 00:04:05,465
+This says, if I've made a
+false and I know gamma,
+
+91
+00:04:05,465 --> 00:04:06,830
+then I know something
+intelligible.
+
+92
+00:04:06,830 --> 00:04:09,500
+If I've made a false
+and I know gamma,
+
+93
+00:04:09,500 --> 00:04:10,880
+then it can't be a, That's true.
+
+94
+00:04:10,880 --> 00:04:12,050
+So it must be something in delta.
+
+95
+00:04:12,050 --> 00:04:14,280
+That's how that rule works.

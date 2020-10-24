@@ -1,0 +1,220 @@
+1
+00:00:00,950 --> 00:00:05,130
+We're going to change
+the subject now to do
+
+2
+00:00:05,130 --> 00:00:09,735
+something that's no longer
+back in Aristotle's time.
+
+3
+00:00:09,735 --> 00:00:13,275
+But that it is due to blow,
+
+4
+00:00:13,275 --> 00:00:18,510
+who lived in the 19th
+century of an American PS,
+
+5
+00:00:18,510 --> 00:00:22,770
+who's very little known in
+the UK because he's American,
+
+6
+00:00:22,770 --> 00:00:26,010
+but actually did an
+awful lot to sort out
+
+7
+00:00:26,010 --> 00:00:27,960
+those ideas and make them
+
+8
+00:00:27,960 --> 00:00:30,255
+much clearer and
+easier to deal with.
+
+9
+00:00:30,255 --> 00:00:32,670
+Then Jensen, who worked on
+
+10
+00:00:32,670 --> 00:00:35,385
+the rules that we will
+be looking at today.
+
+11
+00:00:35,385 --> 00:00:39,140
+Jensen, change the way
+we write these rules.
+
+12
+00:00:39,140 --> 00:00:41,210
+We started with the idea
+
+13
+00:00:41,210 --> 00:00:44,990
+every a is B just means
+a is contained in B.
+
+14
+00:00:44,990 --> 00:00:48,950
+Sometimes we wrote
+a comma b satisfy
+
+15
+00:00:48,950 --> 00:00:52,985
+C. And that means if
+a and B then C here,
+
+16
+00:00:52,985 --> 00:00:55,355
+let's look at a little inference.
+
+17
+00:00:55,355 --> 00:00:59,870
+C satisfies IOP, then no,
+
+18
+00:00:59,870 --> 00:01:05,540
+AOB satisfies Nazi,
+that's contraposition.
+
+19
+00:01:05,540 --> 00:01:07,370
+Then if we know de Morgan,
+
+20
+00:01:07,370 --> 00:01:10,985
+we say, this is the same as that.
+
+21
+00:01:10,985 --> 00:01:14,840
+But then that's the same
+as having these two
+
+22
+00:01:14,840 --> 00:01:17,150
+separately because the comma
+
+23
+00:01:17,150 --> 00:01:19,595
+on the left just
+counts as an end.
+
+24
+00:01:19,595 --> 00:01:21,290
+Because we interpret
+this as saying,
+
+25
+00:01:21,290 --> 00:01:25,140
+if this is true and this
+is true, then that's true.
+
+26
+00:01:25,150 --> 00:01:28,775
+If I have this.
+
+27
+00:01:28,775 --> 00:01:32,480
+And for a moment, I
+changed the rules and say,
+
+28
+00:01:32,480 --> 00:01:33,950
+instead of doing
+a contraposition,
+
+29
+00:01:33,950 --> 00:01:35,450
+that just lets me move one thing
+
+30
+00:01:35,450 --> 00:01:37,490
+across and one thing back.
+
+31
+00:01:37,490 --> 00:01:40,370
+I'll move both of these
+across and change their sign.
+
+32
+00:01:40,370 --> 00:01:42,830
+And I'll move this one
+back and change its sign.
+
+33
+00:01:42,830 --> 00:01:45,455
+That I get two
+things on the right.
+
+34
+00:01:45,455 --> 00:01:47,930
+And what do those two
+things on the right mean?
+
+35
+00:01:47,930 --> 00:01:49,325
+Well, if we look here,
+
+36
+00:01:49,325 --> 00:01:53,285
+it means a calmer on the
+right corresponds to an OR.
+
+37
+00:01:53,285 --> 00:01:55,070
+It's the game we'll play will
+
+38
+00:01:55,070 --> 00:01:58,475
+make sequence they're called,
+
+39
+00:01:58,475 --> 00:02:01,279
+which are just like our
+normal satisfaction,
+
+40
+00:02:01,279 --> 00:02:02,750
+except we can have
+a finite number
+
+41
+00:02:02,750 --> 00:02:04,250
+of things on the left and
+
+42
+00:02:04,250 --> 00:02:08,554
+a finite number of things on
+the right and on the left.
+
+43
+00:02:08,554 --> 00:02:10,145
+When we write the calmer,
+
+44
+00:02:10,145 --> 00:02:12,185
+you think of it as end.
+
+45
+00:02:12,185 --> 00:02:14,105
+And on the right
+you think of it is,
+
+46
+00:02:14,105 --> 00:02:16,685
+or what the sequence says is,
+
+47
+00:02:16,685 --> 00:02:19,490
+if all the things on
+the left are true,
+
+48
+00:02:19,490 --> 00:02:22,920
+then at least one of the
+things on the right is true.

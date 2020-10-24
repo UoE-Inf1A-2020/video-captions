@@ -1,0 +1,289 @@
+1
+00:00:00,500 --> 00:00:03,240
+Now we're going to
+do the same thing
+
+2
+00:00:03,240 --> 00:00:04,620
+for things. On the right.
+
+3
+00:00:04,620 --> 00:00:07,395
+We have the laws about not,
+
+4
+00:00:07,395 --> 00:00:10,080
+which say that a satisfies
+
+5
+00:00:10,080 --> 00:00:13,710
+the comedy if and only if a and
+
+6
+00:00:13,710 --> 00:00:16,500
+not the satisfies P. So we
+
+7
+00:00:16,500 --> 00:00:20,714
+take effectively the
+diagram we had before.
+
+8
+00:00:20,714 --> 00:00:22,470
+But this time we're saying we're
+
+9
+00:00:22,470 --> 00:00:25,140
+focusing on the things
+that don't satisfy
+
+10
+00:00:25,140 --> 00:00:28,920
+D. So this corresponds
+
+11
+00:00:28,920 --> 00:00:32,200
+to looking at things
+which don't satisfy dy.
+
+12
+00:00:36,370 --> 00:00:41,345
+Doing that with a delta here.
+
+13
+00:00:41,345 --> 00:00:44,030
+To bring that delta
+over here first,
+
+14
+00:00:44,030 --> 00:00:45,560
+we need to make all of
+
+15
+00:00:45,560 --> 00:00:47,855
+the deltas to make
+it into one thing,
+
+16
+00:00:47,855 --> 00:00:49,250
+then we can bring it over here.
+
+17
+00:00:49,250 --> 00:00:52,670
+So that's not all delta.
+
+18
+00:00:52,670 --> 00:00:55,385
+What does it mean to
+say not all delta?
+
+19
+00:00:55,385 --> 00:00:56,720
+I gave you three property.
+
+20
+00:00:56,720 --> 00:01:00,560
+It's not big or Reg
+what does that mean?
+
+21
+00:01:00,560 --> 00:01:03,680
+It's not big and it's not red.
+
+22
+00:01:03,680 --> 00:01:08,540
+So to say that some
+things in this is to
+
+23
+00:01:08,540 --> 00:01:14,465
+say every single one of the
+properties in delta is false.
+
+24
+00:01:14,465 --> 00:01:16,430
+Something that's here. If any of
+
+25
+00:01:16,430 --> 00:01:18,125
+the properties in delta true,
+
+26
+00:01:18,125 --> 00:01:20,390
+it would be over here
+because then we'd have,
+
+27
+00:01:20,390 --> 00:01:21,680
+yes, it's true for one of them.
+
+28
+00:01:21,680 --> 00:01:24,095
+So it's true for the
+or of all of them.
+
+29
+00:01:24,095 --> 00:01:26,660
+So that takes us to,
+
+30
+00:01:26,660 --> 00:01:29,210
+if we have a delta on the right,
+
+31
+00:01:29,210 --> 00:01:31,670
+then this is valid in you.
+
+32
+00:01:31,670 --> 00:01:33,530
+If this is valid in
+
+33
+00:01:33,530 --> 00:01:35,150
+the universe of all
+those things for which
+
+34
+00:01:35,150 --> 00:01:38,945
+everybody in delta is false.
+
+35
+00:01:38,945 --> 00:01:40,670
+And then of course
+we're going to put
+
+36
+00:01:40,670 --> 00:01:43,040
+those two pictures together.
+
+37
+00:01:43,040 --> 00:01:48,920
+So here's the picture for
+where every G is true.
+
+38
+00:01:48,920 --> 00:01:55,200
+Here's the picture for where
+every day in delta is false.
+
+39
+00:01:56,730 --> 00:02:01,750
+And I can take the things
+where every G is true,
+
+40
+00:02:01,750 --> 00:02:03,505
+that keeps me above
+the green line,
+
+41
+00:02:03,505 --> 00:02:05,950
+where every day is false that
+
+42
+00:02:05,950 --> 00:02:08,665
+B brings me below the red line.
+
+43
+00:02:08,665 --> 00:02:12,320
+And that means that I'm looking
+at this pit that's left.
+
+44
+00:02:14,940 --> 00:02:17,110
+This is the only one of
+
+45
+00:02:17,110 --> 00:02:20,665
+those few slides that
+you need to remember.
+
+46
+00:02:20,665 --> 00:02:24,085
+This is the end point
+of this little story.
+
+47
+00:02:24,085 --> 00:02:26,920
+It says that if I look at
+
+48
+00:02:26,920 --> 00:02:30,100
+one of these sequence
+and a satisfies B,
+
+49
+00:02:30,100 --> 00:02:32,230
+which we're very familiar
+with the extended
+
+50
+00:02:32,230 --> 00:02:34,870
+by putting a gamma
+and adults are there.
+
+51
+00:02:34,870 --> 00:02:37,825
+How should we understand or
+how can we understand it?
+
+52
+00:02:37,825 --> 00:02:42,110
+Because by choosing
+different a's and b's,
+
+53
+00:02:42,110 --> 00:02:43,730
+we can always put things
+in different orders.
+
+54
+00:02:43,730 --> 00:02:47,630
+So we could choose a different
+day out of gamma and put
+
+55
+00:02:47,630 --> 00:02:51,890
+this one back or different
+B out of delta is one back.
+
+56
+00:02:51,890 --> 00:02:54,680
+We choose an i and v. And then we
+
+57
+00:02:54,680 --> 00:02:57,770
+can say what we want
+to know now is,
+
+58
+00:02:57,770 --> 00:03:02,480
+is a satisfies P valid in
+
+59
+00:03:02,480 --> 00:03:04,505
+the universe are those
+things for which
+
+60
+00:03:04,505 --> 00:03:07,370
+every G and gamma is true.
+
+61
+00:03:07,370 --> 00:03:10,520
+And everyday in delta is false.
+
+62
+00:03:10,520 --> 00:03:13,280
+So that's a way of reading
+it and putting it back
+
+63
+00:03:13,280 --> 00:03:17,840
+to something that's just
+talking about every ISP,
+
+64
+00:03:17,840 --> 00:03:21,360
+which we can understand
+more easily.
