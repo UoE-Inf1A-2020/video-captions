@@ -18,7 +18,7 @@ are known as decision trees.
 5
 00:00:09,595 --> 00:00:12,895
 We're going to take the
-test set as an example.
+chess set as an example.
 
 6
 00:00:12,895 --> 00:00:16,990
@@ -33,7 +33,7 @@ pieces, 16 of each.
 8
 00:00:20,680 --> 00:00:23,695
 Within each of those,
-there's one came,
+there's one king,
 
 9
 00:00:23,695 --> 00:00:26,335
@@ -41,7 +41,7 @@ one queen, two bishops,
 
 10
 00:00:26,335 --> 00:00:30,100
-tonight's two looks,
+two knights two rooks,
 and eight pawns.
 
 11
@@ -72,7 +72,7 @@ remaining six kinds.
 
 17
 00:00:43,080 --> 00:00:44,720
-Distinguish between nodes.
+Distinguish between those.
 
 18
 00:00:44,720 --> 00:00:46,370
@@ -80,25 +80,25 @@ We can start with the question,
 
 19
 00:00:46,370 --> 00:00:49,039
-Is it a porn or not upon?
+Is it a pawn or not a pawn?
 
 20
 00:00:49,039 --> 00:00:52,880
-If it's porn, we then done,
-and there is not important,
+If it's pawn, we're then done,
+and there is not a pawn,
 
 21
 00:00:52,880 --> 00:00:54,380
-we must decide which of
+we must then decide which of
 
 22
 00:00:54,380 --> 00:00:57,410
 the five different
-kinds there are here,
+kinds that there are here,
 
 23
 00:00:57,410 --> 00:01:01,985
-we have an example of these
+we have an example of. These
 are called the minor pieces,
 
 24
@@ -121,13 +121,13 @@ answer that it's minor,
 
 28
 00:01:11,060 --> 00:01:12,725
-that it's either a
+then it's either a
 night or two Bishop.
 
 29
 00:01:12,725 --> 00:01:14,915
 So one more question,
-we'll finish things.
+will finish things.
 
 30
 00:01:14,915 --> 00:01:17,150
@@ -141,7 +141,7 @@ rock or a royal.
 
 32
 00:01:19,760 --> 00:01:21,395
-If it's Uruk, we're finished.
+If it's a rook, we're finished.
 
 33
 00:01:21,395 --> 00:01:24,575
@@ -159,7 +159,7 @@ a picture of that process.
 
 36
 00:01:35,830 --> 00:01:38,915
-Hello, I'm Michael foreman.
+Hello, I'm Michael Fourman.
 
 37
 00:01:38,915 --> 00:01:42,470
@@ -174,7 +174,7 @@ show you this tree
 39
 00:01:44,660 --> 00:01:47,435
 which is the great sycamore
-in Bern and words.
+in Birnam wood.
 
 40
 00:01:47,435 --> 00:01:49,550
@@ -183,7 +183,7 @@ And as you can see,
 41
 00:01:49,550 --> 00:01:53,810
 it has roots which are hidden
-launches and it has lease.
+and it has branches and it has leaves.
 
 42
 00:01:53,810 --> 00:01:56,315
@@ -202,23 +202,23 @@ and visit Scotland,
 
 45
 00:02:02,870 --> 00:02:04,910
-unseal it wonderful
+and see all it's wonderful
 things when you have
 
 46
 00:02:04,910 --> 00:02:07,070
-a chance to come here,
-you're not here.
+the chance to come here,
+if you're not here,
 
 47
 00:02:07,070 --> 00:02:08,510
-You're missing a lot,
+you're missing a lot,
 but I hope you're
 
 48
 00:02:08,510 --> 00:02:10,400
 enjoying yourself,
-whatever you want.
+whatever you are.
 
 49
 00:02:10,400 --> 00:02:13,685
@@ -227,7 +227,7 @@ We start here.
 
 50
 00:02:13,685 --> 00:02:17,030
-We ask is it upon if it
+We ask is it a pawn if it
 is, and that's fine.
 
 51
@@ -237,11 +237,11 @@ we move to this point.
 
 52
 00:02:19,880 --> 00:02:23,360
-This symbol here, we readers not.
+This symbol here, we read as not.
 
 53
 00:02:23,360 --> 00:02:24,740
-So it's not a porn.
+So it's not a pawn.
 
 54
 00:02:24,740 --> 00:02:26,450
@@ -263,7 +263,7 @@ we then have one more question to
 58
 00:02:32,540 --> 00:02:35,180
 determine whether it's
-a bishop or a night.
+a bishop or a knight.
 
 59
 00:02:35,180 --> 00:02:38,854
@@ -285,7 +285,7 @@ We have one more question to
 63
 00:02:43,700 --> 00:02:46,010
 determine if it's
-a queen or again,
+a queen or king,
 
 64
 00:02:46,010 --> 00:02:47,885
@@ -320,7 +320,7 @@ upside down when
 
 71
 00:03:01,490 --> 00:03:04,865
-we come down anyway following
+we come down here we're following
 a branch of the tree.
 
 72
@@ -347,7 +347,7 @@ points we call nodes.
 77
 00:03:20,060 --> 00:03:23,480
 So a tree has nodes and
-edges which are brown,
+edges which are branches,
 
 78
 00:03:23,480 --> 00:03:28,564
@@ -374,11 +374,11 @@ place so we can say,
 
 83
 00:03:36,395 --> 00:03:38,915
-is it not upon?
+is it not a pawn?
 
 84
 00:03:38,915 --> 00:03:40,225
-If it's not upon,
+If it's not a pawn,
 
 85
 00:03:40,225 --> 00:03:41,480
@@ -386,20 +386,20 @@ we go this way.
 
 86
 00:03:41,480 --> 00:03:44,105
-If it is upon, and that's false,
+If it is a pawn, and that's false,
 
 87
 00:03:44,105 --> 00:03:47,285
-that it's not upon.
+that it's not a pawn.
 We go this way.
 
 88
 00:03:47,285 --> 00:03:49,505
-We asked, is it major?
+We ask, is it major?
 
 89
 00:03:49,505 --> 00:03:51,305
-If it's major, we'd go this way.
+If it's major, we go this way.
 
 90
 00:03:51,305 --> 00:03:52,790
@@ -424,11 +424,11 @@ Here, instead of asking,
 
 95
 00:04:03,905 --> 00:04:05,120
-Is it a bishop or a night,
+Is it a bishop or a knight,
 
 96
 00:04:05,120 --> 00:04:06,590
-we say, is it a night?
+we say, is it a knight?
 
 97
 00:04:06,590 --> 00:04:08,915
@@ -451,7 +451,7 @@ and false at each level.
 
 101
 00:04:21,200 --> 00:04:25,415
-And if we use 01 as coatings
+And if we use 0 and 1 as codings
 for true and false,
 
 102
@@ -465,7 +465,7 @@ a code for each kind of piece.
 
 104
 00:04:31,414 --> 00:04:33,605
-If we start here, we see a 0.
+If we start here, and we see a 0.
 
 105
 00:04:33,605 --> 00:04:34,955
@@ -473,7 +473,7 @@ We go this way.
 
 106
 00:04:34,955 --> 00:04:38,510
-We've got to porn. If we
+We've got a pawn. If we
 see a one, we go this way.
 
 107
@@ -487,23 +487,23 @@ a 0, we've got a bishop.
 
 109
 00:04:42,680 --> 00:04:45,530
-So 1-0-0, Texas to a bishop.
+So 1-0-0, takes us to a bishop.
 
 110
 00:04:45,530 --> 00:04:49,475
-1-0 one takes us to a night,
+1-0-1 takes us to a knight,
 
 111
 00:04:49,475 --> 00:04:53,255
-110 takes us to a rook,
+1-1-0 takes us to a rook,
 
 112
 00:04:53,255 --> 00:04:58,460
-and 1110 takes us to a queen,
+and 1-1-1-0 takes us to a queen,
 
 113
 00:04:58,460 --> 00:05:03,635
-and 1111 takes us to the king.
+and 1-1-1-1 takes us to the king.
 
 114
 00:05:03,635 --> 00:05:08,450
@@ -540,7 +540,7 @@ answer this question.
 
 121
 00:05:24,710 --> 00:05:28,040
-We'll ask, is it a porn or not?
+We'll ask, is it a pawn or not?
 
 122
 00:05:28,040 --> 00:05:30,785
@@ -549,18 +549,18 @@ eight things which are not.
 
 123
 00:05:30,785 --> 00:05:32,750
-And we ask, are there
+And we ask, are they
 major or minor?
 
 124
 00:05:32,750 --> 00:05:36,350
-We divide those into the
+We divide those in two, the
 minor and the major.
 
 125
 00:05:36,350 --> 00:05:40,625
 So we ask this question
-before, this question, before.
+for four, this question, for four.
 
 126
 00:05:40,625 --> 00:05:43,475
@@ -579,7 +579,7 @@ If we get a royal,
 129
 00:05:48,305 --> 00:05:52,470
 so twice we ask this
-question, is it a k?
+question, is it a king?
 
 130
 00:05:53,020 --> 00:05:57,170
@@ -589,12 +589,12 @@ which you ask one question.
 131
 00:05:57,170 --> 00:06:03,395
 There are six things for
-which we ask 123 questions.
+which we ask 1 2 3 questions.
 
 132
 00:06:03,395 --> 00:06:08,930
 And there are two things for
-which we ask 1234 questions.
+which we ask 1 2 3 4 questions.
 
 133
 00:06:08,930 --> 00:06:10,715
@@ -615,7 +615,7 @@ that I put inside these nodes.
 
 137
 00:06:17,899 --> 00:06:21,905
-So this is the code presented
+So this is a code presented
 as a decision tree.
 
 138
