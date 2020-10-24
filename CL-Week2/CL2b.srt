@@ -1,0 +1,317 @@
+1
+00:00:06,270 --> 00:00:09,940
+Now we're ready to work
+through our first example of
+
+2
+00:00:09,940 --> 00:00:14,215
+a syllogism using Venn diagrams.
+
+3
+00:00:14,215 --> 00:00:16,150
+Socrates is a man.
+
+4
+00:00:16,150 --> 00:00:17,380
+All men are mortal.
+
+5
+00:00:17,380 --> 00:00:19,314
+Therefore Socrates is mortal.
+
+6
+00:00:19,314 --> 00:00:22,314
+That's just an instance
+of this general pattern.
+
+7
+00:00:22,314 --> 00:00:26,740
+If all ILP and all
+PAC than all IRC,
+
+8
+00:00:26,740 --> 00:00:30,865
+we're going to use Venn
+diagrams to represent that.
+
+9
+00:00:30,865 --> 00:00:34,510
+The first thing is to
+understand what it means on
+
+10
+00:00:34,510 --> 00:00:38,725
+a Venn Diagram to say
+that all a are B.
+
+11
+00:00:38,725 --> 00:00:44,250
+Where we've seen this too
+predicate Venn diagram before.
+
+12
+00:00:44,250 --> 00:00:48,365
+If every a is b,
+
+13
+00:00:48,365 --> 00:00:52,415
+and we use this notation
+to say that every ASB,
+
+14
+00:00:52,415 --> 00:00:57,200
+so all ARP is a turnstile B.
+
+15
+00:00:57,200 --> 00:00:59,540
+If every a is b,
+
+16
+00:00:59,540 --> 00:01:00,965
+it's the same as saying,
+
+17
+00:01:00,965 --> 00:01:03,410
+no a is not B.
+
+18
+00:01:03,410 --> 00:01:05,120
+That's the same as saying
+
+19
+00:01:05,120 --> 00:01:08,015
+that the region in
+the Venn diagram
+
+20
+00:01:08,015 --> 00:01:13,535
+where I would put anything
+which is a but not B is empty.
+
+21
+00:01:13,535 --> 00:01:16,985
+No individual is a and not B.
+
+22
+00:01:16,985 --> 00:01:21,215
+This region of the
+Venn diagram is empty.
+
+23
+00:01:21,215 --> 00:01:24,890
+If we now want to show that
+our syllogism is sound,
+
+24
+00:01:24,890 --> 00:01:29,300
+we assume that in the
+diagram for a and b,
+
+25
+00:01:29,300 --> 00:01:31,175
+this region is empty.
+
+26
+00:01:31,175 --> 00:01:33,680
+In the diagram for B and C,
+
+27
+00:01:33,680 --> 00:01:35,899
+This region is empty.
+
+28
+00:01:35,899 --> 00:01:38,750
+We have to argue that
+if that's empty and
+
+29
+00:01:38,750 --> 00:01:42,335
+that's empty than in the
+diagram for a and C,
+
+30
+00:01:42,335 --> 00:01:44,760
+This region is empty.
+
+31
+00:01:46,000 --> 00:01:48,080
+In order to do that, we'll
+
+32
+00:01:48,080 --> 00:01:50,930
+rearrange our diagrams
+a little bit.
+
+33
+00:01:50,930 --> 00:01:53,300
+We want to take the information
+
+34
+00:01:53,300 --> 00:01:55,535
+here and the information here,
+
+35
+00:01:55,535 --> 00:01:59,630
+combine it to conclude
+that that is empty.
+
+36
+00:01:59,630 --> 00:02:02,225
+So this is empty, this is empty.
+
+37
+00:02:02,225 --> 00:02:04,460
+We want to combine
+those two facts
+
+38
+00:02:04,460 --> 00:02:06,870
+to show that this is empty.
+
+39
+00:02:08,160 --> 00:02:10,840
+What we do is to take
+
+40
+00:02:10,840 --> 00:02:16,225
+the two binary Venn
+diagrams and overlay them.
+
+41
+00:02:16,225 --> 00:02:18,550
+Now I'm making use of the codes
+
+42
+00:02:18,550 --> 00:02:20,770
+that I had before to label
+
+43
+00:02:20,770 --> 00:02:26,365
+the eight regions of this
+three element Venn diagram.
+
+44
+00:02:26,365 --> 00:02:29,035
+In a three element Venn diagram,
+
+45
+00:02:29,035 --> 00:02:32,545
+we have 0 to seven is
+eight possibilities.
+
+46
+00:02:32,545 --> 00:02:35,395
+And the venn diagram
+represents the mole.
+
+47
+00:02:35,395 --> 00:02:40,390
+The hypothesis that this
+region is empty says
+
+48
+00:02:40,390 --> 00:02:46,045
+the regions 45 of the three
+predicate diagram or empty.
+
+49
+00:02:46,045 --> 00:02:51,110
+The hypothesis that this region
+
+50
+00:02:51,110 --> 00:02:55,610
+is empty tells us that
+regions 26 are empty.
+
+51
+00:02:55,610 --> 00:03:00,395
+So we know that 45 are
+empty and 26 are empty.
+
+52
+00:03:00,395 --> 00:03:03,305
+But this region
+corresponds to 46.
+
+53
+00:03:03,305 --> 00:03:05,330
+So four is empty because this one
+
+54
+00:03:05,330 --> 00:03:08,150
+was six is empty
+because this one was,
+
+55
+00:03:08,150 --> 00:03:11,105
+the union of 46 is empty.
+
+56
+00:03:11,105 --> 00:03:13,580
+That's our first syllogism.
+
+57
+00:03:13,580 --> 00:03:15,365
+Its name is Barbara,
+
+58
+00:03:15,365 --> 00:03:18,620
+and the reason for the
+name will come to later.
+
+59
+00:03:18,620 --> 00:03:21,230
+We say this rule is sound.
+
+60
+00:03:21,230 --> 00:03:23,869
+What does it mean to
+say a rule is sound?
+
+61
+00:03:23,869 --> 00:03:26,270
+It says for any predicates a, b,
+
+62
+00:03:26,270 --> 00:03:29,435
+and c in any universe.
+
+63
+00:03:29,435 --> 00:03:33,230
+If the premises are
+valid in that universe,
+
+64
+00:03:33,230 --> 00:03:37,940
+then the conclusion is
+valid in that universe.
+
+65
+00:03:37,940 --> 00:03:42,050
+To recap, we represent
+the fact that
+
+66
+00:03:42,050 --> 00:03:47,885
+every ASB by saying that
+this region x is empty,
+
+67
+00:03:47,885 --> 00:03:53,044
+every B is C tells us
+this region why is empty.
+
+68
+00:03:53,044 --> 00:03:58,070
+And then basically we infer
+that zed is empty because
+
+69
+00:03:58,070 --> 00:04:03,875
+z is contained in the
+union of X and Y.
+
+70
+00:04:03,875 --> 00:04:10,590
+Our syllogism in
+Barbara is sound.

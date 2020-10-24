@@ -1,0 +1,620 @@
+1
+00:00:00,000 --> 00:00:04,545
+No a is B is exactly the same
+
+2
+00:00:04,545 --> 00:00:08,835
+as no B is a on an Euler diagram,
+
+3
+00:00:08,835 --> 00:00:13,050
+no a is B is represented
+by two disjoint circles.
+
+4
+00:00:13,050 --> 00:00:14,295
+And of course, whether we look at
+
+5
+00:00:14,295 --> 00:00:18,495
+a first Toby First is
+destroyed that disjoint.
+
+6
+00:00:18,495 --> 00:00:21,270
+We're going to look
+at more examples
+
+7
+00:00:21,270 --> 00:00:24,420
+of that kind of relationship now.
+
+8
+00:00:24,420 --> 00:00:27,915
+So we're looking at
+negation of predicates.
+
+9
+00:00:27,915 --> 00:00:34,810
+And if we look at some Venn
+diagrams on this top row,
+
+10
+00:00:35,200 --> 00:00:39,600
+various regions being empty.
+
+11
+00:00:39,700 --> 00:00:42,410
+And then look at the mirror image
+
+12
+00:00:42,410 --> 00:00:43,730
+of each of those diagrams.
+
+13
+00:00:43,730 --> 00:00:47,900
+So here we have a on the
+left and be on the right.
+
+14
+00:00:47,900 --> 00:00:52,625
+But here we have B on the
+left and a on the right.
+
+15
+00:00:52,625 --> 00:00:57,485
+So if we swap a and b here,
+
+16
+00:00:57,485 --> 00:00:59,660
+we arrive at a diagram that looks
+
+17
+00:00:59,660 --> 00:01:01,940
+exactly the same
+as we had before.
+
+18
+00:01:01,940 --> 00:01:06,530
+This tells us that
+if every a is not b,
+
+19
+00:01:06,530 --> 00:01:10,595
+it's the same as saying
+every B is not a or
+
+20
+00:01:10,595 --> 00:01:15,810
+no a is b is the same
+as saying no B is a.
+
+21
+00:01:17,740 --> 00:01:23,345
+This example is a little
+more difficult to translate.
+
+22
+00:01:23,345 --> 00:01:25,340
+But if we swap these,
+
+23
+00:01:25,340 --> 00:01:28,140
+then we put a over here.
+
+24
+00:01:29,890 --> 00:01:32,000
+We have a here,
+
+25
+00:01:32,000 --> 00:01:34,249
+we move it to the other side.
+
+26
+00:01:34,249 --> 00:01:40,295
+Then this says all
+A's BY every a is B.
+
+27
+00:01:40,295 --> 00:01:43,790
+So that says if I
+have something in a,
+
+28
+00:01:43,790 --> 00:01:45,590
+it must be in B because
+
+29
+00:01:45,590 --> 00:01:48,540
+this bit is empty,
+it can't be that.
+
+30
+00:01:49,510 --> 00:01:53,015
+This says if we
+start with p here,
+
+31
+00:01:53,015 --> 00:01:55,685
+if I have something and
+not be in other words,
+
+32
+00:01:55,685 --> 00:02:00,410
+outside B, then it can't be here.
+
+33
+00:02:00,410 --> 00:02:03,920
+I have something not
+in B, which is this.
+
+34
+00:02:03,920 --> 00:02:07,085
+And it's definitely not in a.
+
+35
+00:02:07,085 --> 00:02:09,605
+So every not b is not a.
+
+36
+00:02:09,605 --> 00:02:12,840
+So no not b is a.
+
+37
+00:02:13,180 --> 00:02:17,105
+Here I have the third possibility
+
+38
+00:02:17,105 --> 00:02:20,495
+of a kind of region
+that can be excluded.
+
+39
+00:02:20,495 --> 00:02:22,355
+We exclude these.
+
+40
+00:02:22,355 --> 00:02:27,725
+It says anything that's
+not in a must be in be.
+
+41
+00:02:27,725 --> 00:02:30,020
+It can't be outside be.
+
+42
+00:02:30,020 --> 00:02:31,760
+That's exactly the same as
+
+43
+00:02:31,760 --> 00:02:34,310
+saying everything that's not in
+
+44
+00:02:34,310 --> 00:02:41,090
+B is in a or not a is b is
+the same as all not b is a.
+
+45
+00:02:41,090 --> 00:02:44,150
+If we look at each
+of these examples,
+
+46
+00:02:44,150 --> 00:02:46,895
+we can swap the sides of the two.
+
+47
+00:02:46,895 --> 00:02:49,220
+And as we swap the sides,
+
+48
+00:02:49,220 --> 00:02:52,745
+we add an negation
+or take one away.
+
+49
+00:02:52,745 --> 00:02:56,660
+Taking negation away really
+is the same as adding one.
+
+50
+00:02:56,660 --> 00:03:00,965
+Because if I take a
+and then negate it,
+
+51
+00:03:00,965 --> 00:03:02,735
+and then negate it again,
+
+52
+00:03:02,735 --> 00:03:05,070
+I get back to way.
+
+53
+00:03:05,200 --> 00:03:11,465
+So in these relationships we
+can say when we swap them,
+
+54
+00:03:11,465 --> 00:03:13,070
+we add an negation.
+
+55
+00:03:13,070 --> 00:03:15,290
+And if that gives us
+a double negation,
+
+56
+00:03:15,290 --> 00:03:18,960
+not, not is something
+we can ignore.
+
+57
+00:03:19,510 --> 00:03:23,645
+This is the first rule
+of Boolean algebra.
+
+58
+00:03:23,645 --> 00:03:28,160
+Here we have an
+operation not a and not,
+
+59
+00:03:28,160 --> 00:03:32,150
+not a equals a, just
+like arithmetic,
+
+60
+00:03:32,150 --> 00:03:35,540
+where we have an operation minus,
+
+61
+00:03:35,540 --> 00:03:38,420
+which takes the negative
+of a number and
+
+62
+00:03:38,420 --> 00:03:41,120
+minus minus a is equal to a.
+
+63
+00:03:41,120 --> 00:03:45,440
+So negation behaves in the
+same way as the minus sign for
+
+64
+00:03:45,440 --> 00:03:49,910
+number is the first rule
+of Boolean algebra,
+
+65
+00:03:49,910 --> 00:03:52,370
+but it's really the second
+rule of Boolean logic.
+
+66
+00:03:52,370 --> 00:03:56,735
+The first rule of Boolean logic
+is our syllogism Barbara.
+
+67
+00:03:56,735 --> 00:03:59,225
+We've written a to these roles
+
+68
+00:03:59,225 --> 00:04:01,295
+with the double horizontal line.
+
+69
+00:04:01,295 --> 00:04:04,325
+That means that the rules were
+purged from top to bottom.
+
+70
+00:04:04,325 --> 00:04:06,620
+If every a is B,
+
+71
+00:04:06,620 --> 00:04:10,025
+then every not b is not a.
+
+72
+00:04:10,025 --> 00:04:12,125
+But they also work
+from bottom to top.
+
+73
+00:04:12,125 --> 00:04:14,495
+If every not b is not a,
+
+74
+00:04:14,495 --> 00:04:17,060
+then every a is B.
+
+75
+00:04:17,060 --> 00:04:20,585
+Because if we just
+had this single rule,
+
+76
+00:04:20,585 --> 00:04:22,700
+then once we know that not,
+
+77
+00:04:22,700 --> 00:04:24,575
+not a is the same as any,
+
+78
+00:04:24,575 --> 00:04:25,790
+we can get the data rule.
+
+79
+00:04:25,790 --> 00:04:29,045
+We can say apply
+the single rule to
+
+80
+00:04:29,045 --> 00:04:33,320
+every ISP to get not
+b is not a fine.
+
+81
+00:04:33,320 --> 00:04:37,115
+But if I now apply the
+single rule again,
+
+82
+00:04:37,115 --> 00:04:38,720
+then I get every not,
+
+83
+00:04:38,720 --> 00:04:40,550
+not a is not not B,
+
+84
+00:04:40,550 --> 00:04:43,610
+but then I replace
+these double negations.
+
+85
+00:04:43,610 --> 00:04:46,190
+Nothing. So I can go from
+
+86
+00:04:46,190 --> 00:04:49,580
+here to here using
+the double negation.
+
+87
+00:04:49,580 --> 00:04:54,090
+So from this one rule we
+can derive both ways.
+
+88
+00:04:58,750 --> 00:05:03,110
+Are algebraic. Notation
+makes it much easier for us
+
+89
+00:05:03,110 --> 00:05:06,755
+to do some of these things
+than it was for Aristotle.
+
+90
+00:05:06,755 --> 00:05:10,220
+Aristotle just talking
+about negation,
+
+91
+00:05:10,220 --> 00:05:14,105
+not says to every
+affirmation neck
+
+92
+00:05:14,105 --> 00:05:16,775
+corresponds exactly
+one denial such that,
+
+93
+00:05:16,775 --> 00:05:21,334
+that denial denies exactly
+what the affirmation of firms.
+
+94
+00:05:21,334 --> 00:05:24,905
+It's getting quite convoluted.
+
+95
+00:05:24,905 --> 00:05:27,469
+And thinking these
+things through without
+
+96
+00:05:27,469 --> 00:05:31,445
+the algebraic notation
+can be quite difficult.
+
+97
+00:05:31,445 --> 00:05:34,640
+And we'll see you in
+our next syllogism
+
+98
+00:05:34,640 --> 00:05:38,000
+that the algebra really
+does give us for
+
+99
+00:05:38,000 --> 00:05:43,370
+free somethings that
+perplexed logicians over
+
+100
+00:05:43,370 --> 00:05:45,560
+millennia between the times of
+
+101
+00:05:45,560 --> 00:05:49,130
+Aristotle and van to recap,
+
+102
+00:05:49,130 --> 00:05:50,645
+where are we now?
+
+103
+00:05:50,645 --> 00:05:57,455
+We have predicates a and B.
+Predicates are functions,
+
+104
+00:05:57,455 --> 00:06:00,605
+but they can also
+be viewed as sets.
+
+105
+00:06:00,605 --> 00:06:02,720
+And when we draw
+the Venn diagrams,
+
+106
+00:06:02,720 --> 00:06:06,725
+we're representing them
+as pictures of sets.
+
+107
+00:06:06,725 --> 00:06:08,300
+We have this relation,
+
+108
+00:06:08,300 --> 00:06:10,535
+every a satisfies B,
+
+109
+00:06:10,535 --> 00:06:13,715
+which is a relation
+between predicates.
+
+110
+00:06:13,715 --> 00:06:16,580
+We've introduced negation.
+
+111
+00:06:16,580 --> 00:06:18,305
+A predicates a function.
+
+112
+00:06:18,305 --> 00:06:20,015
+I can take a predicate
+
+113
+00:06:20,015 --> 00:06:23,255
+a and apply it to x
+to get a truth value.
+
+114
+00:06:23,255 --> 00:06:26,090
+I can say not of
+that truth value,
+
+115
+00:06:26,090 --> 00:06:30,110
+not false is true or
+not of true is false.
+
+116
+00:06:30,110 --> 00:06:36,034
+So the negation of a as a
+predicate when applied to x,
+
+117
+00:06:36,034 --> 00:06:38,990
+takes the truth value
+of a applied to
+
+118
+00:06:38,990 --> 00:06:42,365
+X and then negates that
+applies not to it.
+
+119
+00:06:42,365 --> 00:06:45,665
+And not, not a is the same as a.
+
+120
+00:06:45,665 --> 00:06:51,070
+We have our rule,
+
+121
+00:06:51,070 --> 00:06:54,459
+Barbara, which is like this.
+
+122
+00:06:54,459 --> 00:06:57,955
+And just a slight look ahead.
+
+123
+00:06:57,955 --> 00:07:00,280
+That means we have
+a rule like this
+
+124
+00:07:00,280 --> 00:07:04,015
+because if for every predicate,
+
+125
+00:07:04,015 --> 00:07:07,060
+we have a predicate
+which is called Not a,
+
+126
+00:07:07,060 --> 00:07:10,795
+then if this rule works
+for any predicate,
+
+127
+00:07:10,795 --> 00:07:14,875
+it works not only for
+C But for not see.
+
+128
+00:07:14,875 --> 00:07:19,285
+The other thing we have is
+these contour positions.
+
+129
+00:07:19,285 --> 00:07:26,230
+Anywhere where I have a satisfies
+not B. I can replace it
+
+130
+00:07:26,230 --> 00:07:29,485
+by b satisfies not a
+
+131
+00:07:29,485 --> 00:07:34,580
+without changing the
+validity of the proposition.
+
+132
+00:07:34,580 --> 00:07:38,330
+Similarly, wherever I
+have a satisfies B,
+
+133
+00:07:38,330 --> 00:07:41,210
+I have not B satisfies
+no day wherever I
+
+134
+00:07:41,210 --> 00:07:44,450
+have nodejs satisfies
+B, I have not.
+
+135
+00:07:44,450 --> 00:07:46,085
+B satisfies a.
+
+136
+00:07:46,085 --> 00:07:48,420
+So this is contraposition.

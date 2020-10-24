@@ -1,0 +1,828 @@
+1
+00:00:03,110 --> 00:00:06,825
+In this video, we start on
+
+2
+00:00:06,825 --> 00:00:11,100
+the main preoccupation
+of logic deduction.
+
+3
+00:00:11,100 --> 00:00:15,345
+The ways in which we
+can derive console.
+
+4
+00:00:15,345 --> 00:00:19,350
+We can derive consequences
+from assumptions.
+
+5
+00:00:19,350 --> 00:00:21,930
+We assume that some
+things are true.
+
+6
+00:00:21,930 --> 00:00:27,075
+And then by logical reasoning,
+we derive conclusions.
+
+7
+00:00:27,075 --> 00:00:29,010
+This goes back to Aristotle,
+
+8
+00:00:29,010 --> 00:00:31,650
+and we're going to
+start this course with
+
+9
+00:00:31,650 --> 00:00:36,980
+a Valley quake introduction
+to Aristotelian syllogisms.
+
+10
+00:00:36,980 --> 00:00:39,770
+We'll use them to
+introduce some of
+
+11
+00:00:39,770 --> 00:00:42,065
+the notation that we'll use
+
+12
+00:00:42,065 --> 00:00:44,615
+in a broader setting
+of modern logic.
+
+13
+00:00:44,615 --> 00:00:49,130
+And the basic ideas of
+the relationship between
+
+14
+00:00:49,130 --> 00:00:55,670
+models and reality will
+start using simple diagrams,
+
+15
+00:00:55,670 --> 00:00:57,470
+known as Euler diagrams.
+
+16
+00:00:57,470 --> 00:01:00,290
+But surely diagram is like this,
+
+17
+00:01:00,290 --> 00:01:02,630
+were drawn long
+before Euler error.
+
+18
+00:01:02,630 --> 00:01:05,075
+A couple of Euler diagrams.
+
+19
+00:01:05,075 --> 00:01:09,665
+This one shows a
+universe of things.
+
+20
+00:01:09,665 --> 00:01:15,335
+And then three collections
+or subsets of things.
+
+21
+00:01:15,335 --> 00:01:18,245
+Didn't that? And in
+this first example,
+
+22
+00:01:18,245 --> 00:01:20,660
+a is contained in B,
+
+23
+00:01:20,660 --> 00:01:25,160
+is contained in C. A
+very simple arrangement.
+
+24
+00:01:25,160 --> 00:01:28,985
+We think of these subsets is
+corresponding to properties.
+
+25
+00:01:28,985 --> 00:01:31,190
+So the things inside this circle,
+
+26
+00:01:31,190 --> 00:01:33,455
+other things with the property a,
+
+27
+00:01:33,455 --> 00:01:35,000
+is inside this circle with
+
+28
+00:01:35,000 --> 00:01:36,710
+the property P and
+this circle with
+
+29
+00:01:36,710 --> 00:01:40,730
+the property C. And when
+we say a property a,
+
+30
+00:01:40,730 --> 00:01:45,695
+we mean that for each
+individual in the universe,
+
+31
+00:01:45,695 --> 00:01:49,400
+we can tell whether it has
+the property a or not.
+
+32
+00:01:49,400 --> 00:01:53,180
+So we say a hold of that
+individual is true,
+
+33
+00:01:53,180 --> 00:01:57,330
+or a hold of that
+individual is false.
+
+34
+00:01:57,400 --> 00:02:01,010
+Here's a different configuration
+
+35
+00:02:01,010 --> 00:02:03,350
+of properties in a universe.
+
+36
+00:02:03,350 --> 00:02:06,680
+In this case, a,
+
+37
+00:02:06,680 --> 00:02:09,440
+having the property a means you
+
+38
+00:02:09,440 --> 00:02:12,350
+don't have the
+properties brilliancy.
+
+39
+00:02:12,350 --> 00:02:13,880
+It's still the case that
+
+40
+00:02:13,880 --> 00:02:16,265
+the bees are contained
+in the seas.
+
+41
+00:02:16,265 --> 00:02:19,730
+What Aristotle did was
+to codify these kinds of
+
+42
+00:02:19,730 --> 00:02:21,950
+relationships and will count
+
+43
+00:02:21,950 --> 00:02:24,140
+some rules of inference
+between them.
+
+44
+00:02:24,140 --> 00:02:27,080
+That's the introduction
+of deduction.
+
+45
+00:02:27,080 --> 00:02:29,030
+And the very first example,
+
+46
+00:02:29,030 --> 00:02:30,560
+which is probably familiar to you
+
+47
+00:02:30,560 --> 00:02:33,155
+already is this syllogism.
+
+48
+00:02:33,155 --> 00:02:35,000
+Socrates is a man.
+
+49
+00:02:35,000 --> 00:02:36,815
+All men are mortal.
+
+50
+00:02:36,815 --> 00:02:39,170
+Therefore Socrates is mortal.
+
+51
+00:02:39,170 --> 00:02:42,605
+That corresponds to this pattern.
+
+52
+00:02:42,605 --> 00:02:46,655
+If we say a is the property
+of being Socrates,
+
+53
+00:02:46,655 --> 00:02:49,925
+B is the property of being a man,
+
+54
+00:02:49,925 --> 00:02:52,700
+and C is the property
+of being mortal.
+
+55
+00:02:52,700 --> 00:02:54,605
+Socrates is a man,
+
+56
+00:02:54,605 --> 00:02:59,015
+represents the statement
+that a is contained in B.
+
+57
+00:02:59,015 --> 00:03:01,130
+All men are mortal is
+
+58
+00:03:01,130 --> 00:03:04,580
+the statement that v
+is contained in C,
+
+59
+00:03:04,580 --> 00:03:10,610
+and obviously a is contained
+in C. Socrates is mortal.
+
+60
+00:03:10,610 --> 00:03:14,930
+You may want to think about
+what kinds of properties are
+
+61
+00:03:14,930 --> 00:03:17,240
+represented here
+and what kinds of
+
+62
+00:03:17,240 --> 00:03:21,065
+deductions you might
+make between them.
+
+63
+00:03:21,065 --> 00:03:23,450
+We're going to introduce
+
+64
+00:03:23,450 --> 00:03:26,090
+some mathematical notation for
+
+65
+00:03:26,090 --> 00:03:27,965
+talking about these things.
+
+66
+00:03:27,965 --> 00:03:29,630
+Because doing it in
+
+67
+00:03:29,630 --> 00:03:32,465
+natural language
+becomes quite involved.
+
+68
+00:03:32,465 --> 00:03:34,370
+We want to make it much easier.
+
+69
+00:03:34,370 --> 00:03:37,520
+And using modern
+mathematical notations and
+
+70
+00:03:37,520 --> 00:03:41,209
+some algebra will
+allow us to do things.
+
+71
+00:03:41,209 --> 00:03:45,095
+Easily that were quite
+hard even for Aristotle.
+
+72
+00:03:45,095 --> 00:03:46,910
+First of all, we have
+
+73
+00:03:46,910 --> 00:03:49,355
+this mathematical notation for
+
+74
+00:03:49,355 --> 00:03:51,635
+subsets of the individuals.
+
+75
+00:03:51,635 --> 00:03:55,640
+So this is the set of x
+such that x is Socrates.
+
+76
+00:03:55,640 --> 00:03:57,830
+That represents the things
+
+77
+00:03:57,830 --> 00:04:00,185
+with the property being Socrates.
+
+78
+00:04:00,185 --> 00:04:03,635
+This is the set of x
+such that x is a man.
+
+79
+00:04:03,635 --> 00:04:07,850
+The set of man is a subset
+of our universe of objects.
+
+80
+00:04:07,850 --> 00:04:11,840
+This set is contained
+in this set.
+
+81
+00:04:11,840 --> 00:04:14,570
+The set of things which a man is
+
+82
+00:04:14,570 --> 00:04:17,555
+contained in the set of
+things which are motile.
+
+83
+00:04:17,555 --> 00:04:22,085
+And we conclude, because this
+set is contained in this,
+
+84
+00:04:22,085 --> 00:04:24,005
+this is contained in this,
+
+85
+00:04:24,005 --> 00:04:25,520
+and it's a property of sets
+
+86
+00:04:25,520 --> 00:04:28,010
+that containment is transitive.
+
+87
+00:04:28,010 --> 00:04:29,870
+That means the set of things that
+
+88
+00:04:29,870 --> 00:04:31,490
+Socrates is contained in,
+
+89
+00:04:31,490 --> 00:04:32,975
+the set of things
+that are mortal.
+
+90
+00:04:32,975 --> 00:04:36,770
+We're going to try and
+represent everything uniformly.
+
+91
+00:04:36,770 --> 00:04:40,370
+So this says the set of x
+such that x equals Socrates.
+
+92
+00:04:40,370 --> 00:04:45,860
+That says the set of x such
+that is a man is true of x.
+
+93
+00:04:45,860 --> 00:04:47,810
+We want to be able to put
+everything in this form
+
+94
+00:04:47,810 --> 00:04:50,060
+where these things are
+called predicates.
+
+95
+00:04:50,060 --> 00:04:51,590
+Predicates are functions that
+
+96
+00:04:51,590 --> 00:04:53,735
+given an element of the universe,
+
+97
+00:04:53,735 --> 00:04:56,450
+gave us a truth
+value, true or false.
+
+98
+00:04:56,450 --> 00:05:00,155
+So rather than writing
+this as x equals Socrates,
+
+99
+00:05:00,155 --> 00:05:01,685
+we want to write it as,
+
+100
+00:05:01,685 --> 00:05:03,575
+is Socrates x.
+
+101
+00:05:03,575 --> 00:05:05,905
+Where is Socrates?
+
+102
+00:05:05,905 --> 00:05:08,875
+Is the property of
+an x that is true
+
+103
+00:05:08,875 --> 00:05:12,055
+if x happens to be
+Socrates and is false.
+
+104
+00:05:12,055 --> 00:05:16,525
+Otherwise. When we come
+to do things in Haskell,
+
+105
+00:05:16,525 --> 00:05:19,180
+it will be very important
+to do this kind of
+
+106
+00:05:19,180 --> 00:05:21,850
+trick to make everything
+of the same type.
+
+107
+00:05:21,850 --> 00:05:23,320
+So these predicates,
+
+108
+00:05:23,320 --> 00:05:26,305
+these functions from
+things to Booleans,
+
+109
+00:05:26,305 --> 00:05:28,900
+will be our basic way of
+
+110
+00:05:28,900 --> 00:05:32,320
+representing
+properties in Haskell.
+
+111
+00:05:32,320 --> 00:05:34,540
+If we now look at this
+pattern of inference,
+
+112
+00:05:34,540 --> 00:05:38,980
+we have everything that
+is Socrates is a man.
+
+113
+00:05:38,980 --> 00:05:43,135
+Everything that is
+a man is immortal.
+
+114
+00:05:43,135 --> 00:05:48,985
+Therefore, everything that
+is Socrates is mortal.
+
+115
+00:05:48,985 --> 00:05:52,225
+And we abstract from
+that and say for
+
+116
+00:05:52,225 --> 00:05:56,180
+any properties a, B, and C,
+
+117
+00:05:56,520 --> 00:05:59,740
+which have this form, that is,
+
+118
+00:05:59,740 --> 00:06:05,950
+every a is b and every B
+is C, satisfy this role.
+
+119
+00:06:05,950 --> 00:06:08,349
+That then every ASE.
+
+120
+00:06:08,349 --> 00:06:10,870
+And that's again just
+this containment and
+
+121
+00:06:10,870 --> 00:06:15,699
+that obvious fact that
+we're trying to unpick.
+
+122
+00:06:15,699 --> 00:06:19,525
+So we can generalize to
+other forms of argument.
+
+123
+00:06:19,525 --> 00:06:21,880
+We're not going to use
+
+124
+00:06:21,880 --> 00:06:25,194
+Euler diagrams when we
+generalize to other examples,
+
+125
+00:06:25,194 --> 00:06:27,505
+it's easier to use Venn diagrams.
+
+126
+00:06:27,505 --> 00:06:31,010
+The Venn diagram looks
+quite like an oil.
+
+127
+00:06:31,010 --> 00:06:35,165
+A diagram with an
+important difference.
+
+128
+00:06:35,165 --> 00:06:39,875
+This Venn diagram represents
+three properties.
+
+129
+00:06:39,875 --> 00:06:41,525
+Let's call them a, B,
+
+130
+00:06:41,525 --> 00:06:46,490
+and C. And all
+
+131
+00:06:46,490 --> 00:06:50,960
+possible relations between
+them in the sense of terror.
+
+132
+00:06:50,960 --> 00:06:52,865
+Eight regions here.
+
+133
+00:06:52,865 --> 00:06:55,190
+And each region represents
+
+134
+00:06:55,190 --> 00:06:57,020
+a combination of
+those properties.
+
+135
+00:06:57,020 --> 00:06:59,900
+The things out here satisfy
+No, the properties.
+
+136
+00:06:59,900 --> 00:07:03,350
+These things satisfy
+only a, these only B,
+
+137
+00:07:03,350 --> 00:07:08,315
+and these only see these a and B,
+
+138
+00:07:08,315 --> 00:07:13,960
+B and C and a and C. And
+they satisfy all three,
+
+139
+00:07:13,960 --> 00:07:18,415
+a and B and C. And
+rather than represent
+
+140
+00:07:18,415 --> 00:07:24,520
+the world by not drawing
+regions which are empty,
+
+141
+00:07:24,520 --> 00:07:27,850
+we're going to use
+Venn diagrams and use
+
+142
+00:07:27,850 --> 00:07:31,420
+this shading to indicate
+that the region is empty.
+
+143
+00:07:31,420 --> 00:07:33,250
+So in this Venn diagram,
+
+144
+00:07:33,250 --> 00:07:35,545
+I've said that this region,
+
+145
+00:07:35,545 --> 00:07:38,440
+the places where a is true,
+
+146
+00:07:38,440 --> 00:07:40,915
+but B is not true.
+
+147
+00:07:40,915 --> 00:07:42,925
+This region is empty.
+
+148
+00:07:42,925 --> 00:07:45,339
+That says there are no things
+
+149
+00:07:45,339 --> 00:07:48,325
+where a is true
+and B is not true.
+
+150
+00:07:48,325 --> 00:07:50,215
+Which is the same as saying
+
+151
+00:07:50,215 --> 00:07:53,895
+everything which
+does have a is here.
+
+152
+00:07:53,895 --> 00:07:58,175
+Which means everything
+in a is in B.
+
+153
+00:07:58,175 --> 00:08:02,120
+So this is another way of
+representing our every ASP.
+
+154
+00:08:02,120 --> 00:08:04,520
+If we look at this example, here,
+
+155
+00:08:04,520 --> 00:08:10,085
+we've colored the region where
+a is true and C is true.
+
+156
+00:08:10,085 --> 00:08:13,475
+So there's nothing
+such that both a
+
+157
+00:08:13,475 --> 00:08:17,630
+and c. That means the,
+
+158
+00:08:17,630 --> 00:08:20,210
+as soon as we know
+something's in a,
+
+159
+00:08:20,210 --> 00:08:22,100
+we know it's not in c,
+
+160
+00:08:22,100 --> 00:08:24,935
+because if it were, it
+would lie in this region.
+
+161
+00:08:24,935 --> 00:08:26,675
+And we've decided that is empty.
+
+162
+00:08:26,675 --> 00:08:29,885
+So this represents nothing in a,
+
+163
+00:08:29,885 --> 00:08:32,885
+is in C, no AC.
+
+164
+00:08:32,885 --> 00:08:35,120
+And we now go back to
+
+165
+00:08:35,120 --> 00:08:39,395
+our universe of
+disks and triangles.
+
+166
+00:08:39,395 --> 00:08:41,465
+We looked at these statements.
+
+167
+00:08:41,465 --> 00:08:43,340
+And you recall, when we looked at
+
+168
+00:08:43,340 --> 00:08:45,590
+every red triangle is small.
+
+169
+00:08:45,590 --> 00:08:48,875
+We decided that that was true
+
+170
+00:08:48,875 --> 00:08:53,135
+because this region is empty.
+
+171
+00:08:53,135 --> 00:08:55,970
+And what we're going to
+do is to use this in
+
+172
+00:08:55,970 --> 00:08:59,015
+the context of general
+Venn diagrams.
+
+173
+00:08:59,015 --> 00:09:03,450
+In order to reason
+about syllogisms.
+
+174
+00:09:03,640 --> 00:09:07,610
+Will take these Venn
+diagrams and think of
+
+175
+00:09:07,610 --> 00:09:10,895
+the individuals are sitting
+in the various regions.
+
+176
+00:09:10,895 --> 00:09:13,595
+This is every a is b,
+
+177
+00:09:13,595 --> 00:09:15,860
+and this is no a is B.
+
+178
+00:09:15,860 --> 00:09:20,750
+You can write the
+corresponding Euler diagrams
+
+179
+00:09:20,750 --> 00:09:22,910
+for these two Venn diagrams.
+
+180
+00:09:22,910 --> 00:09:26,630
+Pause the video, take
+a moment to work out
+
+181
+00:09:26,630 --> 00:09:28,700
+the Euler diagrams
+that correspond to
+
+182
+00:09:28,700 --> 00:09:32,400
+these two Venn
+diagrams. Unthinkable.

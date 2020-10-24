@@ -1,0 +1,1025 @@
+1
+00:00:02,870 --> 00:00:06,570
+In this video, we're
+going to continue looking
+
+2
+00:00:06,570 --> 00:00:10,590
+at syllogisms using
+Venn diagrams.
+
+3
+00:00:10,590 --> 00:00:13,185
+At the end of the last video,
+
+4
+00:00:13,185 --> 00:00:16,900
+we introduced two Venn diagrams.
+
+5
+00:00:17,450 --> 00:00:21,075
+And I left you with
+the following problem.
+
+6
+00:00:21,075 --> 00:00:25,230
+These Venn diagrams represent
+
+7
+00:00:25,230 --> 00:00:28,830
+statements about the universe.
+
+8
+00:00:28,830 --> 00:00:31,920
+So this one represents
+the statement that there
+
+9
+00:00:31,920 --> 00:00:35,950
+are no things of this
+type in this gray area.
+
+10
+00:00:35,950 --> 00:00:45,980
+That is, that every a is b.
+
+11
+00:00:45,980 --> 00:00:50,360
+In other words, anything
+that's in a cannot be here,
+
+12
+00:00:50,360 --> 00:00:52,145
+so must be in B.
+
+13
+00:00:52,145 --> 00:00:54,650
+Then for every a is b,
+
+14
+00:00:54,650 --> 00:00:58,670
+this diagram represents
+the fact that there are
+
+15
+00:00:58,670 --> 00:01:03,815
+no things that both
+a and c. That is,
+
+16
+00:01:03,815 --> 00:01:09,800
+everything that is in a cannot
+be in C. Every EI is not.
+
+17
+00:01:09,800 --> 00:01:13,640
+See. What I asked you
+to do last time was
+
+18
+00:01:13,640 --> 00:01:18,665
+to convert those
+into Euler diagrams.
+
+19
+00:01:18,665 --> 00:01:20,510
+Here are the Venn diagrams again,
+
+20
+00:01:20,510 --> 00:01:26,870
+every ISP and no a is c. Here.
+
+21
+00:01:26,870 --> 00:01:32,660
+We translate this by saying
+that a is contained in B.
+
+22
+00:01:32,660 --> 00:01:35,930
+But apart from that, the
+relationship between C and
+
+23
+00:01:35,930 --> 00:01:39,740
+the others is not specified here.
+
+24
+00:01:39,740 --> 00:01:42,050
+We've missed out here to
+
+25
+00:01:42,050 --> 00:01:45,109
+regions of the Venn diagram
+which are not inhabited.
+
+26
+00:01:45,109 --> 00:01:47,510
+There are eight
+regions altogether.
+
+27
+00:01:47,510 --> 00:01:51,560
+So we should find six
+regions represented here,
+
+28
+00:01:51,560 --> 00:01:53,915
+and we'll just do this
+as a sanity check.
+
+29
+00:01:53,915 --> 00:02:02,360
+There's 123456 regions
+down here. Every ISP.
+
+30
+00:02:02,360 --> 00:02:04,775
+And this represented
+here, though,
+
+31
+00:02:04,775 --> 00:02:08,525
+actually the Euler diagram
+
+32
+00:02:08,525 --> 00:02:11,990
+doesn't really represent
+all the possibilities.
+
+33
+00:02:11,990 --> 00:02:15,530
+Because the Euler diagram
+means that there is
+
+34
+00:02:15,530 --> 00:02:19,355
+something in here and there
+is something in here,
+
+35
+00:02:19,355 --> 00:02:22,100
+and there is something
+in here, and so on.
+
+36
+00:02:22,100 --> 00:02:24,410
+So it says that in our universe
+
+37
+00:02:24,410 --> 00:02:27,515
+there are at least six
+things that are different.
+
+38
+00:02:27,515 --> 00:02:30,950
+Whereas the Venn
+Diagram we interpret
+
+39
+00:02:30,950 --> 00:02:33,965
+as saying there may be
+something in here or not.
+
+40
+00:02:33,965 --> 00:02:36,620
+We don't know. There may be
+something in here or not.
+
+41
+00:02:36,620 --> 00:02:38,090
+We don't know, and so on.
+
+42
+00:02:38,090 --> 00:02:42,575
+We do know that there's nothing
+in either of these areas.
+
+43
+00:02:42,575 --> 00:02:45,095
+So the Venn diagram,
+
+44
+00:02:45,095 --> 00:02:47,435
+let's us say less,
+
+45
+00:02:47,435 --> 00:02:49,070
+which is important because then
+
+46
+00:02:49,070 --> 00:02:50,660
+there are more things we can say.
+
+47
+00:02:50,660 --> 00:02:53,690
+We can say this much
+without committing
+
+48
+00:02:53,690 --> 00:02:55,790
+ourselves to the
+fact that therefore
+
+49
+00:02:55,790 --> 00:02:57,920
+there must be something
+in each of these.
+
+50
+00:02:57,920 --> 00:02:59,495
+Whereas with the Euler diagram,
+
+51
+00:02:59,495 --> 00:03:01,400
+you make that commitment.
+
+52
+00:03:01,400 --> 00:03:04,700
+If we do the same thing with
+the other diagram here,
+
+53
+00:03:04,700 --> 00:03:06,965
+then we're missing out these two.
+
+54
+00:03:06,965 --> 00:03:09,860
+Again, we should
+find six regions,
+
+55
+00:03:09,860 --> 00:03:12,110
+and if we count them, it's
+easy to make a mistake.
+
+56
+00:03:12,110 --> 00:03:13,775
+Humans I, one.
+
+57
+00:03:13,775 --> 00:03:18,215
+2345, there are five regions,
+
+58
+00:03:18,215 --> 00:03:25,265
+but if you counted
+carefully, you get 123456.
+
+59
+00:03:25,265 --> 00:03:27,560
+If you are doing
+an Euler diagram,
+
+60
+00:03:27,560 --> 00:03:30,740
+you represent all
+the possibilities.
+
+61
+00:03:30,740 --> 00:03:32,480
+But as I say, if we interpret
+
+62
+00:03:32,480 --> 00:03:34,414
+this strictly is
+an Euler diagram,
+
+63
+00:03:34,414 --> 00:03:36,650
+then it saying that
+there are six things,
+
+64
+00:03:36,650 --> 00:03:38,375
+one in each of these regions.
+
+65
+00:03:38,375 --> 00:03:41,750
+And that's not what we want
+to say with a Venn diagram.
+
+66
+00:03:41,750 --> 00:03:43,850
+Now I want you to try
+
+67
+00:03:43,850 --> 00:03:46,325
+an exercise in the
+opposite direction.
+
+68
+00:03:46,325 --> 00:03:49,880
+Given an Euler diagram,
+
+69
+00:03:49,880 --> 00:03:53,540
+can you derive a Venn diagram?
+
+70
+00:03:53,540 --> 00:03:57,320
+So what is the venn
+diagram like for this?
+
+71
+00:03:57,320 --> 00:04:00,680
+And what is the venn
+diagram like for this?
+
+72
+00:04:00,680 --> 00:04:03,170
+And all the Euler
+diagrams are going
+
+73
+00:04:03,170 --> 00:04:05,375
+to show that there are
+
+74
+00:04:05,375 --> 00:04:11,030
+1234 things that are inhabited,
+
+75
+00:04:11,030 --> 00:04:13,040
+If you consider is annoy diagram,
+
+76
+00:04:13,040 --> 00:04:16,235
+I want you to mount the
+ones that are empty.
+
+77
+00:04:16,235 --> 00:04:18,380
+The Venn diagram that we then get
+
+78
+00:04:18,380 --> 00:04:20,480
+will tell us at least
+the ones that are
+
+79
+00:04:20,480 --> 00:04:23,420
+empty and leave us flexibility
+about whether there's
+
+80
+00:04:23,420 --> 00:04:26,930
+anything in the four
+regions represented here.
+
+81
+00:04:26,930 --> 00:04:31,610
+Again, here we have 1234 regions.
+
+82
+00:04:31,610 --> 00:04:33,170
+So there are four regions which
+
+83
+00:04:33,170 --> 00:04:35,420
+should be possibly inhabited.
+
+84
+00:04:35,420 --> 00:04:37,370
+In your Venn diagram.
+
+85
+00:04:37,370 --> 00:04:40,355
+Pause the video while
+you try doing that.
+
+86
+00:04:40,355 --> 00:04:43,190
+You should get
+something like this.
+
+87
+00:04:43,190 --> 00:04:45,470
+In each of these examples,
+
+88
+00:04:45,470 --> 00:04:49,070
+we have four regions
+that will be inhabited.
+
+89
+00:04:49,070 --> 00:04:51,304
+So we should have four regions
+
+90
+00:04:51,304 --> 00:04:52,955
+which will not be inhabited.
+
+91
+00:04:52,955 --> 00:04:55,760
+And then we can check that
+we have the right ones.
+
+92
+00:04:55,760 --> 00:05:01,460
+This is things in here are in
+a and in B and C. So there,
+
+93
+00:05:01,460 --> 00:05:08,555
+there things in here are
+in B and C, but not in a.
+
+94
+00:05:08,555 --> 00:05:14,435
+So they are in B and
+C, but not in a.
+
+95
+00:05:14,435 --> 00:05:17,615
+Things here are a and C,
+
+96
+00:05:17,615 --> 00:05:19,880
+but not in a and B.
+
+97
+00:05:19,880 --> 00:05:21,260
+So that's this region.
+
+98
+00:05:21,260 --> 00:05:24,365
+And finally, things out
+here are in none of them.
+
+99
+00:05:24,365 --> 00:05:26,670
+That's this region here.
+
+100
+00:05:26,920 --> 00:05:29,825
+You can do the same
+exercise here.
+
+101
+00:05:29,825 --> 00:05:31,730
+Here are things
+that are in a new,
+
+102
+00:05:31,730 --> 00:05:34,565
+neither being nor
+C. So that's here.
+
+103
+00:05:34,565 --> 00:05:37,925
+Here are things that are
+not in any of them here.
+
+104
+00:05:37,925 --> 00:05:41,150
+Things that are in C,
+
+105
+00:05:41,150 --> 00:05:44,945
+but not in B or a and C,
+
+106
+00:05:44,945 --> 00:05:46,595
+but not in B or a.
+
+107
+00:05:46,595 --> 00:05:50,495
+And things that are in B and C,
+
+108
+00:05:50,495 --> 00:05:53,075
+but not in a. And that's here.
+
+109
+00:05:53,075 --> 00:05:57,725
+These Venn diagrams correspond
+to these Euler diagrams.
+
+110
+00:05:57,725 --> 00:06:02,470
+And although for simple
+cases like this,
+
+111
+00:06:02,470 --> 00:06:05,665
+which corresponded to
+the Barbera syllogism,
+
+112
+00:06:05,665 --> 00:06:08,110
+It's easy to see what's going
+
+113
+00:06:08,110 --> 00:06:10,615
+on when you draw
+an Euler diagram.
+
+114
+00:06:10,615 --> 00:06:12,400
+The Venn diagrams are more
+
+115
+00:06:12,400 --> 00:06:14,080
+flexible because
+they don't commit
+
+116
+00:06:14,080 --> 00:06:17,320
+us to having these
+regions inhabited.
+
+117
+00:06:17,320 --> 00:06:20,574
+They let us say this
+one's not inhabited,
+
+118
+00:06:20,574 --> 00:06:23,620
+but this May 1 or
+may not be later,
+
+119
+00:06:23,620 --> 00:06:26,410
+we will introduce a notation
+to say maybe that some of
+
+120
+00:06:26,410 --> 00:06:30,400
+these regions of the Venn
+diagram are inhabited.
+
+121
+00:06:30,400 --> 00:06:32,080
+And then we'll be able
+to say things that we
+
+122
+00:06:32,080 --> 00:06:34,000
+can't say with an oil diagram.
+
+123
+00:06:34,000 --> 00:06:36,579
+We want to say some
+things are inhabited,
+
+124
+00:06:36,579 --> 00:06:40,239
+some things are empty,
+and other things.
+
+125
+00:06:40,239 --> 00:06:43,300
+We leave the question open.
+
+126
+00:06:43,300 --> 00:06:47,065
+We're going to talk quite
+a lot about Venn diagrams.
+
+127
+00:06:47,065 --> 00:06:49,749
+As we'll see later, that
+can get very complicated.
+
+128
+00:06:49,749 --> 00:06:53,425
+So we're only going to talk
+about simple Venn diagrams.
+
+129
+00:06:53,425 --> 00:06:58,180
+This is the simplest one
+with two predicates.
+
+130
+00:06:58,180 --> 00:07:02,785
+Let's say a is appetizing
+and B is beautiful.
+
+131
+00:07:02,785 --> 00:07:05,185
+Or you could say a is
+amber and B is blue.
+
+132
+00:07:05,185 --> 00:07:08,530
+We can label the areas
+by saying this is
+
+133
+00:07:08,530 --> 00:07:12,355
+the place where a is
+true and B is false,
+
+134
+00:07:12,355 --> 00:07:14,080
+a and not B.
+
+135
+00:07:14,080 --> 00:07:17,305
+This is something that's
+appetizing but not beautiful.
+
+136
+00:07:17,305 --> 00:07:21,234
+This is something that's
+appetizing and beautiful.
+
+137
+00:07:21,234 --> 00:07:22,840
+This is something that's not
+
+138
+00:07:22,840 --> 00:07:25,830
+appetizing and it is beautiful.
+
+139
+00:07:25,830 --> 00:07:28,220
+This is something that is not
+
+140
+00:07:28,220 --> 00:07:30,590
+appetizing and it's
+not beautiful.
+
+141
+00:07:30,590 --> 00:07:33,289
+So we use these
+symbols, negation,
+
+142
+00:07:33,289 --> 00:07:37,310
+fanout and friend and of
+
+143
+00:07:37,310 --> 00:07:40,580
+rho will also use
+
+144
+00:07:40,580 --> 00:07:43,130
+another notation for describing
+
+145
+00:07:43,130 --> 00:07:44,990
+the regions of a Venn diagram.
+
+146
+00:07:44,990 --> 00:07:48,845
+We'll often use this for
+three predicate Venn diagram.
+
+147
+00:07:48,845 --> 00:07:51,905
+If we think of the
+predicates as a, B,
+
+148
+00:07:51,905 --> 00:07:54,650
+and C, Then to tweet region,
+
+149
+00:07:54,650 --> 00:07:56,690
+we associate a binary number.
+
+150
+00:07:56,690 --> 00:07:59,270
+If it's a region where
+all three are false,
+
+151
+00:07:59,270 --> 00:08:04,385
+then we associate the
+number 000 in this region.
+
+152
+00:08:04,385 --> 00:08:07,895
+And the decimal value of
+that, of course, is 0.
+
+153
+00:08:07,895 --> 00:08:11,915
+If we're in a region
+where only a is true,
+
+154
+00:08:11,915 --> 00:08:15,725
+so true, false, false, 1-0-0.
+
+155
+00:08:15,725 --> 00:08:18,200
+That's 100 in binary,
+
+156
+00:08:18,200 --> 00:08:19,715
+which is decimal for.
+
+157
+00:08:19,715 --> 00:08:22,730
+So I filled in each region
+here and you can check those.
+
+158
+00:08:22,730 --> 00:08:24,680
+Each region corresponds to one of
+
+159
+00:08:24,680 --> 00:08:27,635
+the eight binary codes
+from 0 to seven.
+
+160
+00:08:27,635 --> 00:08:36,995
+And we will often label
+these regions, 0123, 4567.
+
+161
+00:08:36,995 --> 00:08:38,885
+That's just a useful notation
+
+162
+00:08:38,885 --> 00:08:40,490
+if we want to refer to things
+
+163
+00:08:40,490 --> 00:08:42,155
+when we are writing
+
+164
+00:08:42,155 --> 00:08:44,840
+and we don't have the
+opportunity to point.
+
+165
+00:08:44,840 --> 00:08:50,180
+Venn diagrams get very
+complicated very quickly here
+
+166
+00:08:50,180 --> 00:08:52,055
+our Venn diagrams for
+
+167
+00:08:52,055 --> 00:08:56,720
+five predicates and
+seven predicates.
+
+168
+00:08:56,720 --> 00:08:59,300
+These ones are very
+pretty strange fact,
+
+169
+00:08:59,300 --> 00:09:03,080
+a Venn diagram that you
+can rotate and it falls on
+
+170
+00:09:03,080 --> 00:09:07,595
+itself so it hasn't rotational
+symmetry is possible.
+
+171
+00:09:07,595 --> 00:09:11,600
+The n predicates if and
+only if n is prime.
+
+172
+00:09:11,600 --> 00:09:13,400
+So there's something quite
+deep going on there,
+
+173
+00:09:13,400 --> 00:09:16,370
+but we're not going
+to explore that.
+
+174
+00:09:16,370 --> 00:09:18,440
+What we're going to do is
+
+175
+00:09:18,440 --> 00:09:19,925
+to stick with the
+somewhat you should
+
+176
+00:09:19,925 --> 00:09:23,195
+get from this particular video.
+
+177
+00:09:23,195 --> 00:09:27,020
+Is this coding used to refer
+
+178
+00:09:27,020 --> 00:09:31,430
+to the regions of the three
+predicate Venn diagram.
+
+179
+00:09:31,430 --> 00:09:34,730
+And these two examples,
+
+180
+00:09:34,730 --> 00:09:37,835
+every ASB and variations on them,
+
+181
+00:09:37,835 --> 00:09:39,290
+you should be able to work out
+
+182
+00:09:39,290 --> 00:09:41,000
+how to color in a Venn diagram.
+
+183
+00:09:41,000 --> 00:09:44,570
+So every CSP or every B, a,
+
+184
+00:09:44,570 --> 00:09:48,425
+C. And now ASE.
+
+185
+00:09:48,425 --> 00:09:50,840
+Similarly, you should
+be able to say,
+
+186
+00:09:50,840 --> 00:09:52,910
+now C is a,
+
+187
+00:09:52,910 --> 00:09:55,430
+nd actually has the same diagram.
+
+188
+00:09:55,430 --> 00:09:57,919
+You should be able to say no PUC
+
+189
+00:09:57,919 --> 00:10:01,265
+and now ASB and things like that.
+
+190
+00:10:01,265 --> 00:10:06,665
+We use these notations
+that says every a is b.
+
+191
+00:10:06,665 --> 00:10:09,935
+And now we come to a subtle,
+
+192
+00:10:09,935 --> 00:10:12,470
+nah, not really subtle, a simple.
+
+193
+00:10:12,470 --> 00:10:15,740
+Now we come to a simple
+but important point.
+
+194
+00:10:15,740 --> 00:10:19,430
+We've introduced the notation a
+
+195
+00:10:19,430 --> 00:10:23,850
+satisfies B to say
+that every a is b.
+
+196
+00:10:23,920 --> 00:10:26,600
+And now here we introduce
+
+197
+00:10:26,600 --> 00:10:28,610
+some different statement which is
+
+198
+00:10:28,610 --> 00:10:33,950
+no a is c. That
+
+199
+00:10:33,950 --> 00:10:39,020
+says that every a is not c. So
+
+200
+00:10:39,020 --> 00:10:41,810
+this notation shows us
+
+201
+00:10:41,810 --> 00:10:45,320
+a similarity or relationship
+between these two.
+
+202
+00:10:45,320 --> 00:10:47,555
+That's not so obvious here.
+
+203
+00:10:47,555 --> 00:10:50,150
+All we've done is to talk
+
+204
+00:10:50,150 --> 00:10:53,970
+about not saying in
+a place of pain.
+
+205
+00:10:54,280 --> 00:10:57,080
+And that's very powerful to have
+
+206
+00:10:57,080 --> 00:10:59,660
+the algebraic
+notation that lets us
+
+207
+00:10:59,660 --> 00:11:01,954
+say this is actually a statement
+
+208
+00:11:01,954 --> 00:11:04,940
+that is very similar to
+this statement here.
+
+209
+00:11:04,940 --> 00:11:07,985
+It just is talking about
+a different predicate
+
+210
+00:11:07,985 --> 00:11:12,360
+instead of talking about
+it, talking about Nazi.
+
+211
+00:11:12,700 --> 00:11:16,040
+That's all for this video,
+
+212
+00:11:16,040 --> 00:11:18,990
+you should make
+sure that you can.
+
+213
+00:11:28,150 --> 00:11:31,820
+If you want to try
+an exercise to test
+
+214
+00:11:31,820 --> 00:11:35,510
+your understanding
+of the shadings,
+
+215
+00:11:35,510 --> 00:11:37,790
+maybe you could try shading in
+
+216
+00:11:37,790 --> 00:11:42,275
+a few examples on the five
+predicate Venn diagram,
+
+217
+00:11:42,275 --> 00:11:43,580
+but we won't be doing that.
+
+218
+00:11:43,580 --> 00:11:45,800
+We'll be sticking entirely to
+
+219
+00:11:45,800 --> 00:11:49,220
+Venn diagrams with 23 predicates.
+
+220
+00:11:49,220 --> 00:11:50,300
+And what we want to go for
+
+221
+00:11:50,300 --> 00:11:53,600
+predicates will introduce
+yet another notation,
+
+222
+00:11:53,600 --> 00:11:55,010
+which is simpler than
+
+223
+00:11:55,010 --> 00:11:56,840
+the Venn diagrams and
+
+224
+00:11:56,840 --> 00:11:59,030
+has advantages over
+them in the same way,
+
+225
+00:11:59,030 --> 00:12:00,560
+the Venn diagrams have
+
+226
+00:12:00,560 --> 00:12:04,200
+an advantage of the
+Euler diagrams.

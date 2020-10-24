@@ -1,0 +1,454 @@
+1
+00:00:00,000 --> 00:00:02,280
+In an earlier video,
+
+2
+00:00:02,280 --> 00:00:05,595
+we ended with the remark that
+
+3
+00:00:05,595 --> 00:00:12,750
+this syllogism is really
+just an instance of Barbara,
+
+4
+00:00:12,750 --> 00:00:17,745
+where I put Nazi instead
+of the sea in Barbara.
+
+5
+00:00:17,745 --> 00:00:20,519
+But since Barbara works
+for any predicate,
+
+6
+00:00:20,519 --> 00:00:22,800
+it works for the predicate Nazi,
+
+7
+00:00:22,800 --> 00:00:25,465
+just as well as for
+the predicate si.
+
+8
+00:00:25,465 --> 00:00:28,865
+Here's an example
+of that syllogism.
+
+9
+00:00:28,865 --> 00:00:31,790
+All snakes are reptiles.
+
+10
+00:00:31,790 --> 00:00:37,595
+No reptile has for no snake has.
+
+11
+00:00:37,595 --> 00:00:42,620
+We've taken our
+syllogism Barbara,
+
+12
+00:00:42,620 --> 00:00:45,305
+since it works for
+any predicates ABC,
+
+13
+00:00:45,305 --> 00:00:46,700
+it works for a, b,
+
+14
+00:00:46,700 --> 00:00:49,955
+and not c. So this rule
+must also be sound.
+
+15
+00:00:49,955 --> 00:00:53,000
+If I look at it on
+an oil a diagram.
+
+16
+00:00:53,000 --> 00:00:56,450
+Then this says that
+if a is contained in
+
+17
+00:00:56,450 --> 00:01:02,554
+B and B is disjoint from C,
+
+18
+00:01:02,554 --> 00:01:06,620
+then a is disjoint
+from C. We can see
+
+19
+00:01:06,620 --> 00:01:10,910
+that intuitively obvious with
+our geometric intuition,
+
+20
+00:01:10,910 --> 00:01:13,340
+but it looks like quite
+a different observation
+
+21
+00:01:13,340 --> 00:01:15,620
+than the one about
+a contained in B,
+
+22
+00:01:15,620 --> 00:01:19,114
+contained in C. It's a
+different kind of thought.
+
+23
+00:01:19,114 --> 00:01:22,955
+When we represent it
+with the Venn diagrams,
+
+24
+00:01:22,955 --> 00:01:24,830
+the derivation is very
+
+25
+00:01:24,830 --> 00:01:27,155
+similar to the one
+we gave for Barbara.
+
+26
+00:01:27,155 --> 00:01:30,650
+If every a is b and
+every B is Nazi,
+
+27
+00:01:30,650 --> 00:01:32,434
+than every a is Nazi.
+
+28
+00:01:32,434 --> 00:01:34,970
+Rephrasing that we
+have if every a is
+
+29
+00:01:34,970 --> 00:01:39,150
+b and no BSC and no ASE.
+
+30
+00:01:41,350 --> 00:01:44,660
+And the example, all
+snakes are reptiles,
+
+31
+00:01:44,660 --> 00:01:48,570
+no reptiles have
+no snakes heifer.
+
+32
+00:01:50,070 --> 00:01:53,590
+In terms of the Euler diagrams,
+
+33
+00:01:53,590 --> 00:01:56,860
+all a's b looks like this.
+
+34
+00:01:56,860 --> 00:01:59,665
+This region in the
+Venn diagram is empty,
+
+35
+00:01:59,665 --> 00:02:02,815
+and no a is B, looks like this.
+
+36
+00:02:02,815 --> 00:02:06,985
+And this region in the
+Venn diagram is empty.
+
+37
+00:02:06,985 --> 00:02:09,100
+If we now try and
+prove this by putting
+
+38
+00:02:09,100 --> 00:02:11,694
+those together in the
+way we did for Barbara.
+
+39
+00:02:11,694 --> 00:02:15,580
+We take this Venn
+diagram for all a's b.
+
+40
+00:02:15,580 --> 00:02:19,480
+This Venn diagram for no BSC,
+
+41
+00:02:19,480 --> 00:02:23,455
+with these regions x
+and y being empty,
+
+42
+00:02:23,455 --> 00:02:27,280
+we can put them together in
+
+43
+00:02:27,280 --> 00:02:30,115
+a three predicate Venn diagram
+
+44
+00:02:30,115 --> 00:02:33,340
+to know that all of
+these parts are empty.
+
+45
+00:02:33,340 --> 00:02:36,460
+And we wanted to
+show that no a is c,
+
+46
+00:02:36,460 --> 00:02:39,520
+that simply to show that
+this region Zed is empty,
+
+47
+00:02:39,520 --> 00:02:41,229
+but just as we did before,
+
+48
+00:02:41,229 --> 00:02:45,370
+Zed is contained in X union Y,
+
+49
+00:02:45,370 --> 00:02:48,160
+Zed is contained
+here in X union Y.
+
+50
+00:02:48,160 --> 00:02:49,870
+So we can give that kind of
+
+51
+00:02:49,870 --> 00:02:53,485
+derivation problem,
+the Euler diagram.
+
+52
+00:02:53,485 --> 00:02:55,735
+It's much harder to see.
+
+53
+00:02:55,735 --> 00:03:00,625
+So far we've seen two syllogisms.
+
+54
+00:03:00,625 --> 00:03:02,710
+The first one Barbara,
+
+55
+00:03:02,710 --> 00:03:04,045
+and the second one,
+
+56
+00:03:04,045 --> 00:03:05,740
+an instance of Barbara.
+
+57
+00:03:05,740 --> 00:03:07,420
+We saw that we could justify
+
+58
+00:03:07,420 --> 00:03:09,625
+back inference independently.
+
+59
+00:03:09,625 --> 00:03:14,200
+We're going to derive many
+more syllogisms from Barbara.
+
+60
+00:03:14,200 --> 00:03:16,225
+From Barbara.
+
+61
+00:03:16,225 --> 00:03:19,660
+We derive this
+syllogism simply by
+
+62
+00:03:19,660 --> 00:03:23,170
+substituting Nazi for c in here.
+
+63
+00:03:23,170 --> 00:03:25,930
+Here we're going to see
+that with no more work,
+
+64
+00:03:25,930 --> 00:03:28,585
+we can get three more syllogisms.
+
+65
+00:03:28,585 --> 00:03:36,385
+We know that no B is C is
+equivalent to know CSP.
+
+66
+00:03:36,385 --> 00:03:40,165
+So we can replace,
+in this syllogism,
+
+67
+00:03:40,165 --> 00:03:44,935
+we replace the no
+b is c by no CSB.
+
+68
+00:03:44,935 --> 00:03:49,555
+That is, we apply contraposition
+to this proposition.
+
+69
+00:03:49,555 --> 00:03:52,870
+That gives us a new syllogism,
+
+70
+00:03:52,870 --> 00:03:55,165
+which has this swapped over.
+
+71
+00:03:55,165 --> 00:03:59,890
+We can now swap this over to
+give a new syllogism here.
+
+72
+00:03:59,890 --> 00:04:03,280
+And we can swap
+this back again to
+
+73
+00:04:03,280 --> 00:04:07,150
+give yet another
+new syllogism here.
+
+74
+00:04:07,150 --> 00:04:08,949
+So from this one,
+
+75
+00:04:08,949 --> 00:04:11,170
+we have derived for
+others and we don't
+
+76
+00:04:11,170 --> 00:04:13,675
+need to check them
+with Venn diagrams.
+
+77
+00:04:13,675 --> 00:04:15,190
+You could as an exercise,
+
+78
+00:04:15,190 --> 00:04:16,885
+check them with Venn diagrams,
+
+79
+00:04:16,885 --> 00:04:18,505
+but we don't need to.
+
+80
+00:04:18,505 --> 00:04:22,585
+Because we've seen that
+this is equivalent to this,
+
+81
+00:04:22,585 --> 00:04:24,340
+this is equivalent to this,
+
+82
+00:04:24,340 --> 00:04:26,260
+and this is equivalent to this.
+
+83
+00:04:26,260 --> 00:04:28,300
+All of these three syllogisms are
+
+84
+00:04:28,300 --> 00:04:31,030
+sound simply because this one is,
+
+85
+00:04:31,030 --> 00:04:32,770
+and this one is simply
+
+86
+00:04:32,770 --> 00:04:35,725
+because it's an
+instance of this one.
+
+87
+00:04:35,725 --> 00:04:41,455
+Logic is just common
+sense in symbolic form.
+
+88
+00:04:41,455 --> 00:04:43,750
+But it's quite hard to do
+
+89
+00:04:43,750 --> 00:04:48,535
+these transformations
+without symbolic form.
+
+90
+00:04:48,535 --> 00:04:50,995
+You have to be Aristotle
+
+91
+00:04:50,995 --> 00:04:53,545
+to have thought of this
+in the first place.
+
+92
+00:04:53,545 --> 00:04:56,830
+But with the algebra
+notation we now have,
+
+93
+00:04:56,830 --> 00:04:59,245
+You can all do at
+least as well as
+
+94
+00:04:59,245 --> 00:05:03,500
+Aristotle in understanding
+the syllogisms.
+
+95
+00:05:03,780 --> 00:05:06,340
+To see what we've achieved.
+
+96
+00:05:06,340 --> 00:05:10,645
+Take a look at these examples
+of our five syllogisms.
+
+97
+00:05:10,645 --> 00:05:14,065
+If you had to just justify
+
+98
+00:05:14,065 --> 00:05:17,650
+these arguments without having
+
+99
+00:05:17,650 --> 00:05:20,965
+done this work at
+the symbolic level.
+
+100
+00:05:20,965 --> 00:05:23,930
+I think you'll find it
+much more difficult.
