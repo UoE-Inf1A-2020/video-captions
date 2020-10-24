@@ -1,0 +1,196 @@
+1
+00:00:04,430 --> 00:00:09,640
+Good morning. Made this later.
+
+2
+00:00:11,060 --> 00:00:14,850
+Going to start by reviewing
+
+3
+00:00:14,850 --> 00:00:19,740
+very briefly some of the
+material on syllogisms.
+
+4
+00:00:19,740 --> 00:00:24,450
+The important point is to
+get across the idea of
+
+5
+00:00:24,450 --> 00:00:26,340
+a proposition because
+that's what we
+
+6
+00:00:26,340 --> 00:00:29,190
+generalize to make a sequence.
+
+7
+00:00:29,190 --> 00:00:32,070
+So we start from
+Aristotle's propositions
+
+8
+00:00:32,070 --> 00:00:35,520
+and move on to sequence,
+
+9
+00:00:35,520 --> 00:00:37,680
+which were introduced by Jensen.
+
+10
+00:00:37,680 --> 00:00:39,525
+But we start very simply,
+
+11
+00:00:39,525 --> 00:00:44,000
+we have a universe of
+
+12
+00:00:44,000 --> 00:00:48,335
+things and we have
+
+13
+00:00:48,335 --> 00:00:51,200
+some collections of things
+with particular properties.
+
+14
+00:00:51,200 --> 00:00:52,820
+So here are the
+collection of things
+
+15
+00:00:52,820 --> 00:00:54,800
+that satisfy the property
+
+16
+00:00:54,800 --> 00:01:00,230
+a for any thing in the
+universe, let's say x.
+
+17
+00:01:00,230 --> 00:01:04,175
+Then this is the set of things
+such that a holds of X.
+
+18
+00:01:04,175 --> 00:01:07,625
+We represent a as a function.
+
+19
+00:01:07,625 --> 00:01:10,820
+So a of x is a Boolean
+value, true or false.
+
+20
+00:01:10,820 --> 00:01:15,410
+And this is the set of things
+such that a of X is true.
+
+21
+00:01:15,410 --> 00:01:19,040
+Set of X, such that
+
+22
+00:01:19,040 --> 00:01:24,965
+a holes of x is what I've
+drawn a diagram off here.
+
+23
+00:01:24,965 --> 00:01:27,545
+And we're interested
+in the relationship
+
+24
+00:01:27,545 --> 00:01:30,785
+between different predicates.
+
+25
+00:01:30,785 --> 00:01:33,500
+So for example,
+here's a predicate.
+
+26
+00:01:33,500 --> 00:01:37,700
+Another one, be than I've
+
+27
+00:01:37,700 --> 00:01:39,500
+drawn the set of things such that
+
+28
+00:01:39,500 --> 00:01:42,229
+b holds of X name this diagram.
+
+29
+00:01:42,229 --> 00:01:45,740
+Everything that's in a is in B.
+
+30
+00:01:45,740 --> 00:01:49,040
+And I'm going to write that
+in a symbolic notation.
+
+31
+00:01:49,040 --> 00:01:52,655
+As a satisfies B,
+
+32
+00:01:52,655 --> 00:01:56,945
+which I say as all a are B.
+
+33
+00:01:56,945 --> 00:01:59,090
+We then take another example,
+
+34
+00:01:59,090 --> 00:02:03,155
+and this time, Let's say
+this is a, this is b.
+
+35
+00:02:03,155 --> 00:02:06,110
+And here is the case
+that no a, a, B,
+
+36
+00:02:06,110 --> 00:02:09,845
+every a is contained in
+the complement of B,
+
+37
+00:02:09,845 --> 00:02:15,620
+every a is not v. And we
+use this symbol for naught.
+
+38
+00:02:15,620 --> 00:02:17,660
+If I take something in a and it
+
+39
+00:02:17,660 --> 00:02:19,820
+doesn't satisfy B for every x in
+
+40
+00:02:19,820 --> 00:02:25,115
+a b if x is false, now, a hobby.
+
+41
+00:02:25,115 --> 00:02:27,860
+Now look at that. This
+is completely symmetric.
+
+42
+00:02:27,860 --> 00:02:30,515
+So this tells us our
+first logical rule.
+
+43
+00:02:30,515 --> 00:02:32,600
+If every a is NOT B,
+
+44
+00:02:32,600 --> 00:02:36,480
+then it's the same
+as every B is not a.

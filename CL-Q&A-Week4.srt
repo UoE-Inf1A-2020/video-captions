@@ -1,0 +1,2275 @@
+1
+00:00:00,000 --> 00:00:01,860
+Normally clarity does that,
+
+2
+00:00:01,860 --> 00:00:04,890
+but it seems weird
+without which is phi.
+
+3
+00:00:04,890 --> 00:00:09,600
+Okay, let me just recap
+briefly for the recording.
+
+4
+00:00:09,600 --> 00:00:13,275
+We're looking at
+this sequent here,
+
+5
+00:00:13,275 --> 00:00:15,990
+and we're trying to reduce
+it using the rules.
+
+6
+00:00:15,990 --> 00:00:17,640
+And we'll see what
+reduction means as we
+
+7
+00:00:17,640 --> 00:00:19,410
+go through to the
+first thing I did.
+
+8
+00:00:19,410 --> 00:00:25,845
+This is not AOB satisfies
+not a and not B,
+
+9
+00:00:25,845 --> 00:00:31,680
+which is one of the models
+for pushing negations inside.
+
+10
+00:00:31,680 --> 00:00:37,020
+In this case inside
+the disjunction gate,
+
+11
+00:00:37,020 --> 00:00:40,555
+these tube turns
+disjunction conjunction.
+
+12
+00:00:40,555 --> 00:00:42,230
+The first thing
+we're going to do is
+
+13
+00:00:42,230 --> 00:00:43,730
+to address the fact we got an
+
+14
+00:00:43,730 --> 00:00:47,809
+not here by taking this
+rule for negation.
+
+15
+00:00:47,809 --> 00:00:50,330
+Rope a negation on the left,
+
+16
+00:00:50,330 --> 00:00:52,730
+which says if I have a
+negation on the left,
+
+17
+00:00:52,730 --> 00:00:55,910
+I can move the a turnstile
+and change the sign.
+
+18
+00:00:55,910 --> 00:00:58,910
+So what I've done is to
+move this not a or b,
+
+19
+00:00:58,910 --> 00:01:01,970
+cross the turnstile,
+change its sign.
+
+20
+00:01:01,970 --> 00:01:04,385
+And this is just copied up.
+
+21
+00:01:04,385 --> 00:01:08,180
+Now I am going to address
+this and I'm going to
+
+22
+00:01:08,180 --> 00:01:11,585
+focus on this junction here.
+
+23
+00:01:11,585 --> 00:01:14,255
+I want the rule for
+conjunction on the right.
+
+24
+00:01:14,255 --> 00:01:17,855
+And that is that if I'm a groups
+
+25
+00:01:17,855 --> 00:01:23,055
+a delta and gamma
+suddenly satisfies,
+
+26
+00:01:23,055 --> 00:01:31,240
+and that is B delta that
+happened from gamma.
+
+27
+00:01:31,240 --> 00:01:35,020
+I can deduce a or
+delta from gamma.
+
+28
+00:01:35,020 --> 00:01:37,540
+I can deduce dy or delta.
+
+29
+00:01:37,540 --> 00:01:43,330
+Then I can deduce a and
+B are delta, though.
+
+30
+00:01:43,330 --> 00:01:45,610
+Either something is true,
+
+31
+00:01:45,610 --> 00:01:52,795
+in which case we certainly
+did alter the Commonwealth.
+
+32
+00:01:52,795 --> 00:01:55,960
+So what we're seeing
+now is that a and
+
+33
+00:01:55,960 --> 00:01:58,615
+B here and match it against this?
+
+34
+00:01:58,615 --> 00:02:00,670
+We can't hear.
+
+35
+00:02:00,670 --> 00:02:03,280
+Can you hear me now?
+
+36
+00:02:03,280 --> 00:02:07,910
+Yes. Sorry. I've no
+idea why this happened.
+
+37
+00:02:07,910 --> 00:02:12,125
+It suddenly decided I couldn't
+share audio or video.
+
+38
+00:02:12,125 --> 00:02:14,870
+And you now see the camera?
+
+39
+00:02:14,870 --> 00:02:17,900
+Yes, you can say no
+idea what that was.
+
+40
+00:02:17,900 --> 00:02:20,750
+Technical glitch
+which came out of
+
+41
+00:02:20,750 --> 00:02:22,790
+nowhere between these two lines
+
+42
+00:02:22,790 --> 00:02:24,050
+is what you were asking me about?
+
+43
+00:02:24,050 --> 00:02:28,610
+Yes. Yes. So what I
+did was to focus on
+
+44
+00:02:28,610 --> 00:02:30,890
+this connect if I
+could have focused
+
+45
+00:02:30,890 --> 00:02:33,590
+on this or and done things
+in a different order.
+
+46
+00:02:33,590 --> 00:02:36,005
+But I chose to focus on this and
+
+47
+00:02:36,005 --> 00:02:39,020
+then I look for a role
+that will help me
+
+48
+00:02:39,020 --> 00:02:40,580
+simplify by getting rid of
+
+49
+00:02:40,580 --> 00:02:46,415
+this conjunction rule that I
+used with this rule up here,
+
+50
+00:02:46,415 --> 00:02:50,280
+which we call and on the right.
+
+51
+00:02:50,410 --> 00:02:55,640
+Okay. Rule does in
+
+52
+00:02:55,640 --> 00:02:57,845
+a slightly different
+order because we have,
+
+53
+00:02:57,845 --> 00:02:59,480
+think we're focusing on with
+
+54
+00:02:59,480 --> 00:03:02,210
+the end this first
+here and then delta,
+
+55
+00:03:02,210 --> 00:03:06,410
+because it's a set of the
+delta-V born, it's the same.
+
+56
+00:03:06,410 --> 00:03:10,925
+So delta in this case
+will just be this.
+
+57
+00:03:10,925 --> 00:03:14,090
+I just copy the
+delta up. Nice case.
+
+58
+00:03:14,090 --> 00:03:18,260
+So I copy this AOB up
+in each of those cases.
+
+59
+00:03:18,260 --> 00:03:26,600
+Then where I had where I
+
+60
+00:03:26,600 --> 00:03:30,410
+had a I had
+
+61
+00:03:30,410 --> 00:03:34,460
+not a and not B that matches
+against the a and B.
+
+62
+00:03:34,460 --> 00:03:37,745
+So instead of copying up
+the a, coming up the B,
+
+63
+00:03:37,745 --> 00:03:41,105
+I'm applying the rule to
+this cropping up the not a,
+
+64
+00:03:41,105 --> 00:03:44,675
+I've got here and there not
+be which I've got here.
+
+65
+00:03:44,675 --> 00:03:47,795
+Because literally I
+match against this rule.
+
+66
+00:03:47,795 --> 00:03:51,200
+And on the right, provided
+I've got the matching right,
+
+67
+00:03:51,200 --> 00:03:53,960
+I just write up here that
+the matching for that
+
+68
+00:03:53,960 --> 00:03:57,140
+one was in the rule.
+
+69
+00:03:57,140 --> 00:04:03,200
+I have a matching it
+to what did I have?
+
+70
+00:04:03,200 --> 00:04:07,355
+I had a naught a in the row.
+
+71
+00:04:07,355 --> 00:04:09,110
+I had to be. Do you think I
+
+72
+00:04:09,110 --> 00:04:11,765
+was matching it to I had a not B.
+
+73
+00:04:11,765 --> 00:04:16,145
+And that's because I
+was matching a and B
+
+74
+00:04:16,145 --> 00:04:21,335
+against a and not B.
+
+75
+00:04:21,335 --> 00:04:23,855
+This one was in the rule,
+
+76
+00:04:23,855 --> 00:04:26,060
+and this was in the
+actual example that
+
+77
+00:04:26,060 --> 00:04:28,070
+I'm doing. In the rule.
+
+78
+00:04:28,070 --> 00:04:30,860
+I have a delta and I'm
+matching that against
+
+79
+00:04:30,860 --> 00:04:36,065
+the singleton which
+only contains a or b.
+
+80
+00:04:36,065 --> 00:04:39,960
+So that's the way that this line,
+
+81
+00:04:41,110 --> 00:04:44,520
+o and gamma is empty.
+
+82
+00:04:45,730 --> 00:04:50,150
+Because that'll make sense.
+Yes. Thank you. Thank you.
+
+83
+00:04:50,150 --> 00:04:56,200
+I am completely against this
+line. With this matching.
+
+84
+00:04:56,200 --> 00:04:57,895
+I'll rewrite the top line,
+
+85
+00:04:57,895 --> 00:05:02,455
+getting this dictionary
+effectively. Okay, thank you.
+
+86
+00:05:02,455 --> 00:05:04,420
+No way to write it down,
+
+87
+00:05:04,420 --> 00:05:05,740
+but normally you can do
+
+88
+00:05:05,740 --> 00:05:07,330
+it in your head once
+you've got the idea,
+
+89
+00:05:07,330 --> 00:05:09,520
+but the first time I should
+have explained it like that.
+
+90
+00:05:09,520 --> 00:05:12,040
+You're right. That
+help. Thank you.
+
+91
+00:05:12,040 --> 00:05:16,460
+Thank you very much. A other
+questions on this one?
+
+92
+00:05:30,030 --> 00:05:32,350
+I don't hear anybody.
+
+93
+00:05:32,350 --> 00:05:34,010
+Are you there?
+
+94
+00:05:40,710 --> 00:05:43,610
+I know one.
+
+95
+00:05:43,980 --> 00:05:47,300
+They will raise a hand.
+
+96
+00:05:55,800 --> 00:05:59,420
+I think I'm not online.
+
+97
+00:05:59,760 --> 00:06:06,070
+Weekend here. It's probably
+no questions. No questions.
+
+98
+00:06:06,070 --> 00:06:09,580
+It's amazing what we're going to
+
+99
+00:06:09,580 --> 00:06:14,140
+do the remainder of this week
+and next week's tutorial.
+
+100
+00:06:14,140 --> 00:06:17,320
+The tutorial assignment
+is really just to go
+
+101
+00:06:17,320 --> 00:06:19,060
+through a couple examples
+
+102
+00:06:19,060 --> 00:06:21,460
+like this and work through them.
+
+103
+00:06:21,460 --> 00:06:23,785
+In the tutorial.
+
+104
+00:06:23,785 --> 00:06:26,510
+Audio has cut-off.
+
+105
+00:06:30,270 --> 00:06:33,920
+Come back. Can you hear me?
+
+106
+00:06:39,780 --> 00:06:42,985
+Yes, we can hear you now.
+
+107
+00:06:42,985 --> 00:06:45,175
+So my question was,
+
+108
+00:06:45,175 --> 00:06:47,890
+I can only use two
+questions and I
+
+109
+00:06:47,890 --> 00:06:50,830
+get four different
+values for that rate.
+
+110
+00:06:50,830 --> 00:06:55,060
+So I need to get 00011011 for
+
+111
+00:06:55,060 --> 00:06:59,920
+me to get used to is right into.
+
+112
+00:06:59,920 --> 00:07:01,795
+My next question was,
+
+113
+00:07:01,795 --> 00:07:04,515
+in the videos for this week.
+
+114
+00:07:04,515 --> 00:07:08,960
+You talked about or
+
+115
+00:07:08,960 --> 00:07:15,770
+this conjunction in that
+it was every C is a and B.
+
+116
+00:07:15,770 --> 00:07:17,990
+But you made a diagram in
+
+117
+00:07:17,990 --> 00:07:22,925
+which intersection of
+AB was supposed to be.
+
+118
+00:07:22,925 --> 00:07:26,060
+But you made the sea
+circle a bit smaller.
+
+119
+00:07:26,060 --> 00:07:28,970
+Not all the elements of a and B.
+
+120
+00:07:28,970 --> 00:07:31,055
+Is there a particular
+reason for that?
+
+121
+00:07:31,055 --> 00:07:33,455
+That certainly was
+the re the reason is
+
+122
+00:07:33,455 --> 00:07:36,140
+we want to talk about
+the condition where
+
+123
+00:07:36,140 --> 00:07:43,745
+every say included a and
+every city is included in B.
+
+124
+00:07:43,745 --> 00:07:48,065
+We're not talking about a
+being equal to a and B.
+
+125
+00:07:48,065 --> 00:07:50,240
+We're saying if C is
+
+126
+00:07:50,240 --> 00:07:53,825
+included in a and C
+is included in B,
+
+127
+00:07:53,825 --> 00:08:02,375
+that's the same as saying that
+C is included in a and B.
+
+128
+00:08:02,375 --> 00:08:05,555
+So the diagram is like this.
+
+129
+00:08:05,555 --> 00:08:11,120
+We've got a and we've got B.
+
+130
+00:08:11,120 --> 00:08:12,755
+And now we want to say,
+
+131
+00:08:12,755 --> 00:08:15,455
+when is city in here?
+
+132
+00:08:15,455 --> 00:08:16,909
+We don't have an inequality.
+
+133
+00:08:16,909 --> 00:08:18,260
+What we're talking about here
+
+134
+00:08:18,260 --> 00:08:19,970
+is an inequality effectively,
+
+135
+00:08:19,970 --> 00:08:24,080
+we are saying when is c
+contained in a, contained in B?
+
+136
+00:08:24,080 --> 00:08:25,820
+That the picture is we
+
+137
+00:08:25,820 --> 00:08:27,530
+want to know when C
+is contained in them.
+
+138
+00:08:27,530 --> 00:08:29,390
+So not necessarily it would be
+
+139
+00:08:29,390 --> 00:08:31,520
+true for the
+intersection of them.
+
+140
+00:08:31,520 --> 00:08:35,180
+It's certainly true that
+the intersection satisfies
+
+141
+00:08:35,180 --> 00:08:39,890
+a and the intersection B.
+
+142
+00:08:39,890 --> 00:08:46,970
+That's because a and B
+is contained in a and B.
+
+143
+00:08:46,970 --> 00:08:50,670
+This is a more general
+thing that we say.
+
+144
+00:08:50,920 --> 00:08:54,230
+In some sense. That's
+the big difference
+
+145
+00:08:54,230 --> 00:08:58,730
+between logic and
+ordinary algebra.
+
+146
+00:08:58,730 --> 00:09:00,350
+We're interested in or in
+
+147
+00:09:00,350 --> 00:09:05,090
+these relationships
+rather than inequalities.
+
+148
+00:09:05,090 --> 00:09:07,940
+That make some sense.
+
+149
+00:09:07,940 --> 00:09:10,530
+Yeah, I got that.
+
+150
+00:09:10,530 --> 00:09:13,795
+My other question
+was in terms of the
+
+151
+00:09:13,795 --> 00:09:16,930
+and that we use the one
+which has and colon.
+
+152
+00:09:16,930 --> 00:09:20,785
+And yes, it is from Yue Du Bu.
+
+153
+00:09:20,785 --> 00:09:22,945
+Like one function you
+double than it is.
+
+154
+00:09:22,945 --> 00:09:25,810
+Again, you do bool and
+at the end it gives
+
+155
+00:09:25,810 --> 00:09:29,560
+you Y does not give you
+only bool at the end.
+
+156
+00:09:29,560 --> 00:09:31,660
+Like why is it you who ruined?
+
+157
+00:09:31,660 --> 00:09:34,435
+Because, okay, what we want to do
+
+158
+00:09:34,435 --> 00:09:39,430
+is in this case we
+want to take a and B.
+
+159
+00:09:39,430 --> 00:09:42,430
+And both of those
+and the functions,
+
+160
+00:09:42,430 --> 00:09:44,830
+this is a picture of a function.
+
+161
+00:09:44,830 --> 00:09:55,145
+So a is of type due to boom
+and be a tie due to bool.
+
+162
+00:09:55,145 --> 00:09:58,880
+And what we want to do
+is to make something.
+
+163
+00:09:58,880 --> 00:10:01,010
+We've got one predicate,
+we got another predicate.
+
+164
+00:10:01,010 --> 00:10:02,540
+We want to make the predicate,
+
+165
+00:10:02,540 --> 00:10:04,069
+which is the intersection,
+
+166
+00:10:04,069 --> 00:10:05,870
+so, which is this piece?
+
+167
+00:10:05,870 --> 00:10:07,445
+And how do we define it?
+
+168
+00:10:07,445 --> 00:10:11,555
+We defined it by
+saying, Dave, I take,
+
+169
+00:10:11,555 --> 00:10:14,870
+I'll write it without the
+Haskell premium if I take
+
+170
+00:10:14,870 --> 00:10:18,740
+a and B and apply to x,
+
+171
+00:10:18,740 --> 00:10:21,155
+and that's the same as taking.
+
+172
+00:10:21,155 --> 00:10:23,165
+We are taking a point in here,
+
+173
+00:10:23,165 --> 00:10:27,170
+an x, we're saying
+is again a and B.
+
+174
+00:10:27,170 --> 00:10:34,085
+So here it's not because
+it's in B, but not in a.
+
+175
+00:10:34,085 --> 00:10:37,025
+Out here it is. In a
+but he's not in B.
+
+176
+00:10:37,025 --> 00:10:39,110
+And here, how do I check?
+
+177
+00:10:39,110 --> 00:10:40,640
+Is it in a? I apply
+
+178
+00:10:40,640 --> 00:10:42,320
+this function and see
+if I get through.
+
+179
+00:10:42,320 --> 00:10:44,735
+So I'll get a true b of x here,
+
+180
+00:10:44,735 --> 00:10:46,190
+but I won't get a true pariah
+
+181
+00:10:46,190 --> 00:10:48,560
+that here I'll get
+true for both them.
+
+182
+00:10:48,560 --> 00:10:54,380
+So this is equal to
+a of x and p of x.
+
+183
+00:10:54,380 --> 00:10:55,670
+Now here I'm using
+
+184
+00:10:55,670 --> 00:10:57,770
+the same symbol as I would
+
+185
+00:10:57,770 --> 00:11:00,125
+use if these were just
+two truth values.
+
+186
+00:11:00,125 --> 00:11:03,785
+I've used the same symbol
+for the and on predicates.
+
+187
+00:11:03,785 --> 00:11:07,325
+And the, and on truth values go.
+
+188
+00:11:07,325 --> 00:11:09,680
+You have to be a
+little more precise.
+
+189
+00:11:09,680 --> 00:11:11,030
+I have to say the end on
+
+190
+00:11:11,030 --> 00:11:13,760
+predicates is a
+different operation.
+
+191
+00:11:13,760 --> 00:11:23,515
+Truth values. Then
+we say a and, okay,
+
+192
+00:11:23,515 --> 00:11:24,880
+that's how we wrote it and,
+
+193
+00:11:24,880 --> 00:11:33,475
+and be applied to X equals a,
+
+194
+00:11:33,475 --> 00:11:36,940
+a applied to x.
+
+195
+00:11:36,940 --> 00:11:41,000
+And then that's the
+operation on booleans.
+
+196
+00:11:41,910 --> 00:11:45,745
+So we really just define and on
+
+197
+00:11:45,745 --> 00:11:49,314
+predicates using the
+end on Booleans.
+
+198
+00:11:49,314 --> 00:11:52,150
+But in Haskell we use
+different names for them.
+
+199
+00:11:52,150 --> 00:11:55,930
+But I still don't get why
+the output is you do bool.
+
+200
+00:11:55,930 --> 00:12:00,120
+Because what we want the output
+we want to put you in a,
+
+201
+00:12:00,120 --> 00:12:03,140
+we want to put in B, and
+we want to get this thing.
+
+202
+00:12:03,140 --> 00:12:06,570
+What is this thing?
+It's a subset.
+
+203
+00:12:07,120 --> 00:12:09,320
+But in the function,
+
+204
+00:12:09,320 --> 00:12:11,180
+you get a of x,
+
+205
+00:12:11,180 --> 00:12:12,695
+you get true or false,
+
+206
+00:12:12,695 --> 00:12:14,030
+and we'll be off anti-aligned.
+
+207
+00:12:14,030 --> 00:12:16,475
+I get true or false.
+It's just yeah.
+
+208
+00:12:16,475 --> 00:12:21,500
+And like whatever,
+combat that for any x.
+
+209
+00:12:21,500 --> 00:12:24,065
+So you see this thing
+
+210
+00:12:24,065 --> 00:12:27,155
+comes out true or false
+once we're given an x,
+
+211
+00:12:27,155 --> 00:12:30,800
+it says, I take an individual x,
+
+212
+00:12:30,800 --> 00:12:32,885
+x will be of type U.
+
+213
+00:12:32,885 --> 00:12:35,780
+And I apply a and,
+
+214
+00:12:35,780 --> 00:12:37,820
+and b to this thing of type u.
+
+215
+00:12:37,820 --> 00:12:42,860
+What is the result? So x is
+one of these things here.
+
+216
+00:12:42,860 --> 00:12:45,830
+Well, here we are trying to
+
+217
+00:12:45,830 --> 00:12:48,845
+work out where it is
+looking at these two.
+
+218
+00:12:48,845 --> 00:12:50,945
+And we give a true,
+
+219
+00:12:50,945 --> 00:12:54,335
+they're both true,
+then it will be true.
+
+220
+00:12:54,335 --> 00:12:57,515
+If one of them is false and
+it will give us a false.
+
+221
+00:12:57,515 --> 00:12:59,330
+It'll be over all function
+
+222
+00:12:59,330 --> 00:13:01,145
+as being defined
+as you'd be bool.
+
+223
+00:13:01,145 --> 00:13:06,215
+Because we are giving
+xt and edges. I view.
+
+224
+00:13:06,215 --> 00:13:11,600
+This is just like a
+normal if I say f of x
+
+225
+00:13:11,600 --> 00:13:19,940
+equals x and v of x.
+
+226
+00:13:19,940 --> 00:13:26,719
+And what will let f be a
+function of x is two Booleans.
+
+227
+00:13:26,719 --> 00:13:29,670
+Or what's happening here.
+
+228
+00:13:29,770 --> 00:13:33,080
+Okay, so we're defining
+a function here.
+
+229
+00:13:33,080 --> 00:13:35,570
+I understand why it's
+difficult to get because
+
+230
+00:13:35,570 --> 00:13:37,115
+most languages don't work like
+
+231
+00:13:37,115 --> 00:13:39,065
+this and we don't use
+functions so much.
+
+232
+00:13:39,065 --> 00:13:41,630
+But this is what
+makes language like
+
+233
+00:13:41,630 --> 00:13:44,150
+Haskell really powerful
+is that we can do this,
+
+234
+00:13:44,150 --> 00:13:47,225
+we can find functions
+from other functions.
+
+235
+00:13:47,225 --> 00:13:52,625
+And it turns out to be quite
+a powerful way of computing.
+
+236
+00:13:52,625 --> 00:13:55,880
+Ran. I got when you've got that,
+
+237
+00:13:55,880 --> 00:13:58,040
+you've got a long way in your
+understanding of Haskell,
+
+238
+00:13:58,040 --> 00:13:59,240
+So I'm glad you got it.
+
+239
+00:13:59,240 --> 00:14:01,160
+And if other people are
+still having problems,
+
+240
+00:14:01,160 --> 00:14:04,595
+by all means, ask again or or.
+
+241
+00:14:04,595 --> 00:14:06,470
+Ask your, ask your friends
+
+242
+00:14:06,470 --> 00:14:07,940
+and discuss it
+amongst yourselves.
+
+243
+00:14:07,940 --> 00:14:09,545
+But this is really
+
+244
+00:14:09,545 --> 00:14:12,470
+an example of something
+we'll do a lot in Haskell.
+
+245
+00:14:12,470 --> 00:14:14,450
+We wanted to define
+a new function.
+
+246
+00:14:14,450 --> 00:14:17,075
+We say, how do I
+define a function?
+
+247
+00:14:17,075 --> 00:14:20,510
+What it does for a
+given x o here I
+
+248
+00:14:20,510 --> 00:14:22,025
+say how to define
+
+249
+00:14:22,025 --> 00:14:24,994
+a new function made
+out of two functions.
+
+250
+00:14:24,994 --> 00:14:27,530
+I'll define what he
+does by saying what
+
+251
+00:14:27,530 --> 00:14:29,720
+it does to annex
+what it does is to
+
+252
+00:14:29,720 --> 00:14:33,095
+apply the first function 2x plus
+
+253
+00:14:33,095 --> 00:14:34,790
+the second function 2x and
+
+254
+00:14:34,790 --> 00:14:36,605
+then take the
+conjunction of those.
+
+255
+00:14:36,605 --> 00:14:39,530
+And that's happening here.
+Just because of the typing.
+
+256
+00:14:39,530 --> 00:14:41,570
+We have two different notations
+
+257
+00:14:41,570 --> 00:14:43,565
+for and we normally
+don't think of that.
+
+258
+00:14:43,565 --> 00:14:46,295
+If you think of what's
+going on in the real world.
+
+259
+00:14:46,295 --> 00:14:52,475
+This intersection here is
+intersecting two sets.
+
+260
+00:14:52,475 --> 00:14:57,380
+We define it in terms of
+the unknown truth values.
+
+261
+00:14:57,380 --> 00:14:59,870
+Something is in bits in
+
+262
+00:14:59,870 --> 00:15:03,005
+this one as a Boolean
+value, is it not?
+
+263
+00:15:03,005 --> 00:15:04,640
+And it's in this one, it's
+
+264
+00:15:04,640 --> 00:15:06,620
+a Boolean, value, it
+in this one or not.
+
+265
+00:15:06,620 --> 00:15:08,285
+So it's in here.
+
+266
+00:15:08,285 --> 00:15:09,650
+It's in both of these.
+
+267
+00:15:09,650 --> 00:15:12,770
+That's all this is
+saying. Thank you.
+
+268
+00:15:12,770 --> 00:15:19,160
+Ok. I think your next Yes.
+
+269
+00:15:19,160 --> 00:15:22,760
+Can you hear me? I can
+hear you. Thank you.
+
+270
+00:15:22,760 --> 00:15:28,580
+Yeah. So I was late to
+this Asia, East Asia.
+
+271
+00:15:28,580 --> 00:15:30,065
+So like what you,
+
+272
+00:15:30,065 --> 00:15:32,360
+what you are doing in the
+beginning of this session is
+
+273
+00:15:32,360 --> 00:15:36,455
+that irradiation
+of DeMorgan's law.
+
+274
+00:15:36,455 --> 00:15:38,255
+I want to ask, is this,
+
+275
+00:15:38,255 --> 00:15:40,655
+how we derive this
+DeMorgan's law?
+
+276
+00:15:40,655 --> 00:15:42,185
+Or is kind of,
+
+277
+00:15:42,185 --> 00:15:44,930
+we have these rules,
+we have this sequence.
+
+278
+00:15:44,930 --> 00:15:47,600
+We can reduce it by
+applying the rules
+
+279
+00:15:47,600 --> 00:15:50,720
+backwards and we find that
+we end up no assumptions.
+
+280
+00:15:50,720 --> 00:15:53,390
+So that tells us,
+this is always valid.
+
+281
+00:15:53,390 --> 00:15:56,690
+That tells us that this
+
+282
+00:15:56,690 --> 00:15:59,765
+predicate is contained in this
+
+283
+00:15:59,765 --> 00:16:03,005
+predicate always in
+any universe, plenty.
+
+284
+00:16:03,005 --> 00:16:07,220
+Or you could say a and
+B, not of a or B is
+
+285
+00:16:07,220 --> 00:16:11,270
+contained in not a and not B. Oh,
+
+286
+00:16:11,270 --> 00:16:12,410
+that those two are equal.
+
+287
+00:16:12,410 --> 00:16:17,670
+We have to also show the
+inequality the other way round.
+
+288
+00:16:17,800 --> 00:16:20,960
+That's just the inequality.
+
+289
+00:16:20,960 --> 00:16:23,630
+If we show that one, which
+we can do in the same way.
+
+290
+00:16:23,630 --> 00:16:26,420
+But I'll leave as an
+exercise for you guys.
+
+291
+00:16:26,420 --> 00:16:29,240
+Then we will have shown
+they're equal because it
+
+292
+00:16:29,240 --> 00:16:32,105
+says one predicate is
+contained in the other.
+
+293
+00:16:32,105 --> 00:16:35,690
+It says it's also contain the
+other way to think of sets.
+
+294
+00:16:35,690 --> 00:16:37,250
+If one is contained in the other,
+
+295
+00:16:37,250 --> 00:16:39,170
+the other is contained
+in the first,
+
+296
+00:16:39,170 --> 00:16:42,050
+and they're both equal.
+That's what weekly.
+
+297
+00:16:42,050 --> 00:16:44,000
+That's the way we
+define the equality
+
+298
+00:16:44,000 --> 00:16:46,610
+predicates that help, yeah.
+
+299
+00:16:46,610 --> 00:16:49,475
+And my question is that netbook,
+
+300
+00:16:49,475 --> 00:16:51,215
+in the textbook there's a white
+
+301
+00:16:51,215 --> 00:16:53,225
+rabbit or the other sound.
+
+302
+00:16:53,225 --> 00:16:55,130
+Like because in the book I say
+
+303
+00:16:55,130 --> 00:16:57,335
+that they're doing different.
+
+304
+00:16:57,335 --> 00:17:00,200
+Yeah, that was that was
+a deduction. I did.
+
+305
+00:17:00,200 --> 00:17:03,185
+Where we show we show that
+
+306
+00:17:03,185 --> 00:17:04,790
+what Don does in the book
+
+307
+00:17:04,790 --> 00:17:07,010
+because I did it last
+year in the lectures,
+
+308
+00:17:07,010 --> 00:17:09,170
+I'll show you the kind
+of proof we give.
+
+309
+00:17:09,170 --> 00:17:13,595
+If we take not a or not b.
+
+310
+00:17:13,595 --> 00:17:15,755
+And here we're going to tell you,
+
+311
+00:17:15,755 --> 00:17:18,230
+it might have been the other
+DeMorgan's law you have,
+
+312
+00:17:18,230 --> 00:17:19,730
+but this will be the same.
+
+313
+00:17:19,730 --> 00:17:21,380
+Okay? So now what I'm going to
+
+314
+00:17:21,380 --> 00:17:23,600
+do is to apply the rules to this.
+
+315
+00:17:23,600 --> 00:17:26,060
+I have an order on the right.
+
+316
+00:17:26,060 --> 00:17:28,655
+I can say that that's.
+
+317
+00:17:28,655 --> 00:17:31,970
+Not a, not b.
+
+318
+00:17:31,970 --> 00:17:34,475
+And because these are negated,
+
+319
+00:17:34,475 --> 00:17:36,875
+can bring both those
+to the other side.
+
+320
+00:17:36,875 --> 00:17:40,100
+That's a, B.
+
+321
+00:17:40,100 --> 00:17:44,820
+This is valid if and
+only if this is valid.
+
+322
+00:17:45,100 --> 00:17:49,020
+Because each of these
+is a double root.
+
+323
+00:17:50,380 --> 00:17:55,070
+Does that make sense?
+Yes. Okay. This is
+
+324
+00:17:55,070 --> 00:17:57,230
+the rule or on the
+right and this is
+
+325
+00:17:57,230 --> 00:17:59,510
+the rule for not on the
+right applied twice,
+
+326
+00:17:59,510 --> 00:18:00,995
+but I just add them together.
+
+327
+00:18:00,995 --> 00:18:03,410
+And now we'll do the same
+thing here or others,
+
+328
+00:18:03,410 --> 00:18:06,590
+the same procedure that we
+have to start with the not.
+
+329
+00:18:06,590 --> 00:18:13,940
+So that becomes a and the, okay.
+
+330
+00:18:13,940 --> 00:18:18,350
+You've got this aside and
+take away this negation.
+
+331
+00:18:18,350 --> 00:18:22,310
+Now I use the rule on
+the left, the room,
+
+332
+00:18:22,310 --> 00:18:27,620
+and on the left is that
+we can get about that.
+
+333
+00:18:27,620 --> 00:18:30,080
+This is equivalent to, this
+is equivalent to this,
+
+334
+00:18:30,080 --> 00:18:31,370
+but that's the same as that.
+
+335
+00:18:31,370 --> 00:18:33,035
+So these are
+certainly equivalent.
+
+336
+00:18:33,035 --> 00:18:35,600
+This is equivalent to, this
+is equivalent to this.
+
+337
+00:18:35,600 --> 00:18:40,865
+So what this says is in a
+universe where this is valid,
+
+338
+00:18:40,865 --> 00:18:43,565
+this is valid and vice versa.
+
+339
+00:18:43,565 --> 00:18:45,170
+And that was the kind
+of proof that was
+
+340
+00:18:45,170 --> 00:18:46,670
+given in that other one.
+
+341
+00:18:46,670 --> 00:18:48,170
+Is that what you
+were talking about?
+
+342
+00:18:48,170 --> 00:18:49,625
+I think he probably is.
+
+343
+00:18:49,625 --> 00:18:55,625
+Yes. Yes. And now lacked
+the n on the left.
+
+344
+00:18:55,625 --> 00:18:57,635
+Is that saying that a and b,
+
+345
+00:18:57,635 --> 00:18:59,570
+and this i is equivalent.
+
+346
+00:18:59,570 --> 00:19:01,760
+So a comma b.
+
+347
+00:19:01,760 --> 00:19:06,830
+Let me read what this says
+
+348
+00:19:06,830 --> 00:19:12,650
+is we can have of a and b true.
+
+349
+00:19:12,650 --> 00:19:15,410
+Because what this says
+is if both of these are
+
+350
+00:19:15,410 --> 00:19:18,755
+true and something on
+the right is true,
+
+351
+00:19:18,755 --> 00:19:21,870
+this there's nothing
+on the right.
+
+352
+00:19:21,970 --> 00:19:26,480
+Yes. When these both be true.
+
+353
+00:19:26,480 --> 00:19:29,195
+The other way to use
+
+354
+00:19:29,195 --> 00:19:32,180
+this is instead of just
+doing this with these,
+
+355
+00:19:32,180 --> 00:19:34,130
+you know, gamma deltas,
+
+356
+00:19:34,130 --> 00:19:37,280
+I can put gamma
+that an adulterer.
+
+357
+00:19:37,280 --> 00:19:39,390
+They're everywhere.
+
+358
+00:19:40,420 --> 00:19:46,025
+Because we know that those
+rules are also valid.
+
+359
+00:19:46,025 --> 00:19:49,355
+And now we can play
+
+360
+00:19:49,355 --> 00:19:53,705
+a trick to remember
+if a rule is valid,
+
+361
+00:19:53,705 --> 00:19:56,630
+we can always add
+things either sides,
+
+362
+00:19:56,630 --> 00:19:58,505
+long as we keep the
+things the same.
+
+363
+00:19:58,505 --> 00:20:01,655
+And it's just like talking
+about smaller universe.
+
+364
+00:20:01,655 --> 00:20:05,195
+If the rule I had originally
+was valid in all universes.
+
+365
+00:20:05,195 --> 00:20:07,205
+And this rule with
+the extra piece,
+
+366
+00:20:07,205 --> 00:20:09,200
+It's valid in all universities.
+
+367
+00:20:09,200 --> 00:20:12,500
+And now the trick is to say, oh,
+
+368
+00:20:12,500 --> 00:20:18,470
+well let's let gamma
+be not a or not,
+
+369
+00:20:18,470 --> 00:20:20,330
+just that single thing.
+
+370
+00:20:20,330 --> 00:20:22,370
+If I start here.
+
+371
+00:20:22,370 --> 00:20:24,320
+That's certainly true
+because now I have
+
+372
+00:20:24,320 --> 00:20:26,600
+the same thing on both sides.
+
+373
+00:20:26,600 --> 00:20:30,380
+If gamma equals not a or not b,
+
+374
+00:20:30,380 --> 00:20:33,050
+Amazon certainly satisfies not
+
+375
+00:20:33,050 --> 00:20:35,810
+a or not b because it's
+the same on each side.
+
+376
+00:20:35,810 --> 00:20:38,420
+For that gamma. This is true.
+
+377
+00:20:38,420 --> 00:20:42,560
+It's true that not a or not
+B entails not a or not b.
+
+378
+00:20:42,560 --> 00:20:44,615
+And keep that same gamma here.
+
+379
+00:20:44,615 --> 00:20:46,490
+That same gamma here.
+
+380
+00:20:46,490 --> 00:20:49,250
+Gamma. We find that.
+
+381
+00:20:49,250 --> 00:20:52,580
+Not a or B,
+
+382
+00:20:52,580 --> 00:20:58,265
+actually in a and B.
+
+383
+00:20:58,265 --> 00:21:01,475
+Or we can go that way by
+letting gamma B that.
+
+384
+00:21:01,475 --> 00:21:04,565
+And now what we're
+going to do is to go
+
+385
+00:21:04,565 --> 00:21:08,165
+the other way or doing the
+same trick effectively.
+
+386
+00:21:08,165 --> 00:21:13,835
+So that was 11 derivation.
+Because he knows.
+
+387
+00:21:13,835 --> 00:21:19,115
+Now we're going to set
+a that gamma b, not a,
+
+388
+00:21:19,115 --> 00:21:24,890
+and B on this side is not a,
+
+389
+00:21:24,890 --> 00:21:26,540
+not a and B.
+
+390
+00:21:26,540 --> 00:21:28,745
+So I've got the same
+thing on each side.
+
+391
+00:21:28,745 --> 00:21:31,760
+So then I bring that gamma
+roll away round here,
+
+392
+00:21:31,760 --> 00:21:38,705
+find a and B
+
+393
+00:21:38,705 --> 00:21:44,000
+entails a, O, B.
+
+394
+00:21:44,000 --> 00:21:46,625
+And once we have those
+two, we can just say,
+
+395
+00:21:46,625 --> 00:21:49,070
+if I choose this one for gamma,
+
+396
+00:21:49,070 --> 00:21:50,825
+then this is obviously true.
+
+397
+00:21:50,825 --> 00:21:54,290
+And now I can come around
+and derive this much,
+
+398
+00:21:54,290 --> 00:21:55,775
+this one for gamma,
+
+399
+00:21:55,775 --> 00:21:58,055
+then this is obviously true.
+
+400
+00:21:58,055 --> 00:21:59,900
+And I can go around
+here, improve that.
+
+401
+00:21:59,900 --> 00:22:02,450
+That's putting on the
+two groups together.
+
+402
+00:22:02,450 --> 00:22:06,230
+So then at the end they are
+both a subset of each other.
+
+403
+00:22:06,230 --> 00:22:08,090
+So at the end about
+this opposite of
+
+404
+00:22:08,090 --> 00:22:10,355
+each other and we've shown
+that Bogan's LO, Yes.
+
+405
+00:22:10,355 --> 00:22:11,750
+One last question is When we
+
+406
+00:22:11,750 --> 00:22:14,450
+arrived that this two are equal.
+
+407
+00:22:14,450 --> 00:22:18,620
+But graduates, like at last
+I have not parenthesis,
+
+408
+00:22:18,620 --> 00:22:21,170
+not a or not b equal
+
+409
+00:22:21,170 --> 00:22:24,590
+to a and b to kind of
+add and not, again,
+
+410
+00:22:24,590 --> 00:22:32,510
+suppose i to make it this n
+to the n. And so at the end,
+
+411
+00:22:32,510 --> 00:22:35,465
+I have these two
+equal to each other.
+
+412
+00:22:35,465 --> 00:22:41,105
+But the thing I have
+not parentheses.
+
+413
+00:22:41,105 --> 00:22:46,970
+I got no parenthesis
+a and B equals to o.
+
+414
+00:22:46,970 --> 00:22:53,060
+The rabbit is a and B is
+equal to NOT parenthesis,
+
+415
+00:22:53,060 --> 00:22:55,500
+not a or not b.
+
+416
+00:22:55,690 --> 00:22:59,645
+Well, n equals not,
+
+417
+00:22:59,645 --> 00:23:03,860
+not a or not b.
+
+418
+00:23:03,860 --> 00:23:05,525
+That's what you're talking about.
+
+419
+00:23:05,525 --> 00:23:07,920
+Yes. Just like can we add or
+
+420
+00:23:07,920 --> 00:23:10,280
+not at both sides
+to make it back?
+
+421
+00:23:10,280 --> 00:23:13,280
+It should look like, like you
+
+422
+00:23:13,280 --> 00:23:16,370
+can add a to both sides
+and this one cancels out.
+
+423
+00:23:16,370 --> 00:23:18,050
+So we can do that
+because I was not
+
+424
+00:23:18,050 --> 00:23:19,520
+sure if we can I can
+tell you that you're
+
+425
+00:23:19,520 --> 00:23:21,035
+actually going out to
+
+426
+00:23:21,035 --> 00:23:23,900
+the sides and then and then
+these two naughts cancel out.
+
+427
+00:23:23,900 --> 00:23:26,510
+So you get that. Okay. Thank you.
+
+428
+00:23:26,510 --> 00:23:28,325
+I think that's all my questions.
+
+429
+00:23:28,325 --> 00:23:31,820
+But what I was saying here is
+you're going to this tweak,
+
+430
+00:23:31,820 --> 00:23:35,675
+just learn to do it is
+with and, and or not.
+
+431
+00:23:35,675 --> 00:23:37,745
+Once we have this method,
+
+432
+00:23:37,745 --> 00:23:41,420
+we will then extend it to
+do other connectives like
+
+433
+00:23:41,420 --> 00:23:43,820
+implication and X0 and
+
+434
+00:23:43,820 --> 00:23:45,830
+all the other things you
+may have learned about.
+
+435
+00:23:45,830 --> 00:23:48,095
+You did some Boolean
+algebra before.
+
+436
+00:23:48,095 --> 00:23:50,900
+And you will find that
+we can these bricks
+
+437
+00:23:50,900 --> 00:23:54,649
+the reduction with all the
+different correctives.
+
+438
+00:23:54,649 --> 00:23:56,255
+So we will give you
+
+439
+00:23:56,255 --> 00:23:59,600
+Saturday after you've
+submitted your work on this,
+
+440
+00:23:59,600 --> 00:24:02,225
+will actually give you some
+more things to discuss.
+
+441
+00:24:02,225 --> 00:24:04,940
+The tutorial that will change
+
+442
+00:24:04,940 --> 00:24:07,790
+the tutorial slightly for
+this week in the sense that
+
+443
+00:24:07,790 --> 00:24:09,440
+going to give you some work to
+
+444
+00:24:09,440 --> 00:24:11,180
+do which we haven't seen or at
+
+445
+00:24:11,180 --> 00:24:12,890
+least you haven't submitted
+
+446
+00:24:12,890 --> 00:24:14,960
+your work on it
+before the tutorial,
+
+447
+00:24:14,960 --> 00:24:17,390
+that you can work in
+tutorial and then for
+
+448
+00:24:17,390 --> 00:24:20,195
+the next week's tutorial
+of pre-prepared.
+
+449
+00:24:20,195 --> 00:24:22,850
+So I'll be interested
+to see how you think
+
+450
+00:24:22,850 --> 00:24:25,445
+that we're Does anyone
+have more questions?
+
+451
+00:24:25,445 --> 00:24:26,720
+I see they're asking us
+
+452
+00:24:26,720 --> 00:24:29,540
+how gamma ray Altera
+just generic sets.
+
+453
+00:24:29,540 --> 00:24:31,670
+Amaranth delta can be anything.
+
+454
+00:24:31,670 --> 00:24:35,495
+So it allows you to generalize
+your argument because
+
+455
+00:24:35,495 --> 00:24:40,175
+gamma and delta can be
+any sets of predicates.
+
+456
+00:24:40,175 --> 00:24:43,205
+And as we saw with that
+trick, I just paid.
+
+457
+00:24:43,205 --> 00:24:46,745
+Then by substituting one
+thing in for gamma or rather,
+
+458
+00:24:46,745 --> 00:24:48,230
+I can actually make use of
+
+459
+00:24:48,230 --> 00:24:51,350
+the same chain reasoning
+different ways.
+
+460
+00:24:51,350 --> 00:24:53,390
+That was a good example for that.
+
+461
+00:24:53,390 --> 00:24:57,830
+Then what I would ask
+you is your tents of
+
+462
+00:24:57,830 --> 00:25:02,450
+the past in terms of two things.
+
+463
+00:25:02,450 --> 00:25:07,130
+Firstly, difficulty, was
+that reasonably okay?
+
+464
+00:25:07,130 --> 00:25:09,050
+I I want it to be so
+
+465
+00:25:09,050 --> 00:25:11,420
+easy that you think
+wasn't worth taking.
+
+466
+00:25:11,420 --> 00:25:15,095
+I want it to be not so
+hard that you think,
+
+467
+00:25:15,095 --> 00:25:17,480
+gosh, it's totally impossible.
+
+468
+00:25:17,480 --> 00:25:22,220
+So I'd like a three out
+of the four questions,
+
+469
+00:25:22,220 --> 00:25:24,785
+was everyone reasonably
+happy that they should
+
+470
+00:25:24,785 --> 00:25:28,370
+they should be able to do
+it in terms of timing,
+
+471
+00:25:28,370 --> 00:25:30,470
+Did you feel very rushed or
+
+472
+00:25:30,470 --> 00:25:32,895
+a little bit rushed
+or just about?
+
+473
+00:25:32,895 --> 00:25:35,710
+If you want to, you
+can gave answers to
+
+474
+00:25:35,710 --> 00:25:39,715
+those questions
+anonymously, yachts,
+
+475
+00:25:39,715 --> 00:25:42,910
+but still be very
+helpful to us to
+
+476
+00:25:42,910 --> 00:25:47,440
+hear how you felt it was
+him in terms of difficulty,
+
+477
+00:25:47,440 --> 00:25:48,970
+in terms of timing.
+
+478
+00:25:48,970 --> 00:25:50,950
+And the final thing
+is I know that
+
+479
+00:25:50,950 --> 00:25:55,255
+some people had difficulties
+with submission.
+
+480
+00:25:55,255 --> 00:25:57,130
+And we're going to try
+and deal with this,
+
+481
+00:25:57,130 --> 00:25:59,755
+as we said with the with
+the emails that came in,
+
+482
+00:25:59,755 --> 00:26:03,730
+we weren't able to answer all
+your emails individually,
+
+483
+00:26:03,730 --> 00:26:05,680
+beverage as so many of them.
+
+484
+00:26:05,680 --> 00:26:08,620
+How many of you that we will try
+
+485
+00:26:08,620 --> 00:26:11,170
+and get every cancers
+once we've worked out
+
+486
+00:26:11,170 --> 00:26:14,710
+what's happening at
+any one thiol to
+
+487
+00:26:14,710 --> 00:26:18,500
+submit at all in
+including my email,
+
+488
+00:26:18,500 --> 00:26:20,375
+if other things failed,
+
+489
+00:26:20,375 --> 00:26:24,770
+rushed anymore questions
+in a renown poll?
+
+490
+00:26:24,770 --> 00:26:26,840
+Questions, that's fine.
+
+491
+00:26:26,840 --> 00:26:29,570
+We will have the
+session on Monday
+
+492
+00:26:29,570 --> 00:26:33,995
+again and have a good weekend.
+
+493
+00:26:33,995 --> 00:26:36,800
+Make sure you get some respite.
+
+494
+00:26:36,800 --> 00:26:40,010
+Get your submissions in.
+
+495
+00:26:40,010 --> 00:26:42,770
+I'm or even before
+time as soon as you
+
+496
+00:26:42,770 --> 00:26:46,730
+can tell the tutorial site to
+just have those submitted.
+
+497
+00:26:46,730 --> 00:26:51,335
+And then I can I will
+see you on Monday.
+
+498
+00:26:51,335 --> 00:26:53,570
+Thank you very much.
+Indeed. I'm going
+
+499
+00:26:53,570 --> 00:26:56,190
+to leave now. Thank you.

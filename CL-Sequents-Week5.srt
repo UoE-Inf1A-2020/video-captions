@@ -1,0 +1,172 @@
+1
+00:00:00,860 --> 00:00:03,900
+To formalize Aristotle's theory
+
+2
+00:00:03,900 --> 00:00:08,400
+of syllogisms,
+reintroduced propositions.
+
+3
+00:00:08,400 --> 00:00:12,915
+With this notation,
+a satisfies B,
+
+4
+00:00:12,915 --> 00:00:16,380
+which means in an
+Euler diagram is
+
+5
+00:00:16,380 --> 00:00:21,840
+the universe and a
+is contained in B.
+
+6
+00:00:21,840 --> 00:00:26,835
+And if we wanted to say
+that a does not satisfy B,
+
+7
+00:00:26,835 --> 00:00:29,095
+we must provide a
+counter-example.
+
+8
+00:00:29,095 --> 00:00:33,980
+And a counterexample is
+an x in the universe such
+
+9
+00:00:33,980 --> 00:00:39,215
+that a holes of X and B doesn't.
+
+10
+00:00:39,215 --> 00:00:43,250
+That is, it's an x
+for which a of x
+
+11
+00:00:43,250 --> 00:00:48,334
+is true and B of X is false.
+
+12
+00:00:48,334 --> 00:00:51,125
+And here we're
+mixing notation from
+
+13
+00:00:51,125 --> 00:00:54,049
+Haskell with
+mathematical notation.
+
+14
+00:00:54,049 --> 00:00:56,120
+But you should learn
+to translate between
+
+15
+00:00:56,120 --> 00:00:58,340
+those two against and sequence or
+
+16
+00:00:58,340 --> 00:01:00,860
+a simple but very
+powerful generalization
+
+17
+00:01:00,860 --> 00:01:03,440
+of this sequent
+looks very similar.
+
+18
+00:01:03,440 --> 00:01:06,050
+It's talking about something and
+
+19
+00:01:06,050 --> 00:01:09,934
+says gamma satisfies delta.
+
+20
+00:01:09,934 --> 00:01:14,570
+But whereas a and B are
+
+21
+00:01:14,570 --> 00:01:19,970
+predicates of type
+U, arrows goo here,
+
+22
+00:01:19,970 --> 00:01:24,755
+gamma and delta of finite
+sets of predicates,
+
+23
+00:01:24,755 --> 00:01:27,800
+which we'll represent
+in Haskell as
+
+24
+00:01:27,800 --> 00:01:31,130
+lists of things from you to boom.
+
+25
+00:01:31,130 --> 00:01:34,400
+And the easiest way to
+explain what we mean by
+
+26
+00:01:34,400 --> 00:01:36,770
+gamma satisfies delta is to
+
+27
+00:01:36,770 --> 00:01:39,500
+say what we mean by
+a counterexample.
+
+28
+00:01:39,500 --> 00:01:42,740
+So we will say that
+gamma does not
+
+29
+00:01:42,740 --> 00:01:46,685
+satisfy delta if we
+have a counterexample,
+
+30
+00:01:46,685 --> 00:01:49,775
+which will be an x of type u
+
+31
+00:01:49,775 --> 00:01:53,420
+such that for all G in gamma,
+
+32
+00:01:53,420 --> 00:01:56,750
+because of course, gamma
+is a list of predicates.
+
+33
+00:01:56,750 --> 00:02:02,780
+So for all predicates in
+gamma g of x equals true,
+
+34
+00:02:02,780 --> 00:02:09,335
+and for all the delta
+d of x equals false.
+
+35
+00:02:09,335 --> 00:02:12,830
+So a counterexample is
+given by exhibiting
+
+36
+00:02:12,830 --> 00:02:16,535
+an x such that it satisfies
+every G and gamma,
+
+37
+00:02:16,535 --> 00:02:20,430
+and it satisfies no d in delta.
