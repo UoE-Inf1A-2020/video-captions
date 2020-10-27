@@ -1,6 +1,6 @@
 1
 00:00:05,120 --> 00:00:08,220
-This video, we're
+In this video, we're
 going to introduce
 
 2
@@ -37,7 +37,7 @@ what that means.
 
 9
 00:00:34,669 --> 00:00:38,435
-If we take a satisfies B,
+If we take a satisfies b,
 
 10
 00:00:38,435 --> 00:00:40,610
@@ -47,12 +47,12 @@ do with the rules we
 11
 00:00:40,610 --> 00:00:43,700
 have is to take the
-a to the other side,
+a to the other side and
 
 12
 00:00:43,700 --> 00:00:47,135
-a negated, so we
-get NOT a comma b.
+negate it. So we
+get not a, b.
 
 13
 00:00:47,135 --> 00:00:48,500
@@ -61,11 +61,11 @@ And once we've done that,
 14
 00:00:48,500 --> 00:00:52,115
 we can apply the rule
-for or on the right,
+for OR on the right,
 
 15
 00:00:52,115 --> 00:00:54,710
-and we find not a or B.
+and we find not a or b.
 
 16
 00:00:54,710 --> 00:00:57,320
@@ -75,21 +75,21 @@ together with that,
 17
 00:00:57,320 --> 00:00:59,735
 we can play our
-usual trick because
+usual trick: because
 
 18
 00:00:59,735 --> 00:01:02,239
 these rules are valid
-in any universe.
+in any universe,
 
 19
 00:01:02,239 --> 00:01:05,975
-We can add gammas
-and deltas here.
+we can add gammas
+and deltas. Here,
 
 20
 00:01:05,975 --> 00:01:08,030
-Here. The delta here.
+here, and the delta here.
 
 21
 00:01:08,030 --> 00:01:09,200
@@ -97,11 +97,11 @@ Once we have that,
 
 22
 00:01:09,200 --> 00:01:10,925
-we know that we have a chain,
+we know that we have a chain.
 
 23
 00:01:10,925 --> 00:01:13,790
-this is equivalent to this,
+This is equivalent to this,
 
 24
 00:01:13,790 --> 00:01:15,545
@@ -114,22 +114,22 @@ just so we can see it.
 
 26
 00:01:17,495 --> 00:01:21,980
-Gamma satisfies a implies b delta
+Gamma satisfies a implies b or delta.
 
 27
 00:01:21,980 --> 00:01:27,020
-if we let delta be empty and
+If we let delta be empty and
 we let gamma be not a or b,
 
 28
 00:01:27,020 --> 00:01:30,830
-then this says not AOB
+then this says not a or b
 satisfies not a or b,
 
 29
 00:01:30,830 --> 00:01:35,615
 but that's the same as not a
-or B satisfies a implies b.
+or b satisfies a implies b.
 
 30
 00:01:35,615 --> 00:01:37,295
@@ -138,12 +138,12 @@ other way round.
 
 31
 00:01:37,295 --> 00:01:39,815
-If I put a implies B for gamma,
+If I put a implies b for gamma,
 
 32
 00:01:39,815 --> 00:01:43,880
 then here I get a implies
-B satisfies not a or B.
+b satisfies not a or b.
 
 33
 00:01:43,880 --> 00:01:46,250
@@ -156,7 +156,7 @@ table for implies.
 
 35
 00:01:49,010 --> 00:01:52,055
-Here we have false and true,
+So here we have false and true,
 
 36
 00:01:52,055 --> 00:01:54,905
@@ -164,16 +164,16 @@ and here we have false and true.
 
 37
 00:01:54,905 --> 00:01:58,550
-Let say this is a and that's b.
+Let say this is a and that's b
 
 38
 00:01:58,550 --> 00:02:00,365
-For a implies b.
+for a implies b.
 
 39
 00:02:00,365 --> 00:02:03,995
 When is it false
-that a implies B?
+that a implies b?
 
 40
 00:02:03,995 --> 00:02:06,860
@@ -182,16 +182,16 @@ implies b if we can
 
 41
 00:02:06,860 --> 00:02:09,965
-make a true and be false.
+make 'a' true and 'b' false.
 
 42
 00:02:09,965 --> 00:02:14,855
 So if a is true and
-B is false, false.
+b is false. False there,
 
 43
 00:02:14,855 --> 00:02:17,930
-But it must be true
+but it must be true
 everywhere else,
 
 44
@@ -201,36 +201,36 @@ valid wherever that is valid.
 
 45
 00:02:22,115 --> 00:02:25,835
-So that's a rule a implies B.
+So that's a rule for a implies b.
 
 46
 00:02:25,835 --> 00:02:28,100
-Now we can do another,
+Now we can do another trick:
 
 47
 00:02:28,100 --> 00:02:30,020
-correct, let's find a rule.
+let's find a rule for
 
 48
 00:02:30,020 --> 00:02:32,705
-A implies B. On the left we have
+a implies b on the left. If we have
 
 49
 00:02:32,705 --> 00:02:35,855
-a implies B satisfies something.
+a implies b satisfies something.
 
 50
 00:02:35,855 --> 00:02:38,090
-Going to replace that
+We're going to replace that
 with what we found
 
 51
 00:02:38,090 --> 00:02:40,685
-was equivalent to a implies b,
+was equivalent to a implies b:
 
 52
 00:02:40,685 --> 00:02:42,305
-not a or b.
+not a OR b.
 
 53
 00:02:42,305 --> 00:02:44,945
@@ -252,7 +252,7 @@ not a satisfies delta
 57
 00:02:52,265 --> 00:02:56,210
 and gamma together with
-B satisfies delta.
+b satisfies delta.
 
 58
 00:02:56,210 --> 00:02:58,580
@@ -260,7 +260,7 @@ So now we've said the rule for
 
 59
 00:02:58,580 --> 00:03:01,460
-a implies B on the left is this.
+a implies b on the left is this.
 
 60
 00:03:01,460 --> 00:03:03,200
@@ -277,7 +277,7 @@ So the rule that we end up with
 
 63
 00:03:11,450 --> 00:03:14,735
-four implication on the
+for implication on the
 left is that we have
 
 64
@@ -287,14 +287,14 @@ gamma satisfies a comma delta
 65
 00:03:18,200 --> 00:03:22,940
 and gamma comma b
-satisfies delta,
+satisfies delta.
 
 66
 00:03:22,940 --> 00:03:28,895
-that's equivalent to gamma a
-implies B satisfies delta.
+That's equivalent to gamma a
+implies b satisfies delta.
 
 67
 00:03:28,895 --> 00:03:32,820
 So that's the rule for
-implies. I'll let left.
+implies on the left.
