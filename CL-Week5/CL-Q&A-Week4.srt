@@ -1,11 +1,11 @@
 1
 00:00:00,000 --> 00:00:01,860
-Normally clarity does that,
+Normally Claudia does that,
 
 2
 00:00:01,860 --> 00:00:04,890
-but it seems weird
-without which is phi.
+but it seems we are
+without her, which is fine.
 
 3
 00:00:04,890 --> 00:00:09,600
@@ -34,23 +34,23 @@ first thing I did.
 
 8
 00:00:19,410 --> 00:00:25,845
-This is not AOB satisfies
+This is not A or B satisfies
 not a and not B,
 
 9
 00:00:25,845 --> 00:00:31,680
-which is one of the models
+which is one of the De Morgan's rules
 for pushing negations inside.
 
 10
 00:00:31,680 --> 00:00:37,020
 In this case inside
-the disjunction gate,
+the disjunction, I negate,
 
 11
 00:00:37,020 --> 00:00:40,555
-these tube turns
-disjunction conjunction.
+these two, which turns the
+disjunction into a conjunction.
 
 12
 00:00:40,555 --> 00:00:42,230
@@ -68,7 +68,7 @@ rule for negation.
 
 15
 00:00:47,809 --> 00:00:50,330
-Rope a negation on the left,
+Rule for negation on the left,
 
 16
 00:00:50,330 --> 00:00:52,730
@@ -87,7 +87,7 @@ move this not a or b,
 
 19
 00:00:58,910 --> 00:01:01,970
-cross the turnstile,
+across the turnstile,
 change its sign.
 
 20
@@ -101,7 +101,7 @@ this and I'm going to
 
 22
 00:01:08,180 --> 00:01:11,585
-focus on this junction here.
+focus on this conjunction here.
 
 23
 00:01:11,585 --> 00:01:14,255
@@ -115,11 +115,11 @@ And that is that if I'm a groups
 25
 00:01:17,855 --> 00:01:23,055
 a delta and gamma
-suddenly satisfies,
+sorry satisfies,
 
 26
 00:01:23,055 --> 00:01:31,240
-and that is B delta that
+and that is B comma delta that
 happened from gamma.
 
 27
@@ -129,7 +129,7 @@ delta from gamma.
 
 28
 00:01:35,020 --> 00:01:37,540
-I can deduce dy or delta.
+I can deduce b or delta.
 
 29
 00:01:37,540 --> 00:01:43,330
@@ -138,12 +138,12 @@ B are delta, though.
 
 30
 00:01:43,330 --> 00:01:45,610
-Either something is true,
+Either something in delta is true,
 
 31
 00:01:45,610 --> 00:01:52,795
-in which case we certainly
-did alter the Commonwealth.
+in which case we can certainly
+deduce the delta.
 
 32
 00:01:52,795 --> 00:01:55,960
@@ -156,7 +156,7 @@ B here and match it against this?
 
 34
 00:01:58,615 --> 00:02:00,670
-We can't hear.
+We can't hear you.
 
 35
 00:02:00,670 --> 00:02:03,280
@@ -164,7 +164,7 @@ Can you hear me now?
 
 36
 00:02:03,280 --> 00:02:07,910
-Yes. Sorry. I've no
+Yes. Sorry, good. I've no
 idea why this happened.
 
 37
@@ -178,7 +178,7 @@ And you now see the camera?
 
 39
 00:02:14,870 --> 00:02:17,900
-Yes, you can say no
+Yes, you can. I have no
 idea what that was.
 
 40
@@ -188,7 +188,7 @@ which came out of
 
 41
 00:02:20,750 --> 00:02:22,790
-nowhere between these two lines
+nowhere. Between these two lines
 
 42
 00:02:22,790 --> 00:02:24,050
@@ -201,7 +201,7 @@ did was to focus on
 
 44
 00:02:28,610 --> 00:02:30,890
-this connect if I
+this connective, if I
 could have focused
 
 45
@@ -215,7 +215,7 @@ But I chose to focus on this and
 
 47
 00:02:36,005 --> 00:02:39,020
-then I look for a role
+then I look for a rule
 that will help me
 
 48
@@ -224,8 +224,8 @@ simplify by getting rid of
 
 49
 00:02:40,580 --> 00:02:46,415
-this conjunction rule that I
-used with this rule up here,
+this conjunction rule and the rule that I
+used was this rule up here,
 
 50
 00:02:46,415 --> 00:02:50,280
@@ -233,7 +233,7 @@ which we call and on the right.
 
 51
 00:02:50,410 --> 00:02:55,640
-Okay. Rule does in
+Okay and that rule says in
 
 52
 00:02:55,640 --> 00:02:57,845
@@ -251,8 +251,8 @@ here and then delta,
 
 55
 00:03:02,210 --> 00:03:06,410
-because it's a set of the
-delta-V born, it's the same.
+because it's a set, I could not have the 
+delta before, it's the same.
 
 56
 00:03:06,410 --> 00:03:10,925
@@ -262,11 +262,11 @@ will just be this.
 57
 00:03:10,925 --> 00:03:14,090
 I just copy the
-delta up. Nice case.
+delta up in each case.
 
 58
 00:03:14,090 --> 00:03:18,260
-So I copy this AOB up
+So I copy this A or B up
 in each of those cases.
 
 59
