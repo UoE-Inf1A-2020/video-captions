@@ -1,0 +1,503 @@
+1
+00:00:00,000 --> 00:00:02,715
+So far we've been
+looking at logs of ones.
+
+2
+00:00:02,715 --> 00:00:04,590
+What happens if we
+
+3
+00:00:04,590 --> 00:00:07,230
+have a block of zeros?
+What does that mean?
+
+4
+00:00:07,230 --> 00:00:08,700
+This, if it were ones,
+
+5
+00:00:08,700 --> 00:00:11,040
+would be blue and
+green cells saying it.
+
+6
+00:00:11,040 --> 00:00:13,320
+Zara was saying we're not there,
+
+7
+00:00:13,320 --> 00:00:16,185
+we're outside the places
+where Hulu and greener.
+
+8
+00:00:16,185 --> 00:00:20,535
+So what's not blue and
+green by De Morgan?
+
+9
+00:00:20,535 --> 00:00:24,520
+It's not blue or green.
+
+10
+00:00:25,630 --> 00:00:28,490
+Not green is out here.
+
+11
+00:00:28,490 --> 00:00:30,320
+Not blue is out there.
+
+12
+00:00:30,320 --> 00:00:33,605
+And we make these true
+if either of those,
+
+13
+00:00:33,605 --> 00:00:35,315
+that's what the O means.
+
+14
+00:00:35,315 --> 00:00:39,095
+All the things here and
+all the things there.
+
+15
+00:00:39,095 --> 00:00:40,850
+Instead of intersecting as
+
+16
+00:00:40,850 --> 00:00:42,500
+we did when we had an end here,
+
+17
+00:00:42,500 --> 00:00:43,820
+now we've got an ore,
+
+18
+00:00:43,820 --> 00:00:46,805
+so the ones go together.
+
+19
+00:00:46,805 --> 00:00:48,485
+You've already seen
+
+20
+00:00:48,485 --> 00:00:51,305
+a Disjunctive Normal
+Form for this example.
+
+21
+00:00:51,305 --> 00:00:53,030
+Now we're going to take it and
+
+22
+00:00:53,030 --> 00:00:55,250
+produce a conjunctive
+normal form.
+
+23
+00:00:55,250 --> 00:00:57,950
+The disjunctive normal form is
+
+24
+00:00:57,950 --> 00:01:00,500
+easier to think about
+and easier to read off.
+
+25
+00:01:00,500 --> 00:01:02,105
+Cnf is more important.
+
+26
+00:01:02,105 --> 00:01:06,184
+So for CNF, we could do
+identify blocks of zeros.
+
+27
+00:01:06,184 --> 00:01:08,480
+People find different
+ways of doing this.
+
+28
+00:01:08,480 --> 00:01:11,420
+The way I normally do it
+is I think what would it
+
+29
+00:01:11,420 --> 00:01:14,840
+be to say that if
+I had ones here,
+
+30
+00:01:14,840 --> 00:01:18,530
+which would be that
+I have not a not g
+
+31
+00:01:18,530 --> 00:01:21,770
+and not a not G
+
+32
+00:01:21,770 --> 00:01:25,205
+gives me that column and
+puts me in these two rows.
+
+33
+00:01:25,205 --> 00:01:26,660
+And then I need to negate that.
+
+34
+00:01:26,660 --> 00:01:28,970
+So I say a orgy,
+
+35
+00:01:28,970 --> 00:01:33,770
+I change the ends to
+know a or G or not.
+
+36
+00:01:33,770 --> 00:01:37,130
+So you have to change
+the zeros to positive.
+
+37
+00:01:37,130 --> 00:01:38,750
+So I say a or G,
+
+38
+00:01:38,750 --> 00:01:41,825
+That means we are
+somewhere in this pit.
+
+39
+00:01:41,825 --> 00:01:44,000
+Or, and I change
+
+40
+00:01:44,000 --> 00:01:46,760
+those and it's not us away
+somewhere in this pit.
+
+41
+00:01:46,760 --> 00:01:49,490
+So I've excluded all
+of that by my a or
+
+42
+00:01:49,490 --> 00:01:53,135
+G and all of that by
+my half from here.
+
+43
+00:01:53,135 --> 00:01:55,655
+So I'm saying I'm outside here.
+
+44
+00:01:55,655 --> 00:01:58,010
+I'm either here or I'm here.
+
+45
+00:01:58,010 --> 00:01:59,990
+That's the O and M will deal with
+
+46
+00:01:59,990 --> 00:02:02,240
+the other bits will
+say we're not in here.
+
+47
+00:02:02,240 --> 00:02:05,270
+So what these two got in common,
+
+48
+00:02:05,270 --> 00:02:09,934
+they certainly both Not a and G,
+
+49
+00:02:09,934 --> 00:02:13,295
+and they're certainly both not b.
+
+50
+00:02:13,295 --> 00:02:14,720
+But now we've got to do
+
+51
+00:02:14,720 --> 00:02:17,060
+our thinking backwards to
+our standing on our head.
+
+52
+00:02:17,060 --> 00:02:20,195
+How would you like to think
+about it and say what we say?
+
+53
+00:02:20,195 --> 00:02:25,835
+We say either a holds
+or gee doesn't hold,
+
+54
+00:02:25,835 --> 00:02:28,475
+or b holds. Try the last one.
+
+55
+00:02:28,475 --> 00:02:30,380
+Try writing it down for
+yourselves and then we'll
+
+56
+00:02:30,380 --> 00:02:32,435
+see whether you get it
+right on the next slide.
+
+57
+00:02:32,435 --> 00:02:34,700
+Now, there are various notations.
+
+58
+00:02:34,700 --> 00:02:36,350
+Some paper will have seen things
+
+59
+00:02:36,350 --> 00:02:38,180
+like this in Engineering before.
+
+60
+00:02:38,180 --> 00:02:40,715
+So instead of writing
+things as we normally write
+
+61
+00:02:40,715 --> 00:02:43,595
+them in this
+mathematical notation,
+
+62
+00:02:43,595 --> 00:02:46,114
+or we sometimes write
+them in Haskell.
+
+63
+00:02:46,114 --> 00:02:47,840
+Some people use things like this.
+
+64
+00:02:47,840 --> 00:02:49,280
+They may put bars over
+
+65
+00:02:49,280 --> 00:02:51,650
+the things domain negations
+rather than primes.
+
+66
+00:02:51,650 --> 00:02:53,270
+There are lots of
+ways of doing it.
+
+67
+00:02:53,270 --> 00:02:56,150
+If you use a different
+notation, that's fine,
+
+68
+00:02:56,150 --> 00:02:57,380
+as long as you are
+very clear what
+
+69
+00:02:57,380 --> 00:02:58,970
+you use and you get it right,
+
+70
+00:02:58,970 --> 00:03:00,635
+we should be able to
+give it mounts for it.
+
+71
+00:03:00,635 --> 00:03:03,065
+I will normally be
+using this notation.
+
+72
+00:03:03,065 --> 00:03:04,475
+What was this last one?
+
+73
+00:03:04,475 --> 00:03:05,960
+If we're not in here,
+
+74
+00:03:05,960 --> 00:03:07,400
+then we're either in
+
+75
+00:03:07,400 --> 00:03:10,025
+or we're in not a, does
+everyone get that?
+
+76
+00:03:10,025 --> 00:03:12,410
+Given any packing,
+you can now do this.
+
+77
+00:03:12,410 --> 00:03:14,090
+What happens if I
+get an isolated?
+
+78
+00:03:14,090 --> 00:03:16,040
+What happens if I
+had a 0 right there?
+
+79
+00:03:16,040 --> 00:03:17,990
+What would I hadn't
+I describe this is
+
+80
+00:03:17,990 --> 00:03:20,344
+something which is amber,
+
+81
+00:03:20,344 --> 00:03:23,225
+not green, red, no, blue.
+
+82
+00:03:23,225 --> 00:03:25,040
+If I want to say I'm not there,
+
+83
+00:03:25,040 --> 00:03:27,515
+I have to say at least
+one of those must fail.
+
+84
+00:03:27,515 --> 00:03:32,585
+So I'd say not amber or
+green or not red or blue.
+
+85
+00:03:32,585 --> 00:03:34,670
+A block widow, an element
+is still a block.
+
+86
+00:03:34,670 --> 00:03:36,110
+It's a power of two,
+
+87
+00:03:36,110 --> 00:03:38,360
+and the power of two is
+the zeroeth power of two.
+
+88
+00:03:38,360 --> 00:03:41,165
+You may have many
+blocks of size one.
+
+89
+00:03:41,165 --> 00:03:42,620
+Then if you're doing,
+
+90
+00:03:42,620 --> 00:03:44,420
+if you're doing clocks of 1s,
+
+91
+00:03:44,420 --> 00:03:46,580
+than you would have
+many disjunct in
+
+92
+00:03:46,580 --> 00:03:48,200
+your DNF because you'd be
+
+93
+00:03:48,200 --> 00:03:49,910
+saying either way
+here, over here,
+
+94
+00:03:49,910 --> 00:03:51,620
+over here, or you'd have
+
+95
+00:03:51,620 --> 00:03:56,285
+a remaining conjuncts in your
+cnf if these were zeros,
+
+96
+00:03:56,285 --> 00:03:59,765
+Let's say we are not here
+and not here and not here.
+
+97
+00:03:59,765 --> 00:04:03,620
+We could do things by
+taking very small blocks.
+
+98
+00:04:03,620 --> 00:04:06,740
+We could always focus down
+on single elements and say,
+
+99
+00:04:06,740 --> 00:04:08,705
+those are the blocks
+we're thinking about.
+
+100
+00:04:08,705 --> 00:04:12,170
+For we get much more writing
+down because we'd say,
+
+101
+00:04:12,170 --> 00:04:14,810
+let's do the disjunctive
+when we'd say way here,
+
+102
+00:04:14,810 --> 00:04:16,220
+over here, over here,
+
+103
+00:04:16,220 --> 00:04:17,435
+over here, over here,
+
+104
+00:04:17,435 --> 00:04:21,050
+we'd write down lots of
+descriptions of State since I,
+
+105
+00:04:21,050 --> 00:04:24,395
+one of those holes were looking
+for compact descriptions.
+
+106
+00:04:24,395 --> 00:04:25,625
+So we're always looking for
+
+107
+00:04:25,625 --> 00:04:28,730
+bigger blocks rather
+than smaller blocks.
+
+108
+00:04:28,730 --> 00:04:30,890
+But I do have to be
+passive to self.
+
+109
+00:04:30,890 --> 00:04:32,750
+There are three things in a row,
+
+110
+00:04:32,750 --> 00:04:34,580
+then you need two blocks up to,
+
+111
+00:04:34,580 --> 00:04:37,050
+to cover those three things.

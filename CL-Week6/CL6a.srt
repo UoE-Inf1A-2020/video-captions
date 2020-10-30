@@ -1,0 +1,371 @@
+1
+00:00:00,140 --> 00:00:03,030
+We have a universe
+with predicate.
+
+2
+00:00:03,030 --> 00:00:04,500
+There could be
+anything in the world.
+
+3
+00:00:04,500 --> 00:00:06,075
+They can be as big
+as we like today.
+
+4
+00:00:06,075 --> 00:00:07,320
+We got to realize that
+
+5
+00:00:07,320 --> 00:00:09,600
+because we have a
+restricted language,
+
+6
+00:00:09,600 --> 00:00:11,010
+we really don't need to talk
+
+7
+00:00:11,010 --> 00:00:12,615
+about everything in the world.
+
+8
+00:00:12,615 --> 00:00:13,815
+And in fact, when we have a
+
+9
+00:00:13,815 --> 00:00:15,540
+propositional logic and we use
+
+10
+00:00:15,540 --> 00:00:18,030
+some number of
+propositional letters
+
+11
+00:00:18,030 --> 00:00:19,140
+to talk about things.
+
+12
+00:00:19,140 --> 00:00:21,150
+You know, we have
+predicates a, B,
+
+13
+00:00:21,150 --> 00:00:23,835
+and C, which we could
+interpret in the world.
+
+14
+00:00:23,835 --> 00:00:26,040
+There's one model which
+covers everything.
+
+15
+00:00:26,040 --> 00:00:28,735
+So we actually can
+look at one universe,
+
+16
+00:00:28,735 --> 00:00:30,905
+what goes on in that universe.
+
+17
+00:00:30,905 --> 00:00:32,180
+And once we understand that,
+
+18
+00:00:32,180 --> 00:00:33,755
+we understand every other one,
+
+19
+00:00:33,755 --> 00:00:35,900
+there's a universe which I
+showed you at the end of
+
+20
+00:00:35,900 --> 00:00:38,435
+last time with just
+four predicates.
+
+21
+00:00:38,435 --> 00:00:42,470
+And the only possibilities
+for things in this language,
+
+22
+00:00:42,470 --> 00:00:44,840
+the only things we can talk
+about is the differences in
+
+23
+00:00:44,840 --> 00:00:47,195
+whether they have the
+property Ohio town,
+
+24
+00:00:47,195 --> 00:00:49,805
+whether they have the property
+P or don't, and so on.
+
+25
+00:00:49,805 --> 00:00:53,150
+Which means that there are
+only 16 possibilities.
+
+26
+00:00:53,150 --> 00:00:55,085
+And if we take this principle
+
+27
+00:00:55,085 --> 00:00:57,995
+saying if things
+can't be distinguish,
+
+28
+00:00:57,995 --> 00:00:59,960
+them will treat them as equal.
+
+29
+00:00:59,960 --> 00:01:03,860
+Then basically the only
+difference between universes for
+
+30
+00:01:03,860 --> 00:01:05,794
+this language with four letters
+
+31
+00:01:05,794 --> 00:01:08,450
+is do they have
+something of this kind?
+
+32
+00:01:08,450 --> 00:01:10,445
+Let's say that I have
+something that is
+
+33
+00:01:10,445 --> 00:01:12,980
+a and not B and Nazi and not the,
+
+34
+00:01:12,980 --> 00:01:14,540
+or do they not have
+anything like that?
+
+35
+00:01:14,540 --> 00:01:17,540
+Instead of considering
+all possible universes,
+
+36
+00:01:17,540 --> 00:01:20,765
+we can just consider universes
+that are sub universes
+
+37
+00:01:20,765 --> 00:01:24,290
+of this one that has
+16 different things.
+
+38
+00:01:24,290 --> 00:01:26,270
+Because if I had any
+other universe I
+
+39
+00:01:26,270 --> 00:01:28,160
+could map it onto
+here by saying, well,
+
+40
+00:01:28,160 --> 00:01:31,130
+I'll just clump all
+the things that are a,
+
+41
+00:01:31,130 --> 00:01:35,000
+not B, not C and D
+clump those together.
+
+42
+00:01:35,000 --> 00:01:36,590
+Interesting, yes,
+there is one of them,
+
+43
+00:01:36,590 --> 00:01:39,725
+or in some other instances
+maybe there isn't.
+
+44
+00:01:39,725 --> 00:01:42,410
+So how many sub universes are
+
+45
+00:01:42,410 --> 00:01:45,214
+there of that
+particular universe?
+
+46
+00:01:45,214 --> 00:01:47,375
+64. You think?
+
+47
+00:01:47,375 --> 00:01:49,370
+How many different things we got?
+
+48
+00:01:49,370 --> 00:01:52,280
+16. So how do we
+calculate the answer?
+
+49
+00:01:52,280 --> 00:01:54,590
+There were 16 things here.
+
+50
+00:01:54,590 --> 00:01:56,225
+If I take a sub universe,
+
+51
+00:01:56,225 --> 00:01:58,880
+each one could either
+be there or not there.
+
+52
+00:01:58,880 --> 00:02:01,325
+So how many sub
+universes are that?
+
+53
+00:02:01,325 --> 00:02:02,735
+There are a huge number,
+
+54
+00:02:02,735 --> 00:02:06,155
+two to the 60 is 64 thousand.
+
+55
+00:02:06,155 --> 00:02:09,620
+And we're going to focus
+mainly on this example.
+
+56
+00:02:09,620 --> 00:02:11,210
+The ways we deal with it will
+
+57
+00:02:11,210 --> 00:02:14,420
+generalize to much
+bigger examples.
+
+58
+00:02:14,420 --> 00:02:17,944
+But already here we've
+got 64 thousand,
+
+59
+00:02:17,944 --> 00:02:20,030
+and that's a binary thousand,
+
+60
+00:02:20,030 --> 00:02:21,410
+which is 10 to four.
+
+61
+00:02:21,410 --> 00:02:25,055
+So 64 kbps bit or KB Things.
+
+62
+00:02:25,055 --> 00:02:28,730
+There are 256 universities
+that we have three things,
+
+63
+00:02:28,730 --> 00:02:32,675
+but it goes up to the 64 K
+when we have four things.
+
+64
+00:02:32,675 --> 00:02:37,790
+And as you say, it's
+65,536 to be precise,
+
+65
+00:02:37,790 --> 00:02:39,800
+what we're going to
+say is that if we
+
+66
+00:02:39,800 --> 00:02:41,690
+take this one or
+
+67
+00:02:41,690 --> 00:02:43,685
+this one and this is
+the one we'll look at.
+
+68
+00:02:43,685 --> 00:02:45,140
+If you're given any one of
+
+69
+00:02:45,140 --> 00:02:48,125
+the 65 thousand
+anode patterns here,
+
+70
+00:02:48,125 --> 00:02:50,945
+you will be able to write
+down a formula that
+
+71
+00:02:50,945 --> 00:02:54,290
+corresponds to that pattern
+and as over 64 thousand.
+
+72
+00:02:54,290 --> 00:02:55,730
+And yet you'll be
+able to do all of
+
+73
+00:02:55,730 --> 00:02:57,380
+them here just for fun,
+
+74
+00:02:57,380 --> 00:03:01,745
+are 256 Venn diagrams
+with three things.
+
+75
+00:03:01,745 --> 00:03:03,485
+They just randomly generated.
+
+76
+00:03:03,485 --> 00:03:06,859
+They do repeat a bit
+which ones are missing?
+
+77
+00:03:06,859 --> 00:03:09,605
+It's really odd already
+when you've got three,
+
+78
+00:03:09,605 --> 00:03:11,690
+I wouldn't even try and
+draw the picture of
+
+79
+00:03:11,690 --> 00:03:13,970
+the 64 thousand
+because if we did,
+
+80
+00:03:13,970 --> 00:03:16,710
+it will be so small
+you wouldn't see it.

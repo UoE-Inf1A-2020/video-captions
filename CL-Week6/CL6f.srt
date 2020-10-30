@@ -1,0 +1,494 @@
+1
+00:00:00,000 --> 00:00:02,715
+So far we've been
+looking at logs of ones.
+
+2
+00:00:02,715 --> 00:00:04,590
+What happens if we
+
+3
+00:00:04,590 --> 00:00:07,245
+have a block of zeros?
+What does that mean?
+
+4
+00:00:07,245 --> 00:00:08,700
+This, if it were ones,
+
+5
+00:00:08,700 --> 00:00:11,040
+would be blue and
+green cells saying it.
+
+6
+00:00:11,040 --> 00:00:13,320
+Zara was saying we're not there,
+
+7
+00:00:13,320 --> 00:00:16,185
+we're outside the places
+where Hulu and greener.
+
+8
+00:00:16,185 --> 00:00:20,550
+So what's not blue and
+green by De Morgan?
+
+9
+00:00:20,550 --> 00:00:24,580
+It's not blue or not green.
+
+10
+00:00:25,640 --> 00:00:28,425
+Not grain is out here.
+
+11
+00:00:28,425 --> 00:00:30,315
+Not blue is out there.
+
+12
+00:00:30,315 --> 00:00:33,600
+And we make these true
+if either of those,
+
+13
+00:00:33,600 --> 00:00:35,260
+that's what the O means.
+
+14
+00:00:35,260 --> 00:00:39,095
+All the things here and
+all the things there.
+
+15
+00:00:39,095 --> 00:00:40,850
+Instead of intersecting as
+
+16
+00:00:40,850 --> 00:00:42,500
+we did when we had an end here.
+
+17
+00:00:42,500 --> 00:00:47,015
+Now we've got an all
+the ones go together.
+
+18
+00:00:47,015 --> 00:00:49,490
+We've already looked at getting
+
+19
+00:00:49,490 --> 00:00:53,315
+Disjunctive Normal Forms
+from blocks, ones.
+
+20
+00:00:53,315 --> 00:00:57,185
+I'm afraid it's much more
+useful to play with the zeros.
+
+21
+00:00:57,185 --> 00:00:58,910
+So once more you have to get
+
+22
+00:00:58,910 --> 00:01:00,680
+negation in your head working,
+
+23
+00:01:00,680 --> 00:01:01,790
+you're getting quite a lot of
+
+24
+00:01:01,790 --> 00:01:03,350
+practice thinking backwards.
+
+25
+00:01:03,350 --> 00:01:05,090
+Hopefully, it's getting easier.
+
+26
+00:01:05,090 --> 00:01:07,535
+If we now focus on the zeros.
+
+27
+00:01:07,535 --> 00:01:09,935
+Then for this one, the expression
+
+28
+00:01:09,935 --> 00:01:11,540
+that we're thinking of is
+
+29
+00:01:11,540 --> 00:01:15,560
+if we're not in here
+than either way in here,
+
+30
+00:01:15,560 --> 00:01:19,069
+which is not nowhere in here,
+
+31
+00:01:19,069 --> 00:01:22,700
+which is a not ROA.
+
+32
+00:01:22,700 --> 00:01:25,715
+If we're not in here than
+either, we're in this pit,
+
+33
+00:01:25,715 --> 00:01:29,870
+which is not a over in this pit,
+
+34
+00:01:29,870 --> 00:01:32,990
+which is R naught a OR a.
+
+35
+00:01:32,990 --> 00:01:35,735
+Now, if we say
+we're outside here,
+
+36
+00:01:35,735 --> 00:01:37,490
+which means we're either they're
+
+37
+00:01:37,490 --> 00:01:39,410
+all there and we're outside here,
+
+38
+00:01:39,410 --> 00:01:41,540
+which means with
+arrow that we and
+
+39
+00:01:41,540 --> 00:01:44,300
+those together to say we're
+outside both of them.
+
+40
+00:01:44,300 --> 00:01:48,110
+And that means that the ones
+are represented by this.
+
+41
+00:01:48,110 --> 00:01:51,800
+This is called a conjunctive
+normal form because it is
+
+42
+00:01:51,800 --> 00:01:55,640
+a conjunction of
+disjunction literals.
+
+43
+00:01:55,640 --> 00:01:58,340
+If we take any pattern
+of zeros and ones in
+
+44
+00:01:58,340 --> 00:02:01,565
+here and then identify
+the blocks of zeros.
+
+45
+00:02:01,565 --> 00:02:03,425
+We can do something like this.
+
+46
+00:02:03,425 --> 00:02:07,100
+Represent each block of
+zeros as a disjunction,
+
+47
+00:02:07,100 --> 00:02:09,530
+then conjoin all
+of those and we'll
+
+48
+00:02:09,530 --> 00:02:12,740
+have written down something
+equivalent to that pattern.
+
+49
+00:02:12,740 --> 00:02:14,405
+You've already seen
+
+50
+00:02:14,405 --> 00:02:17,225
+a Disjunctive Normal
+Form for this example.
+
+51
+00:02:17,225 --> 00:02:18,740
+Now we're going to take it,
+
+52
+00:02:18,740 --> 00:02:21,170
+produce a conjunctive
+normal form.
+
+53
+00:02:21,170 --> 00:02:23,870
+The disjunctive normal form is
+
+54
+00:02:23,870 --> 00:02:26,450
+easier to think about
+and easier to read off.
+
+55
+00:02:26,450 --> 00:02:29,600
+But the conjunctive normal
+form is more useful.
+
+56
+00:02:29,600 --> 00:02:33,020
+If you think about the
+disjunctive normal form,
+
+57
+00:02:33,020 --> 00:02:36,780
+it says, we've got
+some things like this.
+
+58
+00:02:37,000 --> 00:02:39,800
+And we've got some
+things like this.
+
+59
+00:02:39,800 --> 00:02:41,840
+And we've got some
+things like this.
+
+60
+00:02:41,840 --> 00:02:43,970
+It just tells you
+there are things of
+
+61
+00:02:43,970 --> 00:02:46,670
+this form because we're saying
+this and this and this,
+
+62
+00:02:46,670 --> 00:02:49,655
+or this and this and this. O, ok.
+
+63
+00:02:49,655 --> 00:02:52,790
+So in general, you
+probably have to
+
+64
+00:02:52,790 --> 00:02:54,500
+get very deep descriptions
+
+65
+00:02:54,500 --> 00:02:56,330
+of lots of things
+to say that there.
+
+66
+00:02:56,330 --> 00:03:00,110
+Whereas the conjunctive
+normal form says,
+
+67
+00:03:00,110 --> 00:03:03,380
+we don't have things
+like something.
+
+68
+00:03:03,380 --> 00:03:05,225
+It says we're away from here.
+
+69
+00:03:05,225 --> 00:03:08,060
+And when we're writing
+specifications of programs,
+
+70
+00:03:08,060 --> 00:03:10,040
+for instance, we don't
+say this can happen,
+
+71
+00:03:10,040 --> 00:03:11,675
+all this can happen
+or this can happen.
+
+72
+00:03:11,675 --> 00:03:14,390
+Typically, we say this will never
+
+73
+00:03:14,390 --> 00:03:16,040
+happen when you say a small thing
+
+74
+00:03:16,040 --> 00:03:17,315
+that should never happen,
+
+75
+00:03:17,315 --> 00:03:19,490
+another small thing that
+should never happen.
+
+76
+00:03:19,490 --> 00:03:21,155
+Things arise more often.
+
+77
+00:03:21,155 --> 00:03:23,900
+And that our natural way
+of describing problem,
+
+78
+00:03:23,900 --> 00:03:26,360
+but we're going to
+talk about Sudoku as
+
+79
+00:03:26,360 --> 00:03:30,500
+an example of a problem
+that we can code in logic.
+
+80
+00:03:30,500 --> 00:03:33,650
+And now's a good time to
+talk about it a little bit.
+
+81
+00:03:33,650 --> 00:03:36,350
+If we think of a Sudoku
+board and you start
+
+82
+00:03:36,350 --> 00:03:39,530
+filling it in and
+suddenly you see that.
+
+83
+00:03:39,530 --> 00:03:41,180
+Now I'd have to put a nine
+
+84
+00:03:41,180 --> 00:03:42,845
+here and I've already
+got a nine in that row.
+
+85
+00:03:42,845 --> 00:03:44,630
+I can't do it because you can't
+
+86
+00:03:44,630 --> 00:03:46,985
+have two nines in the same row.
+
+87
+00:03:46,985 --> 00:03:49,790
+Ok, so we are saying
+that can't happen.
+
+88
+00:03:49,790 --> 00:03:51,470
+Then we'd say, Oh, you can't
+
+89
+00:03:51,470 --> 00:03:52,610
+have two weights in the same row.
+
+90
+00:03:52,610 --> 00:03:55,010
+We want to have the same
+things in the same row.
+
+91
+00:03:55,010 --> 00:03:57,635
+There are lots of little
+things that will say.
+
+92
+00:03:57,635 --> 00:04:01,444
+And what we're trying to do
+is to then solve the problem.
+
+93
+00:04:01,444 --> 00:04:04,670
+Finding something that satisfies
+
+94
+00:04:04,670 --> 00:04:06,410
+all those requirements
+that doesn't
+
+95
+00:04:06,410 --> 00:04:09,140
+make a 99 in the same row,
+
+96
+00:04:09,140 --> 00:04:10,550
+so we're not allowed
+to do things.
+
+97
+00:04:10,550 --> 00:04:12,560
+And that's common
+in many problems.
+
+98
+00:04:12,560 --> 00:04:14,825
+We're saying you're not
+allowed to do this.
+
+99
+00:04:14,825 --> 00:04:17,105
+And that means that the
+conjunctive normal form
+
+100
+00:04:17,105 --> 00:04:18,800
+is easier because we're
+
+101
+00:04:18,800 --> 00:04:20,150
+saying we're not
+allowed to do this.
+
+102
+00:04:20,150 --> 00:04:22,205
+Otherwise, you produce
+things other than this,
+
+103
+00:04:22,205 --> 00:04:24,545
+and you've got to do
+things other than this,
+
+104
+00:04:24,545 --> 00:04:26,645
+and you've got to do
+things other than that.
+
+105
+00:04:26,645 --> 00:04:29,165
+And you exclude all
+sorts of possibilities.
+
+106
+00:04:29,165 --> 00:04:30,725
+And then you try and find
+
+107
+00:04:30,725 --> 00:04:33,395
+something that satisfies
+all those constraints.
+
+108
+00:04:33,395 --> 00:04:36,600
+That's why cnf is more important.

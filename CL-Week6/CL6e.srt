@@ -1,0 +1,225 @@
+1
+00:00:00,000 --> 00:00:02,970
+So far we've been
+looking at logs of ones.
+
+2
+00:00:02,970 --> 00:00:07,380
+What happens if we have
+two blocks of ones?
+
+3
+00:00:07,380 --> 00:00:10,875
+If we have two blocks of 1's,
+
+4
+00:00:10,875 --> 00:00:18,315
+then if not a and
+not our way here.
+
+5
+00:00:18,315 --> 00:00:23,550
+And if a, and then we're here.
+
+6
+00:00:23,550 --> 00:00:27,195
+So we have two blocks of 1s,
+
+7
+00:00:27,195 --> 00:00:30,210
+then we can make
+
+8
+00:00:30,210 --> 00:00:34,470
+the expression an
+expression that represents
+
+9
+00:00:34,470 --> 00:00:40,160
+exactly this collection of
+
+10
+00:00:40,160 --> 00:00:48,095
+states by not a anatta
+or a and r. Okay?
+
+11
+00:00:48,095 --> 00:00:50,825
+That's called a disjunctive
+
+12
+00:00:50,825 --> 00:00:53,540
+because there's a disjunction,
+their normal form,
+
+13
+00:00:53,540 --> 00:00:55,565
+it's a disjunction of
+
+14
+00:00:55,565 --> 00:00:58,970
+conjunctions of these
+things called literals,
+
+15
+00:00:58,970 --> 00:01:01,280
+which are A's or nowadays as
+
+16
+00:01:01,280 --> 00:01:04,100
+not as letters or
+their negations.
+
+17
+00:01:04,100 --> 00:01:05,795
+Disjunctive Normal Form,
+
+18
+00:01:05,795 --> 00:01:08,915
+disjunction of
+conjunctions, of literals.
+
+19
+00:01:08,915 --> 00:01:11,345
+We take a pattern,
+here's a pattern.
+
+20
+00:01:11,345 --> 00:01:13,040
+We find some blocks.
+
+21
+00:01:13,040 --> 00:01:14,930
+Can anyone see
+other blocks that I
+
+22
+00:01:14,930 --> 00:01:17,060
+haven't labeled blocks of ones?
+
+23
+00:01:17,060 --> 00:01:20,315
+We could do a
+horizontal block here,
+
+24
+00:01:20,315 --> 00:01:22,415
+and we can do a
+horizontal plot there.
+
+25
+00:01:22,415 --> 00:01:24,590
+Notice that we're keeping
+as a power of two,
+
+26
+00:01:24,590 --> 00:01:26,150
+so it can only be two things,
+
+27
+00:01:26,150 --> 00:01:28,010
+but there are two
+more two-piece blocks
+
+28
+00:01:28,010 --> 00:01:30,335
+that we could add when we,
+
+29
+00:01:30,335 --> 00:01:32,075
+when we made the normal form,
+
+30
+00:01:32,075 --> 00:01:36,574
+each block we've got here will
+correspond to are putting,
+
+31
+00:01:36,574 --> 00:01:38,585
+this says what does this say?
+
+32
+00:01:38,585 --> 00:01:41,195
+Can anyone work out
+what's in common there?
+
+33
+00:01:41,195 --> 00:01:43,400
+In here, we are in this column,
+
+34
+00:01:43,400 --> 00:01:44,780
+so we're not a and not
+
+35
+00:01:44,780 --> 00:01:48,724
+G. And we're on one
+of these two rows.
+
+36
+00:01:48,724 --> 00:01:51,005
+They have in common
+the zeros there.
+
+37
+00:01:51,005 --> 00:01:53,345
+You see? So or not.
+
+38
+00:01:53,345 --> 00:01:55,940
+So it will be not a,
+
+39
+00:01:55,940 --> 00:01:58,220
+not g, and not r,
+
+40
+00:01:58,220 --> 00:02:00,305
+or what would this one be?
+
+41
+00:02:00,305 --> 00:02:03,320
+Not b, not a and G and B.
+
+42
+00:02:03,320 --> 00:02:06,545
+Not a and G and B,
+
+43
+00:02:06,545 --> 00:02:07,910
+because B is the second one of
+
+44
+00:02:07,910 --> 00:02:09,890
+these and it's true on those two.
+
+45
+00:02:09,890 --> 00:02:11,900
+And this one a and r,
+
+46
+00:02:11,900 --> 00:02:15,050
+because we got once
+here and once the a
+
+47
+00:02:15,050 --> 00:02:18,275
+and R. So this is written
+them in another order.
+
+48
+00:02:18,275 --> 00:02:20,585
+And which is that one?
+
+49
+00:02:20,585 --> 00:02:21,920
+Pay not AIG.
+
+50
+00:02:21,920 --> 00:02:25,430
+Which one is that? It's this one.
+
+51
+00:02:25,430 --> 00:02:29,460
+And not a naught R naught
+G, because the first one.

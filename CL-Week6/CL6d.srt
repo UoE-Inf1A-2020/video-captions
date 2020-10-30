@@ -1,0 +1,477 @@
+1
+00:00:00,000 --> 00:00:03,525
+We now have this. Let's
+try a few examples.
+
+2
+00:00:03,525 --> 00:00:06,195
+What I want you to
+do is to tell me,
+
+3
+00:00:06,195 --> 00:00:08,535
+now, here's a block.
+
+4
+00:00:08,535 --> 00:00:12,390
+What's special about that block?
+
+5
+00:00:12,390 --> 00:00:15,510
+In other words, can we
+describe that block?
+
+6
+00:00:15,510 --> 00:00:17,460
+Not by describing a state,
+
+7
+00:00:17,460 --> 00:00:19,725
+but remember which state
+we said the values
+
+8
+00:00:19,725 --> 00:00:23,505
+of all of the predicates.
+
+9
+00:00:23,505 --> 00:00:25,815
+Now I'm asking you to tell me
+
+10
+00:00:25,815 --> 00:00:30,029
+what values are common
+across these four.
+
+11
+00:00:30,029 --> 00:00:32,355
+Amber and green for that one.
+
+12
+00:00:32,355 --> 00:00:34,240
+Yup, Amber and green.
+
+13
+00:00:34,240 --> 00:00:37,950
+What about this one?
+
+14
+00:00:39,730 --> 00:00:43,235
+How many things you Usain?
+
+15
+00:00:43,235 --> 00:00:46,805
+Red and blue and green.
+
+16
+00:00:46,805 --> 00:00:50,765
+Here we have four
+things in the block.
+
+17
+00:00:50,765 --> 00:00:54,050
+How many things do we expect
+them to have in common?
+
+18
+00:00:54,050 --> 00:00:55,850
+Too good?
+
+19
+00:00:55,850 --> 00:00:58,145
+And what are the two for days?
+
+20
+00:00:58,145 --> 00:01:00,455
+Now? Green and red.
+
+21
+00:01:00,455 --> 00:01:02,750
+So you do this, you
+should check that you
+
+22
+00:01:02,750 --> 00:01:05,570
+can do the same for the
+other block shown here.
+
+23
+00:01:05,570 --> 00:01:09,245
+We'll put the solutions
+online. What's a block?
+
+24
+00:01:09,245 --> 00:01:11,195
+What makes something a block?
+
+25
+00:01:11,195 --> 00:01:12,980
+What do these have in common?
+
+26
+00:01:12,980 --> 00:01:15,170
+What happens if I draw this?
+
+27
+00:01:15,170 --> 00:01:16,880
+What do they have in common?
+
+28
+00:01:16,880 --> 00:01:18,830
+They know all the
+things that are not
+
+29
+00:01:18,830 --> 00:01:21,725
+read has to be a power of two.
+
+30
+00:01:21,725 --> 00:01:23,135
+Let's just think about it.
+
+31
+00:01:23,135 --> 00:01:28,235
+We've got our 16
+different states.
+
+32
+00:01:28,235 --> 00:01:31,340
+When I say read,
+
+33
+00:01:31,340 --> 00:01:33,410
+I cut the number in half.
+
+34
+00:01:33,410 --> 00:01:35,375
+If I say not read,
+
+35
+00:01:35,375 --> 00:01:37,175
+I cut the number in half.
+
+36
+00:01:37,175 --> 00:01:40,670
+Suppose I say red
+and then I say blue.
+
+37
+00:01:40,670 --> 00:01:43,070
+I not only cut the
+number of things
+
+38
+00:01:43,070 --> 00:01:45,890
+I'm considering in
+half by saying blue,
+
+39
+00:01:45,890 --> 00:01:49,250
+I'm cutting the number of
+red things in half as well
+
+40
+00:01:49,250 --> 00:01:52,925
+because these properties
+are independent,
+
+41
+00:01:52,925 --> 00:01:55,145
+there is no connection
+between the properties.
+
+42
+00:01:55,145 --> 00:01:58,370
+So when you say blue,
+for any other thing,
+
+43
+00:01:58,370 --> 00:02:00,020
+you've counted all the things
+
+44
+00:02:00,020 --> 00:02:01,820
+that are red and not
+green or something,
+
+45
+00:02:01,820 --> 00:02:03,125
+and you've got them there.
+
+46
+00:02:03,125 --> 00:02:05,510
+Half of them will be blue
+and half of them won't,
+
+47
+00:02:05,510 --> 00:02:07,625
+because we've represented
+everything here.
+
+48
+00:02:07,625 --> 00:02:10,550
+So every time you
+add one of these,
+
+49
+00:02:10,550 --> 00:02:12,335
+we call them literals.
+
+50
+00:02:12,335 --> 00:02:13,640
+That is one of
+
+51
+00:02:13,640 --> 00:02:17,180
+your basic lattice or the
+negation of a basic letter,
+
+52
+00:02:17,180 --> 00:02:20,389
+then you cut the
+number of states into.
+
+53
+00:02:20,389 --> 00:02:22,430
+So we start from 16.
+
+54
+00:02:22,430 --> 00:02:23,900
+If we say one thing,
+
+55
+00:02:23,900 --> 00:02:26,720
+either red or not red
+or amber or not Amber,
+
+56
+00:02:26,720 --> 00:02:29,435
+Just one thing carried
+down to eight.
+
+57
+00:02:29,435 --> 00:02:30,470
+If we say two things,
+
+58
+00:02:30,470 --> 00:02:31,685
+we got it down to four
+
+59
+00:02:31,685 --> 00:02:33,455
+and we carry it down
+to three things.
+
+60
+00:02:33,455 --> 00:02:34,835
+We cut it down to two.
+
+61
+00:02:34,835 --> 00:02:37,160
+And actually we have
+seen examples already.
+
+62
+00:02:37,160 --> 00:02:38,630
+We carry it down to four things.
+
+63
+00:02:38,630 --> 00:02:39,905
+We got a single state.
+
+64
+00:02:39,905 --> 00:02:42,260
+And that's just
+represented by saying
+
+65
+00:02:42,260 --> 00:02:45,170
+what's true and what's
+false in that state.
+
+66
+00:02:45,170 --> 00:02:47,405
+If we go back to our example,
+
+67
+00:02:47,405 --> 00:02:48,875
+we were looking at
+
+68
+00:02:48,875 --> 00:02:51,290
+just this picture
+and we were looking
+
+69
+00:02:51,290 --> 00:02:54,065
+at these being one
+and these being one.
+
+70
+00:02:54,065 --> 00:02:56,060
+And basically if I put the thing
+
+71
+00:02:56,060 --> 00:02:57,920
+together, this is a block.
+
+72
+00:02:57,920 --> 00:03:00,605
+It's repeated again because
+everything's repeated.
+
+73
+00:03:00,605 --> 00:03:03,980
+This count says, if you
+do that repetition,
+
+74
+00:03:03,980 --> 00:03:06,050
+if we just fold
+everything up, well,
+
+75
+00:03:06,050 --> 00:03:07,625
+it's difficult to physically,
+
+76
+00:03:07,625 --> 00:03:11,405
+but you can imagine doing it
+physically in one direction.
+
+77
+00:03:11,405 --> 00:03:13,820
+You just roll it up into a tube,
+
+78
+00:03:13,820 --> 00:03:16,070
+into a cylinder
+that maps around on
+
+79
+00:03:16,070 --> 00:03:17,510
+itself to wrap it around
+
+80
+00:03:17,510 --> 00:03:19,550
+the other way you need
+something better than paper.
+
+81
+00:03:19,550 --> 00:03:21,020
+Because if you're going
+to make that match up,
+
+82
+00:03:21,020 --> 00:03:23,000
+you can't do the
+cylinder trick again.
+
+83
+00:03:23,000 --> 00:03:24,740
+Geometry doesn't work like that,
+
+84
+00:03:24,740 --> 00:03:27,545
+so you have to make it
+into a torus this way,
+
+85
+00:03:27,545 --> 00:03:29,450
+the cylinders being
+done that way to make
+
+86
+00:03:29,450 --> 00:03:32,135
+a row and then it's been
+wrapped around into a torus.
+
+87
+00:03:32,135 --> 00:03:34,190
+So you can put these
+things on there.
+
+88
+00:03:34,190 --> 00:03:35,419
+If you go to Wikipedia,
+
+89
+00:03:35,419 --> 00:03:37,850
+you will see that that's where
+this picture comes from.
+
+90
+00:03:37,850 --> 00:03:40,610
+This one counts as a block.
+
+91
+00:03:40,610 --> 00:03:42,785
+And a Kansas not G,
+
+92
+00:03:42,785 --> 00:03:44,540
+not or a block is
+
+93
+00:03:44,540 --> 00:03:47,689
+a rectangle of these
+things on the torus.
+
+94
+00:03:47,689 --> 00:03:52,160
+A rectangle whose sides
+are some power of two.
+
+95
+00:03:52,160 --> 00:03:55,175
+So it can be one which
+is two to the 0,
+
+96
+00:03:55,175 --> 00:03:57,350
+or it can be two
+or it can be for,
+
+97
+00:03:57,350 --> 00:03:58,970
+because we don't have
+any more room on,
+
+98
+00:03:58,970 --> 00:04:00,935
+on this thing. That's
+what they are.
+
+99
+00:04:00,935 --> 00:04:04,775
+There's a slightly more tricky
+example of the same thing.
+
+100
+00:04:04,775 --> 00:04:07,310
+If we consider these
+four corner things,
+
+101
+00:04:07,310 --> 00:04:11,255
+which is where we're
+not green and blue.
+
+102
+00:04:11,255 --> 00:04:13,580
+So not green means wherein
+
+103
+00:04:13,580 --> 00:04:16,955
+these columns not blue
+means we're in these rows.
+
+104
+00:04:16,955 --> 00:04:19,580
+So we end up with these
+four corner things.
+
+105
+00:04:19,580 --> 00:04:23,130
+And that again forms a block
+if it's wrapped round.

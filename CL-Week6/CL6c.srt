@@ -1,0 +1,282 @@
+1
+00:00:00,000 --> 00:00:03,495
+Now we're going to do a little
+bit of logic. We're ready.
+
+2
+00:00:03,495 --> 00:00:05,580
+We call pictures that aside to
+
+3
+00:00:05,580 --> 00:00:07,950
+remind us what swear
+it actually help.
+
+4
+00:00:07,950 --> 00:00:09,150
+Instead of looking here and
+
+5
+00:00:09,150 --> 00:00:10,680
+trying to get through
+the encoding,
+
+6
+00:00:10,680 --> 00:00:12,480
+it just helps to
+think employers on,
+
+7
+00:00:12,480 --> 00:00:14,325
+that's what's there.
+That means blue zone.
+
+8
+00:00:14,325 --> 00:00:17,969
+If I say green and blue,
+
+9
+00:00:17,969 --> 00:00:20,280
+it's the intersection
+of these two.
+
+10
+00:00:20,280 --> 00:00:23,130
+So green and blue eyed ones in
+
+11
+00:00:23,130 --> 00:00:26,010
+here where green is
+true and blue is true.
+
+12
+00:00:26,010 --> 00:00:27,420
+Here's another block, there's
+
+13
+00:00:27,420 --> 00:00:29,370
+a block of ones showing me the
+
+14
+00:00:29,370 --> 00:00:33,900
+green and blue are true
+for each of these letters.
+
+15
+00:00:33,900 --> 00:00:37,500
+This is a block of ones
+showing that a is true.
+
+16
+00:00:37,500 --> 00:00:39,030
+This is a block of peace,
+
+17
+00:00:39,030 --> 00:00:43,145
+showing that P is true.
+Block, block green.
+
+18
+00:00:43,145 --> 00:00:44,480
+We'd have a block for naught.
+
+19
+00:00:44,480 --> 00:00:47,790
+A will have a block for Nora.
+
+20
+00:00:48,040 --> 00:00:50,690
+And we'd have to
+think about blocks
+
+21
+00:00:50,690 --> 00:00:53,030
+for not green and not blue.
+
+22
+00:00:53,030 --> 00:00:55,175
+We'll come back to
+that. If I try.
+
+23
+00:00:55,175 --> 00:00:57,560
+Not a and B again
+
+24
+00:00:57,560 --> 00:01:00,305
+get a similar kind of block.
+Does everyone get that?
+
+25
+00:01:00,305 --> 00:01:03,260
+Does everyone see
+node a and b naught
+
+26
+00:01:03,260 --> 00:01:06,140
+a is this side and b,
+so we intersect them.
+
+27
+00:01:06,140 --> 00:01:09,545
+So we get that block,
+not a and not r.
+
+28
+00:01:09,545 --> 00:01:13,745
+So not a is this left hand
+side now is this topic.
+
+29
+00:01:13,745 --> 00:01:15,170
+So not a and not a is
+
+30
+00:01:15,170 --> 00:01:18,260
+the not B and not.
+We see another blow.
+
+31
+00:01:18,260 --> 00:01:21,605
+Anyone i, any idea what's
+special about blocks now?
+
+32
+00:01:21,605 --> 00:01:23,540
+G and no TAA.
+
+33
+00:01:23,540 --> 00:01:25,130
+Where we get to this place
+
+34
+00:01:25,130 --> 00:01:27,710
+where if we're going
+to make sense of this,
+
+35
+00:01:27,710 --> 00:01:31,715
+we've got to think of those
+as being next to each other.
+
+36
+00:01:31,715 --> 00:01:34,820
+For doing that, let's
+make a picture.
+
+37
+00:01:34,820 --> 00:01:37,520
+Here. I've taken
+our 16 states and
+
+38
+00:01:37,520 --> 00:01:40,550
+out here I've got copies
+of that same thing.
+
+39
+00:01:40,550 --> 00:01:43,715
+But we can put them
+together like this.
+
+40
+00:01:43,715 --> 00:01:46,190
+Now, you can't see the edges.
+
+41
+00:01:46,190 --> 00:01:47,660
+What I've done is to take
+
+42
+00:01:47,660 --> 00:01:51,485
+multiple copies and just put
+them next to each other.
+
+43
+00:01:51,485 --> 00:01:54,335
+So the rules how along this row,
+
+44
+00:01:54,335 --> 00:01:57,815
+we've just got reds down here.
+
+45
+00:01:57,815 --> 00:02:00,920
+What we got, we've
+got neither this nor
+
+46
+00:02:00,920 --> 00:02:04,280
+that down any row
+along any column.
+
+47
+00:02:04,280 --> 00:02:07,355
+We've got something
+that's constant.
+
+48
+00:02:07,355 --> 00:02:09,305
+Namely the, here're
+two things around
+
+49
+00:02:09,305 --> 00:02:12,035
+changing and the
+other two can change.
+
+50
+00:02:12,035 --> 00:02:13,940
+And every time I go
+from one to another,
+
+51
+00:02:13,940 --> 00:02:15,110
+I changed one thing.
+
+52
+00:02:15,110 --> 00:02:19,025
+So I can change this
+nothing to amber or red,
+
+53
+00:02:19,025 --> 00:02:21,215
+or green or blue.
+
+54
+00:02:21,215 --> 00:02:24,110
+You can see why you do this in
+
+55
+00:02:24,110 --> 00:02:27,710
+two dimensions for
+four variables.
+
+56
+00:02:27,710 --> 00:02:30,350
+But if you wanted
+to six variables,
+
+57
+00:02:30,350 --> 00:02:32,180
+you have to go into
+three dimensions.
+
+58
+00:02:32,180 --> 00:02:34,220
+And it's much harder
+to see when you've got
+
+59
+00:02:34,220 --> 00:02:37,055
+a solid cube that's
+colored, you go through it.
+
+60
+00:02:37,055 --> 00:02:38,450
+So some people can do that,
+
+61
+00:02:38,450 --> 00:02:41,970
+but I'm not gonna do that
+with you in this course.
