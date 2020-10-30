@@ -5,32 +5,32 @@ To formalize Aristotle's theory
 2
 00:00:03,900 --> 00:00:08,400
 of syllogisms,
-reintroduced propositions.
+we introduced propositions
 
 3
 00:00:08,400 --> 00:00:12,915
-With this notation,
-a satisfies B,
+with this notation:
+a satisfies b.
 
 4
 00:00:12,915 --> 00:00:16,380
-which means in an
-Euler diagram is
+Which means in an
+Euler diagram: here's
 
 5
 00:00:16,380 --> 00:00:21,840
 the universe and a
-is contained in B.
+is contained in b.
 
 6
 00:00:21,840 --> 00:00:26,835
-And if we wanted to say
-that a does not satisfy B,
+And if we want to say
+that a does NOT satisfy b,
 
 7
 00:00:26,835 --> 00:00:29,095
 we must provide a
-counter-example.
+counterexample.
 
 8
 00:00:29,095 --> 00:00:33,980
@@ -39,7 +39,7 @@ an x in the universe such
 
 9
 00:00:33,980 --> 00:00:39,215
-that a holes of X and B doesn't.
+that a holds of x and b doesn't.
 
 10
 00:00:39,215 --> 00:00:43,250
@@ -48,7 +48,7 @@ for which a of x
 
 11
 00:00:43,250 --> 00:00:48,334
-is true and B of X is false.
+is true and b of x is false.
 
 12
 00:00:48,334 --> 00:00:51,125
@@ -57,7 +57,7 @@ mixing notation from
 
 13
 00:00:51,125 --> 00:00:54,049
-Haskell with
+Haskell with the
 mathematical notation.
 
 14
@@ -67,7 +67,7 @@ to translate between
 
 15
 00:00:56,120 --> 00:00:58,340
-those two against and sequence or
+those two. Gentzen's sequents are
 
 16
 00:00:58,340 --> 00:01:00,860
@@ -76,7 +76,7 @@ powerful generalization
 
 17
 00:01:00,860 --> 00:01:03,440
-of this sequent
+of this. A sequent
 looks very similar.
 
 18
@@ -89,17 +89,17 @@ says gamma satisfies delta.
 
 20
 00:01:09,934 --> 00:01:14,570
-But whereas a and B are
+But whereas here a and b are
 
 21
 00:01:14,570 --> 00:01:19,970
 predicates of type
-U, arrows goo here,
+u -> Bool, here
 
 22
 00:01:19,970 --> 00:01:24,755
-gamma and delta of finite
-sets of predicates,
+gamma and delta are finite
+sets of predicates
 
 23
 00:01:24,755 --> 00:01:27,800
@@ -108,7 +108,7 @@ in Haskell as
 
 24
 00:01:27,800 --> 00:01:31,130
-lists of things from you to boom.
+lists of things from u -> Bool.
 
 25
 00:01:31,130 --> 00:01:34,400
@@ -140,7 +140,7 @@ which will be an x of type u
 
 31
 00:01:49,775 --> 00:01:53,420
-such that for all G in gamma,
+such that for all g in gamma,
 
 32
 00:01:53,420 --> 00:01:56,750
@@ -150,11 +150,11 @@ is a list of predicates.
 33
 00:01:56,750 --> 00:02:02,780
 So for all predicates in
-gamma g of x equals true,
+gamma, g of x equals true.
 
 34
 00:02:02,780 --> 00:02:09,335
-and for all the delta
+And for all d in delta,
 d of x equals false.
 
 35
@@ -165,7 +165,7 @@ given by exhibiting
 36
 00:02:12,830 --> 00:02:16,535
 an x such that it satisfies
-every G and gamma,
+every g in gamma,
 
 37
 00:02:16,535 --> 00:02:20,430
