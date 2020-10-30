@@ -4,7 +4,7 @@ Now we're going to take
 
 2
 00:00:02,310 --> 00:00:04,770
-some control positions and
+some contrapositions and
 
 3
 00:00:04,770 --> 00:00:07,034
@@ -17,32 +17,31 @@ the first rule barbara.
 
 5
 00:00:11,280 --> 00:00:13,349
-Then we put Nazi emphases.
+Then we put not C in for C.
 
 6
 00:00:13,349 --> 00:00:15,930
 Leprosy is putting a
-different Lateran at
+different letter in, a
 
 7
 00:00:15,930 --> 00:00:17,550
 different predicate
-Nazi instead of
+not C instead of
 
 8
 00:00:17,550 --> 00:00:20,100
 C. But once we put
-the Nazi law and we
+the not C in there, we
 
 9
 00:00:20,100 --> 00:00:22,965
-could do control
-positions because
+could do contrapositions because
 
 10
 00:00:22,965 --> 00:00:30,375
-B satisfies not c is the
-same as c satisfies not B.
+B satisfies not C is the
+same as C satisfies not B.
 
 11
 00:00:30,375 --> 00:00:32,280
@@ -109,21 +108,21 @@ we change that to a b to not
 
 25
 00:01:11,180 --> 00:01:14,330
-be just substituting justice we
+be just substituting just as
 
 26
 00:01:14,330 --> 00:01:17,210
-before we substituted Nazi for C.
+before we substituted not C for C.
 
 27
 00:01:17,210 --> 00:01:20,810
 But when you substitute
-not B and not B,
+not B in not B,
 
 28
 00:01:20,810 --> 00:01:22,910
-you get not, not p. So
-you get a feedback.
+you get not, not B. So
+you get a B back.
 
 29
 00:01:22,910 --> 00:01:25,595
@@ -131,7 +130,7 @@ And then we can say, Oh, look,
 
 30
 00:01:25,595 --> 00:01:31,700
-this can be contrapposto.
+this can be contrapposed.
 So we take that.
 
 31
@@ -220,7 +219,7 @@ from the one above?
 
 49
 00:02:22,355 --> 00:02:24,830
-We just put Nazi.
+We just put not C.
 
 50
 00:02:24,830 --> 00:02:28,110
@@ -238,7 +237,7 @@ one come from?
 
 53
 00:02:39,400 --> 00:02:41,570
-Philip at the tops and
+If I look at the tops and
 
 54
 00:02:41,570 --> 00:02:42,830
