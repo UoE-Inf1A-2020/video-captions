@@ -9,16 +9,16 @@ different predicates,
 
 3
 00:00:08,025 --> 00:00:10,020
-then we can make a special model,
+then we can make a special model
 
 4
 00:00:10,020 --> 00:00:13,050
-which is universal
-model for each region.
+which is a universal
+model for that. Each region
 
 5
 00:00:13,050 --> 00:00:15,780
-And here corresponds to a
+in here corresponds to a
 pattern like that which shows
 
 6
@@ -34,16 +34,16 @@ a bit more formal,
 8
 00:00:20,610 --> 00:00:24,735
 we can think of it as a
-state which says a not B,
+state which says a not b,
 
 9
 00:00:24,735 --> 00:00:29,505
-not C and D. Where is this
+not c and d. Where is this
 true in this universe?
 
 10
 00:00:29,505 --> 00:00:31,710
-How many places Is it true?
+How many places is it true?
 
 11
 00:00:31,710 --> 00:00:35,190
@@ -53,30 +53,30 @@ a state like this,
 12
 00:00:35,190 --> 00:00:38,130
 then it corresponds to
-exactly one of these.
+exactly one of these
 
 13
 00:00:38,130 --> 00:00:39,895
-And in this case, it's this one.
+and in this case, it's this one.
 
 14
 00:00:39,895 --> 00:00:43,505
-Also think of the
-states as valuations.
+We'll also think of these
+states as valuations,
 
 15
 00:00:43,505 --> 00:00:44,675
-That is functions.
+that is functions.
 
 16
 00:00:44,675 --> 00:00:47,225
-We have a function
+If we have a function
 saying a is true,
 
 17
 00:00:47,225 --> 00:00:49,610
-B is false, C is
-false, this is true.
+b is false, c is
+false, d is true.
 
 18
 00:00:49,610 --> 00:00:52,580
@@ -95,11 +95,11 @@ So in this model, if I look at
 21
 00:00:57,710 --> 00:01:02,375
 the state that
-satisfies a, not B, C,
+satisfies a, not b, not c,
 
 22
 00:01:02,375 --> 00:01:06,185
-and D. And for those of you
+and d. And for those of you
 who remember yesterday,
 
 23
@@ -109,17 +109,17 @@ gamma on the left
 24
 00:01:09,230 --> 00:01:12,665
 here is just a set with
-four things in it.
+four things in it and
 
 25
 00:01:12,665 --> 00:01:17,495
-Very simple. And when we
+they're very simple. And when we
 say gamma satisfies p,
 
 26
 00:01:17,495 --> 00:01:23,750
 what it means is p is satisfied
-in something of this,
+in the sub-thing of this,
 
 27
 00:01:23,750 --> 00:01:26,180
@@ -127,8 +127,8 @@ the sub universe in which gamma,
 
 28
 00:01:26,180 --> 00:01:28,940
-everything in gamma ray is
-true that some universe in
+everything in gamma is
+true. That sub universe in
 
 29
 00:01:28,940 --> 00:01:32,345
@@ -141,7 +141,7 @@ This satisfies p if
 
 31
 00:01:34,880 --> 00:01:37,310
-and only if P holds
+and only if p holds
 of that one thing.
 
 32
@@ -151,15 +151,15 @@ general idea we had
 
 33
 00:01:40,220 --> 00:01:42,125
-before and were able just to say
+before and were able just to say:
 
 34
 00:01:42,125 --> 00:01:44,180
-how we work out p on this one.
+oh, we work out p on this one,
 
 35
 00:01:44,180 --> 00:01:45,905
-And that tells me
+and that tells me
 whether this is true.
 
 36
@@ -168,17 +168,17 @@ To tell whether this is,
 
 37
 00:01:47,135 --> 00:01:48,740
-whether it's valid on this one.
+whether it's valid on this one,
 
 38
 00:01:48,740 --> 00:01:51,920
-We just substitute different
+we just substitute different
 things here and work it out.
 
 39
 00:01:51,920 --> 00:01:55,160
 But what I want to do now
-is to introduce ways of
+is to introduce the ways of
 
 40
 00:01:55,160 --> 00:01:59,045
@@ -193,16 +193,16 @@ of the same thing.
 42
 00:02:01,940 --> 00:02:05,120
 Here we're thinking of
-something has a state
+something which has a state
 
 43
 00:02:05,120 --> 00:02:08,660
 represented by four
-lights and the amber,
+lights. And they're amber,
 
 44
 00:02:08,660 --> 00:02:11,600
-green, red, blue, and is the name
+green, red, blue. Amber is the name
 
 45
 00:02:11,600 --> 00:02:15,230
@@ -212,7 +212,7 @@ traffic light in Britain.
 46
 00:02:15,230 --> 00:02:16,985
 So if you don't
-know what Amber is,
+know what amber is,
 
 47
 00:02:16,985 --> 00:02:18,770
@@ -226,17 +226,17 @@ traffic light is not yellow,
 
 49
 00:02:21,500 --> 00:02:23,330
-it's Amber looking highway code.
+it's amber. Look in the highway code.
 
 50
 00:02:23,330 --> 00:02:26,030
 So we're going to treat states
-as like in this diagram.
+as lights. In this diagram,
 
 51
 00:02:26,030 --> 00:02:29,090
-It's a perfectly good Venn
-diagram in the HRegion is
+it's a perfectly good Venn
+diagram in that each region is
 
 52
 00:02:29,090 --> 00:02:32,390
@@ -245,21 +245,21 @@ is represented twice.
 
 53
 00:02:32,390 --> 00:02:34,580
-But it is not a very nice diagram
+But it's not a very nice diagram
 
 54
 00:02:34,580 --> 00:02:36,860
 because things aren't
-very different,
+very different.
 
 55
 00:02:36,860 --> 00:02:40,370
-like this one is not very
+Like this one is not very
 different from this one.
 
 56
 00:02:40,370 --> 00:02:42,755
-It only differs by one light,
+It only differs by one light:
 
 57
 00:02:42,755 --> 00:02:44,795
@@ -268,16 +268,16 @@ light is on or off.
 
 58
 00:02:44,795 --> 00:02:46,580
-Far apart from this state
+They're far apart. From this state,
 
 59
 00:02:46,580 --> 00:02:48,710
-threaten number to
-switch off hand,
+the red and amber: to
+switch off amber
 
 60
 00:02:48,710 --> 00:02:49,925
-but we have to go a long way.
+we have to go a long way.
 
 61
 00:02:49,925 --> 00:02:52,325
@@ -298,7 +298,7 @@ Now, to change one light,
 65
 00:02:57,920 --> 00:03:00,155
 you just have to move
-one square if you
+one square. If you
 
 66
 00:03:00,155 --> 00:03:03,170
@@ -310,11 +310,11 @@ we only change one light.
 
 68
 00:03:04,820 --> 00:03:07,820
-Here. The amber light goes on,
+Here, the amber light goes on.
 
 69
 00:03:07,820 --> 00:03:09,965
-and here the amber light goes on.
+And here the amber light goes on.
 
 70
 00:03:09,965 --> 00:03:11,450
@@ -326,7 +326,7 @@ The amber light goes on.
 
 72
 00:03:12,920 --> 00:03:15,635
-Here. The green light goes off.
+Here, the green light goes off.
 
 73
 00:03:15,635 --> 00:03:17,060
@@ -338,27 +338,27 @@ The green light goes off.
 
 75
 00:03:18,515 --> 00:03:19,910
-Greenlight goes off.
+Green light goes off.
 
 76
 00:03:19,910 --> 00:03:21,620
-What happens? We come down here.
+What happens if we come down here?
 
 77
 00:03:21,620 --> 00:03:23,330
-Lu live, live. Sounds on.
+The blue light comes on.
 
 78
 00:03:23,330 --> 00:03:24,950
-Blue light likes, goes on here.
+Red light comes on.
 
 79
 00:03:24,950 --> 00:03:26,795
-Blue light relies on herself.
+Blue light goes off.
 
 80
 00:03:26,795 --> 00:03:29,300
-Light goes up. What happens
+Red light goes off. What happens
 
 81
 00:03:29,300 --> 00:03:32,670
@@ -367,11 +367,11 @@ when the amber light goes off?
 82
 00:03:33,760 --> 00:03:37,850
 When the amber light goes
-off, you go from here.
+off, you go from here,
 
 83
 00:03:37,850 --> 00:03:39,845
-You have to come back here.
+you have to come back here.
 
 84
 00:03:39,845 --> 00:03:42,680
@@ -385,25 +385,25 @@ for a little while.
 
 86
 00:03:44,300 --> 00:03:47,225
-Here we got a nice block
+Here, we've got 'a' as a nice block.
 
 87
 00:03:47,225 --> 00:03:49,850
-as places where the
-envelope is on.
+That's places where the
+amber light is on.
 
 88
 00:03:49,850 --> 00:03:52,730
-We got g as a nice block.
+We've got g as a nice block.
 
 89
 00:03:52,730 --> 00:03:56,045
-This word block is actually
+This word 'block' is actually
 going to be a technical word.
 
 90
 00:03:56,045 --> 00:03:58,970
-A block on one of
+A 'block' on one of
 these diagrams is
 
 91
@@ -427,11 +427,11 @@ So we'll see a variety of
 95
 00:04:08,690 --> 00:04:11,150
 them and we will come
-to the definition.
+to the definition,
 
 96
 00:04:11,150 --> 00:04:12,470
-But I'd like you to
+but I'd like you to
 think about what's
 
 97
@@ -451,20 +451,20 @@ you the question.
 
 100
 00:04:18,845 --> 00:04:23,465
-The reds and the blues are there,
+The reds and the blues are there.
 
 101
 00:04:23,465 --> 00:04:26,285
-so we know where amber,
-green, red, blue.
+So if we know where amber,
+green, red, blue are,
 
 102
 00:04:26,285 --> 00:04:28,730
-We can work out where B is not.
+we can work out where not b is.
 
 103
 00:04:28,730 --> 00:04:30,200
-B is the things outside here.
+Not b is the things outside here.
 
 104
 00:04:30,200 --> 00:04:32,105
@@ -474,7 +474,7 @@ a Venn diagram except
 105
 00:04:32,105 --> 00:04:34,280
 instead of having the
-thing with everything off,
+thing with everything off
 
 106
 00:04:34,280 --> 00:04:35,465
@@ -483,62 +483,62 @@ sitting out in the cold,
 107
 00:04:35,465 --> 00:04:37,130
 it's rather the same
-as everything else.
+as everything else:
 
 108
 00:04:37,130 --> 00:04:38,855
-It's just another
+it's just another
 thing in our diagram.
 
 109
 00:04:38,855 --> 00:04:41,105
-Another way of looking at this,
+Another way of looking at this
 
 110
 00:04:41,105 --> 00:04:43,925
-if you take exactly the
-diagram we had before.
+is to take exactly the
+diagram we had before,
 
 111
 00:04:43,925 --> 00:04:47,180
-But now for Amber and
-greed, i'm saying 00,
+but now for amber and
+green, I'm saying 00,
 
 112
 00:04:47,180 --> 00:04:50,390
-meaning Amber angry in a roll
-off down in this column,
+meaning amber and green are all
+off down in this column.
 
 113
 00:04:50,390 --> 00:04:53,315
-01 means Amber is
+01 means amber is
 off and green is on.
 
 114
 00:04:53,315 --> 00:04:54,980
-Check it in this column here,
+Check it in this column.
 
 115
 00:04:54,980 --> 00:04:57,785
-Amber and green both on and hear.
+Here, amber and green are both on. And here,
 
 116
 00:04:57,785 --> 00:05:02,690
-Amber is on the greenness of
-notice the order I don't go
+amber is on but green is off.
+Notice the order: I don't go
 
 117
 00:05:02,690 --> 00:05:11,450
-00011011 counting in
-binary, I go 00011110.
+00-01-10-11 counting in
+binary, I go 00-01-11-10.
 
 118
 00:05:11,450 --> 00:05:14,420
-That's called a Huffman code.
+And that's called a Huffman code.
 
 119
 00:05:14,420 --> 00:05:16,550
-So it's, it's, it only changes by
+So it only changes by
 
 120
 00:05:16,550 --> 00:05:19,610
@@ -552,7 +552,7 @@ with any number of bits.
 
 122
 00:05:22,280 --> 00:05:23,765
-You have 5-bit number.
+So if you have a 5-bit number,
 
 123
 00:05:23,765 --> 00:05:25,955
@@ -587,31 +587,31 @@ we only change one bit.
 
 130
 00:05:35,525 --> 00:05:37,640
-But this time here we're saying
+But this time, here we're saying
 
 131
 00:05:37,640 --> 00:05:39,830
-that red and blue are off here.
+that red and blue are off. Here
 
 132
 00:05:39,830 --> 00:05:42,560
-We're saying that radius
-of fluids on here,
+we're saying that red is off,
+blue is on. Here
 
 133
 00:05:42,560 --> 00:05:43,940
-we're saying they're both on,
+we're saying they're both on.
 
 134
 00:05:43,940 --> 00:05:46,330
-and here we're saying radius
-on the blue is offset.
+And here we're saying red is
+on, but blue is off.
 
 135
 00:05:46,330 --> 00:05:48,050
-That does all the possibilities.
+So that does all the possibilities.
 
 136
 00:05:48,050 --> 00:05:51,450
-Now we want to do is do
+Now what we want to do is do
 a little bit of logic.
