@@ -1,21 +1,21 @@
 1
 00:00:00,140 --> 00:00:03,030
 We have a universe
-with predicate.
+with a predicate.
 
 2
 00:00:03,030 --> 00:00:04,500
-There could be
+It could be
 anything in the world.
 
 3
 00:00:04,500 --> 00:00:06,075
-They can be as big
-as we like today.
+It can be as big
+as we like.
 
 4
 00:00:06,075 --> 00:00:07,320
-We got to realize that
+Today we're going to realize that
 
 5
 00:00:07,320 --> 00:00:09,600
@@ -50,11 +50,11 @@ to talk about things.
 12
 00:00:19,140 --> 00:00:21,150
 You know, we have
-predicates a, B,
+predicates a, b,
 
 13
 00:00:21,150 --> 00:00:23,835
-and C, which we could
+and c, which we could
 interpret in the world.
 
 14
@@ -69,19 +69,19 @@ look at one universe,
 
 16
 00:00:28,735 --> 00:00:30,905
-what goes on in that universe.
+see what goes on in that universe,
 
 17
 00:00:30,905 --> 00:00:32,180
-And once we understand that,
+and once we understand that,
 
 18
 00:00:32,180 --> 00:00:33,755
-we understand every other one,
+we understand every other one.
 
 19
 00:00:33,755 --> 00:00:35,900
-there's a universe which I
+Here's a universe which I
 showed you at the end of
 
 20
@@ -102,12 +102,12 @@ about is the differences in
 23
 00:00:44,840 --> 00:00:47,195
 whether they have the
-property Ohio town,
+property a or don't,
 
 24
 00:00:47,195 --> 00:00:49,805
 whether they have the property
-P or don't, and so on.
+b or don't, and so on.
 
 25
 00:00:49,805 --> 00:00:53,150
@@ -121,11 +121,11 @@ And if we take this principle
 27
 00:00:55,085 --> 00:00:57,995
 saying if things
-can't be distinguish,
+can't be distinguished,
 
 28
 00:00:57,995 --> 00:00:59,960
-them will treat them as equal.
+then we'll treat them as equal.
 
 29
 00:00:59,960 --> 00:01:03,860
@@ -143,12 +143,12 @@ something of this kind?
 
 32
 00:01:08,450 --> 00:01:10,445
-Let's say that I have
+Let's say do they have
 something that is
 
 33
 00:01:10,445 --> 00:01:12,980
-a and not B and Nazi and not the,
+a and not b and not c and not d,
 
 34
 00:01:12,980 --> 00:01:14,540
@@ -187,17 +187,17 @@ the things that are a,
 
 41
 00:01:31,130 --> 00:01:35,000
-not B, not C and D
-clump those together.
+not b, not c and d.
+Clump all those together
 
 42
 00:01:35,000 --> 00:01:36,590
-Interesting, yes,
-there is one of them,
+and just think, yes,
+there is one of them.
 
 43
 00:01:36,590 --> 00:01:39,725
-or in some other instances
+Or in some other instances
 maybe there isn't.
 
 44
@@ -211,11 +211,11 @@ particular universe?
 
 46
 00:01:45,214 --> 00:01:47,375
-64. You think?
+64? You think?
 
 47
 00:01:47,375 --> 00:01:49,370
-How many different things we got?
+How many different things have we got there?
 
 48
 00:01:49,370 --> 00:01:52,280
@@ -238,15 +238,15 @@ be there or not there.
 52
 00:01:58,880 --> 00:02:01,325
 So how many sub
-universes are that?
+universes are there?
 
 53
 00:02:01,325 --> 00:02:02,735
-There are a huge number,
+There are a huge number:
 
 54
 00:02:02,735 --> 00:02:06,155
-two to the 60 is 64 thousand.
+2^16 is 64,000.
 
 55
 00:02:06,155 --> 00:02:09,620
@@ -265,7 +265,7 @@ bigger examples.
 58
 00:02:14,420 --> 00:02:17,944
 But already here we've
-got 64 thousand,
+got 64,000,
 
 59
 00:02:17,944 --> 00:02:20,030
@@ -273,35 +273,35 @@ and that's a binary thousand,
 
 60
 00:02:20,030 --> 00:02:21,410
-which is 10 to four.
+which is 1024.
 
 61
 00:02:21,410 --> 00:02:25,055
-So 64 kbps bit or KB Things.
+So it's 64 kibibits or kibi things.
 
 62
 00:02:25,055 --> 00:02:28,730
-There are 256 universities
-that we have three things,
+There are 256 universes
+if we have 3 things,
 
 63
 00:02:28,730 --> 00:02:32,675
-but it goes up to the 64 K
-when we have four things.
+but it goes up to this 64,000
+when we have 4 things.
 
 64
 00:02:32,675 --> 00:02:37,790
 And as you say, it's
-65,536 to be precise,
+65,536 to be precise.
 
 65
 00:02:37,790 --> 00:02:39,800
-what we're going to
-say is that if we
+What we're going to
+see is that if we
 
 66
 00:02:39,800 --> 00:02:41,690
-take this one or
+take this one or indeed
 
 67
 00:02:41,690 --> 00:02:43,685
@@ -314,8 +314,8 @@ If you're given any one of
 
 69
 00:02:45,140 --> 00:02:48,125
-the 65 thousand
-anode patterns here,
+the 65,000
+patterns here,
 
 70
 00:02:48,125 --> 00:02:50,945
@@ -324,36 +324,36 @@ down a formula that
 
 71
 00:02:50,945 --> 00:02:54,290
-corresponds to that pattern
-and as over 64 thousand.
+corresponds to that pattern.
+And there's over 64,000,
 
 72
 00:02:54,290 --> 00:02:55,730
-And yet you'll be
+and yet you'll be
 able to do all of
 
 73
 00:02:55,730 --> 00:02:57,380
-them here just for fun,
+them. Here just for fun,
 
 74
 00:02:57,380 --> 00:03:01,745
 are 256 Venn diagrams
-with three things.
+with 3 things.
 
 75
 00:03:01,745 --> 00:03:03,485
-They just randomly generated.
+They're just randomly generated.
 
 76
 00:03:03,485 --> 00:03:06,859
-They do repeat a bit
-which ones are missing?
+They do repeat a bit.
+Which ones are missing?
 
 77
 00:03:06,859 --> 00:03:09,605
-It's really odd already
-when you've got three,
+It's really hard already
+when you've got three.
 
 78
 00:03:09,605 --> 00:03:11,690
@@ -362,7 +362,7 @@ draw the picture of
 
 79
 00:03:11,690 --> 00:03:13,970
-the 64 thousand
+the 64,000
 because if we did,
 
 80
