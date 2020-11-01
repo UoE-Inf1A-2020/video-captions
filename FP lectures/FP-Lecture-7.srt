@@ -1,0 +1,3832 @@
+1
+00:00:00,000 --> 00:00:01,510
+Oops.
+
+2
+00:00:13,580 --> 00:00:16,979
+Okay. I need
+
+3
+00:00:16,979 --> 00:00:21,570
+to learn properties of functions.
+
+4
+00:00:21,570 --> 00:00:24,220
+Yes.
+
+5
+00:00:30,950 --> 00:00:34,064
+That's right, I didn't believe.
+
+6
+00:00:34,064 --> 00:00:43,819
+Okay. So last time we got
+pho this time, right?
+
+7
+00:00:43,819 --> 00:00:46,399
+And some people said, well,
+wait, there's more two-fold.
+
+8
+00:00:46,399 --> 00:00:47,704
+When that I looked in the book,
+
+9
+00:00:47,704 --> 00:00:49,625
+there's Fulbright hand foldLeft.
+
+10
+00:00:49,625 --> 00:00:51,349
+What is the difference?
+
+11
+00:00:51,349 --> 00:00:54,604
+So the difference is the
+way the parentheses go.
+
+12
+00:00:54,604 --> 00:00:57,350
+So n-fold, right?
+
+13
+00:00:57,350 --> 00:00:59,300
+This is what we saw last time.
+
+14
+00:00:59,300 --> 00:01:03,769
+You've got x and then
+f, And then folds.
+
+15
+00:01:03,769 --> 00:01:06,530
+So we put the element
+on the left, right,
+
+16
+00:01:06,530 --> 00:01:07,760
+we take the beginning element,
+
+17
+00:01:07,760 --> 00:01:10,159
+we put it on the left,
+and then we do a fold.
+
+18
+00:01:10,159 --> 00:01:11,540
+And you can see when
+you're all done,
+
+19
+00:01:11,540 --> 00:01:15,809
+the parentheses
+slant to the right.
+
+20
+00:01:16,600 --> 00:01:19,910
+The other way, what you do
+
+21
+00:01:19,910 --> 00:01:22,999
+instead is you change this thing,
+
+22
+00:01:22,999 --> 00:01:24,049
+which is the thing you return
+
+23
+00:01:24,049 --> 00:01:25,459
+when you reach the empty list.
+
+24
+00:01:25,459 --> 00:01:29,960
+So you add the CAD
+onto the end, right?
+
+25
+00:01:29,960 --> 00:01:31,610
+Not the beginning, but on the end
+
+26
+00:01:31,610 --> 00:01:33,334
+of what you get when you
+reach the empty list,
+
+27
+00:01:33,334 --> 00:01:35,749
+if you go through and you
+see how that computes,
+
+28
+00:01:35,749 --> 00:01:37,535
+You see that gives you
+
+29
+00:01:37,535 --> 00:01:40,714
+the parentheses
+slanted to the left.
+
+30
+00:01:40,714 --> 00:01:42,830
+So that's the reason
+for the names fold
+
+31
+00:01:42,830 --> 00:01:45,214
+right and fold left,
+
+32
+00:01:45,214 --> 00:01:48,110
+which is one way the parentheses
+slant to the right and
+
+33
+00:01:48,110 --> 00:01:51,964
+the other way they
+slant to the left.
+
+34
+00:01:51,964 --> 00:01:57,560
+Okay. I'll leave you to
+play stupid computer and
+
+35
+00:01:57,560 --> 00:01:59,840
+go through that and
+convince yourself that
+
+36
+00:01:59,840 --> 00:02:03,540
+that's what the definition
+of foldLeft does.
+
+37
+00:02:03,820 --> 00:02:07,355
+You all can do this voice, Yes.
+
+38
+00:02:07,355 --> 00:02:10,699
+Okay. Because you need that
+for playing stupid computer.
+
+39
+00:02:10,699 --> 00:02:18,094
+Now, notice that
+we've got you here.
+
+40
+00:02:18,094 --> 00:02:21,230
+And I had somebody
+say, I shouldn't,
+
+41
+00:02:21,230 --> 00:02:26,600
+I make it be an error for
+the empty list. Well, no.
+
+42
+00:02:26,600 --> 00:02:28,639
+So this is important.
+
+43
+00:02:28,639 --> 00:02:30,995
+I will not quite
+jump up and down.
+
+44
+00:02:30,995 --> 00:02:33,559
+It's slam the desk important.
+
+45
+00:02:33,559 --> 00:02:38,029
+Pay attention to the empty case.
+
+46
+00:02:38,029 --> 00:02:41,870
+A great way to design
+your programs to work
+
+47
+00:02:41,870 --> 00:02:47,400
+well is they should do the
+right thing if given nothing.
+
+48
+00:02:47,560 --> 00:02:50,810
+So whenever you're given
+a problem to solve,
+
+49
+00:02:50,810 --> 00:02:52,819
+do this thing with a
+list, for instance,
+
+50
+00:02:52,819 --> 00:02:55,624
+sum up all the numbers in a list.
+
+51
+00:02:55,624 --> 00:02:57,214
+You should think to yourself,
+
+52
+00:02:57,214 --> 00:03:01,979
+what do I want to do
+if I'm given nothing?
+
+53
+00:03:03,010 --> 00:03:07,684
+Okay? If your program
+is given a list
+
+54
+00:03:07,684 --> 00:03:11,749
+of cost of food and sorry,
+
+55
+00:03:11,749 --> 00:03:13,010
+items that you might buy at
+
+56
+00:03:13,010 --> 00:03:15,424
+the store and how
+much they all cost.
+
+57
+00:03:15,424 --> 00:03:17,449
+And you want to
+find all the items
+
+58
+00:03:17,449 --> 00:03:20,750
+that cost less than
+a certain amount
+
+59
+00:03:20,750 --> 00:03:22,175
+and then add that up.
+
+60
+00:03:22,175 --> 00:03:24,110
+What should it do if there are
+
+61
+00:03:24,110 --> 00:03:26,314
+no items less than that amount?
+
+62
+00:03:26,314 --> 00:03:28,699
+It should give you 0.
+
+63
+00:03:28,699 --> 00:03:32,704
+You want to think through
+what's the right thing to do.
+
+64
+00:03:32,704 --> 00:03:34,219
+In the empty case,
+
+65
+00:03:34,219 --> 00:03:37,594
+people typically start with ONE.
+
+66
+00:03:37,594 --> 00:03:40,369
+They begin thinking at one.
+
+67
+00:03:40,369 --> 00:03:44,540
+Doped, begin thinking at 0.
+
+68
+00:03:44,540 --> 00:03:47,089
+This is what makes you
+
+69
+00:03:47,089 --> 00:03:50,765
+somebody who understands
+informatics.
+
+70
+00:03:50,765 --> 00:03:53,360
+If you stunt understand
+informatics,
+
+71
+00:03:53,360 --> 00:03:58,499
+you start thinking at
+0 whenever you can.
+
+72
+00:03:58,540 --> 00:04:02,795
+That's a very important concept.
+
+73
+00:04:02,795 --> 00:04:06,785
+Make sure the empty
+case works well.
+
+74
+00:04:06,785 --> 00:04:08,989
+Whenever you can.
+
+75
+00:04:08,989 --> 00:04:14,614
+However, sometimes you can't.
+
+76
+00:04:14,614 --> 00:04:18,034
+So let's say I give
+you again a list
+
+77
+00:04:18,034 --> 00:04:21,695
+of food items and a
+list of their prices.
+
+78
+00:04:21,695 --> 00:04:28,894
+And I say, give me the
+smallest price in the list.
+
+79
+00:04:28,894 --> 00:04:31,379
+What do you do when it's empty?
+
+80
+00:04:32,440 --> 00:04:36,709
+Sorry. You stop.
+
+81
+00:04:36,709 --> 00:04:40,850
+No, there is a smallest
+price for everything.
+
+82
+00:04:40,850 --> 00:04:43,280
+I said, I've got
+this wrong, right?
+
+83
+00:04:43,280 --> 00:04:46,679
+So smith, smallest,
+I got it wrong.
+
+84
+00:04:48,070 --> 00:04:55,760
+For smallest price.
+
+85
+00:04:55,760 --> 00:04:59,134
+Okay? There is a smallest
+price which is 0.
+
+86
+00:04:59,134 --> 00:05:01,609
+So if you say give
+me the largest thing
+
+87
+00:05:01,609 --> 00:05:04,685
+in the empty list, you
+can just return 0.
+
+88
+00:05:04,685 --> 00:05:08,029
+But if I say give you
+the smallest thing,
+
+89
+00:05:08,029 --> 00:05:11,360
+then you want the
+identity for minimum.
+
+90
+00:05:11,360 --> 00:05:14,689
+And that's plus infinity, right?
+
+91
+00:05:14,689 --> 00:05:18,514
+What's the minimum of X
+and infinity? It's x.
+
+92
+00:05:18,514 --> 00:05:24,919
+So minimum does not
+
+93
+00:05:24,919 --> 00:05:28,669
+have a unit unless
+infinity as a number.
+
+94
+00:05:28,669 --> 00:05:33,904
+Maximum over natural
+numbers does have a unit.
+
+95
+00:05:33,904 --> 00:05:36,860
+What's the maximum of x and 0?
+
+96
+00:05:36,860 --> 00:05:38,989
+It's x, because x
+
+97
+00:05:38,989 --> 00:05:41,374
+will always be greater
+than or equal to 0.
+
+98
+00:05:41,374 --> 00:05:44,659
+But what if we have
+negative numbers as well?
+
+99
+00:05:44,659 --> 00:05:46,550
+So if we're not looking
+at the maximum of
+
+100
+00:05:46,550 --> 00:05:48,725
+a list of prices,
+
+101
+00:05:48,725 --> 00:05:51,260
+but a list of
+
+102
+00:05:51,260 --> 00:05:55,819
+amounts owed which could be
+either positive or negative.
+
+103
+00:05:55,819 --> 00:05:58,550
+Then you need the
+maximum of a list
+
+104
+00:05:58,550 --> 00:06:01,459
+of positive and negative numbers.
+
+105
+00:06:01,459 --> 00:06:05,120
+And maximum does not have
+
+106
+00:06:05,120 --> 00:06:07,069
+an identity over
+
+107
+00:06:07,069 --> 00:06:09,920
+positive and negative
+numbers unless again,
+
+108
+00:06:09,920 --> 00:06:12,289
+you have minus
+infinity as a number.
+
+109
+00:06:12,289 --> 00:06:17,480
+So the maximum of minus infinity
+and x will always be Ax.
+
+110
+00:06:17,480 --> 00:06:19,714
+X is minus infinity.
+No, that's okay.
+
+111
+00:06:19,714 --> 00:06:21,050
+The maximum of minus infinity is
+
+112
+00:06:21,050 --> 00:06:22,640
+minus infinity and that's x.
+
+113
+00:06:22,640 --> 00:06:24,365
+So it still works out.
+
+114
+00:06:24,365 --> 00:06:29,374
+So maximum if minus
+infinities and number works.
+
+115
+00:06:29,374 --> 00:06:31,925
+But if we're looking
+at a list of deaths
+
+116
+00:06:31,925 --> 00:06:35,150
+and you want to
+
+117
+00:06:35,150 --> 00:06:38,944
+find the largest one
+who has the most debt.
+
+118
+00:06:38,944 --> 00:06:40,669
+And that's going to be
+
+119
+00:06:40,669 --> 00:06:41,660
+an integer because it might be
+
+120
+00:06:41,660 --> 00:06:42,740
+positive or negative, right?
+
+121
+00:06:42,740 --> 00:06:44,990
+You might owe the person
+money or be owed money,
+
+122
+00:06:44,990 --> 00:06:47,509
+then there's no answer
+to give unless you
+
+123
+00:06:47,509 --> 00:06:50,044
+add minus infinity and
+plus infinity as numbers.
+
+124
+00:06:50,044 --> 00:06:52,070
+That's exactly why
+people sometimes
+
+125
+00:06:52,070 --> 00:06:55,549
+do add minus infinity and
+plus infinity if numbered.
+
+126
+00:06:55,549 --> 00:06:57,950
+So that maximum and minimum both
+
+127
+00:06:57,950 --> 00:07:01,550
+have an identity, a unit.
+
+128
+00:07:01,550 --> 00:07:04,745
+But in general, they don't.
+
+129
+00:07:04,745 --> 00:07:09,574
+So sometimes there is no good
+answer for the empty list.
+
+130
+00:07:09,574 --> 00:07:13,234
+Sometimes the right answer
+for the empty list is to say,
+
+131
+00:07:13,234 --> 00:07:16,850
+you should not have
+asked me that question.
+
+132
+00:07:16,850 --> 00:07:19,640
+And generally the way we
+do that in Haskell is
+
+133
+00:07:19,640 --> 00:07:22,204
+we just don't give an
+equation defining it.
+
+134
+00:07:22,204 --> 00:07:24,769
+In which case, when
+you run the program,
+
+135
+00:07:24,769 --> 00:07:27,544
+it says I couldn't
+match that pattern.
+
+136
+00:07:27,544 --> 00:07:29,764
+There is no equation
+that applied.
+
+137
+00:07:29,764 --> 00:07:31,220
+So it gives you an error message.
+
+138
+00:07:31,220 --> 00:07:33,470
+Or to actually explicitly
+give an error message
+
+139
+00:07:33,470 --> 00:07:35,840
+using Haskell's error function.
+
+140
+00:07:35,840 --> 00:07:38,735
+But you should do one
+of those two things.
+
+141
+00:07:38,735 --> 00:07:42,860
+So most common is you've got,
+
+142
+00:07:42,860 --> 00:07:44,690
+you want to have an answer
+for the empty list.
+
+143
+00:07:44,690 --> 00:07:45,950
+It should be the identity of
+
+144
+00:07:45,950 --> 00:07:47,599
+whatever operation you're using.
+
+145
+00:07:47,599 --> 00:07:49,475
+But every now and then,
+
+146
+00:07:49,475 --> 00:07:51,484
+empty list doesn't
+make any sense.
+
+147
+00:07:51,484 --> 00:07:53,175
+So in that case,
+
+148
+00:07:53,175 --> 00:07:55,269
+we use what's called fold
+
+149
+00:07:55,269 --> 00:07:58,239
+R1 for list of at
+least length one.
+
+150
+00:07:58,239 --> 00:08:00,760
+And we stop at the list
+of length one and we
+
+151
+00:08:00,760 --> 00:08:03,655
+never give an answer
+for the empty list.
+
+152
+00:08:03,655 --> 00:08:06,729
+So this will then find
+the maximum of list of
+
+153
+00:08:06,729 --> 00:08:09,040
+either positive or negative
+numbers where there is
+
+154
+00:08:09,040 --> 00:08:12,790
+no sensible thing to give
+us the unit and fold l,
+
+155
+00:08:12,790 --> 00:08:14,290
+that's the same thing.
+
+156
+00:08:14,290 --> 00:08:16,464
+And again, folder are
+
+157
+00:08:16,464 --> 00:08:18,430
+all the parentheses
+go to the right,
+
+158
+00:08:18,430 --> 00:08:21,685
+fold l, all the parentheses
+go to the left.
+
+159
+00:08:21,685 --> 00:08:24,400
+And again, you can play super
+computer and trace those
+
+160
+00:08:24,400 --> 00:08:28,164
+out and see why they
+work the way they do.
+
+161
+00:08:28,164 --> 00:08:33,955
+Okay, so pulled our parentheses
+go to the right, fold l,
+
+162
+00:08:33,955 --> 00:08:36,109
+they go to the left
+
+163
+00:08:37,170 --> 00:08:40,690
+and add a one
+
+164
+00:08:40,690 --> 00:08:43,795
+if there's no sensible
+answer for the empty list.
+
+165
+00:08:43,795 --> 00:08:46,299
+And only do that if you have to.
+
+166
+00:08:46,299 --> 00:08:49,510
+You will all be
+informatics experts.
+
+167
+00:08:49,510 --> 00:08:51,580
+And that means you
+will always consider
+
+168
+00:08:51,580 --> 00:08:53,619
+the empty case whenever
+
+169
+00:08:53,619 --> 00:08:56,259
+possible and go only
+rule it out if there's
+
+170
+00:08:56,259 --> 00:08:59,964
+nothing sensible to
+do in that case.
+
+171
+00:08:59,964 --> 00:09:06,469
+Ok. Is that clear
+enough? Any questions?
+
+172
+00:09:07,650 --> 00:09:11,109
+Okay. So let me tell
+
+173
+00:09:11,109 --> 00:09:13,599
+you a little bit more
+about append, right?
+
+174
+00:09:13,599 --> 00:09:16,554
+You've seen the definition
+of append before.
+
+175
+00:09:16,554 --> 00:09:21,379
+And right here it is much
+worse, absolutely, right?
+
+176
+00:09:21,379 --> 00:09:24,080
+So append of ABC, right?
+
+177
+00:09:24,080 --> 00:09:25,714
+Sticks the a on the front.
+
+178
+00:09:25,714 --> 00:09:27,529
+The tail is BC recursively.
+
+179
+00:09:27,529 --> 00:09:32,029
+Does BC sticks beyond the fret
+recursively does see six.
+
+180
+00:09:32,029 --> 00:09:34,520
+This younger front
+recursively does empty
+
+181
+00:09:34,520 --> 00:09:37,370
+and empty append something
+has just the other thing,
+
+182
+00:09:37,370 --> 00:09:42,604
+so it gives you d. Now,
+
+183
+00:09:42,604 --> 00:09:45,215
+append has some properties.
+
+184
+00:09:45,215 --> 00:09:48,650
+So imagine you're at
+
+185
+00:09:48,650 --> 00:09:54,935
+a party and a mathematical
+operator walks up to you.
+
+186
+00:09:54,935 --> 00:09:58,159
+And you need to make
+small talk with
+
+187
+00:09:58,159 --> 00:10:02,300
+this mathematical
+operator. What do you do?
+
+188
+00:10:02,300 --> 00:10:03,695
+Right? You can't say,
+
+189
+00:10:03,695 --> 00:10:05,870
+what's your major or what are you
+
+190
+00:10:05,870 --> 00:10:08,089
+studying because mathematical
+operators don't do that.
+
+191
+00:10:08,089 --> 00:10:10,820
+Or maybe it's obvious,
+it's mathematics.
+
+192
+00:10:10,820 --> 00:10:13,370
+So how do you make small talk
+
+193
+00:10:13,370 --> 00:10:15,214
+with a mathematical operator?
+
+194
+00:10:15,214 --> 00:10:19,925
+So mathematical operators
+all have properties.
+
+195
+00:10:19,925 --> 00:10:23,854
+And when you bump
+into a new operator,
+
+196
+00:10:23,854 --> 00:10:25,669
+you can get familiar with it
+
+197
+00:10:25,669 --> 00:10:27,710
+by asking at what
+properties it has.
+
+198
+00:10:27,710 --> 00:10:28,790
+So we've already learned about
+
+199
+00:10:28,790 --> 00:10:31,549
+one important property, identity.
+
+200
+00:10:31,549 --> 00:10:35,180
+But some other properties
+are associativity,
+
+201
+00:10:35,180 --> 00:10:37,414
+commutativity.
+
+202
+00:10:37,414 --> 00:10:39,469
+If you've got two operators,
+
+203
+00:10:39,469 --> 00:10:41,929
+you can ask about Distributivity.
+
+204
+00:10:41,929 --> 00:10:43,609
+You can ask normally doesn't
+
+205
+00:10:43,609 --> 00:10:46,010
+have an identity, but
+does it have at 0?
+
+206
+00:10:46,010 --> 00:10:48,935
+And you can ask
+about item potent.
+
+207
+00:10:48,935 --> 00:10:51,140
+So let me give quick examples.
+
+208
+00:10:51,140 --> 00:10:52,580
+These associativity means it
+
+209
+00:10:52,580 --> 00:10:54,829
+doesn't know which
+way the branch,
+
+210
+00:10:54,829 --> 00:10:56,720
+which way the parentheses goes.
+
+211
+00:10:56,720 --> 00:11:00,185
+What's an example of an
+associative operator?
+
+212
+00:11:00,185 --> 00:11:05,225
+Multiplication? What's the
+identity for multiplication?
+
+213
+00:11:05,225 --> 00:11:09,049
+One. Is multiplication
+commutative?
+
+214
+00:11:09,049 --> 00:11:11,900
+Yet doesn't matter which
+way around you do it.
+
+215
+00:11:11,900 --> 00:11:16,434
+Is it distributive? It to,
+
+216
+00:11:16,434 --> 00:11:18,559
+it is it distributes over plus.
+
+217
+00:11:18,559 --> 00:11:21,005
+So this is a property
+of two operators.
+
+218
+00:11:21,005 --> 00:11:26,150
+Times distributes over
+plus. Does it have a 0?
+
+219
+00:11:26,150 --> 00:11:28,190
+So 0 means something that
+
+220
+00:11:28,190 --> 00:11:30,259
+behaves like 0 for
+multiplication.
+
+221
+00:11:30,259 --> 00:11:37,669
+So multiplication, 123
+times 0 is three million,
+
+222
+00:11:37,669 --> 00:11:42,124
+six hundred and four
+times 0 is right.
+
+223
+00:11:42,124 --> 00:11:45,950
+It always gives you 0.
+So that's called a 0.
+
+224
+00:11:45,950 --> 00:11:49,140
+It's also sometimes
+called an absorber.
+
+225
+00:11:49,990 --> 00:11:53,119
+And then item potent is something
+
+226
+00:11:53,119 --> 00:11:55,400
+that if you give it two
+arguments the same,
+
+227
+00:11:55,400 --> 00:11:57,320
+you get back the same thing.
+
+228
+00:11:57,320 --> 00:11:59,900
+So let's see, two
+plus two is four.
+
+229
+00:11:59,900 --> 00:12:01,564
+No four is different than two.
+
+230
+00:12:01,564 --> 00:12:05,015
+So addition is not item potent.
+
+231
+00:12:05,015 --> 00:12:08,639
+Can you name me an operator
+that is item potent?
+
+232
+00:12:08,740 --> 00:12:12,830
+Sorry. Minus two.
+
+233
+00:12:12,830 --> 00:12:19,970
+Minus two is 00 is not
+the same as to well,
+
+234
+00:12:19,970 --> 00:12:21,319
+one times one gives you one,
+
+235
+00:12:21,319 --> 00:12:23,285
+but two times two gives you four.
+
+236
+00:12:23,285 --> 00:12:26,629
+So times is also not item potent.
+
+237
+00:12:26,629 --> 00:12:29,280
+What's true and true?
+
+238
+00:12:29,770 --> 00:12:33,675
+Maximum not some of
+the great example by
+
+239
+00:12:33,675 --> 00:12:37,805
+maximum of 4343 is 43.
+
+240
+00:12:37,805 --> 00:12:40,250
+So maximum is item potent
+
+241
+00:12:40,250 --> 00:12:44,375
+logical AND is item potent
+logical or is item potent?
+
+242
+00:12:44,375 --> 00:12:46,250
+Minimum? Is item potent.
+
+243
+00:12:46,250 --> 00:12:48,499
+And he may know
+little set theory in
+
+244
+00:12:48,499 --> 00:12:50,149
+set theory union is item
+
+245
+00:12:50,149 --> 00:12:52,699
+potent and intersection
+is item potent.
+
+246
+00:12:52,699 --> 00:12:54,259
+So there are several
+things that are item
+
+247
+00:12:54,259 --> 00:12:56,540
+potent but not arithmetic.
+
+248
+00:12:56,540 --> 00:12:58,820
+So all of these are properties.
+
+249
+00:12:58,820 --> 00:13:01,114
+I'm not going to go through
+them in detail now,
+
+250
+00:13:01,114 --> 00:13:02,870
+but they are all things that you
+
+251
+00:13:02,870 --> 00:13:05,615
+should know and
+know the names of.
+
+252
+00:13:05,615 --> 00:13:08,000
+And it's of course not just for
+
+253
+00:13:08,000 --> 00:13:10,414
+making small talk at parties.
+
+254
+00:13:10,414 --> 00:13:12,110
+Why is this important?
+
+255
+00:13:12,110 --> 00:13:13,759
+You might be reading
+
+256
+00:13:13,759 --> 00:13:18,215
+somebody's documentation and
+they introduce an operator.
+
+257
+00:13:18,215 --> 00:13:19,819
+The first things to ask about
+
+258
+00:13:19,819 --> 00:13:22,279
+this operator are,
+is it associative?
+
+259
+00:13:22,279 --> 00:13:23,480
+Is it commutative?
+
+260
+00:13:23,480 --> 00:13:26,789
+Doesn't have an
+identity and so on.
+
+261
+00:13:28,720 --> 00:13:32,150
+Most but not all things
+are commutative.
+
+262
+00:13:32,150 --> 00:13:34,250
+What's an example of
+something that some of
+
+263
+00:13:34,250 --> 00:13:37,110
+you know about that's
+not commutative.
+
+264
+00:13:37,210 --> 00:13:42,260
+Sorry. The cross-product, right?
+
+265
+00:13:42,260 --> 00:13:46,099
+Cross-product, it no, cross
+product is commutative,
+
+266
+00:13:46,099 --> 00:13:53,120
+but matrix multiplication
+is not cross-product visit,
+
+267
+00:13:53,120 --> 00:13:54,650
+I thought, oh no,
+
+268
+00:13:54,650 --> 00:13:56,674
+that's different from
+dot-product, isn't it?
+
+269
+00:13:56,674 --> 00:13:59,480
+Right. Cross-product
+is an example.
+
+270
+00:13:59,480 --> 00:14:02,000
+And matrix multiplication
+as an example,
+
+271
+00:14:02,000 --> 00:14:04,130
+matrix multiplication
+is associative.
+
+272
+00:14:04,130 --> 00:14:05,734
+It has an identity,
+
+273
+00:14:05,734 --> 00:14:10,920
+but it is not commutative
+for square matrixes.
+
+274
+00:14:13,600 --> 00:14:16,969
+So there are various things
+that you bump into and
+
+275
+00:14:16,969 --> 00:14:18,769
+probably those of you that
+
+276
+00:14:18,769 --> 00:14:21,379
+alert not I know not all of
+you know about matrices,
+
+277
+00:14:21,379 --> 00:14:23,029
+but those of you that do when
+
+278
+00:14:23,029 --> 00:14:24,620
+you're first taught
+about matrices,
+
+279
+00:14:24,620 --> 00:14:25,850
+probably the first thing you were
+
+280
+00:14:25,850 --> 00:14:29,480
+taught is it's associative,
+
+281
+00:14:29,480 --> 00:14:31,280
+but it's not commutative.
+
+282
+00:14:31,280 --> 00:14:34,160
+If you know little bit
+of algebra in groups.
+
+283
+00:14:34,160 --> 00:14:36,529
+It's the theory of
+things that are
+
+284
+00:14:36,529 --> 00:14:39,394
+associative and half a
+unit and have an inverse,
+
+285
+00:14:39,394 --> 00:14:44,719
+but are not commutative or
+may not be commutative.
+
+286
+00:14:44,719 --> 00:14:49,054
+So, right,
+
+287
+00:14:49,054 --> 00:14:50,149
+you might want this when
+
+288
+00:14:50,149 --> 00:14:51,979
+reading somebody's documentation.
+
+289
+00:14:51,979 --> 00:14:55,159
+You might want it when writing
+your own documentation.
+
+290
+00:14:55,159 --> 00:14:56,390
+These are the things you should
+
+291
+00:14:56,390 --> 00:14:58,159
+explain about what you're doing.
+
+292
+00:14:58,159 --> 00:15:01,760
+And you will want it when
+reasoning about your programs.
+
+293
+00:15:01,760 --> 00:15:03,814
+What operators to these, that,
+
+294
+00:15:03,814 --> 00:15:07,265
+what properties do these
+functions satisfy?
+
+295
+00:15:07,265 --> 00:15:08,989
+That tells you a
+lot, for instance,
+
+296
+00:15:08,989 --> 00:15:11,794
+about what kind of
+optimizations you can do.
+
+297
+00:15:11,794 --> 00:15:14,360
+And I'll talk a little
+bit about that today.
+
+298
+00:15:14,360 --> 00:15:15,889
+So at various points people said,
+
+299
+00:15:15,889 --> 00:15:17,869
+how efficient is this today?
+
+300
+00:15:17,869 --> 00:15:19,699
+I'm going to tell
+you for one thing,
+
+301
+00:15:19,699 --> 00:15:21,170
+how efficient it is.
+
+302
+00:15:21,170 --> 00:15:23,719
+And sometimes making
+things more efficient
+
+303
+00:15:23,719 --> 00:15:27,480
+depends on knowing
+its properties.
+
+304
+00:15:28,270 --> 00:15:32,930
+And I'll give you a hint, right?
+
+305
+00:15:32,930 --> 00:15:35,150
+Mathematics is a super power.
+
+306
+00:15:35,150 --> 00:15:39,139
+If you're not afraid to use
+a tiny bit of mathematics,
+
+307
+00:15:39,139 --> 00:15:41,315
+just to say, is this associative?
+
+308
+00:15:41,315 --> 00:15:42,860
+Does it have an identity?
+
+309
+00:15:42,860 --> 00:15:45,260
+Does it distribute
+over this other thing?
+
+310
+00:15:45,260 --> 00:15:48,769
+You have special vocabulary
+
+311
+00:15:48,769 --> 00:15:51,679
+that your colleagues
+may not have.
+
+312
+00:15:51,679 --> 00:15:54,185
+You can see clearly
+
+313
+00:15:54,185 --> 00:15:56,584
+certain things that
+your colleagues
+
+314
+00:15:56,584 --> 00:15:58,699
+won't know how to talk about.
+
+315
+00:15:58,699 --> 00:16:01,579
+Mathematics is a
+language that let
+
+316
+00:16:01,579 --> 00:16:05,090
+you understand what's going on.
+
+317
+00:16:05,090 --> 00:16:08,029
+And there's a fellow
+named or both not in,
+
+318
+00:16:08,029 --> 00:16:12,380
+I think the 15 or 16
+hundreds who said,
+
+319
+00:16:12,380 --> 00:16:15,649
+if you can use mathematics
+
+320
+00:16:15,649 --> 00:16:19,790
+to understand something
+and you don't,
+
+321
+00:16:19,790 --> 00:16:22,220
+it's as if you're
+hunting for something in
+
+322
+00:16:22,220 --> 00:16:24,259
+the dark and somebody gives
+
+323
+00:16:24,259 --> 00:16:28,414
+you a candle and you
+don't light it, right?
+
+324
+00:16:28,414 --> 00:16:31,069
+Mathematics is your
+Candle in the Dark.
+
+325
+00:16:31,069 --> 00:16:34,609
+It's a special tool. These days.
+
+326
+00:16:34,609 --> 00:16:36,710
+With all the Marvel
+and DC movies,
+
+327
+00:16:36,710 --> 00:16:39,509
+we would call it a superpower.
+
+328
+00:16:39,550 --> 00:16:48,514
+Okay, so,
+
+329
+00:16:48,514 --> 00:16:50,479
+and here I give some
+important reasons
+
+330
+00:16:50,479 --> 00:16:52,565
+why you want to know if
+something's associative.
+
+331
+00:16:52,565 --> 00:16:53,780
+It means you don't need to worry
+
+332
+00:16:53,780 --> 00:16:55,685
+about where the parentheses go.
+
+333
+00:16:55,685 --> 00:16:58,549
+And I'll show you
+
+334
+00:16:58,549 --> 00:17:02,060
+it actually let you write
+some programs go much faster.
+
+335
+00:17:02,060 --> 00:17:04,940
+So when you do care about speed,
+
+336
+00:17:04,940 --> 00:17:07,979
+associativity can
+be a key to that.
+
+337
+00:17:09,160 --> 00:17:12,935
+So let's check some properties.
+
+338
+00:17:12,935 --> 00:17:15,140
+Right? Append is associative,
+
+339
+00:17:15,140 --> 00:17:18,139
+so that means it doesn't matter
+where the parentheses go.
+
+340
+00:17:18,139 --> 00:17:19,729
+We could run that and quick check
+
+341
+00:17:19,729 --> 00:17:21,800
+and it would confirm it for us.
+
+342
+00:17:21,800 --> 00:17:25,114
+Penn has an identity
+which is the empty list.
+
+343
+00:17:25,114 --> 00:17:29,269
+And in fact, it's
+both a white identity
+
+344
+00:17:29,269 --> 00:17:31,710
+and a left identity.
+
+345
+00:17:31,930 --> 00:17:39,259
+And also another property
+
+346
+00:17:39,259 --> 00:17:41,779
+is that append and
+columns are related.
+
+347
+00:17:41,779 --> 00:17:44,975
+So if you append a unit list
+onto the front of something,
+
+348
+00:17:44,975 --> 00:17:46,759
+that's exactly the
+same as causing
+
+349
+00:17:46,759 --> 00:17:48,740
+it to the front of a list.
+
+350
+00:17:48,740 --> 00:17:52,670
+So those are three of the
+many properties of append.
+
+351
+00:17:52,670 --> 00:17:55,100
+Append is not commutative, right?
+
+352
+00:17:55,100 --> 00:17:58,460
+Adding ABC to DEF gives you
+
+353
+00:17:58,460 --> 00:18:00,649
+ABCDEF by adding them
+
+354
+00:18:00,649 --> 00:18:04,115
+the other way around
+would give you d abc.
+
+355
+00:18:04,115 --> 00:18:06,305
+So append is not commutative,
+
+356
+00:18:06,305 --> 00:18:08,405
+but it is associative.
+
+357
+00:18:08,405 --> 00:18:12,920
+And we always use infix
+notation for append, right?
+
+358
+00:18:12,920 --> 00:18:14,300
+We write it like this.
+
+359
+00:18:14,300 --> 00:18:15,949
+And there's a reason
+for that because then
+
+360
+00:18:15,949 --> 00:18:17,509
+when you write out the
+associative property,
+
+361
+00:18:17,509 --> 00:18:18,695
+it looks like this.
+
+362
+00:18:18,695 --> 00:18:24,089
+It's just the same as defining
+this function append,
+
+363
+00:18:25,000 --> 00:18:27,605
+right, which is prefix.
+
+364
+00:18:27,605 --> 00:18:29,689
+And look at what happens to this.
+
+365
+00:18:29,689 --> 00:18:32,300
+So up append xs to the list Ys
+
+366
+00:18:32,300 --> 00:18:35,779
+appended to zed becomes
+append xs, append wise ads.
+
+367
+00:18:35,779 --> 00:18:37,534
+That's not too bad to read.
+
+368
+00:18:37,534 --> 00:18:38,810
+But look at what
+happens when you put
+
+369
+00:18:38,810 --> 00:18:40,940
+the parentheses the
+other way around.
+
+370
+00:18:40,940 --> 00:18:42,559
+So first we're taking x's and
+
+371
+00:18:42,559 --> 00:18:44,675
+y's and we're appending
+them to each other.
+
+372
+00:18:44,675 --> 00:18:47,660
+And then we take the result
+of that and append it to z.
+
+373
+00:18:47,660 --> 00:18:50,735
+So this is really easy to read.
+
+374
+00:18:50,735 --> 00:18:53,240
+This is much harder to
+
+375
+00:18:53,240 --> 00:18:56,465
+read even though saying
+exactly the same thing.
+
+376
+00:18:56,465 --> 00:18:59,584
+Right? So associativity
+is easy to see here.
+
+377
+00:18:59,584 --> 00:19:01,190
+Just move the parentheses,
+
+378
+00:19:01,190 --> 00:19:02,540
+quite hard to see here
+
+379
+00:19:02,540 --> 00:19:05,659
+the whole structure
+appears to change.
+
+380
+00:19:05,659 --> 00:19:08,195
+This is sort of the reason why
+
+381
+00:19:08,195 --> 00:19:11,390
+infix notation is a good idea.
+
+382
+00:19:11,390 --> 00:19:14,160
+Any questions yet?
+
+383
+00:19:14,350 --> 00:19:17,989
+Not enough questions odor.
+
+384
+00:19:17,989 --> 00:19:21,470
+And now I'll actually
+
+385
+00:19:21,470 --> 00:19:23,195
+tell you something
+about efficiency.
+
+386
+00:19:23,195 --> 00:19:26,750
+So right when we add abc
+to the front of DE, right,
+
+387
+00:19:26,750 --> 00:19:28,610
+there's one step to
+stick the a there,
+
+388
+00:19:28,610 --> 00:19:30,230
+one step to stick the B,
+
+389
+00:19:30,230 --> 00:19:33,500
+one step to six C. And
+then finally we stopped.
+
+390
+00:19:33,500 --> 00:19:36,904
+So there's n plus one steps here.
+
+391
+00:19:36,904 --> 00:19:39,530
+And n recursive calls
+
+392
+00:19:39,530 --> 00:19:41,240
+will actually n
+plus one recursive
+
+393
+00:19:41,240 --> 00:19:42,755
+calls counting the first.
+
+394
+00:19:42,755 --> 00:19:45,289
+So there n plus one
+recursive calls
+
+395
+00:19:45,289 --> 00:19:47,480
+to deal with a list of length
+
+396
+00:19:47,480 --> 00:19:53,494
+n. Remember I said always
+consider the empty case.
+
+397
+00:19:53,494 --> 00:19:57,244
+That's how I know it's n
+plus one rather than n,
+
+398
+00:19:57,244 --> 00:19:59,644
+because say you call
+append on the empty list,
+
+399
+00:19:59,644 --> 00:20:01,190
+it tills takes right,
+
+400
+00:20:01,190 --> 00:20:03,754
+there's one call, the call
+of append to the empty list.
+
+401
+00:20:03,754 --> 00:20:05,494
+So in the empty
+case there's still,
+
+402
+00:20:05,494 --> 00:20:08,180
+the answer is still one.
+
+403
+00:20:08,180 --> 00:20:11,495
+Right? And then here
+we've got three,
+
+404
+00:20:11,495 --> 00:20:14,345
+and the answer is 1234.
+
+405
+00:20:14,345 --> 00:20:16,579
+So always think about
+the empty case.
+
+406
+00:20:16,579 --> 00:20:19,024
+It can help you think clearly.
+
+407
+00:20:19,024 --> 00:20:20,360
+So even in the empty case,
+
+408
+00:20:20,360 --> 00:20:22,849
+there's one call to deal with.
+
+409
+00:20:22,849 --> 00:20:25,175
+But in general takes
+about n steps.
+
+410
+00:20:25,175 --> 00:20:27,275
+Let's not worry about
+n versus n plus one,
+
+411
+00:20:27,275 --> 00:20:28,774
+but it's about n steps.
+
+412
+00:20:28,774 --> 00:20:30,440
+We call that linear.
+
+413
+00:20:30,440 --> 00:20:33,020
+It means if the list
+is twice as long,
+
+414
+00:20:33,020 --> 00:20:35,524
+it will take you about
+twice as many steps.
+
+415
+00:20:35,524 --> 00:20:37,340
+If it's a 100 times as long,
+
+416
+00:20:37,340 --> 00:20:41,580
+it will take you a 100
+times as many steps.
+
+417
+00:20:42,700 --> 00:20:45,485
+So we're going to
+make use of something
+
+418
+00:20:45,485 --> 00:20:47,600
+like the sum of the
+numbers from one to
+
+419
+00:20:47,600 --> 00:20:52,100
+n is n times n plus
+one divided by two.
+
+420
+00:20:52,100 --> 00:20:54,424
+You can do that in quick chat.
+
+421
+00:20:54,424 --> 00:20:56,239
+So I can instantly tell
+you what the sum of
+
+422
+00:20:56,239 --> 00:20:59,420
+the numbers from one
+to ten is. It's 55.
+
+423
+00:20:59,420 --> 00:21:07,189
+Because that is ten times
+11 divided by two is 55.
+
+424
+00:21:07,189 --> 00:21:10,190
+And you can actually add
+them all up and check, yes,
+
+425
+00:21:10,190 --> 00:21:14,669
+the sum of the numbers
+from one to ten is 55.
+
+426
+00:21:16,090 --> 00:21:21,380
+So remember we can
+use Fold r or fold l,
+
+427
+00:21:21,380 --> 00:21:23,644
+which should we use?
+
+428
+00:21:23,644 --> 00:21:26,554
+So if we use fold l,
+
+429
+00:21:26,554 --> 00:21:28,489
+then we would take,
+
+430
+00:21:28,489 --> 00:21:30,889
+let's say we were to
+pending for lists and
+
+431
+00:21:30,889 --> 00:21:33,530
+let's say their lengths
+are N1 to N four.
+
+432
+00:21:33,530 --> 00:21:35,209
+So if we append them this way,
+
+433
+00:21:35,209 --> 00:21:36,695
+first we do this one.
+
+434
+00:21:36,695 --> 00:21:38,554
+So that would take n n1 steps.
+
+435
+00:21:38,554 --> 00:21:41,389
+The result of this has
+length n n1 plus n2.
+
+436
+00:21:41,389 --> 00:21:43,009
+So when we append this to this,
+
+437
+00:21:43,009 --> 00:21:45,710
+it takes N1 plus N2 steps.
+
+438
+00:21:45,710 --> 00:21:48,455
+And then when we take these
+three things upended,
+
+439
+00:21:48,455 --> 00:21:51,155
+their length is N1
+plus N2 plus N3.
+
+440
+00:21:51,155 --> 00:21:55,175
+So it takes that many steps
+to append to the fourth list.
+
+441
+00:21:55,175 --> 00:22:00,149
+So the number of steps
+required is this.
+
+442
+00:22:02,290 --> 00:22:06,109
+But if we do it
+associated to the right,
+
+443
+00:22:06,109 --> 00:22:08,014
+so first we append this one,
+
+444
+00:22:08,014 --> 00:22:10,129
+that's length N one,
+so takes n steps,
+
+445
+00:22:10,129 --> 00:22:11,539
+then we append this one,
+
+446
+00:22:11,539 --> 00:22:13,910
+just this one, that
+one's length N2.
+
+447
+00:22:13,910 --> 00:22:15,739
+So it takes N2 steps.
+
+448
+00:22:15,739 --> 00:22:17,644
+And then we just append this one,
+
+449
+00:22:17,644 --> 00:22:18,979
+that one's like three.
+
+450
+00:22:18,979 --> 00:22:21,709
+So it takes N3 steps.
+
+451
+00:22:21,709 --> 00:22:23,869
+So here it's the sum of
+
+452
+00:22:23,869 --> 00:22:26,030
+the lengths except for the
+last one because you just
+
+453
+00:22:26,030 --> 00:22:29,989
+copy that one over which the
+computer can do in one step.
+
+454
+00:22:29,989 --> 00:22:34,500
+Copying something like
+exactly without changing it.
+
+455
+00:22:34,600 --> 00:22:40,730
+By here, it takes N1 plus
+N1 plus N2 plus this.
+
+456
+00:22:40,730 --> 00:22:43,849
+And remember I showed you
+the sum of the numbers from
+
+457
+00:22:43,849 --> 00:22:47,674
+one to n is n times n
+plus one divided by two.
+
+458
+00:22:47,674 --> 00:22:49,549
+We're just gonna
+do things roughly,
+
+459
+00:22:49,549 --> 00:22:51,874
+roughly that's n squared, right?
+
+460
+00:22:51,874 --> 00:22:53,840
+N times n. That's what's
+
+461
+00:22:53,840 --> 00:22:56,719
+going to dominate the cost there.
+
+462
+00:22:56,719 --> 00:22:59,705
+So doing it this way around.
+
+463
+00:22:59,705 --> 00:23:01,685
+If you've got enlist
+your appending,
+
+464
+00:23:01,685 --> 00:23:04,129
+it takes m squared steps times
+
+465
+00:23:04,129 --> 00:23:05,390
+the length of each list if
+
+466
+00:23:05,390 --> 00:23:07,160
+they're all about
+the same length.
+
+467
+00:23:07,160 --> 00:23:11,310
+But this way around,
+it just takes n steps.
+
+468
+00:23:11,590 --> 00:23:15,184
+So if, if you're,
+
+469
+00:23:15,184 --> 00:23:16,955
+if you've got a 1000 lists
+
+470
+00:23:16,955 --> 00:23:19,305
+that we're
+concatenating together.
+
+471
+00:23:19,305 --> 00:23:26,439
+This one is a thousand times
+faster than the second.
+
+472
+00:23:26,439 --> 00:23:29,665
+Ok. So this ways it
+1000 times slower.
+
+473
+00:23:29,665 --> 00:23:32,064
+This one's a 1000 times faster.
+
+474
+00:23:32,064 --> 00:23:42,190
+Yep. Oh, right.
+
+475
+00:23:42,190 --> 00:23:44,830
+So a quick check in
+this case, right?
+
+476
+00:23:44,830 --> 00:23:46,914
+This doesn't make any
+sense if n is negative,
+
+477
+00:23:46,914 --> 00:23:48,100
+so we're just checking it for
+
+478
+00:23:48,100 --> 00:23:49,990
+n greater than or equal to 0.
+
+479
+00:23:49,990 --> 00:23:51,609
+Some quick check,
+you can write down
+
+480
+00:23:51,609 --> 00:23:54,789
+a property and then a
+double arrow and it says,
+
+481
+00:23:54,789 --> 00:23:58,284
+only give me an answer
+if this property holds.
+
+482
+00:23:58,284 --> 00:24:00,700
+And in fact, he counts the
+number of tests it does.
+
+483
+00:24:00,700 --> 00:24:04,700
+So it does a 100 tests
+where this property holds.
+
+484
+00:24:04,700 --> 00:24:08,179
+Okay. Good question.
+
+485
+00:24:08,179 --> 00:24:14,700
+Yep. Sorry.
+
+486
+00:24:21,790 --> 00:24:28,369
+Oh, so yeah, the type here as
+property rather than bool,
+
+487
+00:24:28,369 --> 00:24:30,829
+because if you add this thing
+and it's a property and
+
+488
+00:24:30,829 --> 00:24:32,030
+quick check knows how to deal
+
+489
+00:24:32,030 --> 00:24:33,470
+with things that are properties.
+
+490
+00:24:33,470 --> 00:24:34,999
+Was that your question?
+
+491
+00:24:34,999 --> 00:24:38,600
+Yeah. Yeah. So there's
+a funny word here,
+
+492
+00:24:38,600 --> 00:24:40,980
+property rather than bool.
+
+493
+00:24:46,450 --> 00:24:48,890
+Right? So if n was
+negative, right?
+
+494
+00:24:48,890 --> 00:24:51,409
+This wouldn't work because
+if this was minus ten,
+
+495
+00:24:51,409 --> 00:24:52,969
+this would become the empty list.
+
+496
+00:24:52,969 --> 00:24:55,400
+But minus ten times minus
+
+497
+00:24:55,400 --> 00:24:58,039
+nine divided by two is non-zero.
+
+498
+00:24:58,039 --> 00:25:02,520
+So it only works for numbers
+greater than or equal to 0.
+
+499
+00:25:02,860 --> 00:25:09,995
+Okay? So first step,
+
+500
+00:25:09,995 --> 00:25:13,880
+this is why we always
+use Fold r rather
+
+501
+00:25:13,880 --> 00:25:19,079
+than full l for concatenate.
+
+502
+00:25:19,750 --> 00:25:24,540
+Ok, very important,
+it's better in time.
+
+503
+00:25:25,870 --> 00:25:28,325
+Here's another cool example.
+
+504
+00:25:28,325 --> 00:25:30,559
+Let's say I'm summing up a list.
+
+505
+00:25:30,559 --> 00:25:34,459
+Okay? So here I'm using
+fold l to sum a list of
+
+506
+00:25:34,459 --> 00:25:38,450
+length 84 numbers we often use.
+
+507
+00:25:38,450 --> 00:25:40,880
+For addition multiplication,
+we often use
+
+508
+00:25:40,880 --> 00:25:44,119
+fold l rather than
+fold R. Because again,
+
+509
+00:25:44,119 --> 00:25:45,679
+if you play stupid computer,
+
+510
+00:25:45,679 --> 00:25:49,024
+you see the stupid computer
+can do one of them in
+
+511
+00:25:49,024 --> 00:25:52,400
+constant space and the other
+one takes linear space.
+
+512
+00:25:52,400 --> 00:25:54,934
+So again, full Bell is
+better than fold R.
+
+513
+00:25:54,934 --> 00:25:56,449
+But I won't go through
+the details of
+
+514
+00:25:56,449 --> 00:25:58,864
+why that's true today.
+
+515
+00:25:58,864 --> 00:26:01,729
+But so if you do fold l,
+
+516
+00:26:01,729 --> 00:26:04,144
+curl the parentheses
+piled up to the left.
+
+517
+00:26:04,144 --> 00:26:06,169
+And you can see first
+we do this one,
+
+518
+00:26:06,169 --> 00:26:08,359
+then we do this one,
+then we do this one.
+
+519
+00:26:08,359 --> 00:26:11,209
+So in general, if you've
+got a list of numbers,
+
+520
+00:26:11,209 --> 00:26:13,415
+it takes about n steps.
+
+521
+00:26:13,415 --> 00:26:15,244
+But we could do it differently.
+
+522
+00:26:15,244 --> 00:26:18,724
+We can parenthesize
+adjacent pairs
+
+523
+00:26:18,724 --> 00:26:21,500
+and you get what's called
+a full binary tree.
+
+524
+00:26:21,500 --> 00:26:23,825
+So here's X1, here's X2,
+
+525
+00:26:23,825 --> 00:26:26,479
+here's x3, x4, and so on.
+
+526
+00:26:26,479 --> 00:26:29,870
+And then we can do it
+not in eight steps,
+
+527
+00:26:29,870 --> 00:26:32,630
+but three steps, right?
+
+528
+00:26:32,630 --> 00:26:35,810
+Because here, just add x1 and x2.
+
+529
+00:26:35,810 --> 00:26:40,805
+That gets us there some at
+X3 and X4 at the same time.
+
+530
+00:26:40,805 --> 00:26:48,769
+That gives us there's some
+add x4 and x5 and x6 and x7.
+
+531
+00:26:48,769 --> 00:26:50,749
+So we do four additions in
+
+532
+00:26:50,749 --> 00:26:53,239
+parallel that gives
+us four numbers.
+
+533
+00:26:53,239 --> 00:26:55,984
+And then again we do two
+editions in parallel.
+
+534
+00:26:55,984 --> 00:26:58,159
+And then we do the final thing.
+
+535
+00:26:58,159 --> 00:27:02,780
+So if we talk about how
+quickly we get the answer,
+
+536
+00:27:02,780 --> 00:27:05,179
+if we can do things in parallel,
+
+537
+00:27:05,179 --> 00:27:06,740
+then the answer is,
+
+538
+00:27:06,740 --> 00:27:10,505
+it's in this case.
+
+539
+00:27:10,505 --> 00:27:13,010
+But in general, this is
+
+540
+00:27:13,010 --> 00:27:15,650
+M and this is going
+to be the log base
+
+541
+00:27:15,650 --> 00:27:23,300
+two of m. So if you
+have n is 1000,
+
+542
+00:27:23,300 --> 00:27:27,814
+this one is a 100 times
+slower than this one,
+
+543
+00:27:27,814 --> 00:27:30,050
+because log base two
+of ten is about ten.
+
+544
+00:27:30,050 --> 00:27:32,644
+So you'd have a tree ten deep,
+
+545
+00:27:32,644 --> 00:27:34,399
+that gives you a 1000
+different numbers
+
+546
+00:27:34,399 --> 00:27:36,680
+at the bottom, actually 1024.
+
+547
+00:27:36,680 --> 00:27:37,939
+So just ten steps.
+
+548
+00:27:37,939 --> 00:27:39,619
+You can do the edition if you
+
+549
+00:27:39,619 --> 00:27:42,080
+happen to have ten
+computers on hand.
+
+550
+00:27:42,080 --> 00:27:46,714
+Whereas here, you'd
+have to do it linearly.
+
+551
+00:27:46,714 --> 00:27:49,219
+In general white, this
+is what's called an
+
+552
+00:27:49,219 --> 00:27:51,290
+embarrassingly parallel
+problem, right?
+
+553
+00:27:51,290 --> 00:27:54,559
+It's really easy to do the
+bits of it in parallel.
+
+554
+00:27:54,559 --> 00:27:56,450
+I'll get to your
+question in a minute
+
+555
+00:27:56,450 --> 00:27:59,524
+and write an example, right?
+
+556
+00:27:59,524 --> 00:28:03,389
+Who in this room has a
+computer in their pocket?
+
+557
+00:28:03,550 --> 00:28:04,805
+Right?
+
+558
+00:28:04,805 --> 00:28:08,040
+Who in this room has four
+computers in their pocket?
+
+559
+00:28:08,110 --> 00:28:10,354
+Right? Most of you,
+
+560
+00:28:10,354 --> 00:28:14,570
+most phones these days
+have quad processes.
+
+561
+00:28:14,570 --> 00:28:18,380
+So you could do things
+not a 1000 times faster,
+
+562
+00:28:18,380 --> 00:28:22,459
+but four times faster by
+exploiting the parallel others.
+
+563
+00:28:22,459 --> 00:28:24,200
+And for adding numbers,
+
+564
+00:28:24,200 --> 00:28:25,699
+that probably doesn't matter.
+
+565
+00:28:25,699 --> 00:28:27,140
+But if you're doing
+something like doing
+
+566
+00:28:27,140 --> 00:28:29,345
+some processing on a photograph,
+
+567
+00:28:29,345 --> 00:28:31,250
+that really does matter.
+
+568
+00:28:31,250 --> 00:28:34,070
+And indeed your, your phones
+
+569
+00:28:34,070 --> 00:28:36,019
+will all have something
+called a GPU,
+
+570
+00:28:36,019 --> 00:28:38,689
+GPU graphics processing unit,
+
+571
+00:28:38,689 --> 00:28:41,614
+which let you do very
+simple steps in a
+
+572
+00:28:41,614 --> 00:28:44,120
+1000 or 10 thousand
+times parallel
+
+573
+00:28:44,120 --> 00:28:47,509
+precisely to speed up things
+like processing pictures.
+
+574
+00:28:47,509 --> 00:28:49,829
+So you had a question.
+
+575
+00:28:56,860 --> 00:28:59,914
+If you use one CPU,
+
+576
+00:28:59,914 --> 00:29:02,300
+doing it this way
+will not be faster.
+
+577
+00:29:02,300 --> 00:29:04,709
+But what if you use,
+
+578
+00:29:05,530 --> 00:29:09,149
+what if used for CPUs?
+
+579
+00:29:14,500 --> 00:29:18,424
+If you do multiple threads
+on a single processor,
+
+580
+00:29:18,424 --> 00:29:21,049
+then it will still take
+the same time because it
+
+581
+00:29:21,049 --> 00:29:24,559
+must execute each
+thing in each thread.
+
+582
+00:29:24,559 --> 00:29:27,050
+But if you have
+four processors and
+
+583
+00:29:27,050 --> 00:29:28,339
+your threads get distributed
+
+584
+00:29:28,339 --> 00:29:30,094
+among the different processors,
+
+585
+00:29:30,094 --> 00:29:33,079
+then it will be
+four times faster.
+
+586
+00:29:33,079 --> 00:29:35,570
+So the important thing
+is you have to have
+
+587
+00:29:35,570 --> 00:29:39,110
+multiple computers and
+actually use them.
+
+588
+00:29:39,110 --> 00:29:44,540
+Ok? Now an important example of
+
+589
+00:29:44,540 --> 00:29:46,445
+this kind of parallelism
+
+590
+00:29:46,445 --> 00:29:50,089
+is whenever you do a
+search on your computer.
+
+591
+00:29:50,089 --> 00:29:53,029
+With Google or Bing
+or what have you,
+
+592
+00:29:53,029 --> 00:29:55,759
+right when you do
+that, what happens?
+
+593
+00:29:55,759 --> 00:29:58,700
+Your query goes to a warehouse,
+
+594
+00:29:58,700 --> 00:30:02,015
+and that warehouse is
+full of computers.
+
+595
+00:30:02,015 --> 00:30:04,010
+And typically it might use
+
+596
+00:30:04,010 --> 00:30:08,525
+a 1000 computers to answer
+your one query, right?
+
+597
+00:30:08,525 --> 00:30:10,024
+If you had to search
+the whole web,
+
+598
+00:30:10,024 --> 00:30:11,494
+the web is pretty big.
+
+599
+00:30:11,494 --> 00:30:15,140
+If you had to search the
+whole web one step at a time,
+
+600
+00:30:15,140 --> 00:30:17,134
+it would take a long time.
+
+601
+00:30:17,134 --> 00:30:20,314
+But few 1000 computers or
+10 thousand computers.
+
+602
+00:30:20,314 --> 00:30:21,889
+You can do it 1000 times
+
+603
+00:30:21,889 --> 00:30:24,574
+faster or 10 thousand
+times faster.
+
+604
+00:30:24,574 --> 00:30:26,839
+And Google came up
+with a standard way
+
+605
+00:30:26,839 --> 00:30:30,659
+of structuring
+these computations,
+
+606
+00:30:31,780 --> 00:30:36,004
+which is called MapReduce,
+
+607
+00:30:36,004 --> 00:30:38,900
+which works basically by
+breaking up the problem.
+
+608
+00:30:38,900 --> 00:30:40,880
+So this is a simple thing.
+
+609
+00:30:40,880 --> 00:30:42,379
+I want to count how many times
+
+610
+00:30:42,379 --> 00:30:44,314
+each word appears in this text.
+
+611
+00:30:44,314 --> 00:30:45,980
+So you break it up into lines.
+
+612
+00:30:45,980 --> 00:30:47,270
+You count if how many
+
+613
+00:30:47,270 --> 00:30:49,069
+times each word
+appears in each lines,
+
+614
+00:30:49,069 --> 00:30:52,039
+you accumulate everything,
+and then you do this.
+
+615
+00:30:52,039 --> 00:30:54,979
+So MapReduce is actually
+
+616
+00:30:54,979 --> 00:30:58,235
+named after these two ideas
+from functional programming.
+
+617
+00:30:58,235 --> 00:31:03,110
+Map which you've seen
+and fold, right?
+
+618
+00:31:03,110 --> 00:31:04,790
+Why isn't it called map fold?
+
+619
+00:31:04,790 --> 00:31:07,160
+Well, there's another name for
+
+620
+00:31:07,160 --> 00:31:09,664
+full used in some
+systems which is reduce.
+
+621
+00:31:09,664 --> 00:31:11,854
+It's just the same thing.
+
+622
+00:31:11,854 --> 00:31:16,640
+So MapReduce is exactly
+this idea that you break
+
+623
+00:31:16,640 --> 00:31:19,340
+your computation down into
+
+624
+00:31:19,340 --> 00:31:22,640
+higher-order operators
+like map and full.
+
+625
+00:31:22,640 --> 00:31:25,039
+And they have some other
+ones that they use at
+
+626
+00:31:25,039 --> 00:31:27,664
+Google as well for doing
+this kind of accumulation.
+
+627
+00:31:27,664 --> 00:31:30,544
+But it's basically
+just this idea.
+
+628
+00:31:30,544 --> 00:31:34,864
+So I mentioned that the first
+few years of computing,
+
+629
+00:31:34,864 --> 00:31:36,259
+people didn't really think in
+
+630
+00:31:36,259 --> 00:31:38,000
+terms of higher-order functions.
+
+631
+00:31:38,000 --> 00:31:39,919
+And then gradually
+more and more people
+
+632
+00:31:39,919 --> 00:31:41,555
+began to think in terms of them.
+
+633
+00:31:41,555 --> 00:31:44,060
+So the development of MapReduce,
+
+634
+00:31:44,060 --> 00:31:46,669
+which is now I guess a
+dozen years old or so,
+
+635
+00:31:46,669 --> 00:31:48,920
+is an example of people
+beginning to think in
+
+636
+00:31:48,920 --> 00:31:51,530
+terms of higher-order functions.
+
+637
+00:31:51,530 --> 00:31:53,675
+If I've got something
+that I'm using for map,
+
+638
+00:31:53,675 --> 00:31:55,400
+something I'm using for fold.
+
+639
+00:31:55,400 --> 00:31:57,515
+Can I do that
+quickly in parallel?
+
+640
+00:31:57,515 --> 00:32:01,939
+Yes. That's exactly this idea.
+
+641
+00:32:01,939 --> 00:32:04,175
+And indeed, sometimes
+what you're doing,
+
+642
+00:32:04,175 --> 00:32:05,990
+just counting up how
+many of something there
+
+643
+00:32:05,990 --> 00:32:07,909
+is right at the top
+it says of about
+
+644
+00:32:07,909 --> 00:32:10,715
+such and so many
+answers that summing
+
+645
+00:32:10,715 --> 00:32:14,090
+is done using exactly this
+technique I showed you.
+
+646
+00:32:14,090 --> 00:32:17,674
+So instead of taking for
+zillions of webpages,
+
+647
+00:32:17,674 --> 00:32:19,714
+instead of taking
+zillions of steps,
+
+648
+00:32:19,714 --> 00:32:21,259
+it only takes log base
+
+649
+00:32:21,259 --> 00:32:25,139
+two of a zillion steps
+which is much smaller.
+
+650
+00:32:27,820 --> 00:32:33,330
+Okay. Are there any
+questions about that?
+
+651
+00:32:33,340 --> 00:32:42,140
+Yes. Does Haskell or
+
+652
+00:32:42,140 --> 00:32:45,079
+will Haskell automatically
+parallelize stuff?
+
+653
+00:32:45,079 --> 00:32:47,480
+No. But there are
+
+654
+00:32:47,480 --> 00:32:49,160
+libraries in Haskell that
+
+655
+00:32:49,160 --> 00:32:51,064
+help you to do stuff in parallel.
+
+656
+00:32:51,064 --> 00:32:53,540
+And example of this is the
+one that I mentioned on
+
+657
+00:32:53,540 --> 00:32:57,155
+the first day that
+Facebook uses for again,
+
+658
+00:32:57,155 --> 00:32:59,149
+filtering every single web post.
+
+659
+00:32:59,149 --> 00:33:00,725
+Again, they do that in parallel
+
+660
+00:33:00,725 --> 00:33:02,270
+so that it happens fast, right?
+
+661
+00:33:02,270 --> 00:33:05,120
+As you can imagine, if you
+had to take one step for
+
+662
+00:33:05,120 --> 00:33:06,199
+every single post to
+
+663
+00:33:06,199 --> 00:33:08,810
+Facebook looking for the
+fake ones from Russia,
+
+664
+00:33:08,810 --> 00:33:10,354
+it would take too long.
+
+665
+00:33:10,354 --> 00:33:12,289
+So they do it in
+parallel and in fact,
+
+666
+00:33:12,289 --> 00:33:17,774
+they use a Haskell program
+to do that. Good question.
+
+667
+00:33:17,774 --> 00:33:21,849
+Ok. That is, so yesterday
+
+668
+00:33:21,849 --> 00:33:25,089
+I finished beating off a
+little bit of material.
+
+669
+00:33:25,089 --> 00:33:26,679
+I want to show you that material,
+
+670
+00:33:26,679 --> 00:33:28,779
+but that is the end
+of lecture seven,
+
+671
+00:33:28,779 --> 00:33:30,945
+and I will show you the
+end of lecture six.
+
+672
+00:33:30,945 --> 00:33:33,920
+You may applaud for the
+end of lecture seven.
+
+673
+00:33:38,370 --> 00:33:44,499
+And then let me just show
+you the end of lecture six,
+
+674
+00:33:44,499 --> 00:33:50,270
+which I didn't show
+you last time too.
+
+675
+00:33:51,030 --> 00:33:53,844
+So right, we saw map,
+
+676
+00:33:53,844 --> 00:33:56,845
+we saw filter, we saw fold.
+
+677
+00:33:56,845 --> 00:34:03,800
+And the one thing
+
+678
+00:34:03,800 --> 00:34:05,389
+I didn't show you
+
+679
+00:34:05,389 --> 00:34:08,254
+is of course you can
+put them altogether.
+
+680
+00:34:08,254 --> 00:34:10,549
+So we can do the sum of
+
+681
+00:34:10,549 --> 00:34:12,589
+the squares of the
+positive numbers in
+
+682
+00:34:12,589 --> 00:34:17,269
+a list using library functions,
+
+683
+00:34:17,269 --> 00:34:20,780
+using comprehensions,
+using recursion.
+
+684
+00:34:20,780 --> 00:34:23,300
+So right, check if x
+is greater than 0,
+
+685
+00:34:23,300 --> 00:34:24,650
+square it and add it to
+
+686
+00:34:24,650 --> 00:34:26,104
+the recursive thing
+for the remainder.
+
+687
+00:34:26,104 --> 00:34:27,769
+Otherwise, drop it out
+
+688
+00:34:27,769 --> 00:34:29,720
+and just recursively
+sum up the remainder.
+
+689
+00:34:29,720 --> 00:34:32,269
+Or we can do it
+with fold R plus of
+
+690
+00:34:32,269 --> 00:34:35,569
+0 and map of square and
+filter of positive.
+
+691
+00:34:35,569 --> 00:34:38,750
+So any of those different
+ways work and you could use
+
+692
+00:34:38,750 --> 00:34:42,650
+quick check to show that
+they're all equivalent.
+
+693
+00:34:42,650 --> 00:34:44,239
+And somebody said, oh,
+
+694
+00:34:44,239 --> 00:34:46,340
+am I better off using
+
+695
+00:34:46,340 --> 00:34:49,910
+recursion or using comprehensions
+when I write things?
+
+696
+00:34:49,910 --> 00:34:51,754
+And the answer is,
+
+697
+00:34:51,754 --> 00:34:53,930
+Haskell actually knows more about
+
+698
+00:34:53,930 --> 00:34:56,344
+compiling comprehensions.
+
+699
+00:34:56,344 --> 00:34:58,759
+If you've got one comprehension
+that's acting over
+
+700
+00:34:58,759 --> 00:35:01,325
+a list formed by
+another comprehension.
+
+701
+00:35:01,325 --> 00:35:04,820
+So say squares here was
+defined using comprehensions,
+
+702
+00:35:04,820 --> 00:35:08,044
+and say positives was defined
+using a comprehension.
+
+703
+00:35:08,044 --> 00:35:10,400
+Haskell actually knows
+if you write this,
+
+704
+00:35:10,400 --> 00:35:13,709
+it will turn it into this.
+
+705
+00:35:13,960 --> 00:35:16,730
+And I believe it knows
+about Folder and maps.
+
+706
+00:35:16,730 --> 00:35:19,340
+So if you write this, it
+will turned it into this.
+
+707
+00:35:19,340 --> 00:35:21,470
+But if you write this by hand and
+
+708
+00:35:21,470 --> 00:35:23,600
+then you use another
+comprehension,
+
+709
+00:35:23,600 --> 00:35:25,309
+degenerate the input to this one.
+
+710
+00:35:25,309 --> 00:35:27,544
+It won't know how to
+combine those things.
+
+711
+00:35:27,544 --> 00:35:30,875
+But if you write it
+this way, it will.
+
+712
+00:35:30,875 --> 00:35:35,210
+So it's actually faster
+to use comprehensions and
+
+713
+00:35:35,210 --> 00:35:37,550
+higher-order functions in Haskell
+
+714
+00:35:37,550 --> 00:35:40,054
+than it is to use recursion.
+
+715
+00:35:40,054 --> 00:35:42,199
+You might think, oh, recursion,
+
+716
+00:35:42,199 --> 00:35:43,519
+let me combine all these things.
+
+717
+00:35:43,519 --> 00:35:44,930
+Recursion will be faster,
+
+718
+00:35:44,930 --> 00:35:47,359
+but nope, Haskell knows
+enough mathematics.
+
+719
+00:35:47,359 --> 00:35:49,099
+The Haskell compiler knows
+
+720
+00:35:49,099 --> 00:35:52,024
+enough mathematics to
+optimize these things.
+
+721
+00:35:52,024 --> 00:35:54,784
+So it's actually better
+to use comprehensions.
+
+722
+00:35:54,784 --> 00:35:56,930
+Really nice. I love this, right?
+
+723
+00:35:56,930 --> 00:35:59,000
+You've got trade-off.
+Do I make it easy
+
+724
+00:35:59,000 --> 00:36:01,625
+to read or do I make it fast?
+
+725
+00:36:01,625 --> 00:36:05,660
+You use mathematics,
+right? Yeah, that same.
+
+726
+00:36:05,660 --> 00:36:10,500
+Easy to read is faster
+than hard to read.
+
+727
+00:36:16,030 --> 00:36:18,920
+I also wanted to show you
+
+728
+00:36:18,920 --> 00:36:21,890
+one other thing which
+is about currying.
+
+729
+00:36:21,890 --> 00:36:24,870
+How many people have read
+about currying in the book?
+
+730
+00:36:25,390 --> 00:36:28,339
+How many people
+have read the book?
+
+731
+00:36:28,339 --> 00:36:33,244
+Okay, good. I was worried
+for a moment there.
+
+732
+00:36:33,244 --> 00:36:35,630
+So notice that we
+
+733
+00:36:35,630 --> 00:36:37,955
+always do things in
+Haskell in this weird way.
+
+734
+00:36:37,955 --> 00:36:39,530
+How do we describe this function?
+
+735
+00:36:39,530 --> 00:36:41,630
+Add that has two arguments.
+
+736
+00:36:41,630 --> 00:36:43,235
+He write it arrow,
+
+737
+00:36:43,235 --> 00:36:45,904
+int arrow it, it's one function.
+
+738
+00:36:45,904 --> 00:36:48,785
+Why are there two arrows?
+
+739
+00:36:48,785 --> 00:36:51,515
+And then we write add x, y.
+
+740
+00:36:51,515 --> 00:36:53,659
+Why do we do that?
+Why don't we put
+
+741
+00:36:53,659 --> 00:36:56,314
+the arguments in parentheses
+with a comma between them,
+
+742
+00:36:56,314 --> 00:36:58,745
+like every sensible
+person in the world does.
+
+743
+00:36:58,745 --> 00:37:01,160
+Why do we do with this funny way?
+
+744
+00:37:01,160 --> 00:37:03,680
+Well, the answer is,
+
+745
+00:37:03,680 --> 00:37:06,859
+each of these looks
+like it's one function.
+
+746
+00:37:06,859 --> 00:37:09,770
+I will now tell you the secret.
+
+747
+00:37:09,770 --> 00:37:12,470
+Each of these looks
+like it's one function.
+
+748
+00:37:12,470 --> 00:37:16,595
+Because it is one function.
+
+749
+00:37:16,595 --> 00:37:22,460
+Haskell does not know about
+functions of two arguments.
+
+750
+00:37:22,460 --> 00:37:25,310
+The stupid computer does not
+
+751
+00:37:25,310 --> 00:37:28,759
+know about functions
+of two arguments.
+
+752
+00:37:28,759 --> 00:37:33,320
+It only knows about
+functions of one argument.
+
+753
+00:37:33,320 --> 00:37:35,720
+So what's going on here?
+
+754
+00:37:35,720 --> 00:37:38,134
+What's going on is it's,
+
+755
+00:37:38,134 --> 00:37:40,625
+is the parentheses go this way.
+
+756
+00:37:40,625 --> 00:37:42,335
+So when you write add,
+
+757
+00:37:42,335 --> 00:37:46,609
+it takes one integer and
+it returns one thing.
+
+758
+00:37:46,609 --> 00:37:50,239
+And the one thing it returns
+is another function.
+
+759
+00:37:50,239 --> 00:37:52,009
+And what that other
+function does is
+
+760
+00:37:52,009 --> 00:37:54,334
+takes an integer to an integer.
+
+761
+00:37:54,334 --> 00:37:58,625
+Similarly, when we write
+add X, Y, the parentheses.
+
+762
+00:37:58,625 --> 00:38:00,680
+So when we write a
+string of arrows,
+
+763
+00:38:00,680 --> 00:38:03,725
+the parentheses always
+go to the right.
+
+764
+00:38:03,725 --> 00:38:06,335
+When we write an application,
+
+765
+00:38:06,335 --> 00:38:09,814
+the parentheses always
+go to the left.
+
+766
+00:38:09,814 --> 00:38:14,540
+And so that means add x. Y
+really means compute add
+
+767
+00:38:14,540 --> 00:38:16,040
+acts that will give me
+
+768
+00:38:16,040 --> 00:38:20,194
+a function and then apply
+that function to y.
+
+769
+00:38:20,194 --> 00:38:22,550
+Reality. Is that work?
+
+770
+00:38:22,550 --> 00:38:24,275
+So what's going on here?
+
+771
+00:38:24,275 --> 00:38:26,629
+So my say add X,
+
+772
+00:38:26,629 --> 00:38:28,444
+Y equals X plus Y.
+
+773
+00:38:28,444 --> 00:38:32,089
+That's really the same as
+saying add x is g, right?
+
+774
+00:38:32,089 --> 00:38:33,875
+We're returning a function.
+
+775
+00:38:33,875 --> 00:38:37,670
+So we return the function
+g. What is the function g?
+
+776
+00:38:37,670 --> 00:38:42,605
+It's the function g that
+takes y and then adds x to y.
+
+777
+00:38:42,605 --> 00:38:44,299
+This, I couldn't define this at
+
+778
+00:38:44,299 --> 00:38:47,509
+the top level because
+it knows about x.
+
+779
+00:38:47,509 --> 00:38:50,254
+So x is in scope
+here, so that's okay.
+
+780
+00:38:50,254 --> 00:38:53,419
+So if I say add three
+applied to, for,
+
+781
+00:38:53,419 --> 00:38:56,645
+that really returns
+g applied to four,
+
+782
+00:38:56,645 --> 00:38:59,975
+where g of y is now three plus y.
+
+783
+00:38:59,975 --> 00:39:02,315
+The function that
+adds three to things.
+
+784
+00:39:02,315 --> 00:39:04,445
+We add three means
+
+785
+00:39:04,445 --> 00:39:08,045
+the function that takes a
+number and adds three to it.
+
+786
+00:39:08,045 --> 00:39:09,950
+Which here I've called, Gee,
+
+787
+00:39:09,950 --> 00:39:13,349
+who some people are Smiley
+gets fun, isn't it?
+
+788
+00:39:13,690 --> 00:39:16,594
+And then you've got, so then
+
+789
+00:39:16,594 --> 00:39:20,554
+g of four is the same as three
+plus four, which is seven.
+
+790
+00:39:20,554 --> 00:39:24,080
+So this idea is named
+for Haskell Curry,
+
+791
+00:39:24,080 --> 00:39:26,345
+who lived from 1900 to 1982.
+
+792
+00:39:26,345 --> 00:39:29,039
+I actually got to
+shake his hand once.
+
+793
+00:39:29,830 --> 00:39:33,469
+But actually the same idea
+was developed earlier by
+
+794
+00:39:33,469 --> 00:39:37,699
+Moses Shawn Finkel and
+also by Gottlob Fraga.
+
+795
+00:39:37,699 --> 00:39:38,989
+So Moses shrimp Finkel,
+
+796
+00:39:38,989 --> 00:39:40,880
+you can guess from
+his name was Jewish.
+
+797
+00:39:40,880 --> 00:39:44,850
+Gottlob forager was
+a noted anti-Semite.
+
+798
+00:39:46,360 --> 00:39:48,845
+So but we call it currying.
+
+799
+00:39:48,845 --> 00:39:50,839
+We, the, the joke I was
+
+800
+00:39:50,839 --> 00:39:53,390
+told was that we could call
+it shouldn't tinkling.
+
+801
+00:39:53,390 --> 00:39:55,879
+The currying is tastier
+and I discovered actually
+
+802
+00:39:55,879 --> 00:39:58,625
+Fred had the same
+idea even earlier.
+
+803
+00:39:58,625 --> 00:40:00,680
+So these people were
+all logicians and they
+
+804
+00:40:00,680 --> 00:40:03,049
+just want a very simple
+system of logic.
+
+805
+00:40:03,049 --> 00:40:05,330
+So they just want it
+functions of one argument.
+
+806
+00:40:05,330 --> 00:40:07,625
+And then they went, oh, with
+functions of one argument,
+
+807
+00:40:07,625 --> 00:40:10,010
+I can get more than one.
+
+808
+00:40:10,010 --> 00:40:12,619
+So we can actually take
+
+809
+00:40:12,619 --> 00:40:14,599
+advantage of the fact
+
+810
+00:40:14,599 --> 00:40:16,580
+that these are always
+just functions.
+
+811
+00:40:16,580 --> 00:40:18,410
+And I told you can write sum of
+
+812
+00:40:18,410 --> 00:40:21,154
+X is fold R of plus and 0,
+
+813
+00:40:21,154 --> 00:40:22,640
+and then the list.
+
+814
+00:40:22,640 --> 00:40:25,024
+But we can also write
+it more compactly.
+
+815
+00:40:25,024 --> 00:40:28,415
+We can just say sum is
+fold R of plus and 0.
+
+816
+00:40:28,415 --> 00:40:30,530
+Because what folders
+returning here is
+
+817
+00:40:30,530 --> 00:40:34,010
+a function from a list of a to a.
+
+818
+00:40:34,010 --> 00:40:35,629
+And we can do it with all of
+
+819
+00:40:35,629 --> 00:40:37,129
+these things that we
+saw before, right?
+
+820
+00:40:37,129 --> 00:40:38,344
+So the previous day,
+
+821
+00:40:38,344 --> 00:40:40,654
+I updated the slides.
+
+822
+00:40:40,654 --> 00:40:42,860
+I put the previous
+day we saw sum and
+
+823
+00:40:42,860 --> 00:40:45,544
+product and concat
+and, and an or.
+
+824
+00:40:45,544 --> 00:40:48,469
+At each of these I
+wrote xs equals block,
+
+825
+00:40:48,469 --> 00:40:50,270
+X is equals blop axis equals,
+
+826
+00:40:50,270 --> 00:40:51,590
+well, you don't need that.
+
+827
+00:40:51,590 --> 00:40:53,870
+So you can just say or
+is fold R of OR and
+
+828
+00:40:53,870 --> 00:40:57,230
+false and leave the
+axes off of both sides.
+
+829
+00:40:57,230 --> 00:40:58,520
+If you put it on one side, you
+
+830
+00:40:58,520 --> 00:40:59,899
+have to put it on the other side,
+
+831
+00:40:59,899 --> 00:41:01,550
+but you can leave
+it off both sides.
+
+832
+00:41:01,550 --> 00:41:02,839
+And thanks to currying,
+
+833
+00:41:02,839 --> 00:41:04,955
+it means exactly the same thing.
+
+834
+00:41:04,955 --> 00:41:07,774
+And if you do that,
+you are thinking at
+
+835
+00:41:07,774 --> 00:41:10,370
+a higher level because
+
+836
+00:41:10,370 --> 00:41:13,099
+you're no longer
+thinking in terms of,
+
+837
+00:41:13,099 --> 00:41:15,589
+here's a function I
+apply to an argument.
+
+838
+00:41:15,589 --> 00:41:18,064
+You're just taking a function.
+
+839
+00:41:18,064 --> 00:41:21,469
+What does fold R of
+plus and 0 return
+
+840
+00:41:21,469 --> 00:41:25,024
+a function which takes a list
+of int and returns an int.
+
+841
+00:41:25,024 --> 00:41:26,404
+And you don't even need to think
+
+842
+00:41:26,404 --> 00:41:28,474
+about the argument at all.
+
+843
+00:41:28,474 --> 00:41:32,674
+You are now all thinking
+at a higher level.
+
+844
+00:41:32,674 --> 00:41:35,939
+Will stop there.
+Thank you very much.

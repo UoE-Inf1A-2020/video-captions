@@ -1,0 +1,4721 @@
+1
+00:00:04,790 --> 00:00:07,989
+Are there any questions?
+
+2
+00:00:18,610 --> 00:00:24,350
+Yes. I'm sorry.
+
+3
+00:00:24,350 --> 00:00:26,180
+I can't hear you because
+I love noise from
+
+4
+00:00:26,180 --> 00:00:28,624
+people wrestling around in
+the room and coming in late.
+
+5
+00:00:28,624 --> 00:00:31,380
+Could you speak more loudly plays
+
+6
+00:00:33,310 --> 00:00:37,789
+between what is the difference
+
+7
+00:00:37,789 --> 00:00:40,550
+between sort and uniq sort?
+
+8
+00:00:40,550 --> 00:00:43,579
+There are lots of
+different sorts.
+
+9
+00:00:43,579 --> 00:00:47,120
+I'm not quite sure what
+you mean by unique sort in
+
+10
+00:00:47,120 --> 00:00:52,339
+Haskell is a special module
+
+11
+00:00:52,339 --> 00:00:53,644
+on Haskell called unique sort.
+
+12
+00:00:53,644 --> 00:00:54,680
+Great. You found stuff in
+
+13
+00:00:54,680 --> 00:00:57,239
+the library I didn't know about.
+
+14
+00:00:57,310 --> 00:00:59,780
+I will guess that
+
+15
+00:00:59,780 --> 00:01:01,669
+it's the equivalent of
+sorting something and then
+
+16
+00:01:01,669 --> 00:01:06,179
+taking the knob that is removing
+any duplicate elements.
+
+17
+00:01:11,800 --> 00:01:14,450
+Note what I did just there.
+
+18
+00:01:14,450 --> 00:01:16,025
+I didn't know the answer.
+
+19
+00:01:16,025 --> 00:01:17,630
+I didn't claim to
+know the answer.
+
+20
+00:01:17,630 --> 00:01:21,589
+I said, I will guess that
+this is really important.
+
+21
+00:01:21,589 --> 00:01:22,834
+If you don't know,
+
+22
+00:01:22,834 --> 00:01:24,905
+say you don't know,
+
+23
+00:01:24,905 --> 00:01:29,000
+that we'll give you credibility
+with your colleagues.
+
+24
+00:01:29,000 --> 00:01:30,440
+It takes a little bit of
+
+25
+00:01:30,440 --> 00:01:32,569
+bravery to say that
+you don't know,
+
+26
+00:01:32,569 --> 00:01:34,370
+your colleague will
+recognize that as well.
+
+27
+00:01:34,370 --> 00:01:37,115
+They'll go, oh, that
+person is confident.
+
+28
+00:01:37,115 --> 00:01:40,040
+It's actually a great idea
+to say you don't know,
+
+29
+00:01:40,040 --> 00:01:44,570
+I learned that years
+ago into competition in
+
+30
+00:01:44,570 --> 00:01:47,209
+physics involved things where
+
+31
+00:01:47,209 --> 00:01:49,519
+I said I didn't know
+was part of the answer.
+
+32
+00:01:49,519 --> 00:01:51,920
+And then I sit by guess
+that it must mean this.
+
+33
+00:01:51,920 --> 00:01:54,890
+And one of the judges came up
+to me afterwards and said,
+
+34
+00:01:54,890 --> 00:01:56,689
+That was really good
+that you did that.
+
+35
+00:01:56,689 --> 00:01:58,474
+I gave you extra points for that.
+
+36
+00:01:58,474 --> 00:02:00,440
+I still didn't win
+the competition.
+
+37
+00:02:00,440 --> 00:02:02,225
+But it was just
+physics. Who cares?
+
+38
+00:02:02,225 --> 00:02:04,249
+Yep, there was another question.
+
+39
+00:02:04,249 --> 00:02:07,680
+Know somebody just
+taking off their jumper.
+
+40
+00:02:09,340 --> 00:02:12,410
+Okay. Any other questions?
+
+41
+00:02:12,410 --> 00:02:16,190
+Yet? Am I going
+
+42
+00:02:16,190 --> 00:02:19,619
+to go through Big O notation
+today? Why? Yes, I am.
+
+43
+00:02:21,150 --> 00:02:28,330
+And guess. What is
+
+44
+00:02:28,330 --> 00:02:31,060
+the difference between what
+
+45
+00:02:31,060 --> 00:02:33,729
+is the difference
+between type and data?
+
+46
+00:02:33,729 --> 00:02:38,269
+So data is a value like three.
+
+47
+00:02:38,310 --> 00:02:41,989
+What would the type of 3V?
+
+48
+00:02:42,360 --> 00:02:45,339
+Int? The type of three isn't.
+
+49
+00:02:45,339 --> 00:02:47,905
+So do you know the difference
+between three, right?
+
+50
+00:02:47,905 --> 00:02:50,539
+Between three and int.
+
+51
+00:02:51,630 --> 00:02:55,074
+So that's the difference
+between data and types.
+
+52
+00:02:55,074 --> 00:02:57,560
+Good question. Thank you.
+
+53
+00:03:00,990 --> 00:03:04,954
+Okay. Start with, I have
+a question for you,
+
+54
+00:03:04,954 --> 00:03:06,859
+which is how are we doing?
+
+55
+00:03:06,859 --> 00:03:10,729
+So there's a midterm
+feedback survey
+
+56
+00:03:10,729 --> 00:03:12,889
+that I've posted
+using survey monkey.
+
+57
+00:03:12,889 --> 00:03:17,689
+I've posted the one for
+my half of the class, FP.
+
+58
+00:03:17,689 --> 00:03:21,454
+So that's why it's the PHP
+midterm feedback survey.
+
+59
+00:03:21,454 --> 00:03:24,979
+Michael's should be posting
+a separate one for Cl.
+
+60
+00:03:24,979 --> 00:03:28,340
+It I'll help him use survey
+monkey if he wants to.
+
+61
+00:03:28,340 --> 00:03:30,500
+But please put that answers
+on this one that are
+
+62
+00:03:30,500 --> 00:03:33,724
+about PHP, not about Cl.
+
+63
+00:03:33,724 --> 00:03:36,050
+I notice a lot of you
+have already responded.
+
+64
+00:03:36,050 --> 00:03:37,519
+I'll just check
+when you responded.
+
+65
+00:03:37,519 --> 00:03:40,070
+Were you responding Did you
+see the FP there or did you
+
+66
+00:03:40,070 --> 00:03:42,739
+just respond about
+FP and C altogether?
+
+67
+00:03:42,739 --> 00:03:47,724
+How many people just
+FP at PNC altogether.
+
+68
+00:03:47,724 --> 00:03:51,340
+Okay, relatively little
+confusion that great.
+
+69
+00:03:51,340 --> 00:03:53,004
+So just respond about FP.
+
+70
+00:03:53,004 --> 00:03:55,630
+There will be a separate
+midterm survey for CL
+
+71
+00:03:55,630 --> 00:03:59,389
+so we can see how the
+two halves are doing.
+
+72
+00:03:59,580 --> 00:04:02,410
+Oh, and there's the
+lake and that link
+
+73
+00:04:02,410 --> 00:04:05,169
+also is directly
+on the Learn page.
+
+74
+00:04:05,169 --> 00:04:10,809
+I presume that's how a bunch
+of you found it. I'm sorry.
+
+75
+00:04:10,809 --> 00:04:16,089
+Right. Okay. The
+other thing I want to
+
+76
+00:04:16,089 --> 00:04:20,740
+tell you about is the
+Influenza a PHP competitions.
+
+77
+00:04:20,740 --> 00:04:23,079
+We run this every year.
+
+78
+00:04:23,079 --> 00:04:26,559
+The prices are book
+vouchers and glory.
+
+79
+00:04:26,559 --> 00:04:29,825
+So the book vouchers in
+the past had been Amazon,
+
+80
+00:04:29,825 --> 00:04:32,795
+which I guess you can use
+to get other stuff as well.
+
+81
+00:04:32,795 --> 00:04:34,564
+But I thought I'd support
+
+82
+00:04:34,564 --> 00:04:37,414
+local industry and give
+
+83
+00:04:37,414 --> 00:04:40,160
+black wells book
+vouchers this year.
+
+84
+00:04:40,160 --> 00:04:41,960
+Okay, nobody's going, oh,
+
+85
+00:04:41,960 --> 00:04:44,179
+so that's what we're gonna do.
+
+86
+00:04:44,179 --> 00:04:47,930
+But the book voucher is
+down the noise, right?
+
+87
+00:04:47,930 --> 00:04:50,449
+The glory is, you can say i1,
+
+88
+00:04:50,449 --> 00:04:52,219
+x place, third place,
+
+89
+00:04:52,219 --> 00:04:54,770
+or first place in
+the competition.
+
+90
+00:04:54,770 --> 00:04:57,499
+That's always a nice thing to
+be able to put on your CV.
+
+91
+00:04:57,499 --> 00:05:00,365
+We always get amazing entries.
+
+92
+00:05:00,365 --> 00:05:03,770
+Every year. Some you're there
+more amazing than others.
+
+93
+00:05:03,770 --> 00:05:04,999
+So like some years we went, oh,
+
+94
+00:05:04,999 --> 00:05:08,180
+we have to give 5 second
+prizes or whatever.
+
+95
+00:05:08,180 --> 00:05:11,359
+I think we've never given
+more than one first-price BY
+
+96
+00:05:11,359 --> 00:05:13,189
+might be wrong about that.
+
+97
+00:05:13,189 --> 00:05:16,580
+So the number of
+prizes will depend
+
+98
+00:05:16,580 --> 00:05:19,594
+on how many fantastic
+entries we got.
+
+99
+00:05:19,594 --> 00:05:20,960
+I'm sure we will get at least a
+
+100
+00:05:20,960 --> 00:05:23,060
+few that are really fantastic.
+
+101
+00:05:23,060 --> 00:05:25,234
+So what do you do
+in the competition?
+
+102
+00:05:25,234 --> 00:05:28,775
+You write a Haskell program
+with interesting graphics.
+
+103
+00:05:28,775 --> 00:05:32,764
+Uab creative, I won't
+follow the links now.
+
+104
+00:05:32,764 --> 00:05:34,880
+But if you follow this link,
+
+105
+00:05:34,880 --> 00:05:38,570
+you can see previous
+winners for every year.
+
+106
+00:05:38,570 --> 00:05:40,429
+And that will give you
+an idea of the kinds of
+
+107
+00:05:40,429 --> 00:05:42,469
+entries people make
+in the competition?
+
+108
+00:05:42,469 --> 00:05:49,650
+Yes. Yes. You submit the
+source code as well.
+
+109
+00:05:49,930 --> 00:05:53,960
+The I mentioned that
+there are prizes,
+
+110
+00:05:53,960 --> 00:05:56,225
+those are sponsored by Galois.
+
+111
+00:05:56,225 --> 00:05:59,090
+Galois is one of
+
+112
+00:05:59,090 --> 00:06:01,249
+the many industrial firms
+
+113
+00:06:01,249 --> 00:06:03,590
+out there that use
+Haskell quite heavily.
+
+114
+00:06:03,590 --> 00:06:06,200
+They're located in
+Portland, Oregon.
+
+115
+00:06:06,200 --> 00:06:08,630
+They were founded by a
+colleague of mine at
+
+116
+00:06:08,630 --> 00:06:10,010
+the University of Glasgow when we
+
+117
+00:06:10,010 --> 00:06:12,139
+were first creating Haskell.
+
+118
+00:06:12,139 --> 00:06:15,050
+So he had a lot to do with
+the creation of Haskell.
+
+119
+00:06:15,050 --> 00:06:17,870
+And then he just founded
+the company says, okay,
+
+120
+00:06:17,870 --> 00:06:20,239
+if Haskell so great and we
+use it to write programs,
+
+121
+00:06:20,239 --> 00:06:21,650
+we will be better than everybody
+
+122
+00:06:21,650 --> 00:06:23,480
+else and we'll get
+lots of business.
+
+123
+00:06:23,480 --> 00:06:25,819
+And he founded a company
+based on that idea.
+
+124
+00:06:25,819 --> 00:06:28,130
+And so far they're
+doing pretty well.
+
+125
+00:06:28,130 --> 00:06:29,450
+So among other things,
+
+126
+00:06:29,450 --> 00:06:33,634
+for the last Since we
+started teaching in F18 a,
+
+127
+00:06:33,634 --> 00:06:36,094
+they've been sponsoring
+the competition,
+
+128
+00:06:36,094 --> 00:06:38,299
+such as going to say
+for the last decade,
+
+129
+00:06:38,299 --> 00:06:39,560
+but it's been rather more than a
+
+130
+00:06:39,560 --> 00:06:41,599
+decade now, decade and a half.
+
+131
+00:06:41,599 --> 00:06:43,130
+So you submit your code,
+
+132
+00:06:43,130 --> 00:06:45,845
+anger images, you list
+everyone who contributed.
+
+133
+00:06:45,845 --> 00:06:48,379
+So the code, yes, that
+includes the source.
+
+134
+00:06:48,379 --> 00:06:50,389
+You can use packages
+from elsewhere,
+
+135
+00:06:50,389 --> 00:06:52,999
+but you have to be very clear
+about what you've done,
+
+136
+00:06:52,999 --> 00:06:54,169
+that your own work and what
+
+137
+00:06:54,169 --> 00:06:55,549
+you're using that's
+from elsewhere?
+
+138
+00:06:55,549 --> 00:07:01,444
+Yes. Do the graphics has
+to be related to fractals.
+
+139
+00:07:01,444 --> 00:07:03,965
+The graphics has to
+be fun to look at.
+
+140
+00:07:03,965 --> 00:07:06,140
+So there are things
+they're fun to
+
+141
+00:07:06,140 --> 00:07:08,719
+look at that are not
+related to fractals.
+
+142
+00:07:08,719 --> 00:07:11,209
+Many of the interesting
+entries are
+
+143
+00:07:11,209 --> 00:07:14,040
+based on fractals, but
+they don't have to be.
+
+144
+00:07:14,040 --> 00:07:19,869
+I saw another hand
+up. Okay. The way
+
+145
+00:07:19,869 --> 00:07:23,574
+you submit is you email
+your submissions to Irene.
+
+146
+00:07:23,574 --> 00:07:26,860
+And she asked me,
+she said this year,
+
+147
+00:07:26,860 --> 00:07:27,999
+can you please tell them to
+
+148
+00:07:27,999 --> 00:07:29,349
+all use the same subject because
+
+149
+00:07:29,349 --> 00:07:30,430
+otherwise I get lots of
+
+150
+00:07:30,430 --> 00:07:32,110
+emails that it's
+hard to sort out.
+
+151
+00:07:32,110 --> 00:07:35,469
+So please use this subject
+when you make your submission
+
+152
+00:07:35,469 --> 00:07:38,905
+and you must make your
+submission by two PM on Friday,
+
+153
+00:07:38,905 --> 00:07:40,690
+the 15th of November.
+
+154
+00:07:40,690 --> 00:07:46,689
+Yep. I'm sorry. Just speak up.
+
+155
+00:07:46,689 --> 00:07:51,519
+Can we or can it be interactive?
+
+156
+00:07:51,519 --> 00:07:53,214
+Yes, it may be interacted.
+
+157
+00:07:53,214 --> 00:07:54,099
+Some people have done
+
+158
+00:07:54,099 --> 00:07:57,110
+really interesting
+interactive entries.
+
+159
+00:08:02,230 --> 00:08:04,430
+Although we found those hard to
+
+160
+00:08:04,430 --> 00:08:09,509
+post in an interactive
+form to the website.
+
+161
+00:08:14,380 --> 00:08:17,040
+Does
+
+162
+00:08:27,010 --> 00:08:28,130
+I'm
+
+163
+00:08:28,130 --> 00:08:30,629
+not quite sure what
+you're asking.
+
+164
+00:08:32,080 --> 00:08:34,459
+Does ascii count as human?
+
+165
+00:08:34,459 --> 00:08:36,320
+Can you do ascii graphics?
+
+166
+00:08:36,320 --> 00:08:39,380
+Sure. But if you look
+at past entries,
+
+167
+00:08:39,380 --> 00:08:40,940
+you'll see that if you
+do ascii graphics,
+
+168
+00:08:40,940 --> 00:08:43,489
+unless it's really
+amazing ascii graphics,
+
+169
+00:08:43,489 --> 00:08:44,840
+it will probably look dull
+
+170
+00:08:44,840 --> 00:08:46,669
+compared to some of
+the other entries.
+
+171
+00:08:46,669 --> 00:08:49,430
+But yeah, you can do really
+amazing ascii graphics.
+
+172
+00:08:49,430 --> 00:08:52,520
+That would be great if I
+could seem relatively right,
+
+173
+00:08:52,520 --> 00:08:53,600
+ascii graphic used to be
+
+174
+00:08:53,600 --> 00:08:56,839
+a big thing somebody
+should be doing now,
+
+175
+00:08:56,839 --> 00:08:59,180
+emoji graphics, alright, where
+
+176
+00:08:59,180 --> 00:09:01,429
+you just build up an image
+Alf lots of tiny emoji.
+
+177
+00:09:01,429 --> 00:09:02,960
+I've not seen
+somebody do that yet,
+
+178
+00:09:02,960 --> 00:09:06,239
+so there's an idea for you.
+
+179
+00:09:10,420 --> 00:09:12,559
+Okay, if you come up with
+
+180
+00:09:12,559 --> 00:09:14,150
+further questions
+about this, of course,
+
+181
+00:09:14,150 --> 00:09:16,549
+you can ask in class
+or you can send
+
+182
+00:09:16,549 --> 00:09:20,090
+email and they'll distribute
+answers to the group.
+
+183
+00:09:20,090 --> 00:09:22,595
+I guess you could use Piazza,
+I should see it there.
+
+184
+00:09:22,595 --> 00:09:26,284
+So if you but just in
+case send me an email.
+
+185
+00:09:26,284 --> 00:09:28,400
+If you have further questions
+that haven't been answered,
+
+186
+00:09:28,400 --> 00:09:29,839
+feel free to send me an email.
+
+187
+00:09:29,839 --> 00:09:34,519
+Okay. No other
+questions off that.
+
+188
+00:09:34,519 --> 00:09:37,895
+Okay. So following up
+on an earlier question,
+
+189
+00:09:37,895 --> 00:09:42,305
+who's ready to learn
+about Big O notation?
+
+190
+00:09:42,305 --> 00:09:44,029
+Oh, wow, great.
+
+191
+00:09:44,029 --> 00:09:49,145
+Everybody really excited
+for nine AM on a Monday.
+
+192
+00:09:49,145 --> 00:09:53,599
+Okay, so Big O notation is
+how you measure efficiency.
+
+193
+00:09:53,599 --> 00:09:55,100
+So let me remind
+
+194
+00:09:55,100 --> 00:09:57,589
+you about the most
+important thing
+
+195
+00:09:57,589 --> 00:09:58,970
+to know about efficiency,
+
+196
+00:09:58,970 --> 00:10:01,490
+which is that
+premature optimization
+
+197
+00:10:01,490 --> 00:10:03,935
+is the root of all evil.
+
+198
+00:10:03,935 --> 00:10:07,339
+Yes, sometimes it's important
+to worry about efficiency,
+
+199
+00:10:07,339 --> 00:10:09,634
+but also sometimes
+it's really important
+
+200
+00:10:09,634 --> 00:10:12,200
+not to worry about efficiency.
+
+201
+00:10:12,200 --> 00:10:14,645
+And I guarantee you
+that you'll get
+
+202
+00:10:14,645 --> 00:10:17,329
+way ahead of all
+your competitors in
+
+203
+00:10:17,329 --> 00:10:19,550
+the field if you simply don't
+
+204
+00:10:19,550 --> 00:10:22,774
+worry about efficiency
+until you have to.
+
+205
+00:10:22,774 --> 00:10:24,874
+Because everybody
+else always thinks,
+
+206
+00:10:24,874 --> 00:10:27,080
+oh, I better make this efficient.
+
+207
+00:10:27,080 --> 00:10:31,714
+And they use up a huge amount
+of time and mental energy.
+
+208
+00:10:31,714 --> 00:10:35,734
+Introduce lots of extra bugs
+trying to make it efficient.
+
+209
+00:10:35,734 --> 00:10:38,824
+If you don't worry about
+efficiency, you will,
+
+210
+00:10:38,824 --> 00:10:42,544
+you will in fact be much
+quicker than everybody else.
+
+211
+00:10:42,544 --> 00:10:44,494
+Because the important
+thing usually is not
+
+212
+00:10:44,494 --> 00:10:47,090
+how fast your program runs,
+
+213
+00:10:47,090 --> 00:10:50,060
+but how quickly
+you get to market.
+
+214
+00:10:50,060 --> 00:10:53,825
+So the most important thing
+is to ignore efficiency.
+
+215
+00:10:53,825 --> 00:10:56,750
+Nonetheless, sometimes
+knowing about
+
+216
+00:10:56,750 --> 00:10:58,520
+efficiency is really important.
+
+217
+00:10:58,520 --> 00:11:01,699
+So that's why I tell you a
+little bit about it now.
+
+218
+00:11:01,699 --> 00:11:03,530
+But the most important
+thing to know about
+
+219
+00:11:03,530 --> 00:11:06,995
+efficiency is don't
+pay attention to it.
+
+220
+00:11:06,995 --> 00:11:09,200
+A similar example of this is I
+
+221
+00:11:09,200 --> 00:11:10,910
+have a friend who says Aikido,
+
+222
+00:11:10,910 --> 00:11:12,485
+which is a martial art,
+
+223
+00:11:12,485 --> 00:11:14,179
+which is how you
+learn how to defend
+
+224
+00:11:14,179 --> 00:11:16,970
+yourself if somebody's
+beating up on you.
+
+225
+00:11:16,970 --> 00:11:18,410
+And they begin by learning
+
+226
+00:11:18,410 --> 00:11:20,824
+the most important
+defense technique,
+
+227
+00:11:20,824 --> 00:11:24,109
+which is runaway, right?
+
+228
+00:11:24,109 --> 00:11:25,819
+So the first thing
+that the Dojo mastered
+
+229
+00:11:25,819 --> 00:11:27,919
+makes them do is run around
+
+230
+00:11:27,919 --> 00:11:30,139
+the stadium about a dozen
+
+231
+00:11:30,139 --> 00:11:31,370
+times so that they learn about
+
+232
+00:11:31,370 --> 00:11:32,900
+the most important technique,
+
+233
+00:11:32,900 --> 00:11:35,360
+run away before they
+learn about how to
+
+234
+00:11:35,360 --> 00:11:39,125
+actually use Aikido
+to fight people.
+
+235
+00:11:39,125 --> 00:11:41,825
+So that's the lesson I want
+to teach you here, right?
+
+236
+00:11:41,825 --> 00:11:44,989
+What do you do when you
+see an efficiency problem?
+
+237
+00:11:44,989 --> 00:11:49,370
+Runaway? Okay? Only sometimes
+
+238
+00:11:49,370 --> 00:11:52,625
+do stop and actually confront
+it when you really need to.
+
+239
+00:11:52,625 --> 00:11:57,754
+Okay? Now, to show you how
+important this quote is.
+
+240
+00:11:57,754 --> 00:12:00,574
+Who knows who Donald Knuth IS?
+
+241
+00:12:00,574 --> 00:12:03,200
+Very few of you,
+okay, Donald Knuth
+
+242
+00:12:03,200 --> 00:12:04,925
+is a winner of the Turing Award.
+
+243
+00:12:04,925 --> 00:12:07,534
+How many people know what
+the Turing Award is?
+
+244
+00:12:07,534 --> 00:12:09,350
+Uhm anymore, that's good.
+
+245
+00:12:09,350 --> 00:12:13,415
+How many people know what
+the Nobel Prizes, okay?
+
+246
+00:12:13,415 --> 00:12:15,080
+There's no Nobel Prize in
+
+247
+00:12:15,080 --> 00:12:18,274
+computing for the obvious reason
+
+248
+00:12:18,274 --> 00:12:21,410
+that Nobel died long
+
+249
+00:12:21,410 --> 00:12:25,070
+before stored program digital
+computers were invented.
+
+250
+00:12:25,070 --> 00:12:29,385
+There is also no Nobel
+Prize in mathematics.
+
+251
+00:12:29,385 --> 00:12:34,944
+Mathematics was invented
+before Nobel died.
+
+252
+00:12:34,944 --> 00:12:36,970
+And indeed there was
+
+253
+00:12:36,970 --> 00:12:40,225
+a famous mathematician
+who was a lover,
+
+254
+00:12:40,225 --> 00:12:42,610
+who was the lover of Nobels wife.
+
+255
+00:12:42,610 --> 00:12:45,980
+So there's no Nobel
+Prize in mathematics.
+
+256
+00:12:47,820 --> 00:12:51,910
+So in Mathematics instead
+they have the Fields Medal.
+
+257
+00:12:51,910 --> 00:12:55,000
+And in computing, we
+have the Turing Award.
+
+258
+00:12:55,000 --> 00:12:59,720
+So the Turing Award is the
+highest award in computing.
+
+259
+00:13:00,480 --> 00:13:03,850
+And Donald Knuth is one of
+
+260
+00:13:03,850 --> 00:13:07,375
+the people who
+received that award,
+
+261
+00:13:07,375 --> 00:13:09,310
+mainly for a series of books he
+
+262
+00:13:09,310 --> 00:13:11,700
+wrote called The Art of
+Computer Programming.
+
+263
+00:13:11,700 --> 00:13:13,520
+Which is indeed all about how to
+
+264
+00:13:13,520 --> 00:13:17,129
+analyze your programs
+to be efficient.
+
+265
+00:13:17,800 --> 00:13:21,470
+He then, the firm
+
+266
+00:13:21,470 --> 00:13:23,134
+that he was pup that
+was publishing books,
+
+267
+00:13:23,134 --> 00:13:24,830
+changed their typesetting machine
+
+268
+00:13:24,830 --> 00:13:26,435
+and he thought it looked ugly.
+
+269
+00:13:26,435 --> 00:13:29,210
+So he thought, I can do
+better using a computer.
+
+270
+00:13:29,210 --> 00:13:32,149
+And he developed this
+system called TAC,
+
+271
+00:13:32,149 --> 00:13:34,160
+which is now widely
+
+272
+00:13:34,160 --> 00:13:38,420
+used everywhere for producing
+nicely typeset things,
+
+273
+00:13:38,420 --> 00:13:40,699
+including the slides
+for this course.
+
+274
+00:13:40,699 --> 00:13:43,460
+So all the slides I showed
+you were produced using tech,
+
+275
+00:13:43,460 --> 00:13:46,520
+which was designed
+by Donald Knuth.
+
+276
+00:13:46,520 --> 00:13:49,580
+He's a professor at Stanford.
+
+277
+00:13:49,580 --> 00:13:51,139
+I was lucky enough
+to take classes from
+
+278
+00:13:51,139 --> 00:13:53,820
+him when I was an undergraduate.
+
+279
+00:13:53,920 --> 00:13:56,179
+And he's retired now,
+
+280
+00:13:56,179 --> 00:13:57,649
+but he's a great guy.
+
+281
+00:13:57,649 --> 00:14:00,859
+But just to show you how
+important this quote is,
+
+282
+00:14:00,859 --> 00:14:02,750
+other people say it too.
+
+283
+00:14:02,750 --> 00:14:05,790
+So how many people know
+who Tony Hoare is?
+
+284
+00:14:06,400 --> 00:14:09,244
+No wind at all. Ok, he's an,
+
+285
+00:14:09,244 --> 00:14:12,095
+another winner of
+the Turing Award.
+
+286
+00:14:12,095 --> 00:14:14,704
+He headed up the lab,
+
+287
+00:14:14,704 --> 00:14:18,064
+the computing lab at Oxford
+University for many years.
+
+288
+00:14:18,064 --> 00:14:23,159
+And now he's retired and
+gone to work for Microsoft.
+
+289
+00:14:23,320 --> 00:14:27,649
+Uno 2xh. I thought there'd
+be 2z when I said that.
+
+290
+00:14:27,649 --> 00:14:31,535
+And again, He's an
+amazing person.
+
+291
+00:14:31,535 --> 00:14:35,660
+I think that between Don
+Knuth and Tony Hoare,
+
+292
+00:14:35,660 --> 00:14:37,550
+you get most of the good ideas
+
+293
+00:14:37,550 --> 00:14:39,664
+in computing about
+two-thirds of them.
+
+294
+00:14:39,664 --> 00:14:42,035
+And also I've been lucky enough.
+
+295
+00:14:42,035 --> 00:14:45,439
+I was at Oxford when
+Tony was the head,
+
+296
+00:14:45,439 --> 00:14:48,004
+so I got to get to know him.
+
+297
+00:14:48,004 --> 00:14:50,119
+And I've said it
+says Tony Hoare here
+
+298
+00:14:50,119 --> 00:14:52,835
+actually should say
+Sir Anthony Hoare.
+
+299
+00:14:52,835 --> 00:14:55,969
+I should say Sir Tony now.
+
+300
+00:14:55,969 --> 00:14:58,519
+Okay. Any other questions?
+
+301
+00:14:58,519 --> 00:15:01,790
+Okay. So people who know
+
+302
+00:15:01,790 --> 00:15:06,125
+quite a bit are warning you
+don't prematurely optimize.
+
+303
+00:15:06,125 --> 00:15:07,729
+Now having given
+you that warning,
+
+304
+00:15:07,729 --> 00:15:10,190
+let's learn about how
+to actually measure
+
+305
+00:15:10,190 --> 00:15:13,655
+efficiency and worry about
+optimizing when we need to.
+
+306
+00:15:13,655 --> 00:15:16,430
+So here's an example
+we saw before, right?
+
+307
+00:15:16,430 --> 00:15:19,969
+I said we could do fold l
+
+308
+00:15:19,969 --> 00:15:25,009
+from concatenate and
+the empty list, right?
+
+309
+00:15:25,009 --> 00:15:25,760
+What does that do?
+
+310
+00:15:25,760 --> 00:15:28,984
+That builds up all your
+parentheses to the left.
+
+311
+00:15:28,984 --> 00:15:31,520
+Or we could say fold R and
+
+312
+00:15:31,520 --> 00:15:33,965
+that builds up all your
+parentheses to the right.
+
+313
+00:15:33,965 --> 00:15:36,635
+Which of these is better to do?
+
+314
+00:15:36,635 --> 00:15:40,114
+Well, if you remember appending
+a list onto another list,
+
+315
+00:15:40,114 --> 00:15:42,110
+you take one step, Tikki, Tikki,
+
+316
+00:15:42,110 --> 00:15:45,380
+Tikki for each element
+of the first list.
+
+317
+00:15:45,380 --> 00:15:48,649
+So the time to
+append two lists is
+
+318
+00:15:48,649 --> 00:15:52,850
+proportional to the
+length of the first list.
+
+319
+00:15:52,850 --> 00:15:59,859
+Okay? So if you work out
+append of this list,
+
+320
+00:15:59,859 --> 00:16:02,559
+right first it's fall to
+the left with the unit.
+
+321
+00:16:02,559 --> 00:16:05,379
+So the first thing we'll do
+is append the empty list.
+
+322
+00:16:05,379 --> 00:16:07,600
+We'll append it to
+xs. One will take
+
+323
+00:16:07,600 --> 00:16:10,119
+the result of that
+appended to x is two.
+
+324
+00:16:10,119 --> 00:16:11,755
+We'll take the result of that
+
+325
+00:16:11,755 --> 00:16:14,185
+appended to X is three and so on.
+
+326
+00:16:14,185 --> 00:16:17,320
+So let's say all of
+these lists each have
+
+327
+00:16:17,320 --> 00:16:22,509
+length N. So the empty lists
+of course has length 0.
+
+328
+00:16:22,509 --> 00:16:24,700
+So this step takes,
+
+329
+00:16:24,700 --> 00:16:27,595
+that takes zeros
+proportionate to 0 steps.
+
+330
+00:16:27,595 --> 00:16:29,290
+That's quick.
+
+331
+00:16:29,290 --> 00:16:32,755
+This will have write
+access one has length N,
+
+332
+00:16:32,755 --> 00:16:35,710
+So the slip length N. So
+to add that onto X is
+
+333
+00:16:35,710 --> 00:16:39,574
+two takes n steps. Go away, dots.
+
+334
+00:16:39,574 --> 00:16:43,070
+That will have length 2n to
+add that onto X is three,
+
+335
+00:16:43,070 --> 00:16:46,369
+takes three n, and so on.
+
+336
+00:16:46,369 --> 00:16:48,409
+So we'll have all but one
+
+337
+00:16:48,409 --> 00:16:50,629
+of the list here so
+that lag length m minus
+
+338
+00:16:50,629 --> 00:16:53,149
+one times n. When
+
+339
+00:16:53,149 --> 00:16:55,445
+we adding on the last
+list to in general,
+
+340
+00:16:55,445 --> 00:16:58,669
+right, we've got n plus
+2n plus 3n dot, dot,
+
+341
+00:16:58,669 --> 00:17:02,450
+dot up to m minus
+one times n steps.
+
+342
+00:17:02,450 --> 00:17:05,929
+And you can do a little bit
+of maths and discover, ok,
+
+343
+00:17:05,929 --> 00:17:08,569
+that means we have M
+list of length n. That's
+
+344
+00:17:08,569 --> 00:17:12,259
+roughly m squared times n steps.
+
+345
+00:17:12,259 --> 00:17:13,970
+If M was the same as n,
+
+346
+00:17:13,970 --> 00:17:15,440
+if we're adding, concatenating,
+
+347
+00:17:15,440 --> 00:17:17,074
+enlist each of length n,
+
+348
+00:17:17,074 --> 00:17:20,070
+that's time n cubed.
+
+349
+00:17:22,900 --> 00:17:25,790
+Okay? But here, right,
+
+350
+00:17:25,790 --> 00:17:27,079
+if we do the folds the other
+
+351
+00:17:27,079 --> 00:17:28,850
+way, well, this has length N,
+
+352
+00:17:28,850 --> 00:17:30,829
+So that takes n
+and then we add it
+
+353
+00:17:30,829 --> 00:17:33,290
+to the result of concatenating,
+
+354
+00:17:33,290 --> 00:17:35,945
+sorry, concatenated to the
+result doing next ones.
+
+355
+00:17:35,945 --> 00:17:37,789
+The next list is also of length n
+
+356
+00:17:37,789 --> 00:17:40,040
+And the next 1's of
+length n and so on.
+
+357
+00:17:40,040 --> 00:17:45,920
+So we've got enlists m times
+concatenate together, right?
+
+358
+00:17:45,920 --> 00:17:47,629
+The last one gets
+concatenated onto nil.
+
+359
+00:17:47,629 --> 00:17:49,744
+So we'll even do the last one.
+
+360
+00:17:49,744 --> 00:17:51,770
+So we have m lengths of length n,
+
+361
+00:17:51,770 --> 00:17:55,385
+and that takes order of n steps.
+
+362
+00:17:55,385 --> 00:17:57,740
+So if n is 1000,
+
+363
+00:17:57,740 --> 00:18:00,440
+that means the first
+way of doing it is that
+
+364
+00:18:00,440 --> 00:18:03,514
+1000 times slower
+than the second.
+
+365
+00:18:03,514 --> 00:18:05,194
+If N is a million,
+
+366
+00:18:05,194 --> 00:18:07,459
+that means the first
+one is a million
+
+367
+00:18:07,459 --> 00:18:10,620
+times slower than the second.
+
+368
+00:18:10,810 --> 00:18:13,219
+Note what this means.
+
+369
+00:18:13,219 --> 00:18:15,739
+Say you've got a program
+that's running a 1000
+
+370
+00:18:15,739 --> 00:18:19,409
+times slower than
+another program.
+
+371
+00:18:19,810 --> 00:18:25,894
+Normally the program runs
+in ten milliseconds.
+
+372
+00:18:25,894 --> 00:18:29,135
+So if it runs a
+1000 times slower,
+
+373
+00:18:29,135 --> 00:18:31,985
+that means 10 thousand
+milliseconds,
+
+374
+00:18:31,985 --> 00:18:34,860
+which would be about ten seconds.
+
+375
+00:18:35,590 --> 00:18:38,900
+So you don't need to
+worry about optimizing
+
+376
+00:18:38,900 --> 00:18:42,334
+it unless you really care
+about waiting ten seconds.
+
+377
+00:18:42,334 --> 00:18:43,970
+If you've got something
+that's used on
+
+378
+00:18:43,970 --> 00:18:47,224
+the web by a very large audience,
+
+379
+00:18:47,224 --> 00:18:49,370
+ten seconds might be important,
+
+380
+00:18:49,370 --> 00:18:53,659
+but almost all the
+time, you don't care.
+
+381
+00:18:53,659 --> 00:18:57,289
+Who cares if my program
+takes ten seconds to run.
+
+382
+00:18:57,289 --> 00:19:00,755
+So if the size of your
+data is around a 1000,
+
+383
+00:19:00,755 --> 00:19:02,164
+it's the difference between
+
+384
+00:19:02,164 --> 00:19:04,864
+a linear algorithm and
+a quadratic algorithm.
+
+385
+00:19:04,864 --> 00:19:10,669
+The answer is, don't
+care or runaway.
+
+386
+00:19:10,669 --> 00:19:16,169
+Okay? Alright, we're going
+to learn how to runaway.
+
+387
+00:19:17,680 --> 00:19:21,005
+But right, if it is,
+
+388
+00:19:21,005 --> 00:19:24,680
+the size of N is a million, okay?
+
+389
+00:19:24,680 --> 00:19:27,169
+A million seconds
+is about a week.
+
+390
+00:19:27,169 --> 00:19:30,410
+So if your program used
+to run in a second,
+
+391
+00:19:30,410 --> 00:19:31,760
+it would now take a week.
+
+392
+00:19:31,760 --> 00:19:33,575
+That's a big difference.
+
+393
+00:19:33,575 --> 00:19:36,739
+At that point, you
+really do care about
+
+394
+00:19:36,739 --> 00:19:40,280
+the difference between
+quadratic and linear.
+
+395
+00:19:40,280 --> 00:19:44,539
+Okay? So that's the
+important thing.
+
+396
+00:19:44,539 --> 00:19:46,850
+Almost always you don't care.
+
+397
+00:19:46,850 --> 00:19:51,484
+But if you've got a really
+large amount of data,
+
+398
+00:19:51,484 --> 00:19:53,179
+then the difference can be
+
+399
+00:19:53,179 --> 00:19:57,360
+significant. Is
+that clear enough?
+
+400
+00:19:57,870 --> 00:20:01,149
+So basically you shouldn't
+even start thinking about
+
+401
+00:20:01,149 --> 00:20:03,159
+optimization until you've reached
+
+402
+00:20:03,159 --> 00:20:04,855
+a million pieces of data.
+
+403
+00:20:04,855 --> 00:20:07,554
+At that point it might
+become important.
+
+404
+00:20:07,554 --> 00:20:09,249
+Basically, don't think about it
+
+405
+00:20:09,249 --> 00:20:10,659
+unless you're staring
+at your terminal,
+
+406
+00:20:10,659 --> 00:20:13,330
+getting really bored, waiting
+for the program to run.
+
+407
+00:20:13,330 --> 00:20:15,820
+That's the point at
+which you might think,
+
+408
+00:20:15,820 --> 00:20:18,084
+oh, do I have a quadratic
+algorithms here?
+
+409
+00:20:18,084 --> 00:20:20,919
+Maybe I should
+change my full bells
+
+410
+00:20:20,919 --> 00:20:23,515
+to fold r so it becomes linear.
+
+411
+00:20:23,515 --> 00:20:28,000
+Okay? In fact, we
+encourage folder as
+
+412
+00:20:28,000 --> 00:20:30,984
+the default for most things
+
+413
+00:20:30,984 --> 00:20:34,345
+in Haskell just for this reason.
+
+414
+00:20:34,345 --> 00:20:37,404
+So full fold are you concat,
+
+415
+00:20:37,404 --> 00:20:39,100
+You always with
+concatenate use Fold
+
+416
+00:20:39,100 --> 00:20:46,100
+r. Okay, let's move on.
+
+417
+00:20:48,810 --> 00:20:56,230
+Now. Right? So notice
+
+418
+00:20:56,230 --> 00:20:58,539
+that none of the
+navigation is working.
+
+419
+00:20:58,539 --> 00:21:02,630
+I hate that navigation working.
+
+420
+00:21:03,870 --> 00:21:06,969
+Wow, I really hope everything.
+
+421
+00:21:06,969 --> 00:21:10,699
+Okay, we're just going to go
+through the lecture forward.
+
+422
+00:21:15,030 --> 00:21:18,849
+Right? So we've got this
+thing called Big O notation.
+
+423
+00:21:18,849 --> 00:21:20,695
+Now showing you all that.
+
+424
+00:21:20,695 --> 00:21:23,804
+Notice that I just said,
+oh, it's quadratic.
+
+425
+00:21:23,804 --> 00:21:26,330
+But I didn't say anything about
+
+426
+00:21:26,330 --> 00:21:29,614
+how long it takes to
+add each element.
+
+427
+00:21:29,614 --> 00:21:31,639
+I just said it's about quadratic.
+
+428
+00:21:31,639 --> 00:21:33,860
+It's not actually the square.
+
+429
+00:21:33,860 --> 00:21:36,050
+Those of you who
+know it's m times m
+
+430
+00:21:36,050 --> 00:21:38,630
+minus one over two
+when you add up
+
+431
+00:21:38,630 --> 00:21:39,739
+the numbers from one to
+
+432
+00:21:39,739 --> 00:21:43,969
+m. So why did I just
+say it's quadratic?
+
+433
+00:21:43,969 --> 00:21:47,104
+Why did I not care about
+those differences?
+
+434
+00:21:47,104 --> 00:21:49,624
+Well, the answer is,
+
+435
+00:21:49,624 --> 00:21:51,394
+I want to show you some graphs,
+
+436
+00:21:51,394 --> 00:21:53,449
+but the graphs or
+on the next page.
+
+437
+00:21:53,449 --> 00:21:55,849
+So I'm going to do this and
+in the order I wrote it
+
+438
+00:21:55,849 --> 00:21:58,460
+down because my computers
+being very strongly with me,
+
+439
+00:21:58,460 --> 00:22:03,724
+I don't know why behave.
+That didn't fix it.
+
+440
+00:22:03,724 --> 00:22:06,690
+Nope, that didn't fix it.
+
+441
+00:22:07,300 --> 00:22:11,119
+So in a moment I will show
+you a graph that will make it
+
+442
+00:22:11,119 --> 00:22:12,559
+abundantly clear that we
+
+443
+00:22:12,559 --> 00:22:14,779
+don't care about
+constant factors.
+
+444
+00:22:14,779 --> 00:22:17,435
+We only care is it linear,
+
+445
+00:22:17,435 --> 00:22:19,639
+is a quadratic, is a cubic.
+
+446
+00:22:19,639 --> 00:22:21,290
+Those are the important things.
+
+447
+00:22:21,290 --> 00:22:23,974
+So we need a mathematical
+definition that says,
+
+448
+00:22:23,974 --> 00:22:26,525
+I don't care whether the time
+
+449
+00:22:26,525 --> 00:22:31,250
+is 3n squared or five n squared.
+
+450
+00:22:31,250 --> 00:22:33,920
+I only care about
+whether the time
+
+451
+00:22:33,920 --> 00:22:36,605
+is linear or quadratic.
+
+452
+00:22:36,605 --> 00:22:38,779
+So the mathematical
+definition of that is
+
+453
+00:22:38,779 --> 00:22:41,794
+something called big O notation.
+
+454
+00:22:41,794 --> 00:22:46,180
+And in general, let g be
+some kind of function.
+
+455
+00:22:46,180 --> 00:22:47,719
+Let f be another function.
+
+456
+00:22:47,719 --> 00:22:49,520
+So these'll basically
+both be functions
+
+457
+00:22:49,520 --> 00:22:51,754
+of the size of the input.
+
+458
+00:22:51,754 --> 00:22:54,334
+So f says, give me the
+size of the input.
+
+459
+00:22:54,334 --> 00:22:57,545
+I'll tell you how long it
+takes to run your program.
+
+460
+00:22:57,545 --> 00:23:02,165
+G is giving an estimate
+for f. And g again says,
+
+461
+00:23:02,165 --> 00:23:04,025
+give me the size of your input.
+
+462
+00:23:04,025 --> 00:23:05,330
+I'll give you an estimate for
+
+463
+00:23:05,330 --> 00:23:07,174
+how long it takes the program.
+
+464
+00:23:07,174 --> 00:23:08,869
+And that is what we want g to
+
+465
+00:23:08,869 --> 00:23:11,105
+be a good upper bound for f,
+
+466
+00:23:11,105 --> 00:23:13,250
+four big enough inputs.
+
+467
+00:23:13,250 --> 00:23:17,510
+So in particular, if there
+are constants c and m,
+
+468
+00:23:17,510 --> 00:23:22,670
+such that f n is always smaller
+than c times g of n for
+
+469
+00:23:22,670 --> 00:23:28,310
+every n bigger than m. So
+there's some point at which fn.
+
+470
+00:23:28,310 --> 00:23:29,989
+It is always smaller than g of
+
+471
+00:23:29,989 --> 00:23:32,869
+n for some M and smelt some
+
+472
+00:23:32,869 --> 00:23:40,049
+C. So we're just multiplying
+c by some amount.
+
+473
+00:23:43,180 --> 00:23:47,135
+And we're saying write fn is
+always smaller than that,
+
+474
+00:23:47,135 --> 00:23:53,314
+as long as we've got a big
+enough n. So for example,
+
+475
+00:23:53,314 --> 00:23:56,839
+2n plus ten is order n,
+
+476
+00:23:56,839 --> 00:24:01,669
+because 2N plus ten is
+always less than or equal to
+
+477
+00:24:01,669 --> 00:24:06,980
+four n for all n greater than
+or equal to five, right?
+
+478
+00:24:06,980 --> 00:24:09,154
+Because if n is bigger than five,
+
+479
+00:24:09,154 --> 00:24:15,799
+then 2n would be
+ten plus ten is 20.
+
+480
+00:24:15,799 --> 00:24:17,930
+And for n is also 20.
+
+481
+00:24:17,930 --> 00:24:19,415
+So they're equal there.
+
+482
+00:24:19,415 --> 00:24:22,730
+And for everything else you
+can see 2N plus ten will be
+
+483
+00:24:22,730 --> 00:24:26,930
+smaller than four n. Is
+that clear to everybody?
+
+484
+00:24:26,930 --> 00:24:32,279
+Yep. Sorry.
+
+485
+00:24:33,160 --> 00:24:38,524
+I've just write 45 are exempt.
+
+486
+00:24:38,524 --> 00:24:41,749
+So 5-years our choice for m,
+
+487
+00:24:41,749 --> 00:24:43,999
+four is our choice for C,
+
+488
+00:24:43,999 --> 00:24:46,400
+and this is a choice
+that makes it work.
+
+489
+00:24:46,400 --> 00:24:48,800
+There might be other choices
+that make it work as well,
+
+490
+00:24:48,800 --> 00:24:51,960
+as long as there's a
+choice, we're done.
+
+491
+00:24:52,620 --> 00:24:55,749
+Now, why do we care about that?
+
+492
+00:24:55,749 --> 00:24:58,179
+Taco small? Actually
+know, do go small.
+
+493
+00:24:58,179 --> 00:25:01,164
+Maybe, Haha, maybe
+it will work now.
+
+494
+00:25:01,164 --> 00:25:06,205
+Let's find out. Maybe
+now I can navigate.
+
+495
+00:25:06,205 --> 00:25:08,650
+Well, it's a bit clumsy,
+
+496
+00:25:08,650 --> 00:25:09,609
+but it's better to be able to
+
+497
+00:25:09,609 --> 00:25:10,960
+navigate the not to navigate.
+
+498
+00:25:10,960 --> 00:25:12,175
+So that's what we're gonna do.
+
+499
+00:25:12,175 --> 00:25:16,240
+Okay? So here's a graph, right?
+
+500
+00:25:16,240 --> 00:25:22,344
+Here is 2n and here
+is 0.5. n squared.
+
+501
+00:25:22,344 --> 00:25:27,250
+Ok? So this says we double,
+
+502
+00:25:27,250 --> 00:25:30,745
+sorry, each increment
+and then adds one.
+
+503
+00:25:30,745 --> 00:25:34,149
+But this says we only
+adding a 0.5 times N
+
+504
+00:25:34,149 --> 00:25:39,125
+squared rather than n.
+So if we look at it,
+
+505
+00:25:39,125 --> 00:25:40,790
+we see, oh yeah,
+
+506
+00:25:40,790 --> 00:25:44,075
+n squared is quadratic.
+
+507
+00:25:44,075 --> 00:25:47,099
+So as soon as we pass,
+
+508
+00:25:47,590 --> 00:25:50,780
+what was the number
+here? 30 to 40.
+
+509
+00:25:50,780 --> 00:25:52,850
+As soon as we pass 40,
+
+510
+00:25:52,850 --> 00:25:55,279
+it will take more time with the
+
+511
+00:25:55,279 --> 00:25:58,309
+quadratic one than
+with the linear one.
+
+512
+00:25:58,309 --> 00:26:01,550
+And if you think about
+it for a minute, right?
+
+513
+00:26:01,550 --> 00:26:04,714
+There will always be numbers
+
+514
+00:26:04,714 --> 00:26:10,324
+such that if this one's linear
+and this one's quadratic,
+
+515
+00:26:10,324 --> 00:26:12,349
+no matter what this
+thing in the front
+
+516
+00:26:12,349 --> 00:26:14,419
+is and no matter what
+this thing in the front
+
+517
+00:26:14,419 --> 00:26:17,780
+as linear will always be
+
+518
+00:26:17,780 --> 00:26:21,590
+faster than quadratic once
+we go far enough out,
+
+519
+00:26:21,590 --> 00:26:24,110
+once we get a large
+enough n, right?
+
+520
+00:26:24,110 --> 00:26:25,835
+So in this case it was 40,
+
+521
+00:26:25,835 --> 00:26:28,025
+but it might be further out.
+
+522
+00:26:28,025 --> 00:26:30,964
+Why do we only care
+about large N?
+
+523
+00:26:30,964 --> 00:26:32,030
+Well, what did I just say?
+
+524
+00:26:32,030 --> 00:26:34,325
+I said you only care
+about the running time.
+
+525
+00:26:34,325 --> 00:26:37,010
+If you've got like a
+billion steps than
+
+526
+00:26:37,010 --> 00:26:38,329
+you might care about
+the difference
+
+527
+00:26:38,329 --> 00:26:39,694
+between linear and quadratic.
+
+528
+00:26:39,694 --> 00:26:42,245
+So that of course is a large N.
+
+529
+00:26:42,245 --> 00:26:44,660
+So that's why we only
+worry about large N,
+
+530
+00:26:44,660 --> 00:26:46,399
+because it's only
+for large amounts of
+
+531
+00:26:46,399 --> 00:26:50,279
+data that the runtime is really
+going to become an issue.
+
+532
+00:26:53,760 --> 00:26:56,740
+Oh, I see it skipped
+over the graphs.
+
+533
+00:26:56,740 --> 00:26:58,209
+I did have the graphs
+in the right place.
+
+534
+00:26:58,209 --> 00:27:04,569
+Oh good. Right. And notice
+this was n versus n squared.
+
+535
+00:27:04,569 --> 00:27:07,300
+Right there at that, right?
+
+536
+00:27:07,300 --> 00:27:08,589
+For n versus n square,
+
+537
+00:27:08,589 --> 00:27:10,690
+it passes much more
+quickly, right there.
+
+538
+00:27:10,690 --> 00:27:17,300
+It passes at one, right?
+
+539
+00:27:17,580 --> 00:27:21,235
+So as long as n is
+bigger than one,
+
+540
+00:27:21,235 --> 00:27:24,025
+linear will always be
+faster than quadratic.
+
+541
+00:27:24,025 --> 00:27:26,590
+But then if you add
+in a constant factor,
+
+542
+00:27:26,590 --> 00:27:29,034
+like we make this
+width w And this 1.5,
+
+543
+00:27:29,034 --> 00:27:30,399
+it will still pass it,
+
+544
+00:27:30,399 --> 00:27:32,399
+but now not until 40.
+
+545
+00:27:32,399 --> 00:27:34,790
+Okay, so it takes much
+longer to pass it,
+
+546
+00:27:34,790 --> 00:27:38,134
+but it will always pass it
+for large enough numbers.
+
+547
+00:27:38,134 --> 00:27:42,559
+So basically, we don't care
+about the constant in front.
+
+548
+00:27:42,559 --> 00:27:45,980
+We only care about linear
+versus quadratic, right?
+
+549
+00:27:45,980 --> 00:27:48,605
+And that's a huge
+simplification, right?
+
+550
+00:27:48,605 --> 00:27:51,740
+It's much better to only worry
+about linear rather than
+
+551
+00:27:51,740 --> 00:27:55,860
+quadratic instead of to
+have to worry about.
+
+552
+00:27:56,230 --> 00:28:00,089
+Oh, wait, did it take
+
+553
+00:28:01,330 --> 00:28:04,340
+three microseconds to process
+
+554
+00:28:04,340 --> 00:28:05,929
+what element of
+the list or did it
+
+555
+00:28:05,929 --> 00:28:07,969
+take it six microseconds
+
+556
+00:28:07,969 --> 00:28:09,784
+to process one
+element of the list.
+
+557
+00:28:09,784 --> 00:28:11,090
+But you'd have to do careful
+
+558
+00:28:11,090 --> 00:28:12,515
+measurement to find that out.
+
+559
+00:28:12,515 --> 00:28:14,240
+We don't care.
+
+560
+00:28:14,240 --> 00:28:16,069
+If you're worried
+about efficiency,
+
+561
+00:28:16,069 --> 00:28:17,570
+all you need to do is say, wait,
+
+562
+00:28:17,570 --> 00:28:20,314
+is it linear or is a quadratic?
+
+563
+00:28:20,314 --> 00:28:23,780
+So that makes it much
+easier to address
+
+564
+00:28:23,780 --> 00:28:24,859
+efficiency issues and to
+
+565
+00:28:24,859 --> 00:28:27,630
+focus your attention
+appropriately.
+
+566
+00:28:28,000 --> 00:28:30,379
+Another way to do this,
+
+567
+00:28:30,379 --> 00:28:32,330
+which has taught by
+Don Knuth is right,
+
+568
+00:28:32,330 --> 00:28:34,145
+once you have your
+program running,
+
+569
+00:28:34,145 --> 00:28:36,619
+there are various tools
+you can get that will tell
+
+570
+00:28:36,619 --> 00:28:39,335
+you where your program is
+spending all its time.
+
+571
+00:28:39,335 --> 00:28:41,239
+You can just use
+those tools and find
+
+572
+00:28:41,239 --> 00:28:44,045
+out where your program is
+spending all this time.
+
+573
+00:28:44,045 --> 00:28:46,415
+Almost always.
+
+574
+00:28:46,415 --> 00:28:50,149
+It will be in a very tiny
+portion of the code you write.
+
+575
+00:28:50,149 --> 00:28:52,714
+So you've written a
+1000 lines of code,
+
+576
+00:28:52,714 --> 00:28:54,619
+but there are only 15 lines in
+
+577
+00:28:54,619 --> 00:28:56,765
+the inner loop that's
+using up all the time.
+
+578
+00:28:56,765 --> 00:28:59,849
+Then you know where to
+focus your attention.
+
+579
+00:29:02,230 --> 00:29:04,459
+Ok, so that's why
+we're concerned with
+
+580
+00:29:04,459 --> 00:29:06,889
+big O notation, right?
+
+581
+00:29:06,889 --> 00:29:08,270
+And so right here,
+
+582
+00:29:08,270 --> 00:29:10,130
+lots of examples, right?
+
+583
+00:29:10,130 --> 00:29:13,399
+O of n. We just say that
+when we mean it's linear,
+
+584
+00:29:13,399 --> 00:29:16,250
+it can be a n plus
+b for any a and
+
+585
+00:29:16,250 --> 00:29:20,330
+b quadratic an squared
+plus bn plus c,
+
+586
+00:29:20,330 --> 00:29:24,080
+We don't care cubic a
+and q plus bn plus c,
+
+587
+00:29:24,080 --> 00:29:25,850
+n plus D. Also,
+
+588
+00:29:25,850 --> 00:29:27,320
+this means if it's logarithmic,
+
+589
+00:29:27,320 --> 00:29:30,154
+we don't carry about
+the base of the log.
+
+590
+00:29:30,154 --> 00:29:34,400
+I think the log base ten is
+three times smaller than
+
+591
+00:29:34,400 --> 00:29:39,140
+log base two rights actually
+log base two of ten smaller.
+
+592
+00:29:39,140 --> 00:29:41,870
+So this is a smaller
+number than this one,
+
+593
+00:29:41,870 --> 00:29:44,389
+but they're both again
+within a constant factor.
+
+594
+00:29:44,389 --> 00:29:46,070
+So we just say O log n.
+
+595
+00:29:46,070 --> 00:29:47,569
+We don't say whether
+it's log base
+
+596
+00:29:47,569 --> 00:29:51,365
+two or log base ten,
+because we don't care.
+
+597
+00:29:51,365 --> 00:29:54,360
+Any questions about that.
+
+598
+00:29:56,950 --> 00:29:59,690
+How many people are
+happy when I say things
+
+599
+00:29:59,690 --> 00:30:01,549
+like quadratic and log in,
+
+600
+00:30:01,549 --> 00:30:04,800
+how many people are
+scared of mathematics?
+
+601
+00:30:04,960 --> 00:30:07,910
+Okay, because it's the
+Wednesday morning classes.
+
+602
+00:30:07,910 --> 00:30:10,040
+So that should tackle
+some of the things like
+
+603
+00:30:10,040 --> 00:30:11,419
+quadratic and log in case
+
+604
+00:30:11,419 --> 00:30:14,009
+people have any
+worries about that.
+
+605
+00:30:16,750 --> 00:30:20,479
+Right, so, right, this
+keeps going, right?
+
+606
+00:30:20,479 --> 00:30:23,975
+So linear is much
+better than quadratic,
+
+607
+00:30:23,975 --> 00:30:25,835
+which is much better than cubic,
+
+608
+00:30:25,835 --> 00:30:28,670
+which is much better
+than quartic, right?
+
+609
+00:30:28,670 --> 00:30:30,020
+If you've got choices between
+
+610
+00:30:30,020 --> 00:30:32,329
+algorithms that run
+in quadratic time,
+
+611
+00:30:32,329 --> 00:30:33,859
+cubic time, quadratic time,
+
+612
+00:30:33,859 --> 00:30:36,574
+and linear time, linear time one.
+
+613
+00:30:36,574 --> 00:30:41,390
+Obviously. That's if it's
+easy to do both, right?
+
+614
+00:30:41,390 --> 00:30:43,220
+If it's hard, find,
+
+615
+00:30:43,220 --> 00:30:47,669
+just use Quark poetic
+time, it's not a problem.
+
+616
+00:30:49,690 --> 00:30:52,790
+And then the other sets
+
+617
+00:30:52,790 --> 00:30:54,830
+of runtimes that we
+often deal with,
+
+618
+00:30:54,830 --> 00:30:59,915
+our log n, linear n log n,
+
+619
+00:30:59,915 --> 00:31:02,330
+and order two to the n, right?
+
+620
+00:31:02,330 --> 00:31:03,409
+And you can see right,
+
+621
+00:31:03,409 --> 00:31:04,879
+the differences
+here are dramatic.
+
+622
+00:31:04,879 --> 00:31:07,885
+Log n is practically
+constant time.
+
+623
+00:31:07,885 --> 00:31:11,360
+Log n is always going
+to be very small.
+
+624
+00:31:11,360 --> 00:31:15,050
+But what's the biggest
+number you can name has
+
+625
+00:31:15,050 --> 00:31:18,079
+a 100 zeros log
+base ten of that is
+
+626
+00:31:18,079 --> 00:31:21,139
+less than a 100, right?
+
+627
+00:31:21,139 --> 00:31:23,254
+So log n is always very small.
+
+628
+00:31:23,254 --> 00:31:25,654
+Linear compared to log.
+
+629
+00:31:25,654 --> 00:31:27,980
+Linear looks huge, right?
+
+630
+00:31:27,980 --> 00:31:29,674
+You've got a choice
+between linear in log.
+
+631
+00:31:29,674 --> 00:31:31,684
+Log is much better.
+
+632
+00:31:31,684 --> 00:31:34,339
+N log n, That's kind of worse.
+
+633
+00:31:34,339 --> 00:31:35,989
+And then, right, this is
+
+634
+00:31:35,989 --> 00:31:38,885
+practically a vertical
+line upward, right?
+
+635
+00:31:38,885 --> 00:31:42,320
+Two to the n grows very,
+very rapidly, right?
+
+636
+00:31:42,320 --> 00:31:43,669
+Two to the ten is already a,
+
+637
+00:31:43,669 --> 00:31:48,124
+1002 to the 20 is
+already a million.
+
+638
+00:31:48,124 --> 00:31:51,874
+Two to the 30 is
+already a trillion.
+
+639
+00:31:51,874 --> 00:31:55,910
+So even dealing with 30
+things, if you're using,
+
+640
+00:31:55,910 --> 00:31:58,594
+if you have exponential
+complexity,
+
+641
+00:31:58,594 --> 00:32:01,530
+that's going to
+become intractable.
+
+642
+00:32:01,720 --> 00:32:04,475
+Which is kind of interesting.
+
+643
+00:32:04,475 --> 00:32:07,099
+How many people can think of
+a problem they were given
+
+644
+00:32:07,099 --> 00:32:09,350
+recently where we told than here,
+
+645
+00:32:09,350 --> 00:32:10,580
+do it this way.
+
+646
+00:32:10,580 --> 00:32:13,949
+But in fact it was
+exponentially slow.
+
+647
+00:32:14,400 --> 00:32:20,499
+Yep. White, the tautology
+
+648
+00:32:20,499 --> 00:32:22,120
+or SAT-solver that we did said
+
+649
+00:32:22,120 --> 00:32:24,220
+look at every
+possible environment.
+
+650
+00:32:24,220 --> 00:32:27,985
+If you have n variables
+in this proposition,
+
+651
+00:32:27,985 --> 00:32:30,189
+just look at all ways
+of assigning true
+
+652
+00:32:30,189 --> 00:32:32,635
+and false to those n variables.
+
+653
+00:32:32,635 --> 00:32:34,450
+So there are two
+possibilities for
+
+654
+00:32:34,450 --> 00:32:37,630
+one variable, for, for 28,
+
+655
+00:32:37,630 --> 00:32:45,624
+for 316, for 4 trillion
+if you had 30 variables.
+
+656
+00:32:45,624 --> 00:32:49,539
+So we have a nice technical
+word for trying to use
+
+657
+00:32:49,539 --> 00:32:53,349
+that technique on a
+proposition with 30 variables.
+
+658
+00:32:53,349 --> 00:32:57,530
+We call it in tractable.
+
+659
+00:32:57,630 --> 00:33:01,344
+Nice word, right? In tractable.
+
+660
+00:33:01,344 --> 00:33:05,304
+So intractable is the polite way
+
+661
+00:33:05,304 --> 00:33:07,375
+that you can say
+to your colleague.
+
+662
+00:33:07,375 --> 00:33:09,879
+I wouldn't do that if I were you.
+
+663
+00:33:09,879 --> 00:33:13,090
+Right? Intractable means this
+
+664
+00:33:13,090 --> 00:33:15,204
+is going to take a long time.
+
+665
+00:33:15,204 --> 00:33:17,470
+You might be waiting a week for
+
+666
+00:33:17,470 --> 00:33:19,854
+your output for
+just 30 variables.
+
+667
+00:33:19,854 --> 00:33:22,840
+That's why we only gave you
+things with five variables.
+
+668
+00:33:22,840 --> 00:33:24,700
+Now there are other
+techniques like
+
+669
+00:33:24,700 --> 00:33:26,650
+SAT solvers that are much,
+
+670
+00:33:26,650 --> 00:33:30,849
+much better than exponential
+time almost always.
+
+671
+00:33:30,849 --> 00:33:33,700
+So this is actually with
+
+672
+00:33:33,700 --> 00:33:38,800
+the amazing things that
+happened during my career,
+
+673
+00:33:38,800 --> 00:33:40,709
+right when I started out.
+
+674
+00:33:40,709 --> 00:33:42,439
+The answer was, Oh,
+
+675
+00:33:42,439 --> 00:33:44,870
+trying to find out if an
+arbitrary proposition
+
+676
+00:33:44,870 --> 00:33:45,995
+is satisfiable,
+
+677
+00:33:45,995 --> 00:33:50,600
+that's exponential time,
+that's intractable, right?
+
+678
+00:33:50,600 --> 00:33:52,220
+So we just didn't go there.
+
+679
+00:33:52,220 --> 00:33:54,920
+Now, SAT solvers have
+
+680
+00:33:54,920 --> 00:33:58,474
+made these intractable
+problems tractable.
+
+681
+00:33:58,474 --> 00:34:00,724
+And many people write,
+
+682
+00:34:00,724 --> 00:34:03,095
+logic is just suddenly
+become much more useful.
+
+683
+00:34:03,095 --> 00:34:05,930
+Cuz you just write out a
+really big formula that might
+
+684
+00:34:05,930 --> 00:34:08,660
+have 30 or a 100 variables in it,
+
+685
+00:34:08,660 --> 00:34:11,600
+but it's SAT-solver
+can solve it for you.
+
+686
+00:34:11,600 --> 00:34:13,474
+So all of a sudden,
+things that were
+
+687
+00:34:13,474 --> 00:34:15,920
+intractable had become tractable.
+
+688
+00:34:15,920 --> 00:34:18,169
+So SAT-solvers or just
+an amazing development?
+
+689
+00:34:18,169 --> 00:34:24,204
+Yes. All right.
+
+690
+00:34:24,204 --> 00:34:27,744
+So is a SAT-solver
+worst time exponential?
+
+691
+00:34:27,744 --> 00:34:30,070
+Yes. But trying to
+find the ones that
+
+692
+00:34:30,070 --> 00:34:33,220
+actually make it exponential
+or it's really hard.
+
+693
+00:34:33,220 --> 00:34:36,579
+It's almost always
+perfectly fine.
+
+694
+00:34:36,579 --> 00:34:43,614
+It's really weird. Okay. Any
+other questions about that?
+
+695
+00:34:43,614 --> 00:34:45,199
+Yep.
+
+696
+00:34:54,060 --> 00:34:55,509
+All right.
+
+697
+00:34:55,509 --> 00:34:56,709
+Is there any difference
+
+698
+00:34:56,709 --> 00:34:59,560
+between two to the
+n and ten to the n?
+
+699
+00:34:59,560 --> 00:35:01,689
+Yeah, no, those are not within
+
+700
+00:35:01,689 --> 00:35:03,039
+a constant factor of each other.
+
+701
+00:35:03,039 --> 00:35:09,079
+So there it matters. Very
+good question. Thank you.
+
+702
+00:35:12,210 --> 00:35:16,450
+Okay. And another example,
+
+703
+00:35:16,450 --> 00:35:18,070
+which we saw before
+is doing things
+
+704
+00:35:18,070 --> 00:35:20,500
+sequential or in parallel, right?
+
+705
+00:35:20,500 --> 00:35:23,529
+So we talked about doing
+sequential addition versus
+
+706
+00:35:23,529 --> 00:35:26,800
+doing parallel edition and
+parallel edition, right?
+
+707
+00:35:26,800 --> 00:35:29,784
+We've broken it up so that
+you get this binary tree.
+
+708
+00:35:29,784 --> 00:35:31,674
+And if you've got, in general,
+
+709
+00:35:31,674 --> 00:35:35,214
+if you take, if you're
+depth d in this tree.
+
+710
+00:35:35,214 --> 00:35:37,435
+So here we've gone
+down to depth three,
+
+711
+00:35:37,435 --> 00:35:41,890
+and they're already 12345678.
+
+712
+00:35:41,890 --> 00:35:43,449
+And you can see, oh, yeah, you'll
+
+713
+00:35:43,449 --> 00:35:45,280
+double the number of things you
+
+714
+00:35:45,280 --> 00:35:48,614
+can add for each one
+increment in the step.
+
+715
+00:35:48,614 --> 00:35:51,980
+That means the time is
+logarithmic. Wow, that's great.
+
+716
+00:35:51,980 --> 00:35:53,795
+That's practically constant.
+
+717
+00:35:53,795 --> 00:35:55,639
+So if you've got lots of
+
+718
+00:35:55,639 --> 00:35:57,754
+parallel computers for
+doing your addition,
+
+719
+00:35:57,754 --> 00:36:01,760
+it goes from taking linear
+time to logarithmic time.
+
+720
+00:36:01,760 --> 00:36:03,350
+And remember I showed you this is
+
+721
+00:36:03,350 --> 00:36:04,700
+how MapReduce works, right?
+
+722
+00:36:04,700 --> 00:36:06,664
+And that's important, right?
+
+723
+00:36:06,664 --> 00:36:07,850
+If you're doing something for
+
+724
+00:36:07,850 --> 00:36:13,099
+the entire worldwide web in
+linear time, That's right,
+
+725
+00:36:13,099 --> 00:36:15,830
+really large N. So if
+you can do something for
+
+726
+00:36:15,830 --> 00:36:19,505
+the entire World Wide
+Web in log n time,
+
+727
+00:36:19,505 --> 00:36:21,350
+that's a lot better.
+
+728
+00:36:21,350 --> 00:36:23,120
+That's basically what makes
+
+729
+00:36:23,120 --> 00:36:25,654
+Google and Facebook and
+everything else work,
+
+730
+00:36:25,654 --> 00:36:27,950
+is that they can
+exploit parallelism to
+
+731
+00:36:27,950 --> 00:36:31,260
+do things at the scale
+of the entire web.
+
+732
+00:36:33,640 --> 00:36:37,299
+And then of course, you've
+got names for these rights.
+
+733
+00:36:37,299 --> 00:36:39,845
+So log n is called logarithmic,
+
+734
+00:36:39,845 --> 00:36:42,559
+ON is called linear n log
+
+735
+00:36:42,559 --> 00:36:45,664
+and doesn't have a
+name, it really should.
+
+736
+00:36:45,664 --> 00:36:47,059
+And it's important because
+
+737
+00:36:47,059 --> 00:36:49,280
+all good sorting
+algorithms take time n
+
+738
+00:36:49,280 --> 00:36:52,849
+log n. And then two to the
+n is called exponential.
+
+739
+00:36:52,849 --> 00:36:54,680
+And example that we just saw was
+
+740
+00:36:54,680 --> 00:36:57,380
+tautology checking or
+satisfiability checking.
+
+741
+00:36:57,380 --> 00:36:59,970
+If you don't use a SAT-solver.
+
+742
+00:37:00,520 --> 00:37:04,670
+Ok? Any question, okay.
+
+743
+00:37:04,670 --> 00:37:06,530
+So that's all I want
+to show you about.
+
+744
+00:37:06,530 --> 00:37:10,320
+O numbers. Are there any
+questions about that?
+
+745
+00:37:11,560 --> 00:37:15,785
+Fantastic. Okay, so now we're
+going to put that to work.
+
+746
+00:37:15,785 --> 00:37:22,850
+I'm going to show you four
+different ways to model sets,
+
+747
+00:37:22,850 --> 00:37:26,240
+each of which has a
+different time complexity.
+
+748
+00:37:26,240 --> 00:37:28,100
+And they go from being very
+
+749
+00:37:28,100 --> 00:37:31,549
+simple to being really complex.
+
+750
+00:37:31,549 --> 00:37:34,999
+Ok. And part of what
+I just told you is
+
+751
+00:37:34,999 --> 00:37:36,620
+almost always the really
+
+752
+00:37:36,620 --> 00:37:39,360
+simple one will be
+perfectly fine.
+
+753
+00:37:42,190 --> 00:37:45,170
+So we're going to model,
+the first way to model
+
+754
+00:37:45,170 --> 00:37:49,409
+a set is completely
+obvious. It has a list.
+
+755
+00:37:51,910 --> 00:37:54,139
+So here's a little module.
+
+756
+00:37:54,139 --> 00:37:56,840
+I'm going to define
+some operations on set.
+
+757
+00:37:56,840 --> 00:37:58,025
+So the set type,
+
+758
+00:37:58,025 --> 00:38:00,169
+an empty set and
+adding an element to
+
+759
+00:38:00,169 --> 00:38:04,189
+a set and converting a
+list of elements to a set,
+
+760
+00:38:04,189 --> 00:38:07,700
+and checking whether an element
+appears in a set, right?
+
+761
+00:38:07,700 --> 00:38:09,784
+This is what we
+call lm for lists.
+
+762
+00:38:09,784 --> 00:38:12,139
+Checking whether
+two sets are equal
+
+763
+00:38:12,139 --> 00:38:16,309
+and checking whether an
+element appears in a set.
+
+764
+00:38:16,309 --> 00:38:19,460
+So we'll Brett,
+We're going to just
+
+765
+00:38:19,460 --> 00:38:23,164
+define a set of a is
+just a list of a.
+
+766
+00:38:23,164 --> 00:38:25,459
+Empty will just be
+
+767
+00:38:25,459 --> 00:38:27,499
+the empty set will just
+be the empty list.
+
+768
+00:38:27,499 --> 00:38:30,094
+If we want to add an
+element to a list,
+
+769
+00:38:30,094 --> 00:38:32,790
+we just cons it on to the front.
+
+770
+00:38:32,920 --> 00:38:36,920
+If we want to convert a
+list of things to a set,
+
+771
+00:38:36,920 --> 00:38:39,349
+haha, they're the
+same representation,
+
+772
+00:38:39,349 --> 00:38:41,640
+so we do nothing at all.
+
+773
+00:38:42,310 --> 00:38:46,640
+If we want to check if x
+is an element in the list,
+
+774
+00:38:46,640 --> 00:38:48,589
+we just use elem.
+
+775
+00:38:48,589 --> 00:38:52,370
+And if we want to check
+if two sets are equal,
+
+776
+00:38:52,370 --> 00:38:54,800
+okay, this gets a bit trickier.
+
+777
+00:38:54,800 --> 00:38:58,865
+What we need to check is that
+everything in axes also,
+
+778
+00:38:58,865 --> 00:39:01,279
+they might be in
+different orders, right?
+
+779
+00:39:01,279 --> 00:39:04,909
+They might be have duplicates.
+
+780
+00:39:04,909 --> 00:39:09,109
+So is the set 12 equal
+
+781
+00:39:09,109 --> 00:39:14,580
+to 2121 as a list
+with those be equal.
+
+782
+00:39:14,650 --> 00:39:20,329
+Hands up if yes. Hands up if no.
+
+783
+00:39:20,329 --> 00:39:23,420
+February, we've got about
+
+784
+00:39:23,420 --> 00:39:27,109
+equal numbers voting and
+most people have no idea.
+
+785
+00:39:27,109 --> 00:39:30,770
+So, right, two lists
+
+786
+00:39:30,770 --> 00:39:32,119
+are equal if they have
+
+787
+00:39:32,119 --> 00:39:34,339
+the same elements
+in the same order.
+
+788
+00:39:34,339 --> 00:39:37,879
+123 is the same as 123.
+
+789
+00:39:37,879 --> 00:39:41,015
+It's not the same
+as three to one.
+
+790
+00:39:41,015 --> 00:39:44,180
+How many people are
+familiar with sets?
+
+791
+00:39:44,180 --> 00:39:46,264
+You've gotten a
+bit of set theory.
+
+792
+00:39:46,264 --> 00:39:49,894
+How many people have never
+heard the word set before?
+
+793
+00:39:49,894 --> 00:39:55,009
+Good, how may people
+have never seen heard
+
+794
+00:39:55,009 --> 00:39:59,915
+the word set but have no idea
+what sets are. Just a few.
+
+795
+00:39:59,915 --> 00:40:01,864
+Okay? But for those few,
+
+796
+00:40:01,864 --> 00:40:05,705
+Just to review, a set is
+a collection of things.
+
+797
+00:40:05,705 --> 00:40:09,485
+All we care about is does
+it appear in the SAT?
+
+798
+00:40:09,485 --> 00:40:14,585
+We don't care about order.
+
+799
+00:40:14,585 --> 00:40:18,125
+When we write them down. We
+don't care about duplicates.
+
+800
+00:40:18,125 --> 00:40:22,100
+So 12 would be a set with a one
+
+801
+00:40:22,100 --> 00:40:26,424
+in it and a two in
+it to one-to-one.
+
+802
+00:40:26,424 --> 00:40:28,430
+See, there's a two in it.
+
+803
+00:40:28,430 --> 00:40:29,899
+There's a one in it.
+
+804
+00:40:29,899 --> 00:40:32,974
+The twos in it
+again, I don't care.
+
+805
+00:40:32,974 --> 00:40:34,520
+Right. It was already in it.
+
+806
+00:40:34,520 --> 00:40:36,590
+You can't be more in it.
+
+807
+00:40:36,590 --> 00:40:38,705
+Right? It's like
+being more pregnant.
+
+808
+00:40:38,705 --> 00:40:42,049
+Nope. You've either got it
+or you don't have a two.
+
+809
+00:40:42,049 --> 00:40:44,405
+And same for the one.
+
+810
+00:40:44,405 --> 00:40:47,554
+So are the sets 12 and the set
+
+811
+00:40:47,554 --> 00:40:52,055
+represented by 2121,
+are they equal?
+
+812
+00:40:52,055 --> 00:40:55,114
+We'll take a vote
+again. How may say yes?
+
+813
+00:40:55,114 --> 00:40:59,029
+How may say know much better,
+
+814
+00:40:59,029 --> 00:41:00,814
+how many are unsure?
+
+815
+00:41:00,814 --> 00:41:04,469
+Much better, okay, so what
+we need to do is check that
+
+816
+00:41:04,469 --> 00:41:06,500
+every element in the
+first set appears in
+
+817
+00:41:06,500 --> 00:41:08,945
+the second and vice versa.
+
+818
+00:41:08,945 --> 00:41:11,510
+So that notion is called subset.
+
+819
+00:41:11,510 --> 00:41:16,190
+So we say one set is a subset
+of another if it's smaller.
+
+820
+00:41:16,190 --> 00:41:20,750
+So 12 is a subset of 1234,
+
+821
+00:41:20,750 --> 00:41:23,150
+because 1234 has a one in it,
+
+822
+00:41:23,150 --> 00:41:24,560
+it has a two in it, but it's
+
+823
+00:41:24,560 --> 00:41:26,960
+got some other stuff as well.
+
+824
+00:41:26,960 --> 00:41:29,330
+So we say it's a proper subset.
+
+825
+00:41:29,330 --> 00:41:33,200
+In that case, 12 is also
+a subset of 1212 is
+
+826
+00:41:33,200 --> 00:41:38,510
+not a subset of one because
+one is missing the two.
+
+827
+00:41:38,510 --> 00:41:43,160
+Okay? So we just need to
+check subset and that's easy.
+
+828
+00:41:43,160 --> 00:41:45,769
+When is X is a subset of wise?
+
+829
+00:41:45,769 --> 00:41:48,394
+Well, let's look
+at each x and xs,
+
+830
+00:41:48,394 --> 00:41:50,884
+and that must be
+an element of y's.
+
+831
+00:41:50,884 --> 00:41:53,255
+So for each x and xs,
+
+832
+00:41:53,255 --> 00:41:55,280
+we check whether x
+is an element of y,
+
+833
+00:41:55,280 --> 00:41:57,050
+and that must be true
+for all of them.
+
+834
+00:41:57,050 --> 00:41:59,179
+So we end it together.
+
+835
+00:41:59,179 --> 00:42:08,359
+So if we give this, if xs
+is 12x and wise is 213,
+
+836
+00:42:08,359 --> 00:42:12,830
+this will return true, right?
+
+837
+00:42:12,830 --> 00:42:17,210
+Because we look up the one
+that's an element of 2.1.3,
+
+838
+00:42:17,210 --> 00:42:19,459
+we look up the two,
+that's an element of 213.
+
+839
+00:42:19,459 --> 00:42:21,694
+We add them together
+and that's true.
+
+840
+00:42:21,694 --> 00:42:24,830
+The fact that there's also a
+three doesn't show up here.
+
+841
+00:42:24,830 --> 00:42:30,080
+But our 12213 equal,
+
+842
+00:42:30,080 --> 00:42:31,849
+no, because if we do
+
+843
+00:42:31,849 --> 00:42:34,490
+subset the other way
+around, that will fail.
+
+844
+00:42:34,490 --> 00:42:35,870
+Then we'll try to look for the
+
+845
+00:42:35,870 --> 00:42:39,515
+three in 12 and we won't find it,
+
+846
+00:42:39,515 --> 00:42:41,194
+so that and will fail.
+
+847
+00:42:41,194 --> 00:42:43,880
+So we just check to check
+that they are the same.
+
+848
+00:42:43,880 --> 00:42:46,609
+You just check that X
+is a subset of wise,
+
+849
+00:42:46,609 --> 00:42:48,965
+meaning every element
+in x appears in wise,
+
+850
+00:42:48,965 --> 00:42:52,954
+and that wise is a subset of x's.
+
+851
+00:42:52,954 --> 00:43:00,679
+Okay? O, right,
+
+852
+00:43:00,679 --> 00:43:03,470
+and check then I'm just
+checking this property.
+
+853
+00:43:03,470 --> 00:43:06,209
+What I to do, I
+did a little test.
+
+854
+00:43:09,450 --> 00:43:12,160
+So I just make up a list wise.
+
+855
+00:43:12,160 --> 00:43:14,620
+I pick all the odd ones out of
+
+856
+00:43:14,620 --> 00:43:17,785
+that list and turn it into a set.
+
+857
+00:43:17,785 --> 00:43:22,900
+And then I check that
+for each x in Wise,
+
+858
+00:43:22,900 --> 00:43:24,309
+is x an element of S?
+
+859
+00:43:24,309 --> 00:43:25,450
+Well, it should
+be, that should be
+
+860
+00:43:25,450 --> 00:43:29,350
+true if x is odd and
+false otherwise.
+
+861
+00:43:29,350 --> 00:43:31,344
+So I've just made up a list,
+
+862
+00:43:31,344 --> 00:43:33,549
+pick all the odd
+elements of it in it,
+
+863
+00:43:33,549 --> 00:43:35,290
+turned it into a set,
+
+864
+00:43:35,290 --> 00:43:37,180
+and then check that when I,
+
+865
+00:43:37,180 --> 00:43:39,535
+for everything in that
+original list Ys,
+
+866
+00:43:39,535 --> 00:43:41,305
+try looking it up.
+
+867
+00:43:41,305 --> 00:43:42,969
+And if it's odd,
+
+868
+00:43:42,969 --> 00:43:44,079
+it should be there.
+
+869
+00:43:44,079 --> 00:43:46,149
+And if it's not, it
+shouldn't be there.
+
+870
+00:43:46,149 --> 00:43:47,770
+So I'm just checking that my
+
+871
+00:43:47,770 --> 00:43:50,440
+set operations worked properly.
+
+872
+00:43:50,440 --> 00:43:54,175
+Now we can look at the
+times for these things.
+
+873
+00:43:54,175 --> 00:43:57,280
+Right? How long does empty
+take it's order one.
+
+874
+00:43:57,280 --> 00:44:00,130
+It's constant. How
+long does insert take?
+
+875
+00:44:00,130 --> 00:44:03,049
+It's also order one.
+
+876
+00:44:03,360 --> 00:44:06,370
+How long does set
+take? It does nothing.
+
+877
+00:44:06,370 --> 00:44:07,450
+It's order one.
+
+878
+00:44:07,450 --> 00:44:10,164
+So these are all really fast.
+
+879
+00:44:10,164 --> 00:44:12,579
+How long does element take?
+
+880
+00:44:12,579 --> 00:44:13,989
+Well, you've got check is
+
+881
+00:44:13,989 --> 00:44:15,219
+if the first element in the list,
+
+882
+00:44:15,219 --> 00:44:16,554
+the second element in the list,
+
+883
+00:44:16,554 --> 00:44:17,995
+the third element and list
+
+884
+00:44:17,995 --> 00:44:20,950
+down the whole list
+before you can say no.
+
+885
+00:44:20,950 --> 00:44:23,605
+So this is going to be
+
+886
+00:44:23,605 --> 00:44:27,010
+on average half the
+length of the list.
+
+887
+00:44:27,010 --> 00:44:29,409
+If you're lucky.
+On the worst case,
+
+888
+00:44:29,409 --> 00:44:31,435
+the length of the list
+if it doesn't appear.
+
+889
+00:44:31,435 --> 00:44:37,489
+So this is order n
+for sets of size n At
+
+890
+00:44:37,489 --> 00:44:40,640
+equal is again going to
+be order n for sets of
+
+891
+00:44:40,640 --> 00:44:44,179
+size N. So the
+timings are constant,
+
+892
+00:44:44,179 --> 00:44:46,640
+constant, constant,
+Wow, that's great.
+
+893
+00:44:46,640 --> 00:44:49,819
+Linear, linear, not too bad,
+
+894
+00:44:49,819 --> 00:44:51,635
+at least it wasn't quadratic.
+
+895
+00:44:51,635 --> 00:44:57,755
+Okay? Now here's a different
+way of representing lists.
+
+896
+00:44:57,755 --> 00:45:00,185
+That people also you, so normally
+
+897
+00:45:00,185 --> 00:45:01,984
+people look at that and they say,
+
+898
+00:45:01,984 --> 00:45:03,950
+oh no, that's too simple,
+
+899
+00:45:03,950 --> 00:45:06,395
+I could never do that. It's fine.
+
+900
+00:45:06,395 --> 00:45:10,265
+It's perfectly fine to
+represent sets as list.
+
+901
+00:45:10,265 --> 00:45:12,920
+It's okay. You are
+allowed to do that.
+
+902
+00:45:12,920 --> 00:45:15,124
+Just make sure that for equality,
+
+903
+00:45:15,124 --> 00:45:18,484
+equality not by checking
+whether the lists are equal,
+
+904
+00:45:18,484 --> 00:45:20,164
+but by checking this,
+
+905
+00:45:20,164 --> 00:45:22,534
+whether each is a
+subset of the other.
+
+906
+00:45:22,534 --> 00:45:24,515
+But as long as you do that,
+
+907
+00:45:24,515 --> 00:45:25,745
+everything's fine.
+
+908
+00:45:25,745 --> 00:45:27,899
+Okay, question.
+
+909
+00:45:35,770 --> 00:45:38,450
+Really good question.
+
+910
+00:45:38,450 --> 00:45:40,909
+So you could have written
+x drawn from x's,
+
+911
+00:45:40,909 --> 00:45:43,714
+but the type of xs is set.
+
+912
+00:45:43,714 --> 00:45:45,289
+Does that work?
+
+913
+00:45:45,289 --> 00:45:47,630
+That's a really good question.
+
+914
+00:45:47,630 --> 00:45:49,189
+In general.
+
+915
+00:45:49,189 --> 00:45:51,139
+No, it doesn't.
+
+916
+00:45:51,139 --> 00:45:53,780
+So why was it okay
+for me to do it here?
+
+917
+00:45:53,780 --> 00:45:57,990
+It's okay because look
+how I've defined set.
+
+918
+00:45:59,970 --> 00:46:03,609
+So set of a is just a list of a.
+
+919
+00:46:03,609 --> 00:46:06,025
+So that means it works.
+
+920
+00:46:06,025 --> 00:46:08,065
+Alright, but we need to it,
+
+921
+00:46:08,065 --> 00:46:09,640
+what we're going to learn is you
+
+922
+00:46:09,640 --> 00:46:11,260
+can write bits of the
+program where some of
+
+923
+00:46:11,260 --> 00:46:13,090
+them know that
+Saturday is list of
+
+924
+00:46:13,090 --> 00:46:15,564
+a and some parts don't know that.
+
+925
+00:46:15,564 --> 00:46:17,350
+So we're doing the
+implementation.
+
+926
+00:46:17,350 --> 00:46:20,620
+The implementation knows
+how the set is represented.
+
+927
+00:46:20,620 --> 00:46:22,690
+So it's okay to
+treat it as a list
+
+928
+00:46:22,690 --> 00:46:24,790
+because we know it's
+represented as a list.
+
+929
+00:46:24,790 --> 00:46:26,755
+That's a really,
+really good question.
+
+930
+00:46:26,755 --> 00:46:28,734
+Did I answer your question?
+
+931
+00:46:28,734 --> 00:46:32,059
+Good. Excellent
+question. Thank you.
+
+932
+00:46:34,860 --> 00:46:37,900
+So the next way we can do it is
+
+933
+00:46:37,900 --> 00:46:40,245
+we'll again kinda
+represented as a list.
+
+934
+00:46:40,245 --> 00:46:44,150
+But this time we're going
+to have an invariant
+
+935
+00:46:44,150 --> 00:46:49,790
+which is successive elements
+in the list are increasing.
+
+936
+00:46:49,790 --> 00:46:52,204
+So the list is in
+increasing order
+
+937
+00:46:52,204 --> 00:46:55,895
+and it increases, it
+properly increases.
+
+938
+00:46:55,895 --> 00:46:57,880
+So you don't have to
+elements the same and
+
+939
+00:46:57,880 --> 00:47:02,404
+a route to now the list 123,
+
+940
+00:47:02,404 --> 00:47:05,000
+there's, sorry, the set 123,
+
+941
+00:47:05,000 --> 00:47:08,764
+there's only one way to
+represent it as the list 123.
+
+942
+00:47:08,764 --> 00:47:10,655
+It's gotta be in
+increasing order.
+
+943
+00:47:10,655 --> 00:47:13,230
+There have to be no duplicates.
+
+944
+00:47:15,010 --> 00:47:18,395
+So empty is just at the four.
+
+945
+00:47:18,395 --> 00:47:20,704
+Whoops, insert is different.
+
+946
+00:47:20,704 --> 00:47:23,135
+I have to keep it in order.
+
+947
+00:47:23,135 --> 00:47:24,919
+So if I'm inserting
+
+948
+00:47:24,919 --> 00:47:26,720
+something into the empty
+list, that's fine.
+
+949
+00:47:26,720 --> 00:47:28,445
+I get the list with
+that one thing.
+
+950
+00:47:28,445 --> 00:47:30,665
+If I'm inserting it into a list,
+
+951
+00:47:30,665 --> 00:47:34,849
+y cons wise, right there,
+three possibilities.
+
+952
+00:47:34,849 --> 00:47:36,620
+X is smaller than y,
+
+953
+00:47:36,620 --> 00:47:38,420
+finds ticket at the front.
+
+954
+00:47:38,420 --> 00:47:41,464
+The old list was in orders of
+the new list was in order.
+
+955
+00:47:41,464 --> 00:47:45,065
+X is equal to y. Haha,
+it's in the list.
+
+956
+00:47:45,065 --> 00:47:46,280
+We don't want duplicates,
+
+957
+00:47:46,280 --> 00:47:49,985
+throw it away, just
+keep the old list.
+
+958
+00:47:49,985 --> 00:47:53,599
+Or x is greater than y, Alright?
+
+959
+00:47:53,599 --> 00:47:56,120
+Stick Y at the front because
+it will be smallest and
+
+960
+00:47:56,120 --> 00:48:00,094
+recursively insert x into wise.
+
+961
+00:48:00,094 --> 00:48:03,420
+Does everybody see
+how that works?
+
+962
+00:48:03,970 --> 00:48:06,844
+And then what was set do?
+
+963
+00:48:06,844 --> 00:48:10,009
+Well, you sort the SAT and
+then remove duplicates.
+
+964
+00:48:10,009 --> 00:48:12,845
+Suggest sort it,
+and take the knob,
+
+965
+00:48:12,845 --> 00:48:14,240
+which are both already
+
+966
+00:48:14,240 --> 00:48:16,979
+defined for us in the
+standard library.
+
+967
+00:48:21,940 --> 00:48:25,250
+How do you check if something
+is an element in the list?
+
+968
+00:48:25,250 --> 00:48:27,844
+Okay, we can do a
+little bit better now
+
+969
+00:48:27,844 --> 00:48:31,339
+in that we just, It's empty.
+
+970
+00:48:31,339 --> 00:48:33,109
+No, clearly there's
+nothing in it.
+
+971
+00:48:33,109 --> 00:48:35,765
+If x is smaller than
+y, we can stop.
+
+972
+00:48:35,765 --> 00:48:37,474
+We'll never find it.
+
+973
+00:48:37,474 --> 00:48:41,210
+If x is equal to y, we
+found it, it's true.
+
+974
+00:48:41,210 --> 00:48:43,730
+And if x is greater than
+y, okay, it's not y.
+
+975
+00:48:43,730 --> 00:48:45,559
+But let's look at
+the tail of the list
+
+976
+00:48:45,559 --> 00:48:48,124
+and see if it appears
+there recursively.
+
+977
+00:48:48,124 --> 00:48:50,435
+Ho, ho and look Equality.
+
+978
+00:48:50,435 --> 00:48:57,889
+Now, we just check the two
+lists to see if they're equal.
+
+979
+00:48:57,889 --> 00:49:00,170
+And I realize I said
+
+980
+00:49:00,170 --> 00:49:03,469
+something that was a complete
+lie before and a bad lie.
+
+981
+00:49:03,469 --> 00:49:05,489
+So let me fix it.
+
+982
+00:49:05,590 --> 00:49:11,279
+How long does it take to
+check if two lists are equal?
+
+983
+00:49:12,790 --> 00:49:15,050
+Quadratic, right?
+
+984
+00:49:15,050 --> 00:49:17,360
+Because lm takes time
+
+985
+00:49:17,360 --> 00:49:19,880
+proportional to the
+length of this list.
+
+986
+00:49:19,880 --> 00:49:21,574
+Of course we could do this
+
+987
+00:49:21,574 --> 00:49:24,259
+a number time proportional
+to the length of this list.
+
+988
+00:49:24,259 --> 00:49:27,064
+So if these lists are
+both about length n,
+
+989
+00:49:27,064 --> 00:49:28,849
+we have to look up
+an element from
+
+990
+00:49:28,849 --> 00:49:31,010
+this one about n times.
+
+991
+00:49:31,010 --> 00:49:34,355
+So this is not linear,
+this is quadratic.
+
+992
+00:49:34,355 --> 00:49:36,290
+So when I said it
+could've been worse,
+
+993
+00:49:36,290 --> 00:49:38,540
+it could have been
+quadratic. It is worse.
+
+994
+00:49:38,540 --> 00:49:40,744
+It is quadratic.
+
+995
+00:49:40,744 --> 00:49:44,135
+What have we got here
+for the other one?
+
+996
+00:49:44,135 --> 00:49:49,640
+If we order them,
+order one, great.
+
+997
+00:49:49,640 --> 00:49:56,730
+What was order one has
+become order n. Bad.
+
+998
+00:49:59,830 --> 00:50:02,855
+Nub of sort of axes.
+
+999
+00:50:02,855 --> 00:50:08,375
+Case sorting takes time n
+log n. Finding the knob.
+
+1000
+00:50:08,375 --> 00:50:09,829
+What's the list is sorted?
+
+1001
+00:50:09,829 --> 00:50:11,644
+Finding the knot is linear,
+
+1002
+00:50:11,644 --> 00:50:15,140
+but not in the standard
+prelude, doesn't know that.
+
+1003
+00:50:15,140 --> 00:50:16,624
+So it just looks at
+the first one, says,
+
+1004
+00:50:16,624 --> 00:50:17,809
+if it's in the list,
+
+1005
+00:50:17,809 --> 00:50:18,919
+and that looks at the second one
+
+1006
+00:50:18,919 --> 00:50:20,344
+said is it's in the list.
+
+1007
+00:50:20,344 --> 00:50:22,925
+That looks at the third one
+and says Is this enlist.
+
+1008
+00:50:22,925 --> 00:50:25,295
+So nub is quadratic.
+
+1009
+00:50:25,295 --> 00:50:28,070
+You could rewrite this
+to be order n log n,
+
+1010
+00:50:28,070 --> 00:50:30,574
+which might be
+important for some it,
+
+1011
+00:50:30,574 --> 00:50:33,569
+depending on the
+size of your lists.
+
+1012
+00:50:34,360 --> 00:50:38,014
+This is going to be linear.
+
+1013
+00:50:38,014 --> 00:50:41,404
+And this is now linear
+rather than quadratic,
+
+1014
+00:50:41,404 --> 00:50:43,504
+just comparing two
+lists for equality.
+
+1015
+00:50:43,504 --> 00:50:45,709
+So people often by default
+
+1016
+00:50:45,709 --> 00:50:48,499
+think the simplest
+possible representation of
+
+1017
+00:50:48,499 --> 00:50:50,960
+a set is as an ordered list with
+
+1018
+00:50:50,960 --> 00:50:53,749
+no duplicates. But that's wrong.
+
+1019
+00:50:53,749 --> 00:50:55,564
+You now know how to
+be even simpler.
+
+1020
+00:50:55,564 --> 00:50:58,625
+Representing a set by a
+list sometimes is fine.
+
+1021
+00:50:58,625 --> 00:51:00,830
+Sometimes it's better
+because adding
+
+1022
+00:51:00,830 --> 00:51:03,739
+an element is order
+one rather than order
+
+1023
+00:51:03,739 --> 00:51:06,710
+n. But sometimes it's
+worse because comparing
+
+1024
+00:51:06,710 --> 00:51:10,475
+lists for equality is
+quadratic rather than linear.
+
+1025
+00:51:10,475 --> 00:51:12,740
+So if you're putting
+in lots of elements
+
+1026
+00:51:12,740 --> 00:51:15,185
+and hardly ever
+checking for equality,
+
+1027
+00:51:15,185 --> 00:51:19,175
+then lit than a plain
+list is full line.
+
+1028
+00:51:19,175 --> 00:51:21,080
+If you often check for equality,
+
+1029
+00:51:21,080 --> 00:51:22,220
+you probably want to use
+
+1030
+00:51:22,220 --> 00:51:24,455
+an ordered list
+with no duplicates.
+
+1031
+00:51:24,455 --> 00:51:28,175
+Now, there are two other
+great representations,
+
+1032
+00:51:28,175 --> 00:51:30,365
+but we're out of time.
+
+1033
+00:51:30,365 --> 00:51:31,909
+Come back tomorrow.
+
+1034
+00:51:31,909 --> 00:51:37,440
+See trees and balanced
+trees. Thank you very much.

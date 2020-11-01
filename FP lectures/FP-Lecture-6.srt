@@ -1,0 +1,4317 @@
+1
+00:00:02,540 --> 00:00:05,980
+Are there any questions?
+
+2
+00:00:08,840 --> 00:00:17,009
+Yes. Speak up.
+
+3
+00:00:17,770 --> 00:00:20,614
+In programming, what's a pointer?
+
+4
+00:00:20,614 --> 00:00:23,480
+Something you will learn
+about in the next term,
+
+5
+00:00:23,480 --> 00:00:26,029
+we don't need to use
+pointers in Haskell,
+
+6
+00:00:26,029 --> 00:00:29,760
+but they're very important in
+object oriented languages.
+
+7
+00:00:32,080 --> 00:00:34,835
+Any other questions?
+
+8
+00:00:34,835 --> 00:00:41,675
+Yes. When the tutorial
+tutorial for be available,
+
+9
+00:00:41,675 --> 00:00:44,330
+I think it might have
+been put up last night.
+
+10
+00:00:44,330 --> 00:00:46,009
+I still have to review it today,
+
+11
+00:00:46,009 --> 00:00:50,430
+which won't happen until
+it's not there yet.
+
+12
+00:00:50,590 --> 00:00:55,439
+It will be there soon by
+the end of today, I expect.
+
+13
+00:00:56,230 --> 00:00:59,450
+All right. Any other questions?
+
+14
+00:00:59,450 --> 00:01:04,850
+Yes. People, if
+you're all lumbering,
+
+15
+00:01:04,850 --> 00:01:07,860
+I can't hear the person
+asking the question.
+
+16
+00:01:12,730 --> 00:01:16,160
+You don't have access to
+the solutions for tutorial
+
+17
+00:01:16,160 --> 00:01:17,720
+to I believe they were
+
+18
+00:01:17,720 --> 00:01:20,449
+posted on the Learn
+page. Is that correct?
+
+19
+00:01:20,449 --> 00:01:31,889
+Yes. You don't have
+access to the Learn page?
+
+20
+00:01:40,300 --> 00:01:43,009
+Oh, I see. Only certain people
+
+21
+00:01:43,009 --> 00:01:44,540
+have been given access
+to the solutions.
+
+22
+00:01:44,540 --> 00:01:47,519
+The permissions have been
+set wrongly on them.
+
+23
+00:01:48,370 --> 00:01:51,260
+Right? So that the
+access permissions
+
+24
+00:01:51,260 --> 00:01:52,669
+for tutorial to have been set.
+
+25
+00:01:52,669 --> 00:01:55,144
+Wong, thank you for
+letting me know.
+
+26
+00:01:55,144 --> 00:01:56,779
+I will get that fixed.
+
+27
+00:01:56,779 --> 00:02:00,529
+I will write an email to
+myself. No, I won't wreck.
+
+28
+00:02:00,529 --> 00:02:03,934
+Here's what you do. I just
+told you I will fix it,
+
+29
+00:02:03,934 --> 00:02:05,510
+but I'm going to forget.
+
+30
+00:02:05,510 --> 00:02:07,010
+I'm a professor.
+
+31
+00:02:07,010 --> 00:02:09,320
+And what goes with that
+is being absent-minded.
+
+32
+00:02:09,320 --> 00:02:13,589
+So do you know my email address?
+
+33
+00:02:13,930 --> 00:02:16,894
+It's on the webpage.
+
+34
+00:02:16,894 --> 00:02:20,855
+You know my last
+name, my last name,
+
+35
+00:02:20,855 --> 00:02:27,999
+spell it. Easy to do.
+
+36
+00:02:27,999 --> 00:02:32,229
+So. I have a recommendation
+for all of you.
+
+37
+00:02:32,229 --> 00:02:34,164
+If you intend to be academic,
+
+38
+00:02:34,164 --> 00:02:38,620
+I highly recommend that
+you have a weird lastName.
+
+39
+00:02:38,620 --> 00:02:41,230
+It means that all citations to
+
+40
+00:02:41,230 --> 00:02:43,779
+your work actually go to you.
+
+41
+00:02:43,779 --> 00:02:45,370
+I have a colleague who's
+
+42
+00:02:45,370 --> 00:02:48,580
+a highly distinguished
+named John use.
+
+43
+00:02:48,580 --> 00:02:51,309
+You can imagine what
+difficulties he has.
+
+44
+00:02:51,309 --> 00:02:53,679
+There are even two
+different researchers
+
+45
+00:02:53,679 --> 00:02:54,969
+in functional programming,
+
+46
+00:02:54,969 --> 00:02:56,484
+both named John Hughes.
+
+47
+00:02:56,484 --> 00:02:59,694
+So that can be an issue.
+
+48
+00:02:59,694 --> 00:03:01,614
+So I'm easy to find.
+
+49
+00:03:01,614 --> 00:03:04,500
+Please send me an email.
+
+50
+00:03:04,500 --> 00:03:06,470
+Saying just what you've just said
+
+51
+00:03:06,470 --> 00:03:08,224
+and I will make sure
+to get it fixed.
+
+52
+00:03:08,224 --> 00:03:12,335
+If I forget the email will
+remind me. Thank you.
+
+53
+00:03:12,335 --> 00:03:18,890
+Yes. You saw me on the street
+and you didn't know few,
+
+54
+00:03:18,890 --> 00:03:20,419
+she'd say hi, you should,
+
+55
+00:03:20,419 --> 00:03:23,190
+and then I will
+look very confused.
+
+56
+00:03:23,500 --> 00:03:25,520
+But yes, no, I like it when
+
+57
+00:03:25,520 --> 00:03:27,870
+people say hi to me, thank you.
+
+58
+00:03:28,260 --> 00:03:32,389
+If I'm with my wife.
+
+59
+00:03:32,389 --> 00:03:36,469
+She is a primary
+teacher in Brazil,
+
+60
+00:03:36,469 --> 00:03:38,644
+sorry, secondary school
+teacher in Brazil.
+
+61
+00:03:38,644 --> 00:03:42,125
+And about once a day
+she get some message
+
+62
+00:03:42,125 --> 00:03:46,790
+on her social media saying,
+
+63
+00:03:46,790 --> 00:03:50,644
+I had you as my teacher 25
+years ago, you were amazing.
+
+64
+00:03:50,644 --> 00:03:52,760
+You changed my life,
+all of which is true.
+
+65
+00:03:52,760 --> 00:03:54,424
+She's a really amazing person.
+
+66
+00:03:54,424 --> 00:03:56,780
+So if you see me on
+the street, say,
+
+67
+00:03:56,780 --> 00:03:58,249
+wow, I really like your classes,
+
+68
+00:03:58,249 --> 00:04:00,300
+you're changing my life.
+
+69
+00:04:03,670 --> 00:04:08,360
+And then I can sort of begin
+to creepy even with her.
+
+70
+00:04:08,360 --> 00:04:10,850
+Okay. Thank you.
+
+71
+00:04:10,850 --> 00:04:15,000
+Great question. Any
+other questions?
+
+72
+00:04:15,100 --> 00:04:18,799
+Right. I think you've been
+told about in face before.
+
+73
+00:04:18,799 --> 00:04:21,979
+Is that right? So the in-phase
+
+74
+00:04:21,979 --> 00:04:25,804
+people wanted me to remind
+you that in face exists.
+
+75
+00:04:25,804 --> 00:04:27,649
+So there are lots of
+different resources
+
+76
+00:04:27,649 --> 00:04:29,180
+you can use in this class.
+
+77
+00:04:29,180 --> 00:04:32,329
+You have class where you can
+ask questions on Piazza.
+
+78
+00:04:32,329 --> 00:04:34,010
+You have tutorials which are very
+
+79
+00:04:34,010 --> 00:04:36,230
+important for dealing
+with your questions.
+
+80
+00:04:36,230 --> 00:04:38,644
+You have drop in labs every day.
+
+81
+00:04:38,644 --> 00:04:40,429
+And then another
+thing is in face,
+
+82
+00:04:40,429 --> 00:04:42,904
+which is actually run by
+informatics students.
+
+83
+00:04:42,904 --> 00:04:46,354
+So you can see in
+very tiny print,
+
+84
+00:04:46,354 --> 00:04:47,989
+they've got their
+when their schedule,
+
+85
+00:04:47,989 --> 00:04:49,685
+but I'm sure you can find that
+
+86
+00:04:49,685 --> 00:04:52,894
+here on their schedule online.
+
+87
+00:04:52,894 --> 00:04:55,580
+This is in the slides
+for today's lecture,
+
+88
+00:04:55,580 --> 00:04:58,715
+and that's another resource
+for you to take advantage of.
+
+89
+00:04:58,715 --> 00:05:03,019
+So again, I encourage you to
+go to in facing to consider,
+
+90
+00:05:03,019 --> 00:05:05,644
+that's one of the places
+you can go to get help.
+
+91
+00:05:05,644 --> 00:05:09,799
+Ok. Any questions about that?
+
+92
+00:05:09,799 --> 00:05:17,644
+Ok. And there are a lot of you,
+
+93
+00:05:17,644 --> 00:05:19,565
+you might have noticed this.
+
+94
+00:05:19,565 --> 00:05:22,685
+There are many more of
+you than last year.
+
+95
+00:05:22,685 --> 00:05:25,969
+So we've always had a
+difficulty in teaching
+
+96
+00:05:25,969 --> 00:05:31,010
+this course that there
+are ME, excuse me.
+
+97
+00:05:31,010 --> 00:05:33,275
+We can't fit you all.
+
+98
+00:05:33,275 --> 00:05:34,579
+So your final exam,
+
+99
+00:05:34,579 --> 00:05:35,960
+as I believe we've been told,
+
+100
+00:05:35,960 --> 00:05:37,565
+is going to be online.
+
+101
+00:05:37,565 --> 00:05:41,150
+That's important to
+me pedagogically,
+
+102
+00:05:41,150 --> 00:05:43,879
+because the whole point of
+
+103
+00:05:43,879 --> 00:05:45,680
+computing is that a computer
+
+104
+00:05:45,680 --> 00:05:47,854
+can catch lots of your errors.
+
+105
+00:05:47,854 --> 00:05:50,059
+And that you can write
+your programs and
+
+106
+00:05:50,059 --> 00:05:52,010
+test them using things like
+
+107
+00:05:52,010 --> 00:05:56,435
+quick check to make sure that
+you don't make any errors.
+
+108
+00:05:56,435 --> 00:05:59,840
+Talking about I'm not
+
+109
+00:05:59,840 --> 00:06:01,940
+jumping up and down anymore.
+I'm hitting the table.
+
+110
+00:06:01,940 --> 00:06:04,250
+Talking about not making
+
+111
+00:06:04,250 --> 00:06:08,960
+errors is one of the most
+important things I can do.
+
+112
+00:06:08,960 --> 00:06:13,789
+Because the tradition within
+the field of computing and
+
+113
+00:06:13,789 --> 00:06:16,039
+software has been quite
+
+114
+00:06:16,039 --> 00:06:20,675
+different than the tradition
+in fields like engineering.
+
+115
+00:06:20,675 --> 00:06:24,440
+In engineering, generally,
+most of the time,
+
+116
+00:06:24,440 --> 00:06:27,139
+your car runs well and
+fit doesn't run well.
+
+117
+00:06:27,139 --> 00:06:32,449
+You're surprised if you use
+an app and it misbehaves.
+
+118
+00:06:32,449 --> 00:06:34,294
+Are you surprised?
+
+119
+00:06:34,294 --> 00:06:38,210
+Right, that wrong tradition.
+
+120
+00:06:38,210 --> 00:06:40,639
+I would like to teach you treat.
+
+121
+00:06:40,639 --> 00:06:45,515
+I would like to teach you
+in the right tradition.
+
+122
+00:06:45,515 --> 00:06:48,740
+And that means you
+use the computer as
+
+123
+00:06:48,740 --> 00:06:53,060
+a tool to get things, right.
+
+124
+00:06:53,060 --> 00:06:54,890
+And that's why it's very
+
+125
+00:06:54,890 --> 00:06:57,290
+important that you have access to
+
+126
+00:06:57,290 --> 00:07:00,050
+a computer on your final exam
+
+127
+00:07:00,050 --> 00:07:02,749
+so that you can get things right.
+
+128
+00:07:02,749 --> 00:07:05,360
+So I believe very
+strongly in that.
+
+129
+00:07:05,360 --> 00:07:07,069
+But there's an issue.
+
+130
+00:07:07,069 --> 00:07:10,699
+There are a lot of you
+there are too many of you
+
+131
+00:07:10,699 --> 00:07:14,465
+to fit in one room
+equipped with computers.
+
+132
+00:07:14,465 --> 00:07:18,980
+We just don't have enough
+computers to do that.
+
+133
+00:07:18,980 --> 00:07:21,815
+So in the past,
+
+134
+00:07:21,815 --> 00:07:23,240
+we've had two exams.
+
+135
+00:07:23,240 --> 00:07:24,409
+That means after right to
+
+136
+00:07:24,409 --> 00:07:27,605
+different final exams.
+But guess what?
+
+137
+00:07:27,605 --> 00:07:29,734
+There are even more
+of you this year.
+
+138
+00:07:29,734 --> 00:07:33,680
+So we have to have three exams.
+
+139
+00:07:33,680 --> 00:07:36,470
+And guess what?
+
+140
+00:07:36,470 --> 00:07:39,949
+The university is very inflexible
+and it's scheduling and
+
+141
+00:07:39,949 --> 00:07:43,804
+we can't fit in three exams
+during the exam period.
+
+142
+00:07:43,804 --> 00:07:45,259
+So what we're going to
+
+143
+00:07:45,259 --> 00:07:50,269
+do is have the exams at
+the end of revision week.
+
+144
+00:07:50,269 --> 00:07:52,910
+That gives you relatively
+little time to revise,
+
+145
+00:07:52,910 --> 00:07:56,969
+but it lets you get the
+exams out of the way early.
+
+146
+00:07:57,550 --> 00:07:59,959
+So we want to make
+sure that you are
+
+147
+00:07:59,959 --> 00:08:02,705
+notified of this as
+soon as possible.
+
+148
+00:08:02,705 --> 00:08:04,460
+So exams will be on Thursday,
+
+149
+00:08:04,460 --> 00:08:05,585
+the fifth of December,
+
+150
+00:08:05,585 --> 00:08:07,325
+Friday, the sixth of December.
+
+151
+00:08:07,325 --> 00:08:09,109
+Those days will not change.
+
+152
+00:08:09,109 --> 00:08:11,389
+I have asked IF possibly we
+
+153
+00:08:11,389 --> 00:08:13,939
+can fit them all in one day
+rather than in two days,
+
+154
+00:08:13,939 --> 00:08:15,979
+but I don't know if
+that will happen.
+
+155
+00:08:15,979 --> 00:08:18,350
+Certainly they will
+be on those two days.
+
+156
+00:08:18,350 --> 00:08:20,810
+We we want to make sure to notify
+
+157
+00:08:20,810 --> 00:08:24,094
+you as far in
+advance as possible.
+
+158
+00:08:24,094 --> 00:08:28,110
+If there's somebody
+who this yes question.
+
+159
+00:08:29,950 --> 00:08:32,615
+Oh sorry. That's very important.
+
+160
+00:08:32,615 --> 00:08:35,074
+I talking about the
+functional programming exams,
+
+161
+00:08:35,074 --> 00:08:37,580
+the computing and logic
+
+162
+00:08:37,580 --> 00:08:38,870
+exams are done in
+a different way.
+
+163
+00:08:38,870 --> 00:08:42,259
+I believe they're done on
+paper and pencil as it were,
+
+164
+00:08:42,259 --> 00:08:44,825
+so that they don't
+pose the same issue.
+
+165
+00:08:44,825 --> 00:08:46,924
+We do have rooms
+large enough to crown
+
+166
+00:08:46,924 --> 00:08:49,385
+all of you into do a
+paper and pencil exam?
+
+167
+00:08:49,385 --> 00:08:52,049
+Yes. And another question.
+
+168
+00:08:52,690 --> 00:08:57,260
+Are these exams or
+
+169
+00:08:57,260 --> 00:08:59,584
+the questions on all
+these exams the same?
+
+170
+00:08:59,584 --> 00:09:02,279
+Why on earth would
+I tell you that?
+
+171
+00:09:04,180 --> 00:09:07,459
+No, we take steps so
+that it will not be
+
+172
+00:09:07,459 --> 00:09:09,230
+possible for people to
+
+173
+00:09:09,230 --> 00:09:11,089
+move answers from
+one to the other.
+
+174
+00:09:11,089 --> 00:09:13,310
+As I mentioned to you
+in previous years,
+
+175
+00:09:13,310 --> 00:09:15,600
+both exams have been different.
+
+176
+00:09:16,060 --> 00:09:20,870
+Guess. How long is the exam?
+
+177
+00:09:20,870 --> 00:09:22,219
+You know what i mentioned?
+
+178
+00:09:22,219 --> 00:09:23,734
+I'm an absent-minded professor.
+
+179
+00:09:23,734 --> 00:09:25,280
+I'm not sure I
+remember correctly,
+
+180
+00:09:25,280 --> 00:09:26,600
+but if I'm remembering correctly,
+
+181
+00:09:26,600 --> 00:09:28,619
+it is two hours.
+
+182
+00:09:31,870 --> 00:09:37,100
+Yes. Where you'd be
+
+183
+00:09:37,100 --> 00:09:38,119
+using your computers or
+
+184
+00:09:38,119 --> 00:09:39,935
+the dice computers,
+that's very important.
+
+185
+00:09:39,935 --> 00:09:42,500
+And the answer is you will
+be using dice computers.
+
+186
+00:09:42,500 --> 00:09:44,780
+So you need to spend at least
+a little bit of time with
+
+187
+00:09:44,780 --> 00:09:46,489
+dice computers so
+you're comfortable
+
+188
+00:09:46,489 --> 00:09:48,515
+enough with them to
+do the exam on them.
+
+189
+00:09:48,515 --> 00:09:51,245
+We do them on dice
+computers for security.
+
+190
+00:09:51,245 --> 00:09:53,569
+You do not have access
+to the internet.
+
+191
+00:09:53,569 --> 00:09:54,980
+During the exams, you will have
+
+192
+00:09:54,980 --> 00:09:57,050
+access to some
+reference materials.
+
+193
+00:09:57,050 --> 00:09:58,669
+I don't intend that
+you should need to
+
+194
+00:09:58,669 --> 00:10:01,040
+memorize stuff before the exam,
+
+195
+00:10:01,040 --> 00:10:02,885
+but I do intend that
+you should need to
+
+196
+00:10:02,885 --> 00:10:06,089
+learn stuff before the exam.
+
+197
+00:10:07,360 --> 00:10:10,500
+Other questions?
+
+198
+00:10:12,400 --> 00:10:14,990
+Okay. If there's somebody who's
+
+199
+00:10:14,990 --> 00:10:16,850
+severely inconvenienced by that,
+
+200
+00:10:16,850 --> 00:10:18,230
+please do get in touch with based
+
+201
+00:10:18,230 --> 00:10:20,015
+on at least aware
+of the situation.
+
+202
+00:10:20,015 --> 00:10:21,499
+I don't think we
+can change things,
+
+203
+00:10:21,499 --> 00:10:23,090
+but I do want to
+know if somebody has
+
+204
+00:10:23,090 --> 00:10:25,039
+been inconvenienced by us.
+
+205
+00:10:25,039 --> 00:10:27,109
+First tell you exams
+are being during
+
+206
+00:10:27,109 --> 00:10:29,150
+exam period and then as
+
+207
+00:10:29,150 --> 00:10:30,289
+early as possible telling
+
+208
+00:10:30,289 --> 00:10:31,594
+you that they would
+be a bit earlier?
+
+209
+00:10:31,594 --> 00:10:39,620
+Yes. Question. Can you
+
+210
+00:10:39,620 --> 00:10:43,115
+bring portable disks
+and USB to the exams?
+
+211
+00:10:43,115 --> 00:10:46,459
+No. No. The idea
+
+212
+00:10:46,459 --> 00:10:48,650
+is we will provide
+
+213
+00:10:48,650 --> 00:10:51,394
+you some materials so you
+don't need to memorize stuff.
+
+214
+00:10:51,394 --> 00:10:53,795
+But that is not to
+let you bring in,
+
+215
+00:10:53,795 --> 00:10:56,760
+say all the answers
+to past exams.
+
+216
+00:10:59,400 --> 00:11:02,725
+Any other questions?
+
+217
+00:11:02,725 --> 00:11:05,710
+Okay, good.
+
+218
+00:11:05,710 --> 00:11:09,175
+So that's the admin stuff.
+
+219
+00:11:09,175 --> 00:11:14,305
+So today's lecture is on
+map, filter and fold.
+
+220
+00:11:14,305 --> 00:11:15,714
+I don't know if you've
+noticed, but sort of
+
+221
+00:11:15,714 --> 00:11:17,454
+every lecture I get excited.
+
+222
+00:11:17,454 --> 00:11:19,389
+You know, this is a
+cool thing that you've
+
+223
+00:11:19,389 --> 00:11:21,775
+never seen before and
+it's really exciting.
+
+224
+00:11:21,775 --> 00:11:24,759
+But this is probably,
+
+225
+00:11:24,759 --> 00:11:29,184
+this is the whole point of
+functional programming.
+
+226
+00:11:29,184 --> 00:11:31,060
+The whole point of
+
+227
+00:11:31,060 --> 00:11:33,640
+functional programming
+is that you, well,
+
+228
+00:11:33,640 --> 00:11:35,979
+the whole point of
+computing is that
+
+229
+00:11:35,979 --> 00:11:39,069
+you can abstract, right?
+
+230
+00:11:39,069 --> 00:11:42,344
+And we've learned a lot
+already about abstraction.
+
+231
+00:11:42,344 --> 00:11:44,959
+Functions are, one of
+the name for a function
+
+232
+00:11:44,959 --> 00:11:47,494
+is an abstraction, right?
+
+233
+00:11:47,494 --> 00:11:49,219
+And this is the first step.
+
+234
+00:11:49,219 --> 00:11:50,720
+So first you learn two times,
+
+235
+00:11:50,720 --> 00:11:53,360
+two is 43 times three is
+
+236
+00:11:53,360 --> 00:11:59,210
+94 times four is 165
+times five is 25.
+
+237
+00:11:59,210 --> 00:12:01,534
+And then you abstract.
+
+238
+00:12:01,534 --> 00:12:03,859
+You say there's a pattern there,
+
+239
+00:12:03,859 --> 00:12:07,039
+which is you take a
+number, let's call it x,
+
+240
+00:12:07,039 --> 00:12:10,535
+and you return x
+multiplied by itself,
+
+241
+00:12:10,535 --> 00:12:13,249
+the square of x, or
+
+242
+00:12:13,249 --> 00:12:15,890
+even x raised to the second
+power, the square of x.
+
+243
+00:12:15,890 --> 00:12:18,440
+But something you're defining
+
+244
+00:12:18,440 --> 00:12:22,565
+a new function in terms of
+things you already know about.
+
+245
+00:12:22,565 --> 00:12:24,049
+That's called abstraction.
+
+246
+00:12:24,049 --> 00:12:25,820
+You've picked out a pattern and
+
+247
+00:12:25,820 --> 00:12:28,070
+you've given it a name squaring.
+
+248
+00:12:28,070 --> 00:12:31,280
+So that's the most important idea
+
+249
+00:12:31,280 --> 00:12:33,319
+in computing its
+abstraction that you can
+
+250
+00:12:33,319 --> 00:12:35,540
+define functions that work for
+
+251
+00:12:35,540 --> 00:12:39,539
+any value that you pass to them.
+
+252
+00:12:39,790 --> 00:12:42,380
+And many of you are
+probably used to
+
+253
+00:12:42,380 --> 00:12:44,719
+that EMBL Isaiah about it, right?
+
+254
+00:12:44,719 --> 00:12:47,929
+But that was a very
+important step.
+
+255
+00:12:47,929 --> 00:12:51,350
+The Greeks didn't
+have that, right.
+
+256
+00:12:51,350 --> 00:12:55,010
+The idea of algebra
+where you come up with
+
+257
+00:12:55,010 --> 00:12:57,544
+a variable in a formula
+
+258
+00:12:57,544 --> 00:13:00,275
+and you can instantiate
+that variable.
+
+259
+00:13:00,275 --> 00:13:04,864
+That wasn't until the
+Arabs in the mid.
+
+260
+00:13:04,864 --> 00:13:07,580
+Oh, I can't remember where,
+but somewhere in what we call
+
+261
+00:13:07,580 --> 00:13:11,900
+the Middle Ages finally came
+up with the idea of algebra.
+
+262
+00:13:11,900 --> 00:13:13,279
+And that was done by Al qua
+
+263
+00:13:13,279 --> 00:13:16,444
+resume out of after
+whom were named.
+
+264
+00:13:16,444 --> 00:13:18,920
+Two important things that
+we work with every day.
+
+265
+00:13:18,920 --> 00:13:21,185
+Algorithm's name
+for al cor is me,
+
+266
+00:13:21,185 --> 00:13:22,984
+not name for Al Gore.
+
+267
+00:13:22,984 --> 00:13:27,500
+And algebra also named
+for our queries me.
+
+268
+00:13:27,500 --> 00:13:30,124
+So this idea that you
+can have what we call
+
+269
+00:13:30,124 --> 00:13:32,510
+a variable and then instantiate
+
+270
+00:13:32,510 --> 00:13:35,329
+it to any value that you
+have in your pocket.
+
+271
+00:13:35,329 --> 00:13:37,040
+So you just write down a formula
+
+272
+00:13:37,040 --> 00:13:38,765
+and then learn about
+an instantiated.
+
+273
+00:13:38,765 --> 00:13:43,265
+It actually took a long
+chunk of human history,
+
+274
+00:13:43,265 --> 00:13:46,820
+more than 1000 years
+after the Greeks,
+
+275
+00:13:46,820 --> 00:13:49,489
+before we came up with that idea.
+
+276
+00:13:49,489 --> 00:13:52,325
+And that idea is absolutely
+central to computing.
+
+277
+00:13:52,325 --> 00:13:54,199
+You've absorbed all of it.
+
+278
+00:13:54,199 --> 00:13:58,670
+Now, the key idea that
+you're gonna learn
+
+279
+00:13:58,670 --> 00:14:03,650
+about today is
+going higher order.
+
+280
+00:14:03,650 --> 00:14:05,825
+That's the key
+buzzword for Today.
+
+281
+00:14:05,825 --> 00:14:08,765
+We are now going to
+be of a higher order.
+
+282
+00:14:08,765 --> 00:14:11,299
+And what that means is not
+
+283
+00:14:11,299 --> 00:14:15,724
+only can you abstract
+over values,
+
+284
+00:14:15,724 --> 00:14:17,165
+but you can also,
+
+285
+00:14:17,165 --> 00:14:19,399
+you can craft over every value.
+
+286
+00:14:19,399 --> 00:14:23,075
+And I'm now going to tell you
+something very important.
+
+287
+00:14:23,075 --> 00:14:27,270
+Yes, this is important enough
+to jump up and down four.
+
+288
+00:14:32,320 --> 00:14:37,560
+A function is value.
+
+289
+00:14:40,630 --> 00:14:45,814
+Okay? So functions are values
+that we can pass around.
+
+290
+00:14:45,814 --> 00:14:51,455
+Just like numbers, just like
+strings, just like lists.
+
+291
+00:14:51,455 --> 00:14:54,635
+Functions are values two.
+
+292
+00:14:54,635 --> 00:14:56,869
+And among other things,
+
+293
+00:14:56,869 --> 00:14:58,729
+that means you can
+
+294
+00:14:58,729 --> 00:15:01,415
+have a function that
+returns a function.
+
+295
+00:15:01,415 --> 00:15:03,529
+You can have a
+function that takes
+
+296
+00:15:03,529 --> 00:15:06,779
+a function as an argument.
+
+297
+00:15:08,620 --> 00:15:11,599
+They're going to get,
+that's completely obvious,
+
+298
+00:15:11,599 --> 00:15:12,860
+right? Yeah, it is.
+
+299
+00:15:12,860 --> 00:15:14,089
+Once you've seen it, it is
+
+300
+00:15:14,089 --> 00:15:16,324
+entirely and completely obvious.
+
+301
+00:15:16,324 --> 00:15:20,195
+It only took us 2 thousand
+years to get there.
+
+302
+00:15:20,195 --> 00:15:22,730
+Okay? And this is the key idea
+
+303
+00:15:22,730 --> 00:15:24,949
+behind functional programming.
+
+304
+00:15:24,949 --> 00:15:27,500
+By the way, this idea shows
+
+305
+00:15:27,500 --> 00:15:30,425
+up pretty early in the
+history of computing.
+
+306
+00:15:30,425 --> 00:15:32,419
+The first stored
+program computers
+
+307
+00:15:32,419 --> 00:15:34,339
+were built in the 19 forties.
+
+308
+00:15:34,339 --> 00:15:39,245
+The first models of that
+came along in the 130s.
+
+309
+00:15:39,245 --> 00:15:41,014
+One by Alan Turing.
+
+310
+00:15:41,014 --> 00:15:42,859
+How many people
+have heard of him?
+
+311
+00:15:42,859 --> 00:15:48,529
+Right? Lots of u.
+One by Kurt girdle.
+
+312
+00:15:48,529 --> 00:15:50,224
+How many people
+have heard of him?
+
+313
+00:15:50,224 --> 00:15:52,324
+Quite a few of you well done.
+
+314
+00:15:52,324 --> 00:15:55,130
+Add one by Alonzo Church.
+
+315
+00:15:55,130 --> 00:15:56,824
+How many people
+have heard of him?
+
+316
+00:15:56,824 --> 00:15:59,914
+Fewer. Okay. So Alonzo Church,
+
+317
+00:15:59,914 --> 00:16:01,549
+he was actually first,
+
+318
+00:16:01,549 --> 00:16:03,350
+he came up with
+the first model of
+
+319
+00:16:03,350 --> 00:16:06,320
+a computer in the 19 thirties.
+
+320
+00:16:06,320 --> 00:16:08,629
+And it was called
+the lambda calculus,
+
+321
+00:16:08,629 --> 00:16:10,745
+and it was based
+entirely on the idea.
+
+322
+00:16:10,745 --> 00:16:13,249
+So in lambda calculus,
+the first one,
+
+323
+00:16:13,249 --> 00:16:15,710
+not only were functions values,
+
+324
+00:16:15,710 --> 00:16:17,435
+they were the only values,
+
+325
+00:16:17,435 --> 00:16:18,770
+everything was a function.
+
+326
+00:16:18,770 --> 00:16:21,200
+Even numbers were functions.
+
+327
+00:16:21,200 --> 00:16:25,114
+So this is a quite old
+idea in computing,
+
+328
+00:16:25,114 --> 00:16:27,739
+even though it's a
+relatively recent idea and
+
+329
+00:16:27,739 --> 00:16:32,459
+a very exciting idea in
+the history of thought.
+
+330
+00:16:32,470 --> 00:16:35,644
+So you've got the Greeks,
+they have some great ideas,
+
+331
+00:16:35,644 --> 00:16:37,010
+weight 2 thousand years.
+
+332
+00:16:37,010 --> 00:16:40,159
+And finally you get that
+higher-order functions.
+
+333
+00:16:40,159 --> 00:16:41,660
+And so that's what
+I'm going to show you
+
+334
+00:16:41,660 --> 00:16:44,160
+today. That was my tap talk.
+
+335
+00:16:44,410 --> 00:16:48,799
+So here's some patterns
+we've seen, right?
+
+336
+00:16:48,799 --> 00:16:52,849
+So first we defined not
+square but squares, right?
+
+337
+00:16:52,849 --> 00:16:54,844
+We had two different
+ways to define it.
+
+338
+00:16:54,844 --> 00:16:58,129
+Squares of xs is x times x for
+
+339
+00:16:58,129 --> 00:17:01,580
+each x drawn from x's using
+a list comprehension.
+
+340
+00:17:01,580 --> 00:17:04,069
+Or equivalently, you can
+
+341
+00:17:04,069 --> 00:17:07,235
+say the squares of
+a list of nothing.
+
+342
+00:17:07,235 --> 00:17:09,965
+The empty list is the empty list.
+
+343
+00:17:09,965 --> 00:17:11,900
+And the squares of a
+list whose head is
+
+344
+00:17:11,900 --> 00:17:14,084
+x and his tails, this axes.
+
+345
+00:17:14,084 --> 00:17:17,794
+You multiply x by itself to
+get the head of the new list.
+
+346
+00:17:17,794 --> 00:17:21,470
+And recursively you
+square the tail.
+
+347
+00:17:21,470 --> 00:17:24,260
+So those should both be
+funding it milieu by now.
+
+348
+00:17:24,260 --> 00:17:25,450
+So go nadia.
+
+349
+00:17:25,450 --> 00:17:27,509
+Yeah, I'm bored.
+
+350
+00:17:27,610 --> 00:17:30,019
+One person is nodding,
+
+351
+00:17:30,019 --> 00:17:31,460
+three people are nodding.
+
+352
+00:17:31,460 --> 00:17:32,854
+Most of you are not naughty.
+
+353
+00:17:32,854 --> 00:17:35,540
+Does anybody want to ask
+a question about these?
+
+354
+00:17:35,540 --> 00:17:38,315
+Okay. So you've
+seen these before.
+
+355
+00:17:38,315 --> 00:17:41,699
+I believe even though you're
+not willing to admit it.
+
+356
+00:17:41,890 --> 00:17:45,410
+Let's see another example, Ord.
+
+357
+00:17:45,410 --> 00:17:48,260
+So we want to convert
+a character to its 4D,
+
+358
+00:17:48,260 --> 00:17:50,090
+which is its ascii code.
+
+359
+00:17:50,090 --> 00:17:52,850
+So the code for a is 97,
+
+360
+00:17:52,850 --> 00:17:54,799
+the code for two is 50.
+
+361
+00:17:54,799 --> 00:17:58,370
+The code for C is 992
+greater than the code for a,
+
+362
+00:17:58,370 --> 00:18:03,185
+and the code for 3511 greater
+than the code for two.
+
+363
+00:18:03,185 --> 00:18:06,200
+So, or it takes a list
+of characters and
+
+364
+00:18:06,200 --> 00:18:08,870
+returns a list of
+integers, right?
+
+365
+00:18:08,870 --> 00:18:10,490
+And with list comprehensions,
+
+366
+00:18:10,490 --> 00:18:13,669
+who'd be ord of x for
+each x drone from x's,
+
+367
+00:18:13,669 --> 00:18:16,160
+and otherwise would
+be order of nil is
+
+368
+00:18:16,160 --> 00:18:18,620
+nil else another name
+for the empty list,
+
+369
+00:18:18,620 --> 00:18:21,499
+an ordered list whose head
+is x and whose tail is
+
+370
+00:18:21,499 --> 00:18:24,785
+xs is order x for the head.
+
+371
+00:18:24,785 --> 00:18:29,610
+And 4ths recursively applied
+of axes for the tail.
+
+372
+00:18:29,860 --> 00:18:35,700
+Okay. Do you notice a
+common pattern there?
+
+373
+00:18:36,550 --> 00:18:39,739
+Say they noticed
+a common pattern.
+
+374
+00:18:39,739 --> 00:18:42,215
+Right? So you've
+got some function.
+
+375
+00:18:42,215 --> 00:18:45,215
+It might be squaring,
+it might be 4D.
+
+376
+00:18:45,215 --> 00:18:47,795
+Maybe we can do that
+for other functions.
+
+377
+00:18:47,795 --> 00:18:50,089
+And you're either write,
+
+378
+00:18:50,089 --> 00:18:52,220
+applying it to each
+thing in the list here,
+
+379
+00:18:52,220 --> 00:18:53,764
+or recursively applying it
+
+380
+00:18:53,764 --> 00:18:55,685
+to each thing from the list here.
+
+381
+00:18:55,685 --> 00:18:59,299
+So now we call this
+map and we say
+
+382
+00:18:59,299 --> 00:19:01,070
+map f. So now we're
+
+383
+00:19:01,070 --> 00:19:04,084
+passing in the function
+as an argument.
+
+384
+00:19:04,084 --> 00:19:09,994
+Map f of xs is f of x for
+each x drawn from x's.
+
+385
+00:19:09,994 --> 00:19:16,250
+And map f of nil is
+nil map f of x cons,
+
+386
+00:19:16,250 --> 00:19:19,310
+xs, list with head x and tail xs.
+
+387
+00:19:19,310 --> 00:19:21,544
+We use cons again
+to get a new list.
+
+388
+00:19:21,544 --> 00:19:24,050
+Its head is F applied to X.
+
+389
+00:19:24,050 --> 00:19:26,779
+And recursively, we map f over
+
+390
+00:19:26,779 --> 00:19:30,424
+axes for the tail of the list.
+
+391
+00:19:30,424 --> 00:19:31,969
+And there's some types here which
+
+392
+00:19:31,969 --> 00:19:33,335
+I'll go back to in a moment.
+
+393
+00:19:33,335 --> 00:19:35,344
+But let's see some examples.
+
+394
+00:19:35,344 --> 00:19:38,630
+So now we've got a third
+way of defining squares.
+
+395
+00:19:38,630 --> 00:19:41,315
+We can say squares of xs is map,
+
+396
+00:19:41,315 --> 00:19:47,104
+square of x's, where square
+of x is just x times x.
+
+397
+00:19:47,104 --> 00:19:57,065
+And similarly or IDS is
+just map 4D over access.
+
+398
+00:19:57,065 --> 00:20:00,110
+Ok. Is that clear to people?
+
+399
+00:20:00,110 --> 00:20:01,939
+It's what you've seen.
+
+400
+00:20:01,939 --> 00:20:04,829
+It, it's a completely
+simple idea.
+
+401
+00:20:05,140 --> 00:20:09,379
+And it's an idea
+that's been known in,
+
+402
+00:20:09,379 --> 00:20:13,409
+to logicians since the 130s.
+
+403
+00:20:13,570 --> 00:20:15,934
+But as I say,
+
+404
+00:20:15,934 --> 00:20:17,600
+it's only that recent.
+
+405
+00:20:17,600 --> 00:20:20,135
+So less than a 100 years old.
+
+406
+00:20:20,135 --> 00:20:24,599
+Look, a newborn baby idea is dqD.
+
+407
+00:20:25,360 --> 00:20:32,600
+Ok? Any questions yet? Yes.
+
+408
+00:20:37,890 --> 00:20:39,985
+That's a really good question.
+
+409
+00:20:39,985 --> 00:20:41,845
+Is there a technical difficulty?
+
+410
+00:20:41,845 --> 00:20:44,814
+Why wasn't this used
+in languages like C?
+
+411
+00:20:44,814 --> 00:20:47,094
+Yes, there was a
+technical difficulty.
+
+412
+00:20:47,094 --> 00:20:49,090
+The people who didn't know who,
+
+413
+00:20:49,090 --> 00:20:52,015
+the people who invented
+see, we're ignorant.
+
+414
+00:20:52,015 --> 00:20:54,580
+Ignorant in the sense that
+
+415
+00:20:54,580 --> 00:20:57,100
+they were not educated
+in these ideas,
+
+416
+00:20:57,100 --> 00:20:59,364
+even though they were
+developed in the 130s.
+
+417
+00:20:59,364 --> 00:21:02,440
+It took a while before
+it became common
+
+418
+00:21:02,440 --> 00:21:06,190
+to teach first-year
+students about these ideas.
+
+419
+00:21:06,190 --> 00:21:07,810
+In fact, right?
+
+420
+00:21:07,810 --> 00:21:09,234
+You guys are unusual.
+
+421
+00:21:09,234 --> 00:21:12,509
+There are relatively few courses,
+
+422
+00:21:12,509 --> 00:21:15,109
+the UK or in the
+world where people
+
+423
+00:21:15,109 --> 00:21:17,660
+get this as the first
+thing they learn.
+
+424
+00:21:17,660 --> 00:21:19,820
+You might learn it
+in your fourth year,
+
+425
+00:21:19,820 --> 00:21:21,484
+but not in your first year,
+
+426
+00:21:21,484 --> 00:21:23,840
+but you guys get to learn
+in your first year.
+
+427
+00:21:23,840 --> 00:21:26,960
+So the idea is we're not
+widely known and that was
+
+428
+00:21:26,960 --> 00:21:29,914
+the main difficulty with
+doing it. These days.
+
+429
+00:21:29,914 --> 00:21:32,450
+Languages like C plus plus,
+
+430
+00:21:32,450 --> 00:21:34,790
+The standards are being
+modified to include
+
+431
+00:21:34,790 --> 00:21:37,804
+support for being able to do
+exactly this sort of thing.
+
+432
+00:21:37,804 --> 00:21:41,600
+And indeed in C You can
+pass functions around,
+
+433
+00:21:41,600 --> 00:21:48,004
+but it's not as neat or
+easy as this good question.
+
+434
+00:21:48,004 --> 00:21:49,894
+Any other questions?
+
+435
+00:21:49,894 --> 00:21:59,284
+Yes. Ok. Good point to
+you knows the difference.
+
+436
+00:21:59,284 --> 00:22:01,865
+So here I just said
+map ord of axes.
+
+437
+00:22:01,865 --> 00:22:03,350
+And that's because 4D is
+
+438
+00:22:03,350 --> 00:22:04,729
+a function of the
+standard library.
+
+439
+00:22:04,729 --> 00:22:06,919
+So it's already,
+there is a function.
+
+440
+00:22:06,919 --> 00:22:09,410
+But here, I didn't
+
+441
+00:22:09,410 --> 00:22:11,989
+bother to bring in square
+from the standard library.
+
+442
+00:22:11,989 --> 00:22:13,925
+I just defined it myself.
+
+443
+00:22:13,925 --> 00:22:15,859
+So you can do it either way.
+
+444
+00:22:15,859 --> 00:22:17,600
+You need a function name,
+
+445
+00:22:17,600 --> 00:22:19,760
+but you can either define
+the function yourself
+
+446
+00:22:19,760 --> 00:22:22,220
+or you might have already
+defined it, right?
+
+447
+00:22:22,220 --> 00:22:23,794
+I could just defined square
+
+448
+00:22:23,794 --> 00:22:25,865
+on the previous line
+and then use it.
+
+449
+00:22:25,865 --> 00:22:27,514
+So it doesn't need to
+be in a where clause.
+
+450
+00:22:27,514 --> 00:22:30,965
+I just need some definition
+of squares so I can task,
+
+451
+00:22:30,965 --> 00:22:34,830
+I need a name for it so I can
+pass it in as an argument.
+
+452
+00:22:34,930 --> 00:22:42,874
+Good question. Yes.
+Very good question.
+
+453
+00:22:42,874 --> 00:22:44,450
+Is map a library function
+
+454
+00:22:44,450 --> 00:22:46,249
+or do you need to
+define it yourself?
+
+455
+00:22:46,249 --> 00:22:47,464
+It's a library function.
+
+456
+00:22:47,464 --> 00:22:50,060
+You can just import it.
+Very good question.
+
+457
+00:22:50,060 --> 00:22:54,770
+Yep. Can we,
+
+458
+00:22:54,770 --> 00:22:57,935
+can you pass an operator
+to the map function?
+
+459
+00:22:57,935 --> 00:22:59,195
+We will see that shortly.
+
+460
+00:22:59,195 --> 00:23:03,619
+Yes. Very good questions.
+
+461
+00:23:03,619 --> 00:23:07,190
+Right? So I thought maybe
+somebody would say,
+
+462
+00:23:07,190 --> 00:23:09,709
+wait, what's all this
+stuff on the top?
+
+463
+00:23:09,709 --> 00:23:11,629
+Can you explain that to me?
+
+464
+00:23:11,629 --> 00:23:14,180
+Right? So here we are
+getting the type of map,
+
+465
+00:23:14,180 --> 00:23:16,894
+of course has the
+same type both times.
+
+466
+00:23:16,894 --> 00:23:24,410
+And we say it takes an
+a to B and it returns,
+
+467
+00:23:24,410 --> 00:23:27,560
+sorry, and that takes a
+list of a and then it gives
+
+468
+00:23:27,560 --> 00:23:31,939
+back a list of V. So
+it's got two arguments.
+
+469
+00:23:31,939 --> 00:23:34,010
+And in this case,
+the first argument
+
+470
+00:23:34,010 --> 00:23:36,170
+is itself a function.
+
+471
+00:23:36,170 --> 00:23:39,650
+So you see this is written inside
+
+472
+00:23:39,650 --> 00:23:43,954
+just as an arrow and a to b
+function inside parentheses,
+
+473
+00:23:43,954 --> 00:23:44,990
+because otherwise
+it would look like
+
+474
+00:23:44,990 --> 00:23:46,280
+you had three argument,
+
+475
+00:23:46,280 --> 00:23:48,500
+an a, a, B and a list of a.
+
+476
+00:23:48,500 --> 00:23:51,650
+So we have one argument
+which is an a to b function.
+
+477
+00:23:51,650 --> 00:23:54,199
+And then it takes list of
+eight returns a list to be,
+
+478
+00:23:54,199 --> 00:23:56,614
+of course these are
+tight variables.
+
+479
+00:23:56,614 --> 00:24:02,090
+So if you apply map to
+square, it works out.
+
+480
+00:24:02,090 --> 00:24:04,279
+The type of square is number two,
+
+481
+00:24:04,279 --> 00:24:07,969
+number in this case into int.
+
+482
+00:24:07,969 --> 00:24:11,375
+So it instantiates a
+to B and B to be int.
+
+483
+00:24:11,375 --> 00:24:13,309
+And so this must be a list of int
+
+484
+00:24:13,309 --> 00:24:15,754
+and it returns a list event.
+
+485
+00:24:15,754 --> 00:24:18,664
+Similarly, whoops.
+
+486
+00:24:18,664 --> 00:24:27,395
+Similarly here, 4D takes a
+character and returns an int.
+
+487
+00:24:27,395 --> 00:24:29,419
+So this must be a
+list of character
+
+488
+00:24:29,419 --> 00:24:31,795
+and it returns a list event.
+
+489
+00:24:31,795 --> 00:24:36,779
+In this case, a is
+char and B isn't.
+
+490
+00:24:37,120 --> 00:24:40,469
+Any questions about that.
+
+491
+00:24:40,780 --> 00:24:43,624
+Okay, and do you want to get
+
+492
+00:24:43,624 --> 00:24:44,959
+one example of how the
+
+493
+00:24:44,959 --> 00:24:47,870
+stupid computer
+deals with all this.
+
+494
+00:24:47,870 --> 00:24:51,199
+Some people are nodding,
+who's bored with the stupid?
+
+495
+00:24:51,199 --> 00:24:53,000
+Raise your hand if you
+do not want to see
+
+496
+00:24:53,000 --> 00:24:55,220
+the stupid computer do this.
+
+497
+00:24:55,220 --> 00:24:59,645
+And if you do, okay.
+
+498
+00:24:59,645 --> 00:25:02,089
+Sorry, sorry, those
+of you who don't,
+
+499
+00:25:02,089 --> 00:25:04,324
+you have to put up with it.
+
+500
+00:25:04,324 --> 00:25:06,440
+So where was my example?
+
+501
+00:25:06,440 --> 00:25:09,560
+Right here is how it works.
+
+502
+00:25:09,560 --> 00:25:13,714
+Here is map is defined
+as a list comprehension.
+
+503
+00:25:13,714 --> 00:25:15,379
+Map takes two arguments.
+
+504
+00:25:15,379 --> 00:25:17,945
+One is F, its type is a to b.
+
+505
+00:25:17,945 --> 00:25:19,460
+Weight function.
+
+506
+00:25:19,460 --> 00:25:21,095
+Isn't that cool?
+
+507
+00:25:21,095 --> 00:25:23,420
+The second argument
+is a list of a,
+
+508
+00:25:23,420 --> 00:25:24,800
+we're going to call
+that acts as o.
+
+509
+00:25:24,800 --> 00:25:26,855
+We always do that. Okay, boring.
+
+510
+00:25:26,855 --> 00:25:29,929
+And the body of it is
+the list comprehension
+
+511
+00:25:29,929 --> 00:25:33,395
+f of x for each act
+drawn from axes.
+
+512
+00:25:33,395 --> 00:25:39,184
+Okay? So map of square
+of one to three is,
+
+513
+00:25:39,184 --> 00:25:40,940
+let's just copy it out.
+
+514
+00:25:40,940 --> 00:25:45,380
+F is square, xs is the list 123.
+
+515
+00:25:45,380 --> 00:25:48,139
+Let's copy the open
+square bracket.
+
+516
+00:25:48,139 --> 00:25:53,029
+And then f that becomes
+square and x that becomes x,
+
+517
+00:25:53,029 --> 00:25:56,899
+vertical bar, that
+becomes vertical bar.
+
+518
+00:25:56,899 --> 00:25:59,510
+And then acts that becomes x.
+
+519
+00:25:59,510 --> 00:26:01,430
+And drawn from that
+becomes drawn from
+
+520
+00:26:01,430 --> 00:26:04,249
+an axes that matches 1-2-3,
+
+521
+00:26:04,249 --> 00:26:07,339
+so that becomes 123.
+
+522
+00:26:07,339 --> 00:26:09,499
+Okay? And I know
+how to do square of
+
+523
+00:26:09,499 --> 00:26:11,599
+x for each x from one to three.
+
+524
+00:26:11,599 --> 00:26:13,249
+I just copy out the unit list
+
+525
+00:26:13,249 --> 00:26:15,275
+once with x replaced by one,
+
+526
+00:26:15,275 --> 00:26:17,419
+once with x replaced by two,
+
+527
+00:26:17,419 --> 00:26:19,670
+once with x replaced by three,
+
+528
+00:26:19,670 --> 00:26:21,290
+I've got square one, square two,
+
+529
+00:26:21,290 --> 00:26:23,555
+square three, which is,
+
+530
+00:26:23,555 --> 00:26:26,750
+this is list of one to 49.
+
+531
+00:26:26,750 --> 00:26:29,480
+I concatenate them.
+I get the list 149.
+
+532
+00:26:29,480 --> 00:26:32,369
+That are all done.
+
+533
+00:26:35,610 --> 00:26:39,069
+Right? And if we're doing
+
+534
+00:26:39,069 --> 00:26:42,999
+it with the other
+recursive definition,
+
+535
+00:26:42,999 --> 00:26:44,080
+it's the same thing but
+
+536
+00:26:44,080 --> 00:26:47,935
+more long winded map
+of square of 1.2.3,
+
+537
+00:26:47,935 --> 00:26:50,829
+which equation applies is 123.
+
+538
+00:26:50,829 --> 00:26:54,550
+No, no, no, it's not.
+
+539
+00:26:54,550 --> 00:26:57,775
+It's 123. I'll list
+with a head and a tail.
+
+540
+00:26:57,775 --> 00:27:01,660
+Guess it is, and the head
+is H1 and the tale is
+
+541
+00:27:01,660 --> 00:27:06,850
+that list 23 to
+now copy this out.
+
+542
+00:27:06,850 --> 00:27:09,894
+And so f maps to
+square, f, sorry,
+
+543
+00:27:09,894 --> 00:27:17,290
+f binds to square and X binds
+to one x as banks have L23.
+
+544
+00:27:17,290 --> 00:27:20,630
+So I guess copy X that
+becomes square of
+
+545
+00:27:20,630 --> 00:27:23,720
+one and map of
+
+546
+00:27:23,720 --> 00:27:27,499
+f of x that becomes map
+of square of x is 23.
+
+547
+00:27:27,499 --> 00:27:30,425
+So two cons, three cons nil.
+
+548
+00:27:30,425 --> 00:27:33,305
+And let's do it
+again. That was fun.
+
+549
+00:27:33,305 --> 00:27:39,350
+So this time, f is
+square and x is two,
+
+550
+00:27:39,350 --> 00:27:42,844
+and x is, is the list
+consisting of three.
+
+551
+00:27:42,844 --> 00:27:45,080
+And the body is f of x.
+
+552
+00:27:45,080 --> 00:27:47,465
+So that becomes square of two
+
+553
+00:27:47,465 --> 00:27:50,225
+because x is 2x and f is square.
+
+554
+00:27:50,225 --> 00:27:51,379
+And map ethics is,
+
+555
+00:27:51,379 --> 00:27:55,069
+becomes map square because
+f is square at xs is
+
+556
+00:27:55,069 --> 00:27:59,929
+three cons nil the list
+beginning with three.
+
+557
+00:27:59,929 --> 00:28:02,989
+Do it again. So let's see,
+
+558
+00:28:02,989 --> 00:28:06,169
+is three cons nil the empty list.
+
+559
+00:28:06,169 --> 00:28:09,229
+Oh no, it's not. Oh dear.
+
+560
+00:28:09,229 --> 00:28:13,175
+Okay. But is it a list with
+a head and a tail? It is.
+
+561
+00:28:13,175 --> 00:28:14,629
+And the head is three.
+
+562
+00:28:14,629 --> 00:28:17,344
+At the tail is the empty
+list and we copy it out.
+
+563
+00:28:17,344 --> 00:28:20,990
+And f is square and x is three,
+
+564
+00:28:20,990 --> 00:28:24,200
+and map is map and f is square.
+
+565
+00:28:24,200 --> 00:28:27,019
+At xs is the empty list,
+
+566
+00:28:27,019 --> 00:28:29,180
+o k. You know,
+
+567
+00:28:29,180 --> 00:28:30,439
+I'm tired of always looking at
+
+568
+00:28:30,439 --> 00:28:31,744
+the equations in the same order.
+
+569
+00:28:31,744 --> 00:28:33,559
+I'm going to look at them
+in a different order.
+
+570
+00:28:33,559 --> 00:28:35,645
+See, because it's
+always the second one.
+
+571
+00:28:35,645 --> 00:28:38,899
+So is nil the same?
+
+572
+00:28:38,899 --> 00:28:40,309
+Does it match x cons,
+
+573
+00:28:40,309 --> 00:28:42,965
+xs. Oh, it doesn't.
+
+574
+00:28:42,965 --> 00:28:45,650
+Alright, does it match
+this one better work.
+
+575
+00:28:45,650 --> 00:28:48,050
+Does it match nil, it dies.
+
+576
+00:28:48,050 --> 00:28:49,580
+It's the same as I copy this out.
+
+577
+00:28:49,580 --> 00:28:52,780
+I just get, no hope
+That was easy.
+
+578
+00:28:52,780 --> 00:28:54,170
+That's the list square of one,
+
+579
+00:28:54,170 --> 00:28:55,819
+that's one, square of two,
+
+580
+00:28:55,819 --> 00:28:57,529
+that's four, square
+root of three,
+
+581
+00:28:57,529 --> 00:28:58,789
+that's nine squares are easy.
+
+582
+00:28:58,789 --> 00:29:00,589
+I'm not going to go through
+the details of that.
+
+583
+00:29:00,589 --> 00:29:02,014
+You all know that, right?
+
+584
+00:29:02,014 --> 00:29:04,519
+Yeah. Okay. And nil is ill and so
+
+585
+00:29:04,519 --> 00:29:08,030
+that's the list 149 Gay.
+
+586
+00:29:08,030 --> 00:29:13,590
+Okay. So it's just as
+boring as it was before.
+
+587
+00:29:15,450 --> 00:29:19,699
+Okay. So that's map.
+
+588
+00:29:19,830 --> 00:29:22,749
+Now we've got, here's
+another pattern
+
+589
+00:29:22,749 --> 00:29:25,670
+that you've seen a lot of filter.
+
+590
+00:29:27,270 --> 00:29:29,515
+So let's work out.
+
+591
+00:29:29,515 --> 00:29:30,999
+Let's define what the
+positive numbers,
+
+592
+00:29:30,999 --> 00:29:36,470
+absolute positive numbers and
+list one minus 23 are 13.
+
+593
+00:29:36,900 --> 00:29:40,315
+Notice I've actually removed
+the negative number,
+
+594
+00:29:40,315 --> 00:29:41,800
+unlike one of the examples that
+
+595
+00:29:41,800 --> 00:29:43,420
+we gave you in one
+of the tutorials,
+
+596
+00:29:43,420 --> 00:29:45,730
+where we forgot and let
+the negative number in
+
+597
+00:29:45,730 --> 00:29:48,325
+the answer and you are all
+quite rightly confused.
+
+598
+00:29:48,325 --> 00:29:52,989
+Sorry about that. So positives
+
+599
+00:29:52,989 --> 00:29:55,960
+takes a list of integers and
+returns a list of integers.
+
+600
+00:29:55,960 --> 00:29:58,575
+And positive x is x.
+
+601
+00:29:58,575 --> 00:30:02,449
+We use list comprehensions x
+for each x drawn from x's,
+
+602
+00:30:02,449 --> 00:30:05,690
+with the guard that
+x is greater than 0.
+
+603
+00:30:05,690 --> 00:30:07,459
+So only take the ones
+that are greater
+
+604
+00:30:07,459 --> 00:30:09,920
+than 0 and positive.
+
+605
+00:30:09,920 --> 00:30:11,900
+The recursive
+definitions is positive.
+
+606
+00:30:11,900 --> 00:30:13,835
+The empty list is the empty list.
+
+607
+00:30:13,835 --> 00:30:17,359
+And other wise you've got list
+with head X entails X is.
+
+608
+00:30:17,359 --> 00:30:19,519
+And then we've got two
+possible conditions.
+
+609
+00:30:19,519 --> 00:30:20,329
+These are called guards.
+
+610
+00:30:20,329 --> 00:30:23,180
+Again, either x is
+greater than 0,
+
+611
+00:30:23,180 --> 00:30:25,490
+and then we stick acts on
+the head of the list and
+
+612
+00:30:25,490 --> 00:30:28,069
+recursively take the tail.
+
+613
+00:30:28,069 --> 00:30:30,199
+Or otherwise we leave acts
+
+614
+00:30:30,199 --> 00:30:32,600
+out because it's
+not greater than 0.
+
+615
+00:30:32,600 --> 00:30:34,129
+And we just recursively take
+
+616
+00:30:34,129 --> 00:30:37,279
+all the things greater
+than 0 in the tail.
+
+617
+00:30:37,279 --> 00:30:41,854
+Okay? You've seen that
+pattern before as well.
+
+618
+00:30:41,854 --> 00:30:44,030
+Here's another example.
+
+619
+00:30:44,030 --> 00:30:45,829
+Digits takes a list of
+
+620
+00:30:45,829 --> 00:30:47,869
+characters to a
+list of characters.
+
+621
+00:30:47,869 --> 00:30:50,269
+So we'll take each
+x for extra from
+
+622
+00:30:50,269 --> 00:30:53,809
+x's where isdigit holds of x.
+
+623
+00:30:53,809 --> 00:30:56,734
+Or we could do a
+recursive definition.
+
+624
+00:30:56,734 --> 00:30:59,344
+Digits of the empty
+list is the empty list.
+
+625
+00:30:59,344 --> 00:31:01,640
+Digits of x cons, xs.
+
+626
+00:31:01,640 --> 00:31:03,530
+If it's digits holds,
+
+627
+00:31:03,530 --> 00:31:06,994
+then we stick x on the front
+and recursively call digits.
+
+628
+00:31:06,994 --> 00:31:11,119
+Or otherwise, we just
+recursively call the digits.
+
+629
+00:31:11,119 --> 00:31:14,639
+We leave out because
+it's not hydrogen.
+
+630
+00:31:14,710 --> 00:31:17,224
+Again, you've seen
+those patterns.
+
+631
+00:31:17,224 --> 00:31:19,010
+Not if you're bored
+because you've seen those
+
+632
+00:31:19,010 --> 00:31:22,019
+before and you're very
+familiar with them.
+
+633
+00:31:23,680 --> 00:31:26,299
+We're not giving you
+guys enough tutorials.
+
+634
+00:31:26,299 --> 00:31:27,889
+You should all be nodding, right?
+
+635
+00:31:27,889 --> 00:31:30,889
+This should all be familiar
+and boring by now.
+
+636
+00:31:30,889 --> 00:31:33,049
+So I'm just gonna pretend
+it's familiar and
+
+637
+00:31:33,049 --> 00:31:36,900
+boring if it's not learned
+enough so that it is.
+
+638
+00:31:37,120 --> 00:31:39,514
+So this is all familiar, boring.
+
+639
+00:31:39,514 --> 00:31:40,864
+So it's a pattern, right? We keep
+
+640
+00:31:40,864 --> 00:31:42,695
+seeing the same pattern.
+
+641
+00:31:42,695 --> 00:31:47,030
+So again, we can say filter of
+
+642
+00:31:47,030 --> 00:31:49,219
+p. So now I'm using p
+
+643
+00:31:49,219 --> 00:31:51,694
+rather than f. F
+stands for function,
+
+644
+00:31:51,694 --> 00:31:53,615
+P stands for predicate.
+
+645
+00:31:53,615 --> 00:31:56,464
+So a predicate is something
+that returns a Boolean.
+
+646
+00:31:56,464 --> 00:31:58,759
+It's either holds or it
+doesn't hold that either
+
+647
+00:31:58,759 --> 00:32:01,474
+returns true or it returns false.
+
+648
+00:32:01,474 --> 00:32:03,589
+And axes is still list.
+
+649
+00:32:03,589 --> 00:32:06,080
+And then we return all
+X for X drawn from
+
+650
+00:32:06,080 --> 00:32:09,379
+X is such that P of that's holds.
+
+651
+00:32:09,379 --> 00:32:11,569
+And for the filter,
+
+652
+00:32:11,569 --> 00:32:13,985
+further recursive
+definition, right?
+
+653
+00:32:13,985 --> 00:32:15,020
+Again, for empty kids,
+
+654
+00:32:15,020 --> 00:32:18,349
+empty for list with
+
+655
+00:32:18,349 --> 00:32:22,520
+head axe entails X
+is if p of x holds,
+
+656
+00:32:22,520 --> 00:32:24,515
+then we stick axons in the front,
+
+657
+00:32:24,515 --> 00:32:26,404
+recursively filter the tail,
+
+658
+00:32:26,404 --> 00:32:28,429
+and otherwise we don't include
+
+659
+00:32:28,429 --> 00:32:32,489
+acts and we just recursively
+filter the tail.
+
+660
+00:32:34,300 --> 00:32:37,969
+And so as an example,
+
+661
+00:32:37,969 --> 00:32:40,670
+we can do filter of
+pause of x's where
+
+662
+00:32:40,670 --> 00:32:44,794
+pause of x is x greater than 0.
+
+663
+00:32:44,794 --> 00:32:47,109
+Or for digits we can
+do filter visit digit.
+
+664
+00:32:47,109 --> 00:32:50,570
+Again. I needed a where clause
+
+665
+00:32:50,570 --> 00:32:52,744
+because pauses into
+library function.
+
+666
+00:32:52,744 --> 00:32:55,459
+But isdigit is already
+defined as a function,
+
+667
+00:32:55,459 --> 00:32:58,669
+so you just need to have a
+function defined in some way.
+
+668
+00:32:58,669 --> 00:33:01,460
+This case it's a function
+that returns a Boolean.
+
+669
+00:33:01,460 --> 00:33:03,229
+So another name for a
+function that returns
+
+670
+00:33:03,229 --> 00:33:06,509
+a boolean is a predicate.
+
+671
+00:33:10,800 --> 00:33:14,680
+And again, looking at the types.
+
+672
+00:33:14,680 --> 00:33:19,419
+Now our first argument p is
+a function from a to bool.
+
+673
+00:33:19,419 --> 00:33:23,035
+Or first argument now is a
+function from a to bool.
+
+674
+00:33:23,035 --> 00:33:28,309
+And then we get a list of a
+and we return a list of a.
+
+675
+00:33:29,460 --> 00:33:32,635
+Any questions about that?
+
+676
+00:33:32,635 --> 00:33:41,379
+Yeah. So filter is also library
+function just like map.
+
+677
+00:33:41,379 --> 00:33:46,104
+Yes. Oh, good question.
+
+678
+00:33:46,104 --> 00:33:48,100
+Is the definition in
+
+679
+00:33:48,100 --> 00:33:53,029
+the library a list comprehension
+or is it by recursion?
+
+680
+00:33:53,029 --> 00:33:55,499
+Why do you care?
+
+681
+00:33:58,030 --> 00:34:01,175
+I'm actually quite
+serious about this.
+
+682
+00:34:01,175 --> 00:34:03,799
+It's really important
+in fact that I
+
+683
+00:34:03,799 --> 00:34:07,264
+don't tell you it's a secret.
+
+684
+00:34:07,264 --> 00:34:10,070
+And the reason why is
+that means I can change
+
+685
+00:34:10,070 --> 00:34:13,220
+my mind later and
+defined it another way,
+
+686
+00:34:13,220 --> 00:34:15,859
+if that becomes more efficient,
+
+687
+00:34:15,859 --> 00:34:18,080
+quantum computers are becoming
+
+688
+00:34:18,080 --> 00:34:19,550
+a thing next year
+I'm going to use
+
+689
+00:34:19,550 --> 00:34:22,084
+the quantum computer
+implementation
+
+690
+00:34:22,084 --> 00:34:24,934
+using quantum list
+comprehensions,
+
+691
+00:34:24,934 --> 00:34:26,705
+which haven't been invented yet.
+
+692
+00:34:26,705 --> 00:34:28,430
+But next year they
+will be and I'll
+
+693
+00:34:28,430 --> 00:34:31,144
+want to rewrite my
+library to use them.
+
+694
+00:34:31,144 --> 00:34:33,140
+Right? So the question is,
+
+695
+00:34:33,140 --> 00:34:34,489
+which is it in the library?
+
+696
+00:34:34,489 --> 00:34:37,354
+Is it defined as a
+list comprehension?
+
+697
+00:34:37,354 --> 00:34:39,080
+Is it defined as a function?
+
+698
+00:34:39,080 --> 00:34:40,534
+And the answer is,
+
+699
+00:34:40,534 --> 00:34:43,350
+don't ask that question.
+
+700
+00:34:43,660 --> 00:34:46,729
+Right? All you care about is what
+
+701
+00:34:46,729 --> 00:34:49,129
+it does and I'm
+allowed to pick them,
+
+702
+00:34:49,129 --> 00:34:50,240
+but what I think it's
+
+703
+00:34:50,240 --> 00:34:52,100
+the best implementation
+for the library.
+
+704
+00:34:52,100 --> 00:34:54,590
+Now there are actually
+exceptions to that.
+
+705
+00:34:54,590 --> 00:34:57,949
+Sometimes you need to know the
+efficiency of functions in
+
+706
+00:34:57,949 --> 00:34:59,600
+the library so that you can
+
+707
+00:34:59,600 --> 00:35:01,609
+design your own thing
+to be efficient.
+
+708
+00:35:01,609 --> 00:35:03,470
+So it's not the case
+that you never,
+
+709
+00:35:03,470 --> 00:35:05,435
+ever, ever want to know this.
+
+710
+00:35:05,435 --> 00:35:08,659
+But by default, basically,
+you don't care,
+
+711
+00:35:08,659 --> 00:35:10,744
+you care about what it does,
+
+712
+00:35:10,744 --> 00:35:12,934
+not, how it does it.
+
+713
+00:35:12,934 --> 00:35:15,859
+And that's another
+form of abstraction.
+
+714
+00:35:15,859 --> 00:35:17,659
+It's abstraction away from
+
+715
+00:35:17,659 --> 00:35:20,149
+the implementation so that
+you're only concerned
+
+716
+00:35:20,149 --> 00:35:22,310
+with the specification
+of what it does and
+
+717
+00:35:22,310 --> 00:35:24,709
+not with the details of
+how it's implemented.
+
+718
+00:35:24,709 --> 00:35:26,930
+That's actually really important.
+
+719
+00:35:26,930 --> 00:35:28,669
+If I had to know
+the details of how
+
+720
+00:35:28,669 --> 00:35:30,634
+everything in the
+library was implemented,
+
+721
+00:35:30,634 --> 00:35:32,780
+I'd never be able
+to write anything.
+
+722
+00:35:32,780 --> 00:35:36,200
+So this kind of abstraction
+is a really important idea.
+
+723
+00:35:36,200 --> 00:35:38,385
+So that was a great question.
+
+724
+00:35:38,385 --> 00:35:42,629
+Yep. Yeah.
+
+725
+00:35:45,730 --> 00:35:48,350
+Good question. Can you have
+
+726
+00:35:48,350 --> 00:35:51,005
+more than one argument
+that's a function.
+
+727
+00:35:51,005 --> 00:35:55,240
+Absolutely. Right? And you
+
+728
+00:35:55,240 --> 00:35:56,499
+can do all sorts of other things
+
+729
+00:35:56,499 --> 00:35:57,895
+we haven't talked about yet.
+
+730
+00:35:57,895 --> 00:36:00,550
+Like you can have
+lists of numbers,
+
+731
+00:36:00,550 --> 00:36:01,960
+lists of characters, you can have
+
+732
+00:36:01,960 --> 00:36:03,999
+lists of lists of characters.
+
+733
+00:36:03,999 --> 00:36:07,015
+Guess what? You can have
+lists of functions.
+
+734
+00:36:07,015 --> 00:36:10,210
+You have list of functions
+whose argument is a list of
+
+735
+00:36:10,210 --> 00:36:15,229
+functions from a to B
+that return and so on.
+
+736
+00:36:15,750 --> 00:36:19,210
+But you can combine things
+and all sorts of ways.
+
+737
+00:36:19,210 --> 00:36:21,760
+But this is actually a
+very important principle,
+
+738
+00:36:21,760 --> 00:36:24,414
+which is that once you
+learn a basic idea,
+
+739
+00:36:24,414 --> 00:36:27,025
+you can use it any way
+it fits together, right?
+
+740
+00:36:27,025 --> 00:36:29,109
+It's just like Lego.
+
+741
+00:36:29,109 --> 00:36:31,209
+And that Lego like
+
+742
+00:36:31,209 --> 00:36:33,685
+aspect to any two bits
+that fit together,
+
+743
+00:36:33,685 --> 00:36:36,375
+maybe put together
+is really important.
+
+744
+00:36:36,375 --> 00:36:38,375
+Kind of uniformity.
+
+745
+00:36:38,375 --> 00:36:40,880
+When people first
+started Ryan computers,
+
+746
+00:36:40,880 --> 00:36:41,989
+they were small and
+
+747
+00:36:41,989 --> 00:36:44,975
+slow and they couldn't
+make things uniform.
+
+748
+00:36:44,975 --> 00:36:46,820
+But we pretty quickly learn, No,
+
+749
+00:36:46,820 --> 00:36:49,835
+you should always
+make things uniform.
+
+750
+00:36:49,835 --> 00:36:51,169
+So of course, if
+you can have more
+
+751
+00:36:51,169 --> 00:36:52,685
+than one number argument,
+
+752
+00:36:52,685 --> 00:36:56,270
+you can also have more than
+one function argument.
+
+753
+00:36:56,270 --> 00:36:58,954
+That's actually a really
+important principle.
+
+754
+00:36:58,954 --> 00:37:01,399
+And took us awhile
+to discover that.
+
+755
+00:37:01,399 --> 00:37:07,745
+Good question. Okay, good.
+
+756
+00:37:07,745 --> 00:37:10,715
+Are you ready for
+your third pattern?
+
+757
+00:37:10,715 --> 00:37:13,580
+And this third pattern
+is important because
+
+758
+00:37:13,580 --> 00:37:16,475
+both the patterns I showed
+you are already built in,
+
+759
+00:37:16,475 --> 00:37:18,934
+in the form of list
+comprehensions.
+
+760
+00:37:18,934 --> 00:37:21,559
+Write a map is not much
+
+761
+00:37:21,559 --> 00:37:24,080
+shorter than a list
+comprehension.
+
+762
+00:37:24,080 --> 00:37:27,289
+Filter is not much shorter
+than the list comprehension.
+
+763
+00:37:27,289 --> 00:37:31,384
+Probably you will very
+rarely use map and filter,
+
+764
+00:37:31,384 --> 00:37:34,489
+except sometimes you'll be
+forced to use them on exam.
+
+765
+00:37:34,489 --> 00:37:37,174
+But probably you'll
+be very rarely use it
+
+766
+00:37:37,174 --> 00:37:40,535
+because you can use list
+comprehensions instead.
+
+767
+00:37:40,535 --> 00:37:42,260
+But now I'm going to
+show you one for which
+
+768
+00:37:42,260 --> 00:37:45,544
+a list comprehension
+does not exist.
+
+769
+00:37:45,544 --> 00:37:50,610
+And that one is full.
+
+770
+00:37:53,200 --> 00:37:58,025
+So here's another pattern we've
+seen some of 1234 is ten.
+
+771
+00:37:58,025 --> 00:37:59,509
+And how do we define that?
+
+772
+00:37:59,509 --> 00:38:02,225
+Some of the empty list is 0,
+
+773
+00:38:02,225 --> 00:38:03,769
+sum of x cons,
+
+774
+00:38:03,769 --> 00:38:05,854
+xs is take X
+
+775
+00:38:05,854 --> 00:38:10,230
+the head and added to
+recursively sum up the tail.
+
+776
+00:38:10,570 --> 00:38:13,159
+Or we can do product.
+
+777
+00:38:13,159 --> 00:38:14,914
+So the product of a list,
+
+778
+00:38:14,914 --> 00:38:17,449
+if it's the empty list, it's one.
+
+779
+00:38:17,449 --> 00:38:20,419
+Or if it's blissed with
+headaches and tells x's thing,
+
+780
+00:38:20,419 --> 00:38:23,000
+you take the head and
+you multiply it by
+
+781
+00:38:23,000 --> 00:38:27,390
+recursively finding the
+product of the tail.
+
+782
+00:38:27,430 --> 00:38:29,780
+Thick. I've got
+third example here.
+
+783
+00:38:29,780 --> 00:38:33,470
+Yep, concatenate takes
+a list of lists.
+
+784
+00:38:33,470 --> 00:38:38,660
+So concatenate of the list
+123 and list 45 returns List
+
+785
+00:38:38,660 --> 00:38:42,829
+12345 and concatenate concat
+
+786
+00:38:42,829 --> 00:38:45,214
+of lists with four things in it.
+
+787
+00:38:45,214 --> 00:38:46,804
+Con, cat.
+
+788
+00:38:46,804 --> 00:38:51,770
+And, and eight gives us,
+of course, concatenate.
+
+789
+00:38:51,770 --> 00:38:55,384
+So concat takes a list of lists,
+
+790
+00:38:55,384 --> 00:38:59,855
+each of type a, and it
+returns a list of Taipei.
+
+791
+00:38:59,855 --> 00:39:03,830
+So concat of the empty
+list is the empty list.
+
+792
+00:39:03,830 --> 00:39:05,764
+And concat of x,
+
+793
+00:39:05,764 --> 00:39:09,574
+x is not x because its list cons,
+
+794
+00:39:09,574 --> 00:39:12,515
+xs is, because it's
+a list of lists,
+
+795
+00:39:12,515 --> 00:39:15,200
+is X is at the front.
+
+796
+00:39:15,200 --> 00:39:16,865
+And then plus, plus,
+
+797
+00:39:16,865 --> 00:39:21,169
+and then concat
+recursively of XSS.
+
+798
+00:39:21,169 --> 00:39:25,129
+Okay? So you've seen
+that pattern before.
+
+799
+00:39:25,129 --> 00:39:27,350
+And a really important
+part of this pattern
+
+800
+00:39:27,350 --> 00:39:30,470
+is what do you do
+for the empty list?
+
+801
+00:39:30,470 --> 00:39:33,694
+Right? So here it's 0,
+
+802
+00:39:33,694 --> 00:39:35,930
+but here it's one.
+
+803
+00:39:35,930 --> 00:39:38,329
+And here it's the empty list.
+
+804
+00:39:38,329 --> 00:39:42,719
+How did I choose which
+thing to do? Use there?
+
+805
+00:39:43,750 --> 00:39:48,334
+Sorry, the identity, right?
+
+806
+00:39:48,334 --> 00:39:53,460
+So let's just fire up
+Haskell for a moment.
+
+807
+00:39:59,260 --> 00:40:07,680
+Here we go up wrong one
+bugger. Try that again.
+
+808
+00:40:10,480 --> 00:40:15,544
+So if I do 0 plus five,
+what am I going to get?
+
+809
+00:40:15,544 --> 00:40:19,775
+And if I do one times 42,
+
+810
+00:40:19,775 --> 00:40:21,679
+what am I going to get?
+
+811
+00:40:21,679 --> 00:40:27,725
+And if I do empty string,
+
+812
+00:40:27,725 --> 00:40:34,910
+empty list, plus the list,
+
+813
+00:40:34,910 --> 00:40:39,059
+one dot, dot 20, what
+am I going to get?
+
+814
+00:40:39,300 --> 00:40:42,024
+Oh, very good.
+
+815
+00:40:42,024 --> 00:40:46,104
+But if I was actually
+doing concatenation,
+
+816
+00:40:46,104 --> 00:40:50,725
+what am I going to get
+a list from one to 20?
+
+817
+00:40:50,725 --> 00:40:54,670
+Alright, and furthermore, it's
+identity both ways around.
+
+818
+00:40:54,670 --> 00:41:01,779
+So five plus 0 is also
+542 times one is also
+
+819
+00:41:01,779 --> 00:41:05,350
+421 dot dot 20
+
+820
+00:41:05,350 --> 00:41:10,780
+plus the empty list is o is
+one dot dot pointing case.
+
+821
+00:41:10,780 --> 00:41:12,655
+You always pick the
+thing that leads the,
+
+822
+00:41:12,655 --> 00:41:16,120
+you're trying to squeeze a
+list down using an operator.
+
+823
+00:41:16,120 --> 00:41:18,864
+So you always pick the thing that
+
+824
+00:41:18,864 --> 00:41:22,719
+leaves a value with that
+operator unchanged.
+
+825
+00:41:22,719 --> 00:41:26,630
+That's the rule for what
+to do with the empty list.
+
+826
+00:41:29,040 --> 00:41:33,264
+Okay, so we've got pattern fold.
+
+827
+00:41:33,264 --> 00:41:35,740
+It's called foliar.
+There's also a fold l,
+
+828
+00:41:35,740 --> 00:41:37,734
+which I'll teach you
+about a different day.
+
+829
+00:41:37,734 --> 00:41:41,814
+So fold R takes a
+function from a to a to
+
+830
+00:41:41,814 --> 00:41:44,469
+a function that takes
+
+831
+00:41:44,469 --> 00:41:47,469
+two a's and returns an a
+and it takes a single a.
+
+832
+00:41:47,469 --> 00:41:51,100
+So this would be like plus,
+this would be like 0.
+
+833
+00:41:51,100 --> 00:41:52,600
+This is a list of,
+
+834
+00:41:52,600 --> 00:41:54,370
+list of integer and that returns
+
+835
+00:41:54,370 --> 00:41:56,469
+an a that takes two arguments,
+
+836
+00:41:56,469 --> 00:41:58,480
+f and v. And list,
+
+837
+00:41:58,480 --> 00:41:59,830
+if it's the empty list,
+
+838
+00:41:59,830 --> 00:42:05,520
+just return v. If it's a
+list with a head and a tail,
+
+839
+00:42:05,520 --> 00:42:09,350
+do fold R of f and
+v and that list and
+
+840
+00:42:09,350 --> 00:42:13,280
+then just take f and apply
+it to those two arguments.
+
+841
+00:42:13,280 --> 00:42:18,570
+So f, the head of the list and
+recursively fold the tail.
+
+842
+00:42:18,940 --> 00:42:22,489
+We can also write this
+with the infix notation.
+
+843
+00:42:22,489 --> 00:42:26,479
+So if you write back
+tick F backed tech,
+
+844
+00:42:26,479 --> 00:42:28,954
+it's a backed tech,
+not a single quote.
+
+845
+00:42:28,954 --> 00:42:30,815
+Then we can write
+f in the middle,
+
+846
+00:42:30,815 --> 00:42:33,980
+which looks more like the
+other things we define.
+
+847
+00:42:33,980 --> 00:42:40,685
+So now we can do some axis
+is Fold r plus and 0.
+
+848
+00:42:40,685 --> 00:42:42,469
+And plus in parentheses
+
+849
+00:42:42,469 --> 00:42:44,509
+is the name of the
+addition function.
+
+850
+00:42:44,509 --> 00:42:47,299
+So x plus y and plus applied to x
+
+851
+00:42:47,299 --> 00:42:50,239
+and y both mean exactly
+the same thing.
+
+852
+00:42:50,239 --> 00:42:54,170
+This is just sort of a
+nice way of writing this.
+
+853
+00:42:54,170 --> 00:42:55,894
+The real meaning is this.
+
+854
+00:42:55,894 --> 00:42:58,624
+Functions always take all
+their arguments after them.
+
+855
+00:42:58,624 --> 00:43:02,459
+Infix is just what we
+call syntactic sugar.
+
+856
+00:43:08,680 --> 00:43:13,160
+Right? Sorry. Right where
+I want she is, right?
+
+857
+00:43:13,160 --> 00:43:16,010
+So when we write this, it's
+again syntactic trigger x
+
+858
+00:43:16,010 --> 00:43:19,369
+f thingy is just
+syntactic sugar for,
+
+859
+00:43:19,369 --> 00:43:21,079
+well, f Thing one Thing,
+
+860
+00:43:21,079 --> 00:43:23,870
+e2 is the real meaning,
+
+861
+00:43:23,870 --> 00:43:25,924
+but you can write that as x.
+
+862
+00:43:25,924 --> 00:43:28,820
+And back. Sorry, thingy, thing,
+
+863
+00:43:28,820 --> 00:43:32,899
+one thing, E2, they're
+both the same thing.
+
+864
+00:43:32,899 --> 00:43:40,759
+Okay? So sum becomes
+fold r plus and 0.
+
+865
+00:43:40,759 --> 00:43:45,200
+Product becomes folder
+of times and one.
+
+866
+00:43:45,200 --> 00:43:50,300
+And concat becomes folder of
+double plus an empty list.
+
+867
+00:43:50,300 --> 00:43:52,279
+Right? And there are
+other things we can
+
+868
+00:43:52,279 --> 00:43:54,530
+do in that style.
+
+869
+00:43:54,530 --> 00:43:59,849
+So for instance, you've got
+and which takes a list.
+
+870
+00:44:01,630 --> 00:44:04,769
+What's this going to return?
+
+871
+00:44:13,650 --> 00:44:18,609
+It's going to return.
+What's this going to
+
+872
+00:44:18,609 --> 00:44:23,649
+return? We'll take a vote.
+
+873
+00:44:23,649 --> 00:44:25,209
+How many people think
+it's going to return?
+
+874
+00:44:25,209 --> 00:44:28,389
+42 people.
+
+875
+00:44:28,389 --> 00:44:32,094
+How many people think it's
+going to return true?
+
+876
+00:44:32,094 --> 00:44:35,290
+How many people think it's
+going to return false?
+
+877
+00:44:35,290 --> 00:44:37,030
+Alright, let's try
+to work it out.
+
+878
+00:44:37,030 --> 00:44:38,784
+What's the identity?
+
+879
+00:44:38,784 --> 00:44:41,239
+For addition?
+
+880
+00:44:44,040 --> 00:44:54,259
+Actually, let's just do x
+and y for each x drawn from,
+
+881
+00:44:54,259 --> 00:44:57,230
+let's count from false to true.
+
+882
+00:44:57,230 --> 00:45:03,990
+And for y, it's the floating y.
+
+883
+00:45:04,120 --> 00:45:14,059
+And y goes from false to true.
+Let's see if that works.
+
+884
+00:45:14,059 --> 00:45:16,760
+I think falses smaller
+than true. No, it's not.
+
+885
+00:45:16,760 --> 00:45:21,120
+Alright. Try that again.
+
+886
+00:45:26,560 --> 00:45:30,299
+How many falses or
+am I going to get?
+
+887
+00:45:31,060 --> 00:45:36,305
+And how many trues, right?
+
+888
+00:45:36,305 --> 00:45:38,765
+And in this one,
+
+889
+00:45:38,765 --> 00:45:42,514
+x is false and y was
+false and we get false.
+
+890
+00:45:42,514 --> 00:45:46,190
+So falses leave
+things and changed.
+
+891
+00:45:46,190 --> 00:45:49,219
+Oh, sorry, falses
+always give you false.
+
+892
+00:45:49,219 --> 00:45:53,135
+But notice that false
+and true is false.
+
+893
+00:45:53,135 --> 00:45:56,419
+True and false is false
+and true and true is true,
+
+894
+00:45:56,419 --> 00:46:00,424
+so true and something
+leaves it unchanged, right?
+
+895
+00:46:00,424 --> 00:46:06,380
+True. We could write a quick
+check property to test this.
+
+896
+00:46:06,380 --> 00:46:09,470
+I'm not sure I do that.
+
+897
+00:46:09,470 --> 00:46:10,415
+Now.
+
+898
+00:46:10,415 --> 00:46:12,740
+I'm not going to write the
+QuickCheck poverty right now.
+
+899
+00:46:12,740 --> 00:46:14,360
+Sam, I've got five minutes.
+
+900
+00:46:14,360 --> 00:46:15,905
+Okay, import.
+
+901
+00:46:15,905 --> 00:46:18,875
+It's test dot quick.
+Check this out, right?
+
+902
+00:46:18,875 --> 00:46:20,795
+Let's see if this works.
+
+903
+00:46:20,795 --> 00:46:28,730
+Good. Let prop and
+identity of x and
+
+904
+00:46:28,730 --> 00:46:36,830
+y is equal to x and y equals x.
+
+905
+00:46:36,830 --> 00:46:38,059
+So this is checking that,
+
+906
+00:46:38,059 --> 00:46:41,030
+no, hate that with what?
+
+907
+00:46:41,030 --> 00:46:44,180
+This is checking that
+x is the identity for
+
+908
+00:46:44,180 --> 00:46:51,240
+and and then if I do
+a quick check, prop,
+
+909
+00:46:52,450 --> 00:47:00,485
+prop and By D
+
+910
+00:47:00,485 --> 00:47:05,150
+of true variable Mountains go,
+
+911
+00:47:05,150 --> 00:47:06,620
+oh, it's because I misspelled it.
+
+912
+00:47:06,620 --> 00:47:12,230
+Bugger. Yeah, live coding.
+
+913
+00:47:12,230 --> 00:47:15,840
+It's tough guys. It's pressure.
+
+914
+00:47:19,360 --> 00:47:23,489
+Right? Or I could have
+written that another way.
+
+915
+00:47:23,950 --> 00:47:28,290
+But made it would've been
+easier if I wrote it like this.
+
+916
+00:47:30,970 --> 00:47:35,639
+And we can check that's the
+identity both ways right?
+
+917
+00:47:49,630 --> 00:47:55,879
+Now if I do quick check again
+of that property, fail.
+
+918
+00:47:55,879 --> 00:48:02,430
+What what what what what
+what what did I do wrong?
+
+919
+00:48:02,710 --> 00:48:06,240
+Somebody tell me
+what I did wrong.
+
+920
+00:48:07,450 --> 00:48:16,620
+Sorry. Oh, no, that
+should be okay.
+
+921
+00:48:24,420 --> 00:48:32,859
+Sorry. No, true and
+
+922
+00:48:32,859 --> 00:48:36,350
+why should always equal
+y no matter what y is.
+
+923
+00:48:39,240 --> 00:48:43,219
+Now this should be, this
+should both be true.
+
+924
+00:48:43,810 --> 00:48:52,149
+Alright? Alright, I've
+done something wrong here.
+
+925
+00:48:52,149 --> 00:48:53,290
+I'm not sure what
+I've done wrong.
+
+926
+00:48:53,290 --> 00:48:54,790
+Somebody will come
+up after class and
+
+927
+00:48:54,790 --> 00:48:56,920
+explained to me the
+idiotic thing I did.
+
+928
+00:48:56,920 --> 00:48:58,389
+But let's just check that one.
+
+929
+00:48:58,389 --> 00:48:59,830
+That one should work.
+
+930
+00:48:59,830 --> 00:49:02,710
+Alright, wait, I have
+to redo the line.
+
+931
+00:49:02,710 --> 00:49:08,930
+Heating. Oh, yeah.
+Now QuickCheck,
+
+932
+00:49:08,930 --> 00:49:11,660
+better return true or
+else I will be sad.
+
+933
+00:49:11,660 --> 00:49:17,029
+What? Alright, well that's
+what's going wrong.
+
+934
+00:49:17,029 --> 00:49:21,900
+But why? Why unfolds
+should be equal to y?
+
+935
+00:49:28,900 --> 00:49:34,469
+Oh, I see what's going
+wrong. Thank you.
+
+936
+00:49:37,510 --> 00:49:43,519
+Varicose. Haha. Haha. Thank you.
+
+937
+00:49:43,519 --> 00:49:46,320
+Right. It's a precedence error.
+
+938
+00:49:49,360 --> 00:49:52,160
+Okay. Okay. There we go.
+
+939
+00:49:52,160 --> 00:49:53,240
+You have to get the precedence,
+
+940
+00:49:53,240 --> 00:49:55,770
+Right. Thank you for that.
+
+941
+00:49:56,650 --> 00:49:59,300
+Okay, so now what's
+
+942
+00:49:59,300 --> 00:50:01,890
+hand of the empty list
+going to give us?
+
+943
+00:50:03,700 --> 00:50:09,665
+And what's or the empty list
+going to give us false.
+
+944
+00:50:09,665 --> 00:50:13,549
+And then we can do, right again.
+
+945
+00:50:13,549 --> 00:50:19,565
+Let prop and xs
+
+946
+00:50:19,565 --> 00:50:25,249
+is AND of x is always
+equal to fold R and,
+
+947
+00:50:25,249 --> 00:50:29,730
+and true and x's.
+
+948
+00:50:33,280 --> 00:50:39,739
+So and can just be defined
+using fold R. Will this work?
+
+949
+00:50:39,739 --> 00:50:42,064
+The tension mounts?
+
+950
+00:50:42,064 --> 00:50:45,350
+Yea. I'll stop.
+
+951
+00:50:45,350 --> 00:50:48,059
+I'm ahead. Thank you very much.
