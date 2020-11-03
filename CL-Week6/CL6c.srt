@@ -5,12 +5,12 @@ bit of logic. We're ready.
 
 2
 00:00:03,495 --> 00:00:05,580
-We call pictures that aside to
+We've got these pictures at the side to
 
 3
 00:00:05,580 --> 00:00:07,950
-remind us what swear
-it actually help.
+remind us what's where,
+it actually helps.
 
 4
 00:00:07,950 --> 00:00:09,150
@@ -24,12 +24,12 @@ the encoding,
 6
 00:00:10,680 --> 00:00:12,480
 it just helps to
-think employers on,
+think if blue's on,
 
 7
 00:00:12,480 --> 00:00:14,325
 that's what's there.
-That means blue zone.
+That means blue's on.
 
 8
 00:00:14,325 --> 00:00:17,969
@@ -42,11 +42,11 @@ of these two.
 
 10
 00:00:20,280 --> 00:00:23,130
-So green and blue eyed ones in
+So green and blue, I put ones in
 
 11
 00:00:23,130 --> 00:00:26,010
-here where green is
+here, where green is
 true and blue is true.
 
 12
@@ -59,30 +59,30 @@ a block of ones showing me the
 
 14
 00:00:29,370 --> 00:00:33,900
-green and blue are true
-for each of these letters.
+green and blue are true.
+For each of these letters,
 
 15
 00:00:33,900 --> 00:00:37,500
-This is a block of ones
-showing that a is true.
+this is a block of ones
+showing that A is true;
 
 16
 00:00:37,500 --> 00:00:39,030
-This is a block of peace,
+this is a block of B's,
 
 17
 00:00:39,030 --> 00:00:43,145
-showing that P is true.
-Block, block green.
+showing that B is true;
+block for R; block for green.
 
 18
 00:00:43,145 --> 00:00:44,480
-We'd have a block for naught.
+We'd have a block for not A.
 
 19
 00:00:44,480 --> 00:00:47,790
-A will have a block for Nora.
+We'd have a block for not R.
 
 20
 00:00:48,040 --> 00:00:50,690
@@ -96,11 +96,11 @@ for not green and not blue.
 22
 00:00:53,030 --> 00:00:55,175
 We'll come back to
-that. If I try.
+that. If I try
 
 23
 00:00:55,175 --> 00:00:57,560
-Not a and B again
+not A and B, I then
 
 24
 00:00:57,560 --> 00:01:00,305
@@ -110,44 +110,44 @@ Does everyone get that?
 25
 00:01:00,305 --> 00:01:03,260
 Does everyone see
-node a and b naught
+not A and B. Not A
 
 26
 00:01:03,260 --> 00:01:06,140
-a is this side and b,
+is this side and B,
 so we intersect them.
 
 27
 00:01:06,140 --> 00:01:09,545
-So we get that block,
-not a and not r.
+So we get that block.
+Not A and not R.
 
 28
 00:01:09,545 --> 00:01:13,745
-So not a is this left hand
-side now is this topic.
+So not A is this left hand
+side, not R is this top bit.
 
 29
 00:01:13,745 --> 00:01:15,170
-So not a and not a is
+So not A and not R is there.
 
 30
 00:01:15,170 --> 00:01:18,260
-the not B and not.
-We see another blow.
+Not B and not R.
+We see another block.
 
 31
 00:01:18,260 --> 00:01:21,605
-Anyone i, any idea what's
-special about blocks now?
+Anyone has any idea what's
+special about blocks?
 
 32
 00:01:21,605 --> 00:01:23,540
-G and no TAA.
+Not G and not R,
 
 33
 00:01:23,540 --> 00:01:25,130
-Where we get to this place
+here is where we get to this place
 
 34
 00:01:25,130 --> 00:01:27,710
@@ -161,8 +161,8 @@ as being next to each other.
 
 36
 00:01:31,715 --> 00:01:34,820
-For doing that, let's
-make a picture.
+Before doing that, let's
+take a picture.
 
 37
 00:01:34,820 --> 00:01:37,520
@@ -185,7 +185,7 @@ Now, you can't see the edges.
 
 41
 00:01:46,190 --> 00:01:47,660
-What I've done is to take
+What I've done, is to take
 
 42
 00:01:47,660 --> 00:01:51,485
@@ -194,11 +194,11 @@ them next to each other.
 
 43
 00:01:51,485 --> 00:01:54,335
-So the rules how along this row,
+So the rules hold. Along this row,
 
 44
 00:01:54,335 --> 00:01:57,815
-we've just got reds down here.
+we've just got reds. Down here.
 
 45
 00:01:57,815 --> 00:02:00,920
@@ -207,18 +207,18 @@ got neither this nor
 
 46
 00:02:00,920 --> 00:02:04,280
-that down any row
-along any column.
+that. Down any row,
+along any column
 
 47
 00:02:04,280 --> 00:02:07,355
-We've got something
+we've got something
 that's constant.
 
 48
 00:02:07,355 --> 00:02:09,305
-Namely the, here're
-two things around
+Namely that there are
+two things that aren't
 
 49
 00:02:09,305 --> 00:02:12,035
@@ -237,15 +237,15 @@ I changed one thing.
 52
 00:02:15,110 --> 00:02:19,025
 So I can change this
-nothing to amber or red,
+nothing to amber or to red,
 
 53
 00:02:19,025 --> 00:02:21,215
-or green or blue.
+or to green or to blue.
 
 54
 00:02:21,215 --> 00:02:24,110
-You can see why you do this in
+You can see why you can do this in
 
 55
 00:02:24,110 --> 00:02:27,710
@@ -255,16 +255,16 @@ four variables.
 56
 00:02:27,710 --> 00:02:30,350
 But if you wanted
-to six variables,
+to do it in six variables,
 
 57
 00:02:30,350 --> 00:02:32,180
 you have to go into
-three dimensions.
+three dimensions
 
 58
 00:02:32,180 --> 00:02:34,220
-And it's much harder
+and it's much harder
 to see when you've got
 
 59
