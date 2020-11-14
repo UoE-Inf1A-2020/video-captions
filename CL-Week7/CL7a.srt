@@ -1,0 +1,669 @@
+1
+00:00:00,000 --> 00:00:03,150
+Back to basics. Every
+small triangle is read.
+
+2
+00:00:03,150 --> 00:00:04,515
+We did that fine.
+
+3
+00:00:04,515 --> 00:00:07,620
+Everyone's into catch on to
+what was going on there.
+
+4
+00:00:07,620 --> 00:00:10,980
+And we just translated those
+things with and's and or's.
+
+5
+00:00:10,980 --> 00:00:12,840
+So every small triangles read,
+
+6
+00:00:12,840 --> 00:00:14,280
+some small triangle is red.
+
+7
+00:00:14,280 --> 00:00:17,010
+It looks to start with as
+though this could get really
+
+8
+00:00:17,010 --> 00:00:20,555
+complicated because could
+say lots of things here.
+
+9
+00:00:20,555 --> 00:00:23,000
+So we're going to try and
+make things simple because we
+
+10
+00:00:23,000 --> 00:00:25,505
+have these operations
+on predicates.
+
+11
+00:00:25,505 --> 00:00:27,065
+Instead of thinking, oh, this is
+
+12
+00:00:27,065 --> 00:00:29,990
+about three different predicates
+and there might be one,
+
+13
+00:00:29,990 --> 00:00:31,610
+about four When I
+add something else.
+
+14
+00:00:31,610 --> 00:00:33,155
+And finally, when I
+get something else,
+
+15
+00:00:33,155 --> 00:00:34,775
+now I have one predicate here.
+
+16
+00:00:34,775 --> 00:00:35,915
+I'm, I'm predicate here.
+
+17
+00:00:35,915 --> 00:00:38,870
+So I've made it simpler just
+by using those operations.
+
+18
+00:00:38,870 --> 00:00:40,010
+If I want you to explain,
+
+19
+00:00:40,010 --> 00:00:42,110
+every small triangle is red,
+
+20
+00:00:42,110 --> 00:00:43,580
+then I load in eateries plane,
+
+21
+00:00:43,580 --> 00:00:46,205
+but every something is red means.
+
+22
+00:00:46,205 --> 00:00:47,480
+And now we're going
+to look at another
+
+23
+00:00:47,480 --> 00:00:48,740
+example because we're going to
+
+24
+00:00:48,740 --> 00:00:51,980
+make it slightly
+more complicated.
+
+25
+00:00:51,980 --> 00:00:55,595
+Will start from this,
+
+26
+00:00:55,595 --> 00:00:57,290
+which is very simple.
+
+27
+00:00:57,290 --> 00:00:59,360
+We have a universe of
+
+28
+00:00:59,360 --> 00:01:03,035
+people and we have a
+predicate is happy.
+
+29
+00:01:03,035 --> 00:01:06,450
+And we want to say,
+everybody is happy.
+
+30
+00:01:07,300 --> 00:01:10,565
+Where body, body be,
+
+31
+00:01:10,565 --> 00:01:11,900
+the collection of all people.
+
+32
+00:01:11,900 --> 00:01:13,535
+Just the words look nice.
+
+33
+00:01:13,535 --> 00:01:16,745
+Ok. Everybody is happy,
+
+34
+00:01:16,745 --> 00:01:18,950
+is, and is happy.
+
+35
+00:01:18,950 --> 00:01:22,205
+X for the X is drawn from body.
+
+36
+00:01:22,205 --> 00:01:24,800
+That's even simpler than
+what I just asked you about.
+
+37
+00:01:24,800 --> 00:01:26,585
+So I assume it's all right.
+
+38
+00:01:26,585 --> 00:01:28,730
+What I'm going to do now is to do
+
+39
+00:01:28,730 --> 00:01:30,845
+something that I assume
+will not be o, right?
+
+40
+00:01:30,845 --> 00:01:32,795
+And you're welcome
+to ask questions.
+
+41
+00:01:32,795 --> 00:01:34,460
+I can say, okay,
+
+42
+00:01:34,460 --> 00:01:37,250
+I want to say something
+like everybody is happy.
+
+43
+00:01:37,250 --> 00:01:40,505
+Say every xs is p,
+
+44
+00:01:40,505 --> 00:01:41,810
+or every x in x,
+
+45
+00:01:41,810 --> 00:01:45,920
+this is p. Every x in
+this list of xs has
+
+46
+00:01:45,920 --> 00:01:48,170
+property P. So I take the x
+
+47
+00:01:48,170 --> 00:01:50,420
+from the axis and
+say it has be lipid.
+
+48
+00:01:50,420 --> 00:01:53,090
+Now, what I've done
+now is to write
+
+49
+00:01:53,090 --> 00:01:56,180
+a function every,
+what's its type?
+
+50
+00:01:56,180 --> 00:01:58,069
+It takes a list of things,
+
+51
+00:01:58,069 --> 00:02:00,845
+it takes a predicate on things,
+
+52
+00:02:00,845 --> 00:02:02,765
+and it gives me back a Boolean.
+
+53
+00:02:02,765 --> 00:02:04,610
+I can now write,
+instead of writing
+
+54
+00:02:04,610 --> 00:02:06,950
+all this stuff when I
+have to translate that,
+
+55
+00:02:06,950 --> 00:02:09,935
+I can literally write that
+Haskell and it works.
+
+56
+00:02:09,935 --> 00:02:12,830
+That's the game we're gonna
+play mainly today is trying
+
+57
+00:02:12,830 --> 00:02:15,725
+to get Haskell to look
+more like language.
+
+58
+00:02:15,725 --> 00:02:17,330
+And it'll actually help us
+
+59
+00:02:17,330 --> 00:02:19,625
+explain what language
+means by doing it.
+
+60
+00:02:19,625 --> 00:02:23,180
+We can say this.
+We got every going
+
+61
+00:02:23,180 --> 00:02:25,160
+from a list of
+
+62
+00:02:25,160 --> 00:02:27,755
+the things we're talking
+about, this predicate.
+
+63
+00:02:27,755 --> 00:02:29,150
+And then he just says, for
+
+64
+00:02:29,150 --> 00:02:30,980
+all the things you're
+talking about, it's true.
+
+65
+00:02:30,980 --> 00:02:32,270
+The way we're going
+to make things more
+
+66
+00:02:32,270 --> 00:02:34,595
+complicated is to move
+
+67
+00:02:34,595 --> 00:02:38,210
+from predicates like
+is happy or is red,
+
+68
+00:02:38,210 --> 00:02:40,100
+or is big or small,
+
+69
+00:02:40,100 --> 00:02:44,705
+to relations like loves
+person, loves person.
+
+70
+00:02:44,705 --> 00:02:47,180
+Any any resemblance to
+
+71
+00:02:47,180 --> 00:02:49,715
+person living or that is
+totally coincidental.
+
+72
+00:02:49,715 --> 00:02:52,190
+Loud asthma, Mary,
+what does loves?
+
+73
+00:02:52,190 --> 00:02:54,905
+Mary main, if I write it down?
+
+74
+00:02:54,905 --> 00:02:57,920
+Well, we normally design
+
+75
+00:02:57,920 --> 00:03:00,485
+these things so that we
+can use them in infix.
+
+76
+00:03:00,485 --> 00:03:03,980
+I love this, Mah Meri
+really means my loves Mary.
+
+77
+00:03:03,980 --> 00:03:05,645
+If I just write loves Mark,
+
+78
+00:03:05,645 --> 00:03:07,730
+what type would
+novice monogamy law.
+
+79
+00:03:07,730 --> 00:03:09,589
+This is just one of
+these predicates.
+
+80
+00:03:09,589 --> 00:03:12,440
+It does from person
+to person taboo.
+
+81
+00:03:12,440 --> 00:03:15,365
+And as we know, we know
+it's brackets in there.
+
+82
+00:03:15,365 --> 00:03:16,790
+There could be packets
+
+83
+00:03:16,790 --> 00:03:18,950
+there and it would
+make no difference.
+
+84
+00:03:18,950 --> 00:03:22,595
+So when we gave a person to
+Love's, we get a predicate.
+
+85
+00:03:22,595 --> 00:03:23,870
+What does that predicate me?
+
+86
+00:03:23,870 --> 00:03:25,115
+Which people is it true of?
+
+87
+00:03:25,115 --> 00:03:28,730
+Suppose we put an X
+in here for Mary,
+
+88
+00:03:28,730 --> 00:03:32,255
+then we'd have labs of x.
+
+89
+00:03:32,255 --> 00:03:36,110
+And log of x would
+mean MA loves egg.
+
+90
+00:03:36,110 --> 00:03:39,410
+So loves mock means ma loves.
+
+91
+00:03:39,410 --> 00:03:42,485
+So a true of the people
+who are loved PyMOL.
+
+92
+00:03:42,485 --> 00:03:45,695
+Now we got our every so
+we can say everybody
+
+93
+00:03:45,695 --> 00:03:49,550
+loves MA what does
+everybody loves Mark mean,
+
+94
+00:03:49,550 --> 00:03:51,125
+we haven't got it written
+the right way yet.
+
+95
+00:03:51,125 --> 00:03:52,820
+At the moment it's written
+in a confusing way,
+
+96
+00:03:52,820 --> 00:03:53,735
+but it'll get better.
+
+97
+00:03:53,735 --> 00:03:56,915
+Lavas, Ma is true if
+someone loves them.
+
+98
+00:03:56,915 --> 00:03:58,430
+So what's it mean
+to say it's true
+
+99
+00:03:58,430 --> 00:04:00,860
+of everybody loves everybody.
+
+100
+00:04:00,860 --> 00:04:02,195
+That's how we normally put it.
+
+101
+00:04:02,195 --> 00:04:05,270
+But because we've put
+this partial application
+
+102
+00:04:05,270 --> 00:04:09,020
+here and now is the infix
+version. It's mixed up.
+
+103
+00:04:09,020 --> 00:04:11,825
+Loves Mary is the same as Mark.
+
+104
+00:04:11,825 --> 00:04:13,625
+Loves Mary.
+
+105
+00:04:13,625 --> 00:04:16,290
+What you have to keep in mind.
+
+106
+00:04:16,660 --> 00:04:24,230
+So everybody loves Mark
+is and of loves my X,
+
+107
+00:04:24,230 --> 00:04:25,580
+where X comes from body.
+
+108
+00:04:25,580 --> 00:04:27,440
+That's just the way
+we defined everybody.
+
+109
+00:04:27,440 --> 00:04:28,910
+We take this predicate,
+
+110
+00:04:28,910 --> 00:04:31,400
+we apply to the axis and we
+say it works for all of them.
+
+111
+00:04:31,400 --> 00:04:33,500
+So it means Matlab's everybody.
+
+112
+00:04:33,500 --> 00:04:35,825
+Haskell does something
+really nice for us.
+
+113
+00:04:35,825 --> 00:04:39,020
+Haskell has clever thing
+is called sections A7.
+
+114
+00:04:39,020 --> 00:04:41,090
+I have something like loves,
+
+115
+00:04:41,090 --> 00:04:43,114
+which is a binary operator.
+
+116
+00:04:43,114 --> 00:04:46,325
+So here we've got
+an infix binary.
+
+117
+00:04:46,325 --> 00:04:50,150
+Then if I write my loves
+the parentheses around it,
+
+118
+00:04:50,150 --> 00:04:54,140
+it says, are you
+thinking of this?
+
+119
+00:04:54,140 --> 00:04:58,535
+Man loves x, means mark Planet X.
+
+120
+00:04:58,535 --> 00:05:01,580
+Now, this function works
+
+121
+00:05:01,580 --> 00:05:04,010
+the way we'd like it to
+work. Loves everybody.
+
+122
+00:05:04,010 --> 00:05:06,320
+We can also do some
+just the same way
+
+123
+00:05:06,320 --> 00:05:08,690
+as we done every same type.
+
+124
+00:05:08,690 --> 00:05:10,010
+It takes the list of things,
+
+125
+00:05:10,010 --> 00:05:11,855
+takes a predicate,
+gives you a Boolean.
+
+126
+00:05:11,855 --> 00:05:15,875
+Some axes have property
+p0 means for P of X,
+
+127
+00:05:15,875 --> 00:05:17,540
+X Fmax is, again,
+
+128
+00:05:17,540 --> 00:05:19,895
+you should remember that
+from a few weeks ago.
+
+129
+00:05:19,895 --> 00:05:21,785
+If you remember a few
+weeks ago anymore,
+
+130
+00:05:21,785 --> 00:05:24,365
+some body loves Mary,
+
+131
+00:05:24,365 --> 00:05:27,650
+should be o of b, loves Mary.
+
+132
+00:05:27,650 --> 00:05:29,840
+P comes from body.
+Somebody loves Mary.
+
+133
+00:05:29,840 --> 00:05:32,870
+The way we can write
+somebody loves Mary is
+
+134
+00:05:32,870 --> 00:05:36,005
+simply to say some body
+loves Mary in brackets.
+
+135
+00:05:36,005 --> 00:05:39,095
+You can do that section
+on either side.
+
+136
+00:05:39,095 --> 00:05:41,915
+So let you fill in
+either the right, left,
+
+137
+00:05:41,915 --> 00:05:43,640
+and make a function
+out of the other path
+
+138
+00:05:43,640 --> 00:05:45,650
+until you learns about this,
+
+139
+00:05:45,650 --> 00:05:48,890
+you would have had to write a
+function like this and say,
+
+140
+00:05:48,890 --> 00:05:51,785
+loves Mary is a function
+from version to bool.
+
+141
+00:05:51,785 --> 00:05:54,200
+Love Mary of x is x loves Mary.
+
+142
+00:05:54,200 --> 00:05:55,880
+But because Haskell has this,
+
+143
+00:05:55,880 --> 00:05:58,190
+there is something
+that is the function
+
+144
+00:05:58,190 --> 00:06:01,580
+which for an x gives you x
+love Mary, it's this one.
+
+145
+00:06:01,580 --> 00:06:03,725
+The x is not even
+mentioned in there.
+
+146
+00:06:03,725 --> 00:06:05,945
+It's the thing you'd put
+in to complete this.
+
+147
+00:06:05,945 --> 00:06:08,160
+So those are sections.

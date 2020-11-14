@@ -1,0 +1,1220 @@
+1
+00:00:00,470 --> 00:00:03,555
+Good morning. Today and tomorrow,
+
+2
+00:00:03,555 --> 00:00:05,685
+we're going to look
+at an algorithm
+
+3
+00:00:05,685 --> 00:00:07,905
+that was developed just
+before the Beatles.
+
+4
+00:00:07,905 --> 00:00:10,260
+In those days, computers were
+
+5
+00:00:10,260 --> 00:00:15,045
+roughly 30 thousand times
+slower than they are today.
+
+6
+00:00:15,045 --> 00:00:17,235
+So when that algorithm
+was developed,
+
+7
+00:00:17,235 --> 00:00:20,730
+it would take about 30
+hours to do what we
+
+8
+00:00:20,730 --> 00:00:22,305
+can do in a couple of seconds
+
+9
+00:00:22,305 --> 00:00:24,195
+with the same algorithm today,
+
+10
+00:00:24,195 --> 00:00:25,545
+we'll see later on,
+
+11
+00:00:25,545 --> 00:00:27,000
+this algorithm will solve
+
+12
+00:00:27,000 --> 00:00:30,390
+a Sudoku problem in
+just over two seconds.
+
+13
+00:00:30,390 --> 00:00:34,260
+There's a list of roughly 50
+thousand Sudoku problems,
+
+14
+00:00:34,260 --> 00:00:36,915
+which it'll work through
+in about 30 hours.
+
+15
+00:00:36,915 --> 00:00:38,445
+No supercomputers, just a
+
+16
+00:00:38,445 --> 00:00:40,950
+six year-old laptop
+conduit in about 30 hours,
+
+17
+00:00:40,950 --> 00:00:43,865
+all 50 thousand back
+in the sixties,
+
+18
+00:00:43,865 --> 00:00:45,920
+it would have taken
+those 30 hours
+
+19
+00:00:45,920 --> 00:00:48,050
+to do one of those problems.
+
+20
+00:00:48,050 --> 00:00:50,765
+So when they develop this,
+it was quite something.
+
+21
+00:00:50,765 --> 00:00:53,630
+Suddenly you had a
+computer that could do
+
+22
+00:00:53,630 --> 00:00:57,395
+Sudoku problem almost as
+fast as a very stupid human.
+
+23
+00:00:57,395 --> 00:00:59,990
+Nowadays, we have a
+computer that can do so
+
+24
+00:00:59,990 --> 00:01:03,410
+GOP Sudoku problems much
+faster than any human.
+
+25
+00:01:03,410 --> 00:01:05,960
+But before we get
+onto that algorithm,
+
+26
+00:01:05,960 --> 00:01:08,615
+I just want to go back
+and do a little recap
+
+27
+00:01:08,615 --> 00:01:11,180
+of where we're at now
+because we're changing gear,
+
+28
+00:01:11,180 --> 00:01:14,660
+we're going from looking at
+Logic is something out there
+
+29
+00:01:14,660 --> 00:01:16,310
+to locate logic as something
+
+30
+00:01:16,310 --> 00:01:18,395
+we really implement on computer.
+
+31
+00:01:18,395 --> 00:01:20,090
+Just to summarize
+what we've done so
+
+32
+00:01:20,090 --> 00:01:22,130
+far, we introduce predicates.
+
+33
+00:01:22,130 --> 00:01:25,235
+Along with syllogisms, we
+have a universe of things.
+
+34
+00:01:25,235 --> 00:01:27,290
+A predicate is something which
+
+35
+00:01:27,290 --> 00:01:29,390
+is true of some things
+and false of others.
+
+36
+00:01:29,390 --> 00:01:30,875
+In other words, it's a function.
+
+37
+00:01:30,875 --> 00:01:32,180
+From things to Boolean.
+
+38
+00:01:32,180 --> 00:01:34,460
+We define what it means for every
+
+39
+00:01:34,460 --> 00:01:37,295
+a to satisfy B or every a is b.
+
+40
+00:01:37,295 --> 00:01:39,200
+And we had this whole
+theory of Syllogisms,
+
+41
+00:01:39,200 --> 00:01:42,110
+which was really to do with
+either negating the bee
+
+42
+00:01:42,110 --> 00:01:45,724
+that only gating the
+satisfies relation.
+
+43
+00:01:45,724 --> 00:01:49,280
+And we got all of Aristotle's
+theory of syllogisms.
+
+44
+00:01:49,280 --> 00:01:52,100
+But then we introduced
+operations on predicate,
+
+45
+00:01:52,100 --> 00:01:54,740
+which if you think of the
+predicate as a set of things,
+
+46
+00:01:54,740 --> 00:01:57,815
+the operations like
+intersection and union.
+
+47
+00:01:57,815 --> 00:02:01,985
+But we express them as
+operations on functions.
+
+48
+00:02:01,985 --> 00:02:04,205
+And now we have the
+lambda notation.
+
+49
+00:02:04,205 --> 00:02:06,200
+We can express those
+functions like this,
+
+50
+00:02:06,200 --> 00:02:08,465
+which may make it a
+little less mysterious.
+
+51
+00:02:08,465 --> 00:02:10,010
+Why we have something with
+
+52
+00:02:10,010 --> 00:02:12,725
+two arguments that
+returns one thing here,
+
+53
+00:02:12,725 --> 00:02:14,540
+because we put the x over that.
+
+54
+00:02:14,540 --> 00:02:15,950
+That's just a notation you didn't
+
+55
+00:02:15,950 --> 00:02:18,230
+have when we first
+introduce those,
+
+56
+00:02:18,230 --> 00:02:21,020
+this was the theory
+of syllogisms.
+
+57
+00:02:21,020 --> 00:02:24,485
+We found ways of saying
+that this one is valid,
+
+58
+00:02:24,485 --> 00:02:25,970
+then that one's valid or this
+
+59
+00:02:25,970 --> 00:02:27,725
+one's valley going
+from one to another.
+
+60
+00:02:27,725 --> 00:02:30,140
+That is the things you
+should be able to do.
+
+61
+00:02:30,140 --> 00:02:31,700
+We found ways of showing,
+
+62
+00:02:31,700 --> 00:02:33,530
+if I present you with
+something that's
+
+63
+00:02:33,530 --> 00:02:35,915
+invalidate the purports
+to be a syllogism.
+
+64
+00:02:35,915 --> 00:02:38,180
+You can actually use
+Venn diagrams to
+
+65
+00:02:38,180 --> 00:02:41,060
+create a counterexample and
+show that it's invalid.
+
+66
+00:02:41,060 --> 00:02:43,940
+Then we extended that
+definition by saying
+
+67
+00:02:43,940 --> 00:02:45,410
+instead of having one thing on
+
+68
+00:02:45,410 --> 00:02:47,045
+either side of the turnstile,
+
+69
+00:02:47,045 --> 00:02:48,980
+we can have a finite
+set of thing,
+
+70
+00:02:48,980 --> 00:02:50,780
+But we defined what
+this means for
+
+71
+00:02:50,780 --> 00:02:52,850
+finite sets in terms of
+
+72
+00:02:52,850 --> 00:02:55,460
+its meaning for a simple
+predicate on either side,
+
+73
+00:02:55,460 --> 00:02:58,385
+we said if we take the
+intersection of all of these,
+
+74
+00:02:58,385 --> 00:03:00,875
+satisfies the union
+of all of those.
+
+75
+00:03:00,875 --> 00:03:03,545
+In other words, if every
+one of these is true,
+
+76
+00:03:03,545 --> 00:03:05,675
+then at least one
+of these is true,
+
+77
+00:03:05,675 --> 00:03:06,980
+then that was the relation
+
+78
+00:03:06,980 --> 00:03:08,855
+between finite
+sets, a predicates.
+
+79
+00:03:08,855 --> 00:03:11,720
+And we also can define
+these functions.
+
+80
+00:03:11,720 --> 00:03:14,225
+The end over a number
+of predicates and the,
+
+81
+00:03:14,225 --> 00:03:16,610
+or our number of
+predicate in Haskell.
+
+82
+00:03:16,610 --> 00:03:18,515
+Again, using lambda notation,
+
+83
+00:03:18,515 --> 00:03:21,350
+it might make it clearer once
+you've got your head around
+
+84
+00:03:21,350 --> 00:03:25,010
+lambda notation than it was
+when we put the x back here,
+
+85
+00:03:25,010 --> 00:03:29,585
+gamma satisfies delta if for
+everything in the universe,
+
+86
+00:03:29,585 --> 00:03:32,015
+if every gamma we have this,
+
+87
+00:03:32,015 --> 00:03:34,325
+then one of the
+deltas we have that.
+
+88
+00:03:34,325 --> 00:03:36,950
+Then for that relationship,
+
+89
+00:03:36,950 --> 00:03:38,405
+we have these rules.
+
+90
+00:03:38,405 --> 00:03:39,980
+And that's still a
+bit of confusion
+
+91
+00:03:39,980 --> 00:03:41,900
+about these rules which
+I'll try and get round.
+
+92
+00:03:41,900 --> 00:03:44,840
+So this gamma here is a set of
+
+93
+00:03:44,840 --> 00:03:46,670
+things that things I don't
+
+94
+00:03:46,670 --> 00:03:48,935
+particularly care what
+they are at the moment.
+
+95
+00:03:48,935 --> 00:03:51,065
+Similarly, delta, I don't
+care what they are.
+
+96
+00:03:51,065 --> 00:03:52,970
+I've chosen one thing on
+
+97
+00:03:52,970 --> 00:03:55,070
+the left which happens
+to be a disjunction.
+
+98
+00:03:55,070 --> 00:03:57,950
+And then this rule
+will apply to say that
+
+99
+00:03:57,950 --> 00:04:02,435
+this satisfaction relation
+is equivalent to this one.
+
+100
+00:04:02,435 --> 00:04:04,835
+And this one, if I just say gamma
+
+101
+00:04:04,835 --> 00:04:07,565
+entails delta than
+gammas are set here,
+
+102
+00:04:07,565 --> 00:04:09,800
+the things on the
+left has to be a set
+
+103
+00:04:09,800 --> 00:04:12,215
+that we call gamma together
+with one more member.
+
+104
+00:04:12,215 --> 00:04:13,805
+It's still a set on the left.
+
+105
+00:04:13,805 --> 00:04:15,170
+So you have to think gamma ray
+
+106
+00:04:15,170 --> 00:04:17,420
+sometimes standing for
+everything on the left,
+
+107
+00:04:17,420 --> 00:04:19,115
+sometimes everything
+on the right.
+
+108
+00:04:19,115 --> 00:04:20,780
+But if I write this,
+it standing for
+
+109
+00:04:20,780 --> 00:04:23,045
+everything except the
+things I talked about.
+
+110
+00:04:23,045 --> 00:04:24,230
+And there's been some confusion,
+
+111
+00:04:24,230 --> 00:04:26,060
+but the delta is everything,
+
+112
+00:04:26,060 --> 00:04:28,040
+but it's not always
+everything here.
+
+113
+00:04:28,040 --> 00:04:29,885
+It's everything except the IOP
+
+114
+00:04:29,885 --> 00:04:31,310
+here it's everything
+except the not
+
+115
+00:04:31,310 --> 00:04:32,840
+a on the right here it's
+
+116
+00:04:32,840 --> 00:04:34,565
+everything because I don't
+mention anything else.
+
+117
+00:04:34,565 --> 00:04:36,005
+If you have problems with that,
+
+118
+00:04:36,005 --> 00:04:37,550
+bring it up your tutorial
+
+119
+00:04:37,550 --> 00:04:39,230
+and make sure you've
+got that sorted out.
+
+120
+00:04:39,230 --> 00:04:41,165
+When we apply those rules,
+
+121
+00:04:41,165 --> 00:04:43,175
+we choose a main connective.
+
+122
+00:04:43,175 --> 00:04:44,480
+Here there's only one choice
+
+123
+00:04:44,480 --> 00:04:45,800
+because there's only one thing.
+
+124
+00:04:45,800 --> 00:04:47,345
+Its main connective is here.
+
+125
+00:04:47,345 --> 00:04:49,340
+When I apply a rule to this,
+
+126
+00:04:49,340 --> 00:04:50,600
+then there's nothing on the left.
+
+127
+00:04:50,600 --> 00:04:52,610
+So this matches the rule,
+
+128
+00:04:52,610 --> 00:04:54,515
+but with gamma being
+the empty set,
+
+129
+00:04:54,515 --> 00:04:56,375
+with delta being the empty set.
+
+130
+00:04:56,375 --> 00:04:58,070
+And this just being
+this, all this.
+
+131
+00:04:58,070 --> 00:05:00,710
+And it in fact matches
+the rule or on the right,
+
+132
+00:05:00,710 --> 00:05:02,735
+when I go up here,
+
+133
+00:05:02,735 --> 00:05:04,880
+in this case, I match with
+
+134
+00:05:04,880 --> 00:05:09,845
+this gamma is then this
+piece, just a singleton.
+
+135
+00:05:09,845 --> 00:05:12,410
+Delta is these two things.
+
+136
+00:05:12,410 --> 00:05:15,335
+And we apply the rule
+when I do this one.
+
+137
+00:05:15,335 --> 00:05:18,725
+Gamma is to be the gamma
+because these are sets.
+
+138
+00:05:18,725 --> 00:05:20,510
+The gamma doesn't have to be on
+
+139
+00:05:20,510 --> 00:05:23,150
+one particular side of
+the thing you've chosen.
+
+140
+00:05:23,150 --> 00:05:25,955
+This is something I've chosen
+and the rest is gamma.
+
+141
+00:05:25,955 --> 00:05:28,835
+This is something I've chosen
+here. The B is the gamma.
+
+142
+00:05:28,835 --> 00:05:30,395
+So when you're doing
+those matchings,
+
+143
+00:05:30,395 --> 00:05:32,915
+the order in which the
+B and the gamma come.
+
+144
+00:05:32,915 --> 00:05:34,370
+The B might be in the middle.
+
+145
+00:05:34,370 --> 00:05:36,050
+Nine gamma rays to
+all the other things.
+
+146
+00:05:36,050 --> 00:05:38,150
+When you do the matching,
+I think you're all
+
+147
+00:05:38,150 --> 00:05:40,550
+able to make these
+inference trees now,
+
+148
+00:05:40,550 --> 00:05:43,730
+certainly all the tutorials
+I was looking and I
+
+149
+00:05:43,730 --> 00:05:47,345
+looked in quite a few people
+were managing to make those.
+
+150
+00:05:47,345 --> 00:05:49,160
+That's the important
+thing provided you
+
+151
+00:05:49,160 --> 00:05:51,395
+can actually
+operationally to this,
+
+152
+00:05:51,395 --> 00:05:53,495
+you are at least 80%
+of the way there.
+
+153
+00:05:53,495 --> 00:05:56,450
+And if you're 80% of the
+way there on everything,
+
+154
+00:05:56,450 --> 00:05:58,400
+you might get 80% in the exam.
+
+155
+00:05:58,400 --> 00:06:00,845
+And if you get more
+than 80% in the exam,
+
+156
+00:06:00,845 --> 00:06:02,660
+then you are doing
+extremely well anyway.
+
+157
+00:06:02,660 --> 00:06:04,850
+So don't worry if you're
+only getting 80%.
+
+158
+00:06:04,850 --> 00:06:07,400
+Here. We had two examples.
+
+159
+00:06:07,400 --> 00:06:12,140
+We reduced a sequent to
+something simpler. In the US.
+
+160
+00:06:12,140 --> 00:06:14,330
+One, we reduced it to saying,
+
+161
+00:06:14,330 --> 00:06:17,750
+nothing needs to be true in
+order to make this true.
+
+162
+00:06:17,750 --> 00:06:19,700
+In other words, this
+is universally valid.
+
+163
+00:06:19,700 --> 00:06:22,370
+Here, we reduce this
+to saying this is
+
+164
+00:06:22,370 --> 00:06:25,610
+equivalent to this
+and this being valid.
+
+165
+00:06:25,610 --> 00:06:28,520
+And just that simple
+operation or procedure of
+
+166
+00:06:28,520 --> 00:06:32,000
+reducing a sequence to a
+set of simple sequence,
+
+167
+00:06:32,000 --> 00:06:34,100
+where simple just means
+there's no notes,
+
+168
+00:06:34,100 --> 00:06:35,750
+no one's, there was no bats.
+
+169
+00:06:35,750 --> 00:06:39,140
+We use that reduction to
+Shell things a universally
+
+170
+00:06:39,140 --> 00:06:40,970
+valid if everything goes via
+
+171
+00:06:40,970 --> 00:06:43,565
+the immediate r2 to
+provide counter-examples,
+
+172
+00:06:43,565 --> 00:06:45,695
+it not everything goes
+by the immediate rule,
+
+173
+00:06:45,695 --> 00:06:49,565
+but also in the tutorial
+you used to compute.
+
+174
+00:06:49,565 --> 00:06:51,185
+Left and right rules.
+
+175
+00:06:51,185 --> 00:06:54,410
+The other connectives,
+you use them to derive
+
+176
+00:06:54,410 --> 00:06:57,770
+lots of equations between
+Boolean expressions,
+
+177
+00:06:57,770 --> 00:06:59,105
+which I'll put up
+on the next slide.
+
+178
+00:06:59,105 --> 00:07:01,490
+And you use them to convert
+
+179
+00:07:01,490 --> 00:07:04,610
+an expression to a
+conjunctive normal form
+
+180
+00:07:04,610 --> 00:07:06,815
+suggests it's one
+reduction process.
+
+181
+00:07:06,815 --> 00:07:09,230
+Lets you do all those
+different things and
+
+182
+00:07:09,230 --> 00:07:11,900
+the rules of Boolean
+algebra that you checked.
+
+183
+00:07:11,900 --> 00:07:13,385
+I think we gave all of these,
+
+184
+00:07:13,385 --> 00:07:14,630
+but if we didn't
+give all of these,
+
+185
+00:07:14,630 --> 00:07:17,060
+you can check the others,
+the Boolean operations AND,
+
+186
+00:07:17,060 --> 00:07:18,485
+and OR are associative.
+
+187
+00:07:18,485 --> 00:07:21,500
+We had these two distributive
+laws. They're commutative.
+
+188
+00:07:21,500 --> 00:07:24,335
+That means that X or Y
+is the same as y or x.
+
+189
+00:07:24,335 --> 00:07:27,140
+You know that we've shown that
+it follows from the rules.
+
+190
+00:07:27,140 --> 00:07:29,540
+We have these what
+are called unit,
+
+191
+00:07:29,540 --> 00:07:31,760
+the units XOR 0 is x,
+
+192
+00:07:31,760 --> 00:07:35,240
+x and one is x when you're
+using things like AND,
+
+193
+00:07:35,240 --> 00:07:36,560
+and OR with fold,
+
+194
+00:07:36,560 --> 00:07:40,700
+then these units, which
+are true and false,
+
+195
+00:07:40,700 --> 00:07:42,470
+are very useful things
+because when you're
+
+196
+00:07:42,470 --> 00:07:44,270
+doing fold of an operation,
+
+197
+00:07:44,270 --> 00:07:46,595
+you often want a unit
+for that operation.
+
+198
+00:07:46,595 --> 00:07:48,650
+Apply in the base
+case, annihilation,
+
+199
+00:07:48,650 --> 00:07:50,435
+these ones annihilate what comes
+
+200
+00:07:50,435 --> 00:07:52,730
+0 and anything just
+kills the neat
+
+201
+00:07:52,730 --> 00:07:54,740
+it's called annihilation
+pick dramatic item
+
+202
+00:07:54,740 --> 00:07:56,930
+potent every ten x or x, it's x.
+
+203
+00:07:56,930 --> 00:07:58,880
+And if we take x and x is x,
+
+204
+00:07:58,880 --> 00:08:01,070
+and the compliments that x or
+
+205
+00:08:01,070 --> 00:08:03,695
+not x is true and x
+and not x is false.
+
+206
+00:08:03,695 --> 00:08:06,110
+This one you probably
+haven't seen
+
+207
+00:08:06,110 --> 00:08:08,675
+and it's sometimes useful and
+it's worth looking at this.
+
+208
+00:08:08,675 --> 00:08:11,270
+If you take x or x and y,
+
+209
+00:08:11,270 --> 00:08:14,525
+where x and y gets
+smaller than x,
+
+210
+00:08:14,525 --> 00:08:18,230
+if you take x again and OR it
+with it, you get back to x.
+
+211
+00:08:18,230 --> 00:08:20,420
+So x or x and y as x.
+
+212
+00:08:20,420 --> 00:08:24,110
+And similarly x and x or y
+is x going the other way.
+
+213
+00:08:24,110 --> 00:08:26,930
+So those are all things
+you might ponder over.
+
+214
+00:08:26,930 --> 00:08:28,790
+We would expect you
+to know most of them.
+
+215
+00:08:28,790 --> 00:08:32,090
+Use reduction, using
+Jensen rules to do
+
+216
+00:08:32,090 --> 00:08:34,445
+all these things show
+the universal validity,
+
+217
+00:08:34,445 --> 00:08:35,810
+provide counter-examples.
+
+218
+00:08:35,810 --> 00:08:37,760
+Compute DLR rules, convert to
+
+219
+00:08:37,760 --> 00:08:40,295
+CNF derived Boolean equations.
+
+220
+00:08:40,295 --> 00:08:43,340
+But there's one kind of
+example I haven't shown you.
+
+221
+00:08:43,340 --> 00:08:46,864
+I want to give you the simplest
+example of this example.
+
+222
+00:08:46,864 --> 00:08:51,050
+What happens if we reduce
+this using the rules?
+
+223
+00:08:51,050 --> 00:08:52,490
+What rule applies?
+
+224
+00:08:52,490 --> 00:08:55,250
+There is only one
+connective at the top here.
+
+225
+00:08:55,250 --> 00:08:57,755
+The end rule applies.
+
+226
+00:08:57,755 --> 00:09:00,560
+If I have a and B on the
+right of the turnstile,
+
+227
+00:09:00,560 --> 00:09:02,030
+we split with I turnstile
+
+228
+00:09:02,030 --> 00:09:05,090
+a end-to-end style be
+to show that a and B,
+
+229
+00:09:05,090 --> 00:09:07,160
+you show a and you Shelby,
+
+230
+00:09:07,160 --> 00:09:09,110
+that we need to show that.
+
+231
+00:09:09,110 --> 00:09:11,705
+And that. Now what
+that tells me is,
+
+232
+00:09:11,705 --> 00:09:14,465
+it's easy to make
+a counterexample.
+
+233
+00:09:14,465 --> 00:09:16,700
+To make a counterexample
+either make
+
+234
+00:09:16,700 --> 00:09:19,235
+this one false or I
+make this one false.
+
+235
+00:09:19,235 --> 00:09:21,020
+Either way, it's
+a counterexample.
+
+236
+00:09:21,020 --> 00:09:23,090
+In fact, everything's
+a counterexample that
+
+237
+00:09:23,090 --> 00:09:25,640
+it's impossible to
+find an example.
+
+238
+00:09:25,640 --> 00:09:29,075
+We can't find something that
+makes one of these true,
+
+239
+00:09:29,075 --> 00:09:32,540
+which means make this true
+and makes one of these true.
+
+240
+00:09:32,540 --> 00:09:33,830
+So if we took
+
+241
+00:09:33,830 --> 00:09:36,515
+a much more complicated
+thing on the bottom,
+
+242
+00:09:36,515 --> 00:09:39,065
+we would get to a cnf up the top.
+
+243
+00:09:39,065 --> 00:09:40,700
+And using that CNF,
+
+244
+00:09:40,700 --> 00:09:43,100
+we could have a counterexample to
+
+245
+00:09:43,100 --> 00:09:45,710
+the universal validity
+of what we started from.
+
+246
+00:09:45,710 --> 00:09:47,480
+But we don't know that what
+
+247
+00:09:47,480 --> 00:09:49,415
+we started from his satisfiable.
+
+248
+00:09:49,415 --> 00:09:51,935
+This is the simplest example
+to show that we don't,
+
+249
+00:09:51,935 --> 00:09:53,525
+we don't know it's satisfiable.
+
+250
+00:09:53,525 --> 00:09:56,045
+We may have these huge
+cnf and we think,
+
+251
+00:09:56,045 --> 00:09:57,260
+yeah, if I make that one false,
+
+252
+00:09:57,260 --> 00:09:58,640
+I've got a counterexample
+that's easy.
+
+253
+00:09:58,640 --> 00:10:00,110
+It's easy to make them false.
+
+254
+00:10:00,110 --> 00:10:01,565
+But how do we find
+
+255
+00:10:01,565 --> 00:10:03,470
+evaluation that makes all
+
+256
+00:10:03,470 --> 00:10:04,940
+of these things up the top true?
+
+257
+00:10:04,940 --> 00:10:06,500
+In other words, how
+do we find evaluation
+
+258
+00:10:06,500 --> 00:10:07,880
+makes our initial thing true?
+
+259
+00:10:07,880 --> 00:10:10,760
+It might just be like this
+one, a contradiction.
+
+260
+00:10:10,760 --> 00:10:13,115
+That's what the algorithm
+we're going to look at.
+
+261
+00:10:13,115 --> 00:10:17,000
+Does. It says, When
+you've reduced something
+
+262
+00:10:17,000 --> 00:10:21,245
+to cnf or maybe produced it
+in the first place as a cnf.
+
+263
+00:10:21,245 --> 00:10:26,850
+Then how do you look for
+a satisfying valuation?

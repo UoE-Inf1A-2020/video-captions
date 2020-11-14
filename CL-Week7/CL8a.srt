@@ -1,0 +1,436 @@
+1
+00:00:00,620 --> 00:00:03,840
+So far we've been looking
+at truth and logic.
+
+2
+00:00:03,840 --> 00:00:05,910
+We've been talking
+about predicates.
+
+3
+00:00:05,910 --> 00:00:08,595
+We've been doing some
+algebra predicates.
+
+4
+00:00:08,595 --> 00:00:11,190
+When we started, I talked
+about the book Language,
+
+5
+00:00:11,190 --> 00:00:12,690
+Truth and Logic, and said that's
+
+6
+00:00:12,690 --> 00:00:14,775
+really what we're going to
+be doing in this course.
+
+7
+00:00:14,775 --> 00:00:17,070
+We haven't really
+talked about language.
+
+8
+00:00:17,070 --> 00:00:19,230
+We've tried to match
+
+9
+00:00:19,230 --> 00:00:22,124
+some natural language with
+things we do in Haskell,
+
+10
+00:00:22,124 --> 00:00:23,310
+there is some ideas about
+
+11
+00:00:23,310 --> 00:00:25,590
+language and the way
+it's meaning could be
+
+12
+00:00:25,590 --> 00:00:27,210
+modeled in the way we've
+
+13
+00:00:27,210 --> 00:00:30,420
+translated phrases
+like every ISP,
+
+14
+00:00:30,420 --> 00:00:32,715
+but we haven't done it
+in any formal sense.
+
+15
+00:00:32,715 --> 00:00:36,120
+And certainly the language
+we're using every axis,
+
+16
+00:00:36,120 --> 00:00:37,710
+why we haven't set
+what you can and
+
+17
+00:00:37,710 --> 00:00:39,865
+can't say we've just
+had some things in,
+
+18
+00:00:39,865 --> 00:00:41,465
+left the rest unsaid.
+
+19
+00:00:41,465 --> 00:00:44,360
+What we're going to do over
+the next three lectures
+
+20
+00:00:44,360 --> 00:00:48,140
+also is develop the
+idea of language.
+
+21
+00:00:48,140 --> 00:00:50,675
+But I just want to go back
+to algebra for a moment.
+
+22
+00:00:50,675 --> 00:00:53,450
+Algebra or algebraic expressions.
+
+23
+00:00:53,450 --> 00:00:55,745
+Very simple example of
+
+24
+00:00:55,745 --> 00:00:57,665
+one of the ingredients
+of language.
+
+25
+00:00:57,665 --> 00:00:59,495
+So we talk about things,
+
+26
+00:00:59,495 --> 00:01:02,615
+but sometimes we don't
+say John or Mary.
+
+27
+00:01:02,615 --> 00:01:08,090
+We say Mary's father or
+Shawn's brother or my parents.
+
+28
+00:01:08,090 --> 00:01:10,790
+What we do is we
+have some functions.
+
+29
+00:01:10,790 --> 00:01:12,320
+We start from John and then
+
+30
+00:01:12,320 --> 00:01:13,850
+we have to find John's Brother.
+
+31
+00:01:13,850 --> 00:01:17,300
+In arithmetic, we start
+from numbers and we
+
+32
+00:01:17,300 --> 00:01:20,855
+say three plus four
+or minus three.
+
+33
+00:01:20,855 --> 00:01:24,695
+Three plus four is a bit
+like saying linguistically,
+
+34
+00:01:24,695 --> 00:01:27,350
+the child of Mary and Mark,
+
+35
+00:01:27,350 --> 00:01:29,210
+you take two things and we get
+
+36
+00:01:29,210 --> 00:01:31,865
+a third thing that's related
+to them in some way.
+
+37
+00:01:31,865 --> 00:01:33,800
+So we try and look
+at that in terms of
+
+38
+00:01:33,800 --> 00:01:36,934
+algebraic expressions that
+we take this expression,
+
+39
+00:01:36,934 --> 00:01:39,920
+X times Y plus Z,
+
+40
+00:01:39,920 --> 00:01:43,025
+X times Y plus X times Z.
+
+41
+00:01:43,025 --> 00:01:45,080
+We can structure the language as
+
+42
+00:01:45,080 --> 00:01:48,590
+a tree where these are
+things that stand for,
+
+43
+00:01:48,590 --> 00:01:49,835
+things in the world.
+
+44
+00:01:49,835 --> 00:01:52,535
+These are things that
+stand for operations.
+
+45
+00:01:52,535 --> 00:01:55,970
+And really this is a
+description, little computation.
+
+46
+00:01:55,970 --> 00:01:59,315
+It's a description of a
+computation that says take x,
+
+47
+00:01:59,315 --> 00:02:01,370
+then add y and z,
+
+48
+00:02:01,370 --> 00:02:03,080
+and then multiply them by X.
+
+49
+00:02:03,080 --> 00:02:05,000
+Whereas the other one
+
+50
+00:02:05,000 --> 00:02:07,325
+is a description of a
+different computation.
+
+51
+00:02:07,325 --> 00:02:09,410
+That computation
+says, take x and y,
+
+52
+00:02:09,410 --> 00:02:11,600
+multiply them
+together, say x and z,
+
+53
+00:02:11,600 --> 00:02:13,715
+and multiply them together,
+then add the results.
+
+54
+00:02:13,715 --> 00:02:15,305
+So there's a different
+computations.
+
+55
+00:02:15,305 --> 00:02:17,255
+And when we say those Rico,
+
+56
+00:02:17,255 --> 00:02:19,370
+what we're doing is
+comparing the results of
+
+57
+00:02:19,370 --> 00:02:21,410
+those computations and saying
+
+58
+00:02:21,410 --> 00:02:22,850
+that they are actually
+the same thing.
+
+59
+00:02:22,850 --> 00:02:24,140
+It's saying something about
+
+60
+00:02:24,140 --> 00:02:26,885
+the results of
+those computations.
+
+61
+00:02:26,885 --> 00:02:30,050
+It's rather like saying
+Marxist resume result,
+
+62
+00:02:30,050 --> 00:02:33,875
+Marxist one computation, Mary's
+ONE another computation.
+
+63
+00:02:33,875 --> 00:02:35,120
+They happen to be the same.
+
+64
+00:02:35,120 --> 00:02:37,699
+So when we're doing logic,
+
+65
+00:02:37,699 --> 00:02:39,980
+we're also doing
+little computations,
+
+66
+00:02:39,980 --> 00:02:43,010
+but they computation's
+about truth values.
+
+67
+00:02:43,010 --> 00:02:45,410
+So this is entirely analogous.
+
+68
+00:02:45,410 --> 00:02:47,840
+That's the same
+equation with and,
+
+69
+00:02:47,840 --> 00:02:51,215
+and or instead of times and plus,
+
+70
+00:02:51,215 --> 00:02:52,760
+it's still a computation.
+
+71
+00:02:52,760 --> 00:02:55,610
+Computation about logic. It says,
+
+72
+00:02:55,610 --> 00:02:57,230
+if I take logical things a, b,
+
+73
+00:02:57,230 --> 00:03:00,290
+and c, I take the o of b and say,
+
+74
+00:03:00,290 --> 00:03:02,285
+I take the hand of that with a.
+
+75
+00:03:02,285 --> 00:03:04,910
+It's the same as taking
+the end of a and B,
+
+76
+00:03:04,910 --> 00:03:06,485
+the end the vacancy,
+
+77
+00:03:06,485 --> 00:03:09,365
+and during those two together
+and we get the same result.
+
+78
+00:03:09,365 --> 00:03:14,345
+These statements about
+computations with logical values.
+
+79
+00:03:14,345 --> 00:03:16,820
+And I say logical values
+because we've already
+
+80
+00:03:16,820 --> 00:03:21,695
+seen that is computation's
+could work for Booleans,
+
+81
+00:03:21,695 --> 00:03:24,050
+but they could also
+work for predicates.
+
+82
+00:03:24,050 --> 00:03:25,910
+So there are other
+things that we might
+
+83
+00:03:25,910 --> 00:03:27,785
+see as logical values,
+
+84
+00:03:27,785 --> 00:03:30,545
+which aren't just the
+Booleans themselves,
+
+85
+00:03:30,545 --> 00:03:32,810
+just the same way as if you
+
+86
+00:03:32,810 --> 00:03:36,800
+interpret the results of
+an algebraic equation.
+
+87
+00:03:36,800 --> 00:03:40,085
+You can interpret them as
+being about the integers,
+
+88
+00:03:40,085 --> 00:03:42,754
+reals, or complex numbers.
+
+89
+00:03:42,754 --> 00:03:45,590
+There were all sorts of
+different things that
+
+90
+00:03:45,590 --> 00:03:48,605
+have the structure of you
+can multiply, you can ahead.
+
+91
+00:03:48,605 --> 00:03:50,480
+So we can interpret as equations
+
+92
+00:03:50,480 --> 00:03:52,145
+and the distributive laws work.
+
+93
+00:03:52,145 --> 00:03:53,420
+It's the same with logic.
+
+94
+00:03:53,420 --> 00:03:56,030
+There were all sorts of
+places where we can interpret
+
+95
+00:03:56,030 --> 00:03:59,670
+those operations and
+various laws work.

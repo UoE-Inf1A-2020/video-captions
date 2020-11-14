@@ -1,0 +1,832 @@
+1
+00:00:00,000 --> 00:00:02,820
+This is Phil slide on sections.
+
+2
+00:00:02,820 --> 00:00:05,010
+It works for things like
+greater than because they
+
+3
+00:00:05,010 --> 00:00:07,350
+are just functions from
+two things to bool.
+
+4
+00:00:07,350 --> 00:00:08,955
+So it's just like the ones
+we've been talking about.
+
+5
+00:00:08,955 --> 00:00:11,895
+This is the property of
+being greater than 0.
+
+6
+00:00:11,895 --> 00:00:15,345
+This is the function
+multiplied by two.
+
+7
+00:00:15,345 --> 00:00:17,520
+This is the function at one.
+
+8
+00:00:17,520 --> 00:00:20,520
+This is the function take
+two to the power of me.
+
+9
+00:00:20,520 --> 00:00:21,900
+So it's the function of n,
+
+10
+00:00:21,900 --> 00:00:23,670
+gives you two to the power n. And
+
+11
+00:00:23,670 --> 00:00:26,880
+this is the function square
+that we wrote earlier.
+
+12
+00:00:26,880 --> 00:00:28,485
+So these two are very different.
+
+13
+00:00:28,485 --> 00:00:30,840
+But in the two times o plus one,
+
+14
+00:00:30,840 --> 00:00:33,165
+we could have swapped those
+around because there,
+
+15
+00:00:33,165 --> 00:00:35,370
+because they want, what's
+the name of what they are?
+
+16
+00:00:35,370 --> 00:00:36,825
+Commutative operations.
+
+17
+00:00:36,825 --> 00:00:40,340
+Commutative, probably useful
+to your sections in logic.
+
+18
+00:00:40,340 --> 00:00:42,875
+But now we want something
+a little more flexible.
+
+19
+00:00:42,875 --> 00:00:44,840
+This is to show why
+what we have so
+
+20
+00:00:44,840 --> 00:00:47,420
+far isn't quite flexible enough.
+
+21
+00:00:47,420 --> 00:00:50,870
+I want to now try
+somebody loves everybody,
+
+22
+00:00:50,870 --> 00:00:53,270
+and everybody loves somebody
+at least I'll try one of
+
+23
+00:00:53,270 --> 00:00:55,970
+them and leave you to
+worry about the other one.
+
+24
+00:00:55,970 --> 00:00:58,400
+So if I say everybody,
+
+25
+00:00:58,400 --> 00:01:00,875
+Mary loves, that means
+Mary loves everybody.
+
+26
+00:01:00,875 --> 00:01:03,815
+So 7x instead of Mary loves,
+
+27
+00:01:03,815 --> 00:01:07,940
+i do an x. I can say x loves
+everybody, loves everybody.
+
+28
+00:01:07,940 --> 00:01:11,210
+X, if everybody loves,
+
+29
+00:01:11,210 --> 00:01:13,850
+right, I've just put
+x in the set of Mary.
+
+30
+00:01:13,850 --> 00:01:16,415
+And then I say, somebody
+loves everybody,
+
+31
+00:01:16,415 --> 00:01:19,835
+is, some body has the
+property, loves everybody.
+
+32
+00:01:19,835 --> 00:01:22,460
+It's already with a
+tiny simple example,
+
+33
+00:01:22,460 --> 00:01:24,980
+getting a bit unwieldy
+and we're having to use
+
+34
+00:01:24,980 --> 00:01:26,630
+really long names to
+
+35
+00:01:26,630 --> 00:01:28,370
+explain to ourselves
+what we're doing.
+
+36
+00:01:28,370 --> 00:01:29,945
+And it's not the way to do this.
+
+37
+00:01:29,945 --> 00:01:33,485
+The way to do this
+is to use lambda.
+
+38
+00:01:33,485 --> 00:01:35,810
+You fill were here, he'd
+be jumping sky high.
+
+39
+00:01:35,810 --> 00:01:37,250
+You'd be doing all
+sorts of dances.
+
+40
+00:01:37,250 --> 00:01:40,295
+I don't quite down site feel
+Lander is really important
+
+41
+00:01:40,295 --> 00:01:41,750
+and I'm so glad I get to
+
+42
+00:01:41,750 --> 00:01:43,370
+introduce it to you
+before he does.
+
+43
+00:01:43,370 --> 00:01:44,990
+Lambda will introduce just with
+
+44
+00:01:44,990 --> 00:01:47,300
+some ordinary
+mathematical kind of
+
+45
+00:01:47,300 --> 00:01:48,590
+examples and then
+we'll take it back
+
+46
+00:01:48,590 --> 00:01:50,015
+to use it in the logic again,
+
+47
+00:01:50,015 --> 00:01:54,875
+the function square takes an
+x and gives you x times x.
+
+48
+00:01:54,875 --> 00:01:56,120
+But I can also write
+
+49
+00:01:56,120 --> 00:01:59,150
+it whenever I have a function
+definition like this,
+
+50
+00:01:59,150 --> 00:02:02,060
+function definition
+has identifier
+
+51
+00:02:02,060 --> 00:02:04,294
+for the beginning a variable.
+
+52
+00:02:04,294 --> 00:02:05,900
+Let's just have a
+variable and then
+
+53
+00:02:05,900 --> 00:02:07,700
+an expression with that variable.
+
+54
+00:02:07,700 --> 00:02:09,860
+So here I've got the identifier,
+
+55
+00:02:09,860 --> 00:02:12,560
+but I don't put variable
+right after it.
+
+56
+00:02:12,560 --> 00:02:17,870
+I say this and the way I read
+that backstroke is lambda.
+
+57
+00:02:17,870 --> 00:02:20,750
+That's because it looks like
+the long bit of the lambda.
+
+58
+00:02:20,750 --> 00:02:23,405
+And since keyboards
+don't have lambdas,
+
+59
+00:02:23,405 --> 00:02:28,145
+it was decided to use that
+backstroke for lambda.
+
+60
+00:02:28,145 --> 00:02:30,965
+So this would be the
+mathematical notation for this,
+
+61
+00:02:30,965 --> 00:02:32,450
+which had a, did introduce in
+
+62
+00:02:32,450 --> 00:02:33,800
+one of her talks to some of you.
+
+63
+00:02:33,800 --> 00:02:36,890
+I think this is the same
+function as we defined here.
+
+64
+00:02:36,890 --> 00:02:40,190
+But instead of giving a
+name to x on this side,
+
+65
+00:02:40,190 --> 00:02:42,560
+the name for X is bound up in
+
+66
+00:02:42,560 --> 00:02:46,085
+this expression and it's only
+available within brackets.
+
+67
+00:02:46,085 --> 00:02:47,735
+If I used x again,
+
+68
+00:02:47,735 --> 00:02:49,535
+outside, it will
+be a different x.
+
+69
+00:02:49,535 --> 00:02:52,235
+If I already had an x
+being used outside,
+
+70
+00:02:52,235 --> 00:02:53,990
+this one would have
+right in here,
+
+71
+00:02:53,990 --> 00:02:55,160
+x means this one.
+
+72
+00:02:55,160 --> 00:02:58,130
+Then I could write hypotenuse AB
+
+73
+00:02:58,130 --> 00:02:59,510
+is the square root of the square
+
+74
+00:02:59,510 --> 00:03:01,100
+of a plus the square root 2pi.
+
+75
+00:03:01,100 --> 00:03:04,640
+But I could also have
+two parameters here,
+
+76
+00:03:04,640 --> 00:03:06,680
+lambda AB, square root,
+
+77
+00:03:06,680 --> 00:03:08,765
+square a, square b. That's fine.
+
+78
+00:03:08,765 --> 00:03:10,685
+So this enables us,
+
+79
+00:03:10,685 --> 00:03:12,920
+instead of creating
+long functions
+
+80
+00:03:12,920 --> 00:03:14,810
+with very long names,
+do what they do.
+
+81
+00:03:14,810 --> 00:03:16,370
+You can just make the function
+
+82
+00:03:16,370 --> 00:03:17,870
+without creating a name for it.
+
+83
+00:03:17,870 --> 00:03:19,745
+And it's much, much clearer.
+
+84
+00:03:19,745 --> 00:03:21,455
+Once you get used
+to reading them.
+
+85
+00:03:21,455 --> 00:03:25,130
+So we know loves Mary
+of x is x loves Mary.
+
+86
+00:03:25,130 --> 00:03:27,485
+So we use a lambda to write that.
+
+87
+00:03:27,485 --> 00:03:30,680
+Then loves Mary is just lambda x,
+
+88
+00:03:30,680 --> 00:03:32,090
+arrow x loves Mary.
+
+89
+00:03:32,090 --> 00:03:33,410
+So when I want to write,
+
+90
+00:03:33,410 --> 00:03:38,735
+somebody loves Mary, I
+could say some body.
+
+91
+00:03:38,735 --> 00:03:41,480
+And then lambda x, x loves Mary,
+
+92
+00:03:41,480 --> 00:03:44,345
+because we know this
+maids loves Mary.
+
+93
+00:03:44,345 --> 00:03:47,270
+And if I write it
+in Maths than that,
+
+94
+00:03:47,270 --> 00:03:49,400
+there is something in
+
+95
+00:03:49,400 --> 00:03:52,445
+body which I'm thinking of
+a sunset now not Lisbon,
+
+96
+00:03:52,445 --> 00:03:54,530
+such that x loves Mary.
+
+97
+00:03:54,530 --> 00:03:57,410
+Similarly, if I want to do
+mock gloves, why? That's fine.
+
+98
+00:03:57,410 --> 00:04:01,520
+But we can also say mark loves
+is lambda Y. Mark loves.
+
+99
+00:04:01,520 --> 00:04:05,705
+Why? When I say everybody loves,
+
+100
+00:04:05,705 --> 00:04:10,580
+i can say everybody lambda y, y.
+
+101
+00:04:10,580 --> 00:04:12,830
+This gets a bit easier to work
+
+102
+00:04:12,830 --> 00:04:14,915
+with because I can see the every,
+
+103
+00:04:14,915 --> 00:04:16,670
+every body, let's call it
+
+104
+00:04:16,670 --> 00:04:19,085
+y has the property that loves Y.
+
+105
+00:04:19,085 --> 00:04:21,575
+As we read this, somebody,
+
+106
+00:04:21,575 --> 00:04:25,550
+let's call it x has the
+property that x loves Harry.
+
+107
+00:04:25,550 --> 00:04:26,765
+So now let's try.
+
+108
+00:04:26,765 --> 00:04:30,560
+Everybody loves
+somebody, everybody,
+
+109
+00:04:30,560 --> 00:04:34,100
+let's call it x has the
+property that somebody,
+
+110
+00:04:34,100 --> 00:04:36,350
+let's call it y. X loves y.
+
+111
+00:04:36,350 --> 00:04:38,090
+All of a sudden, we get
+
+112
+00:04:38,090 --> 00:04:40,625
+rid of all that
+stuff on the other.
+
+113
+00:04:40,625 --> 00:04:42,800
+All these long things.
+
+114
+00:04:42,800 --> 00:04:44,510
+Just by saying this,
+
+115
+00:04:44,510 --> 00:04:46,820
+everybody call it x
+
+116
+00:04:46,820 --> 00:04:49,130
+and then we don't worry
+about these properties,
+
+117
+00:04:49,130 --> 00:04:50,510
+um, how it looks after itself.
+
+118
+00:04:50,510 --> 00:04:53,180
+We've just written it down
+and it actually works.
+
+119
+00:04:53,180 --> 00:04:57,349
+So this is for all
+x there exists,
+
+120
+00:04:57,349 --> 00:04:59,240
+or there should be
+a y here, sorry,
+
+121
+00:04:59,240 --> 00:05:02,675
+that should be y, the x.
+
+122
+00:05:02,675 --> 00:05:06,290
+For all x there is a
+y such as x loves y.
+
+123
+00:05:06,290 --> 00:05:08,750
+For all x, there is a y, yes,
+
+124
+00:05:08,750 --> 00:05:11,720
+that should be a wider
+what I would like you to
+
+125
+00:05:11,720 --> 00:05:15,350
+do is to try and work out
+what these three main.
+
+126
+00:05:15,350 --> 00:05:16,940
+So I want you to translate them
+
+127
+00:05:16,940 --> 00:05:19,070
+back into your natural language,
+
+128
+00:05:19,070 --> 00:05:20,300
+your mother language,
+because it's,
+
+129
+00:05:20,300 --> 00:05:22,535
+it's hard enough to
+one's natural tongue,
+
+130
+00:05:22,535 --> 00:05:24,425
+let alone during in
+a foreign language.
+
+131
+00:05:24,425 --> 00:05:26,420
+What does exercise to main?
+
+132
+00:05:26,420 --> 00:05:28,700
+Let's go back to 11 means.
+
+133
+00:05:28,700 --> 00:05:30,530
+If we just think of EU law
+
+134
+00:05:30,530 --> 00:05:32,210
+being the bodies
+we're talking about,
+
+135
+00:05:32,210 --> 00:05:33,470
+then it would mean that
+
+136
+00:05:33,470 --> 00:05:37,130
+everyone here loves somebody
+hearing copy themselves.
+
+137
+00:05:37,130 --> 00:05:38,585
+We haven't said It's
+not themselves.
+
+138
+00:05:38,585 --> 00:05:40,040
+So it could be that
+just love themselves.
+
+139
+00:05:40,040 --> 00:05:43,205
+So it might even be true,
+everybody here loves somebody.
+
+140
+00:05:43,205 --> 00:05:45,695
+In example two, we take
+
+141
+00:05:45,695 --> 00:05:47,450
+somebody you have to do
+
+142
+00:05:47,450 --> 00:05:49,340
+is choose that body
+before we go on.
+
+143
+00:05:49,340 --> 00:05:50,690
+So we choose that body,
+
+144
+00:05:50,690 --> 00:05:54,634
+then they have the property
+that they love everybody.
+
+145
+00:05:54,634 --> 00:05:57,230
+There is somebody here who
+
+146
+00:05:57,230 --> 00:05:59,735
+loves everybody, has
+very good of you.
+
+147
+00:05:59,735 --> 00:06:02,015
+Whoever you are. Example three,
+
+148
+00:06:02,015 --> 00:06:04,130
+there is somebody here.
+
+149
+00:06:04,130 --> 00:06:07,070
+What does this say? Who
+is loved by everybody?
+
+150
+00:06:07,070 --> 00:06:10,415
+And the final one, every body.
+
+151
+00:06:10,415 --> 00:06:12,245
+This is we, what does it mean?
+
+152
+00:06:12,245 --> 00:06:15,815
+Everybody, you as someone
+who loves them, the good.
+
+153
+00:06:15,815 --> 00:06:19,460
+Saying those for different
+things in English is
+
+154
+00:06:19,460 --> 00:06:20,750
+actually quite difficult in
+
+155
+00:06:20,750 --> 00:06:23,210
+every natural language
+I know anything about.
+
+156
+00:06:23,210 --> 00:06:24,500
+It's quite difficult to make
+
+157
+00:06:24,500 --> 00:06:27,860
+those four distinction step
+very important distinctions
+
+158
+00:06:27,860 --> 00:06:29,315
+when you're doing mathematics,
+
+159
+00:06:29,315 --> 00:06:30,680
+when you're doing computing, and
+
+160
+00:06:30,680 --> 00:06:32,990
+also in your love life too.
+
+161
+00:06:32,990 --> 00:06:34,520
+But that's not the point.
+
+162
+00:06:34,520 --> 00:06:37,415
+So it's really useful
+
+163
+00:06:37,415 --> 00:06:39,950
+to have this unwinding
+at the moment.
+
+164
+00:06:39,950 --> 00:06:41,540
+It may seem, my god,
+
+165
+00:06:41,540 --> 00:06:43,040
+you've taken something simple,
+
+166
+00:06:43,040 --> 00:06:44,720
+like everybody lost somebody and
+
+167
+00:06:44,720 --> 00:06:46,805
+made it into these horrible
+lambdas and stuff.
+
+168
+00:06:46,805 --> 00:06:48,635
+But actually, you will find,
+
+169
+00:06:48,635 --> 00:06:49,880
+particularly if
+you're thinking about
+
+170
+00:06:49,880 --> 00:06:51,800
+things in maths, arguments,
+
+171
+00:06:51,800 --> 00:06:53,210
+you find where they
+save everything,
+
+172
+00:06:53,210 --> 00:06:55,550
+this integral, you get mixed up.
+
+173
+00:06:55,550 --> 00:06:57,080
+Try and analyze it in
+
+174
+00:06:57,080 --> 00:06:59,960
+these ways and these
+mathematical notations,
+
+175
+00:06:59,960 --> 00:07:03,455
+the furrows and exists
+if I got it right,
+
+176
+00:07:03,455 --> 00:07:07,055
+which that should be a y really
+do help to make it clear.
+
+177
+00:07:07,055 --> 00:07:10,010
+This is why when you
+read a paper and
+
+178
+00:07:10,010 --> 00:07:11,240
+increasingly when you read
+
+179
+00:07:11,240 --> 00:07:13,505
+your course notes
+through your time here,
+
+180
+00:07:13,505 --> 00:07:15,860
+am I trying to say
+something like this?
+
+181
+00:07:15,860 --> 00:07:18,200
+We will normally
+put it into words,
+
+182
+00:07:18,200 --> 00:07:21,320
+will more likely put
+it into a mixture of
+
+183
+00:07:21,320 --> 00:07:22,940
+words in mathematical symbols
+
+184
+00:07:22,940 --> 00:07:25,800
+because we can be more
+precise that way.

@@ -1,0 +1,513 @@
+1
+00:00:00,000 --> 00:00:03,150
+Searching for a consistent
+set of literals such
+
+2
+00:00:03,150 --> 00:00:06,510
+that this set of literals
+gamma makes this true,
+
+3
+00:00:06,510 --> 00:00:09,000
+makes this true, makes this
+true, makes this true.
+
+4
+00:00:09,000 --> 00:00:11,490
+In other words, makes one
+of these, one of these,
+
+5
+00:00:11,490 --> 00:00:13,080
+one of these, and one of these,
+
+6
+00:00:13,080 --> 00:00:14,295
+because they're on the right.
+
+7
+00:00:14,295 --> 00:00:15,825
+So what could you say?
+
+8
+00:00:15,825 --> 00:00:17,700
+There are 32 possibilities
+
+9
+00:00:17,700 --> 00:00:18,930
+which I don't want to go through.
+
+10
+00:00:18,930 --> 00:00:21,270
+But what if I say, let's
+choose one literal.
+
+11
+00:00:21,270 --> 00:00:22,665
+Let's make a true.
+
+12
+00:00:22,665 --> 00:00:24,120
+What happens to these?
+
+13
+00:00:24,120 --> 00:00:26,560
+If I make a true,
+what can we say?
+
+14
+00:00:26,560 --> 00:00:28,925
+The way we approach
+that is to say,
+
+15
+00:00:28,925 --> 00:00:31,190
+let's replace gamma
+that we had before,
+
+16
+00:00:31,190 --> 00:00:33,170
+which was something I
+know nothing about with
+
+17
+00:00:33,170 --> 00:00:35,630
+a followed by some other things.
+
+18
+00:00:35,630 --> 00:00:38,150
+And it will list, you'd
+say x followed by xs,
+
+19
+00:00:38,150 --> 00:00:39,290
+where we're looking at the exit,
+
+20
+00:00:39,290 --> 00:00:41,600
+the beginning, we're looking
+at the a at the beginning.
+
+21
+00:00:41,600 --> 00:00:43,115
+We said there's a
+at the beginning.
+
+22
+00:00:43,115 --> 00:00:45,155
+If I know there's an
+a at the beginning,
+
+23
+00:00:45,155 --> 00:00:46,610
+what can I put up here
+
+24
+00:00:46,610 --> 00:00:48,500
+that is simpler than
+what's down here?
+
+25
+00:00:48,500 --> 00:00:51,770
+And hopefully your memories
+might go back to last Friday.
+
+26
+00:00:51,770 --> 00:00:54,065
+I already showed you this once.
+
+27
+00:00:54,065 --> 00:00:55,760
+We're going to have to
+show you it three times.
+
+28
+00:00:55,760 --> 00:00:58,010
+So you remember, I
+suppose if I do this,
+
+29
+00:00:58,010 --> 00:00:59,090
+what can I do with this?
+
+30
+00:00:59,090 --> 00:01:02,495
+Not a, what rule can I
+apply to this node a?
+
+31
+00:01:02,495 --> 00:01:04,880
+I can not on the right,
+
+32
+00:01:04,880 --> 00:01:06,425
+which moves it over to the left.
+
+33
+00:01:06,425 --> 00:01:08,705
+If I move it to the
+left and I've got,
+
+34
+00:01:08,705 --> 00:01:10,190
+it looks as though I've got 2A
+
+35
+00:01:10,190 --> 00:01:11,675
+is on the left. This is a set.
+
+36
+00:01:11,675 --> 00:01:14,825
+So actually when I move it to
+the left, I just get that.
+
+37
+00:01:14,825 --> 00:01:17,075
+And I could just as
+well cross it out.
+
+38
+00:01:17,075 --> 00:01:19,175
+Similarly here I can
+cross this one out.
+
+39
+00:01:19,175 --> 00:01:20,315
+What about this rule?
+
+40
+00:01:20,315 --> 00:01:21,740
+What do I put above the line?
+
+41
+00:01:21,740 --> 00:01:23,390
+Nothing, right?
+
+42
+00:01:23,390 --> 00:01:24,935
+It's the immediate row.
+
+43
+00:01:24,935 --> 00:01:26,360
+Nothing above the line.
+
+44
+00:01:26,360 --> 00:01:29,030
+So this will be much
+simpler above the line.
+
+45
+00:01:29,030 --> 00:01:30,650
+I've moved this eye across it got
+
+46
+00:01:30,650 --> 00:01:33,680
+absorbed that because two
+ways it's the same as 1A.
+
+47
+00:01:33,680 --> 00:01:34,970
+I move this across.
+
+48
+00:01:34,970 --> 00:01:37,190
+It got absorbed
+because two A's is the
+
+49
+00:01:37,190 --> 00:01:39,590
+same as 1A and these
+two disappear.
+
+50
+00:01:39,590 --> 00:01:42,680
+All I need to do now is
+to solve this problem.
+
+51
+00:01:42,680 --> 00:01:45,485
+Because solving this
+problem is equivalent.
+
+52
+00:01:45,485 --> 00:01:48,710
+If I'm making a true to
+solving the original problem,
+
+53
+00:01:48,710 --> 00:01:50,045
+did I make this step?
+
+54
+00:01:50,045 --> 00:01:51,590
+What's the argument to say?
+
+55
+00:01:51,590 --> 00:01:55,145
+Actually, all I need to
+do is to find a gamma
+
+56
+00:01:55,145 --> 00:01:59,135
+that satisfies not PC and a
+gamma that satisfies DRF.
+
+57
+00:01:59,135 --> 00:02:01,670
+I don't need to worry
+about anymore. Why not?
+
+58
+00:02:01,670 --> 00:02:02,780
+Pi construction?
+
+59
+00:02:02,780 --> 00:02:04,580
+I've got rid of all the A's here,
+
+60
+00:02:04,580 --> 00:02:06,215
+so there aren't
+always on the right.
+
+61
+00:02:06,215 --> 00:02:08,000
+So the value of a,
+it doesn't make
+
+62
+00:02:08,000 --> 00:02:10,310
+any difference to whether
+something's satisfies this.
+
+63
+00:02:10,310 --> 00:02:13,640
+So now I've reduced the
+problem of finding a,
+
+64
+00:02:13,640 --> 00:02:15,710
+deciding that a should be
+
+65
+00:02:15,710 --> 00:02:18,830
+true and finding a gamma
+that together with a
+
+66
+00:02:18,830 --> 00:02:21,335
+will make all of these
+true to the problem of
+
+67
+00:02:21,335 --> 00:02:23,000
+finding a gamma that makes
+
+68
+00:02:23,000 --> 00:02:24,725
+these true and makes these true.
+
+69
+00:02:24,725 --> 00:02:26,525
+And then I put the a
+back on the beginning.
+
+70
+00:02:26,525 --> 00:02:27,845
+We're trying to find,
+
+71
+00:02:27,845 --> 00:02:29,810
+we decide it will make a true.
+
+72
+00:02:29,810 --> 00:02:31,190
+We're trying to find a gamma that
+
+73
+00:02:31,190 --> 00:02:32,510
+together with they will work.
+
+74
+00:02:32,510 --> 00:02:35,180
+We've reduced it to just
+finding a gamma here.
+
+75
+00:02:35,180 --> 00:02:37,700
+By now, the problem
+is simple enough.
+
+76
+00:02:37,700 --> 00:02:39,530
+You should be able to
+solve it in your heads.
+
+77
+00:02:39,530 --> 00:02:43,415
+How can I find a gamma that
+satisfies both this and this?
+
+78
+00:02:43,415 --> 00:02:45,530
+I can see four ways of doing it.
+
+79
+00:02:45,530 --> 00:02:48,035
+How many ways can I find
+them making this true?
+
+80
+00:02:48,035 --> 00:02:52,445
+Either I make be false or I
+may see true in either case,
+
+81
+00:02:52,445 --> 00:02:54,590
+if I make not p true here,
+
+82
+00:02:54,590 --> 00:02:56,360
+then not B will be true that
+
+83
+00:02:56,360 --> 00:02:58,400
+if I make Nazi true here, sorry,
+
+84
+00:02:58,400 --> 00:03:00,590
+they make ZI true here and
+see it'll be true that,
+
+85
+00:03:00,590 --> 00:03:02,540
+so in either case I can
+finish it off just by
+
+86
+00:03:02,540 --> 00:03:05,375
+making either be false or true.
+
+87
+00:03:05,375 --> 00:03:08,975
+Similarly here I finish it off
+by making de true or true.
+
+88
+00:03:08,975 --> 00:03:10,970
+And because I've got
+two choices here,
+
+89
+00:03:10,970 --> 00:03:14,255
+two choices that there's four
+ways of making this true.
+
+90
+00:03:14,255 --> 00:03:16,535
+So I could list all
+four of those paths,
+
+91
+00:03:16,535 --> 00:03:20,615
+not BD, not PF, CD, CF.
+
+92
+00:03:20,615 --> 00:03:22,100
+And for each of the
+micro put an a on
+
+93
+00:03:22,100 --> 00:03:23,990
+the beginning and we
+would have discovered
+
+94
+00:03:23,990 --> 00:03:26,630
+the IRR precisely for
+
+95
+00:03:26,630 --> 00:03:29,900
+wages of making this
+possible staff true.
+
+96
+00:03:29,900 --> 00:03:31,520
+When we choose to make a true,
+
+97
+00:03:31,520 --> 00:03:33,620
+we're also interested
+in what might
+
+98
+00:03:33,620 --> 00:03:37,130
+happen if we made a false
+naught a and gamma,
+
+99
+00:03:37,130 --> 00:03:38,735
+naught a and gamma,
+
+100
+00:03:38,735 --> 00:03:40,850
+we've got the
+immediate rho naught
+
+101
+00:03:40,850 --> 00:03:43,190
+a and gamma naught a and gamma,
+
+102
+00:03:43,190 --> 00:03:44,525
+we can absorb the eye.
+
+103
+00:03:44,525 --> 00:03:47,060
+So this is similar
+to what I did last
+
+104
+00:03:47,060 --> 00:03:50,300
+time when I had the
+a is underneath,
+
+105
+00:03:50,300 --> 00:03:53,659
+except that this time
+these two things survive.
+
+106
+00:03:53,659 --> 00:03:57,470
+This time, how many ways we
+have of making this true?
+
+107
+00:03:57,470 --> 00:04:00,830
+How many ways we have making
+these two true as it three,
+
+108
+00:04:00,830 --> 00:04:02,960
+I think it's 21 is we make p
+
+109
+00:04:02,960 --> 00:04:05,690
+true once we might be
+true, table's true.
+
+110
+00:04:05,690 --> 00:04:09,245
+And the other one is we
+make a truancy false.
+
+111
+00:04:09,245 --> 00:04:10,670
+We don't need to
+say anything about
+
+112
+00:04:10,670 --> 00:04:14,520
+P naught being true.
+So I think it's 23.

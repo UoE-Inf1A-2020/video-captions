@@ -1,0 +1,376 @@
+1
+00:00:00,000 --> 00:00:02,010
+I said at the beginning
+that we will be
+
+2
+00:00:02,010 --> 00:00:04,740
+studying Language,
+Truth, and Logic.
+
+3
+00:00:04,740 --> 00:00:08,070
+And we've been studying
+truth and logic.
+
+4
+00:00:08,070 --> 00:00:09,720
+So we've been looking at worlds
+
+5
+00:00:09,720 --> 00:00:12,705
+where properties
+hold and don't hold.
+
+6
+00:00:12,705 --> 00:00:15,750
+And the same symmetry
+Nokia logic is.
+
+7
+00:00:15,750 --> 00:00:19,425
+We've looked at the Algebra
+or those properties,
+
+8
+00:00:19,425 --> 00:00:23,085
+and we've reasoned about those
+properties using algebra.
+
+9
+00:00:23,085 --> 00:00:24,690
+That certainly logic
+that would have
+
+10
+00:00:24,690 --> 00:00:26,460
+been recognized as all
+
+11
+00:00:26,460 --> 00:00:29,909
+there was to logic until
+early in the 20th century.
+
+12
+00:00:29,909 --> 00:00:32,490
+The logic now has
+another important piece,
+
+13
+00:00:32,490 --> 00:00:35,225
+which we normally don't do in
+
+14
+00:00:35,225 --> 00:00:39,769
+an algebra with addition and
+multiplication and numbers.
+
+15
+00:00:39,769 --> 00:00:42,305
+But some people do
+the people who code
+
+16
+00:00:42,305 --> 00:00:43,940
+algebra in computers have
+
+17
+00:00:43,940 --> 00:00:45,605
+to do what I'm about
+to talk about.
+
+18
+00:00:45,605 --> 00:00:48,425
+But we always do it in Logic
+and have done for a century
+
+19
+00:00:48,425 --> 00:00:51,214
+that is not just to
+use the language,
+
+20
+00:00:51,214 --> 00:00:52,400
+but to reason about
+
+21
+00:00:52,400 --> 00:00:53,810
+the language which is
+
+22
+00:00:53,810 --> 00:00:55,400
+necessary if we're going
+to compute with it.
+
+23
+00:00:55,400 --> 00:00:57,350
+But it is also necessary to
+
+24
+00:00:57,350 --> 00:00:59,405
+get some of the results we
+want to get to in logic.
+
+25
+00:00:59,405 --> 00:01:00,680
+So we want to have
+
+26
+00:01:00,680 --> 00:01:03,230
+a language where the
+expressions in the language
+
+27
+00:01:03,230 --> 00:01:05,210
+can be objects sitting in
+
+28
+00:01:05,210 --> 00:01:07,355
+Haskell and the computer as yet,
+
+29
+00:01:07,355 --> 00:01:09,890
+you don't have all
+the bits of Haskell.
+
+30
+00:01:09,890 --> 00:01:12,110
+We need to do that for
+
+31
+00:01:12,110 --> 00:01:13,790
+the language that
+you would normally
+
+32
+00:01:13,790 --> 00:01:15,500
+learn for propositional logic,
+
+33
+00:01:15,500 --> 00:01:16,790
+you've got all the things we
+
+34
+00:01:16,790 --> 00:01:19,145
+need to do a very
+simple language.
+
+35
+00:01:19,145 --> 00:01:21,725
+So we're going to do a very,
+very simple language first.
+
+36
+00:01:21,725 --> 00:01:23,660
+And a simple language will be
+
+37
+00:01:23,660 --> 00:01:25,850
+related to the exercises
+you've been doing
+
+38
+00:01:25,850 --> 00:01:28,310
+recently where we
+take an expression or
+
+39
+00:01:28,310 --> 00:01:31,085
+a sequence and we
+reduce it and we get
+
+40
+00:01:31,085 --> 00:01:34,775
+a load of disjunctions and
+we can join them and say
+
+41
+00:01:34,775 --> 00:01:37,385
+This expression is equivalent to
+
+42
+00:01:37,385 --> 00:01:40,655
+a conjunction of
+disjunction of literals.
+
+43
+00:01:40,655 --> 00:01:43,070
+And a literal is either a
+
+44
+00:01:43,070 --> 00:01:47,855
+positive a is true or
+a negative a is false.
+
+45
+00:01:47,855 --> 00:01:50,000
+I will develop that language in
+
+46
+00:01:50,000 --> 00:01:53,990
+the next video and use it to
+code up a Sudoku problem.
+
+47
+00:01:53,990 --> 00:01:56,540
+The number of variables we
+
+48
+00:01:56,540 --> 00:01:59,600
+have will be and nine cubed 279,
+
+49
+00:01:59,600 --> 00:02:01,520
+and the number of disjunctions
+
+50
+00:02:01,520 --> 00:02:03,560
+will be something
+over 8 thousand.
+
+51
+00:02:03,560 --> 00:02:07,145
+So it won't be something
+we can do by hand,
+
+52
+00:02:07,145 --> 00:02:09,020
+but it will be
+something that we can
+
+53
+00:02:09,020 --> 00:02:12,140
+describe using what I've
+just shown you today.
+
+54
+00:02:12,140 --> 00:02:13,940
+And it will be something we can
+
+55
+00:02:13,940 --> 00:02:16,100
+easily manipulate
+in the computers.
+
+56
+00:02:16,100 --> 00:02:18,140
+I will then develop some
+algorithms to do that.
+
+57
+00:02:18,140 --> 00:02:19,280
+And you will find that with
+
+58
+00:02:19,280 --> 00:02:21,260
+just a couple of
+simple idea is simple,
+
+59
+00:02:21,260 --> 00:02:23,165
+but it took a while for
+people to find them.
+
+60
+00:02:23,165 --> 00:02:25,190
+We can build a program that
+
+61
+00:02:25,190 --> 00:02:27,260
+takes something in
+this simple language,
+
+62
+00:02:27,260 --> 00:02:28,520
+somewhat simple
+about this language.
+
+63
+00:02:28,520 --> 00:02:32,215
+This language will only allow
+you to either take an atom,
+
+64
+00:02:32,215 --> 00:02:34,445
+a basic thing and say
+it's true or it's false.
+
+65
+00:02:34,445 --> 00:02:37,100
+Or to take a disjunction
+of literals to
+
+66
+00:02:37,100 --> 00:02:39,935
+form a clause or to
+take a conjunction.
+
+67
+00:02:39,935 --> 00:02:42,890
+Those clauses to form a form.
+
+68
+00:02:42,890 --> 00:02:45,440
+The only thing we will
+count as a full sentence is
+
+69
+00:02:45,440 --> 00:02:48,905
+a conjunction of
+disjunction of literals.
+
+70
+00:02:48,905 --> 00:02:51,260
+That conjunction
+could be empty once
+
+71
+00:02:51,260 --> 00:02:54,665
+the anti conjunction
+represent true, true, true.
+
+72
+00:02:54,665 --> 00:02:56,390
+So the antique
+conjunction is true.
+
+73
+00:02:56,390 --> 00:02:59,585
+If we had those clauses
+amongst those clauses,
+
+74
+00:02:59,585 --> 00:03:01,865
+then maybe clauses of
+all sorts of sizes.
+
+75
+00:03:01,865 --> 00:03:03,965
+If we have an empty clause,
+
+76
+00:03:03,965 --> 00:03:05,885
+the empty clause is false.
+
+77
+00:03:05,885 --> 00:03:08,000
+So that means it has
+an empty clause.
+
+78
+00:03:08,000 --> 00:03:10,085
+We can't satisfy all the clauses.
+
+79
+00:03:10,085 --> 00:03:11,780
+So the whole thing will be false.
+
+80
+00:03:11,780 --> 00:03:13,820
+But that we will have
+to wait till tomorrow
+
+81
+00:03:13,820 --> 00:03:17,490
+because we're already
+out of time for today.

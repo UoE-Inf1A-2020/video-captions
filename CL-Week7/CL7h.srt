@@ -1,0 +1,639 @@
+1
+00:00:00,000 --> 00:00:02,745
+The entailment gamma
+satisfies delta,
+
+2
+00:00:02,745 --> 00:00:05,265
+where both gamma and
+delta are empty,
+
+3
+00:00:05,265 --> 00:00:08,220
+is only valid in
+the empty Universe.
+
+4
+00:00:08,220 --> 00:00:10,815
+But the empty set is
+itself a predicate,
+
+5
+00:00:10,815 --> 00:00:13,425
+the sequent with this
+predicate on either side
+
+6
+00:00:13,425 --> 00:00:16,205
+of the turnstile, It's
+universally valid.
+
+7
+00:00:16,205 --> 00:00:18,140
+We'll start this
+video by seeing how
+
+8
+00:00:18,140 --> 00:00:21,185
+Haskell type system
+resolves this confusion.
+
+9
+00:00:21,185 --> 00:00:23,420
+Classical keeps track of
+what we're talking about.
+
+10
+00:00:23,420 --> 00:00:24,860
+It tells us if we're
+
+11
+00:00:24,860 --> 00:00:27,020
+talking nonsense in
+this kind of way,
+
+12
+00:00:27,020 --> 00:00:28,370
+there are other
+kinds of nonsense we
+
+13
+00:00:28,370 --> 00:00:30,095
+could talk that it
+couldn't recognize.
+
+14
+00:00:30,095 --> 00:00:32,765
+But when we make tie
+Paris, it's pretty good.
+
+15
+00:00:32,765 --> 00:00:34,955
+If I try and do this in Haskell,
+
+16
+00:00:34,955 --> 00:00:37,070
+let's take one cons
+
+17
+00:00:37,070 --> 00:00:39,635
+the empty lists and say
+that it's of type integer.
+
+18
+00:00:39,635 --> 00:00:40,940
+I have to say it's a type integer
+
+19
+00:00:40,940 --> 00:00:42,350
+because otherwise
+it gets confused.
+
+20
+00:00:42,350 --> 00:00:44,450
+And when I get to
+this stage, it says,
+
+21
+00:00:44,450 --> 00:00:45,710
+I don't really know
+what type we're
+
+22
+00:00:45,710 --> 00:00:47,210
+talking about because
+you haven't told me
+
+23
+00:00:47,210 --> 00:00:50,240
+whether its integer
+or real or double,
+
+24
+00:00:50,240 --> 00:00:52,250
+I'd take the tail of it.
+I get the empty list.
+
+25
+00:00:52,250 --> 00:00:53,480
+Once I've got the empty list,
+
+26
+00:00:53,480 --> 00:00:55,700
+you think I could
+say false Kanzi,
+
+27
+00:00:55,700 --> 00:00:57,260
+empty list because it just
+
+28
+00:00:57,260 --> 00:00:59,330
+one empty lists in
+Haskell. It's not.
+
+29
+00:00:59,330 --> 00:01:04,070
+By this time, this particular
+instance of the empty list
+
+30
+00:01:04,070 --> 00:01:05,870
+that we're talking about is
+
+31
+00:01:05,870 --> 00:01:08,720
+specialized to be
+an integer list,
+
+32
+00:01:08,720 --> 00:01:10,880
+even though it's got
+nothing in here,
+
+33
+00:01:10,880 --> 00:01:12,470
+trying to put false and it says
+
+34
+00:01:12,470 --> 00:01:14,780
+an error because it
+can't match in tuple.
+
+35
+00:01:14,780 --> 00:01:17,210
+Sometimes Haskell typing seems
+
+36
+00:01:17,210 --> 00:01:18,590
+like a pain, but
+on the other hand,
+
+37
+00:01:18,590 --> 00:01:20,210
+there comes a point where most of
+
+38
+00:01:20,210 --> 00:01:22,325
+your errors get caught
+as type errors.
+
+39
+00:01:22,325 --> 00:01:26,000
+And once you get it to compile
+and pass the type checker,
+
+40
+00:01:26,000 --> 00:01:28,100
+you've actually got rid
+of the silly errors
+
+41
+00:01:28,100 --> 00:01:29,360
+you made a forgetting to give
+
+42
+00:01:29,360 --> 00:01:31,520
+one argument of
+getting that needs to
+
+43
+00:01:31,520 --> 00:01:33,815
+be converted to something
+else before you used it.
+
+44
+00:01:33,815 --> 00:01:36,140
+So it's really worth sticking
+with the type system.
+
+45
+00:01:36,140 --> 00:01:38,030
+It's also really worth having
+
+46
+00:01:38,030 --> 00:01:40,130
+a picture of what the types are.
+
+47
+00:01:40,130 --> 00:01:44,840
+And I see people writing
+things on Piazza as saying,
+
+48
+00:01:44,840 --> 00:01:47,435
+when I give it to this and I
+gather that you don't quite
+
+49
+00:01:47,435 --> 00:01:50,210
+know what they're giving
+the type signature down.
+
+50
+00:01:50,210 --> 00:01:51,725
+If you write it down,
+
+51
+00:01:51,725 --> 00:01:53,480
+you're more light-year
+not discover
+
+52
+00:01:53,480 --> 00:01:55,640
+your error in trying
+to write down,
+
+53
+00:01:55,640 --> 00:01:58,370
+OK. Now I'm going to
+go back a little bit
+
+54
+00:01:58,370 --> 00:02:01,775
+to look at what we did earlier
+talking about predicate.
+
+55
+00:02:01,775 --> 00:02:04,670
+We're going to introduce
+a couple of new ideas in
+
+56
+00:02:04,670 --> 00:02:06,380
+Haskell that will make it
+
+57
+00:02:06,380 --> 00:02:08,480
+easier to talk about quantifiers.
+
+58
+00:02:08,480 --> 00:02:12,920
+When we say for all or
+some Hua math position,
+
+59
+00:02:12,920 --> 00:02:15,260
+say for every epsilon
+
+60
+00:02:15,260 --> 00:02:17,495
+there exists a delta. Some
+of you would have done that.
+
+61
+00:02:17,495 --> 00:02:20,810
+And they'll say for all there
+exists, that's quantifiers.
+
+62
+00:02:20,810 --> 00:02:22,715
+And we're going to
+explain quantifiers
+
+63
+00:02:22,715 --> 00:02:24,050
+because that's part of logic.
+
+64
+00:02:24,050 --> 00:02:28,760
+We had various operations
+on Booleans, such as end.
+
+65
+00:02:28,760 --> 00:02:32,360
+And we wanted to define a
+function on predicates,
+
+66
+00:02:32,360 --> 00:02:34,205
+which are things
+that go from usable.
+
+67
+00:02:34,205 --> 00:02:37,395
+So that if I go to subsets
+of the universe or
+
+68
+00:02:37,395 --> 00:02:39,170
+other the characteristic
+functions
+
+69
+00:02:39,170 --> 00:02:41,210
+of two subsets of the universe.
+
+70
+00:02:41,210 --> 00:02:44,510
+Then I can add them to get a
+new subset of the universe.
+
+71
+00:02:44,510 --> 00:02:47,150
+Some of you wanted to write this.
+
+72
+00:02:47,150 --> 00:02:51,365
+And I0 is, and people didn't
+like it because they said,
+
+73
+00:02:51,365 --> 00:02:54,155
+But wait, there are
+three things here.
+
+74
+00:02:54,155 --> 00:02:55,640
+And this looks like it's only got
+
+75
+00:02:55,640 --> 00:02:57,350
+two argument. What's
+happening here?
+
+76
+00:02:57,350 --> 00:03:00,560
+Well, actually these two
+types of exactly the same.
+
+77
+00:03:00,560 --> 00:03:03,470
+It's just, I've put in
+brackets that are redundant.
+
+78
+00:03:03,470 --> 00:03:06,380
+Means the same with or
+without the brackets.
+
+79
+00:03:06,380 --> 00:03:08,165
+But I want to go further on that,
+
+80
+00:03:08,165 --> 00:03:10,640
+although it means
+the same to Haskell,
+
+81
+00:03:10,640 --> 00:03:14,720
+I really want you to start
+thinking of it in this way.
+
+82
+00:03:14,720 --> 00:03:18,890
+That this is a function of
+two arguments that returns
+
+83
+00:03:18,890 --> 00:03:21,290
+one other thing which
+happens to be a function
+
+84
+00:03:21,290 --> 00:03:24,005
+rather than this is a
+function of three arguments.
+
+85
+00:03:24,005 --> 00:03:26,120
+When we use a, will normally
+
+86
+00:03:26,120 --> 00:03:28,820
+not be interested in
+providing the final x,
+
+87
+00:03:28,820 --> 00:03:30,110
+will normally be interested in
+
+88
+00:03:30,110 --> 00:03:31,940
+computing with the functions.
+
+89
+00:03:31,940 --> 00:03:34,220
+One way of saying that is if I
+
+90
+00:03:34,220 --> 00:03:37,010
+introduce type abbreviation
+for these things,
+
+91
+00:03:37,010 --> 00:03:40,835
+I'll say type predicate
+of you is a URL bu,
+
+92
+00:03:40,835 --> 00:03:43,175
+That just means I
+can write pred you
+
+93
+00:03:43,175 --> 00:03:46,040
+wherever I would normally
+write URLs, bool.
+
+94
+00:03:46,040 --> 00:03:48,110
+So then I'm looking for a
+function that goes from
+
+95
+00:03:48,110 --> 00:03:50,465
+a and B to a and B,
+
+96
+00:03:50,465 --> 00:03:51,755
+which again is a predicate.
+
+97
+00:03:51,755 --> 00:03:54,335
+Then if I write the
+type signature down,
+
+98
+00:03:54,335 --> 00:03:57,470
+all vestige of the x disappears.
+
+99
+00:03:57,470 --> 00:04:00,020
+This really is this,
+
+100
+00:04:00,020 --> 00:04:02,945
+even now, I still write
+the definition like that.
+
+101
+00:04:02,945 --> 00:04:05,210
+One of the things we're going
+to do today is to introduce
+
+102
+00:04:05,210 --> 00:04:08,345
+a notation that makes
+that a bit easier.
+
+103
+00:04:08,345 --> 00:04:10,715
+So you see how this is natural.
+
+104
+00:04:10,715 --> 00:04:13,040
+Whereas here it looks really
+weird because whereas x,
+
+105
+00:04:13,040 --> 00:04:14,360
+i don't see x any y here,
+
+106
+00:04:14,360 --> 00:04:17,085
+we did lots more of those things.
+
+107
+00:04:17,085 --> 00:04:19,795
+We took all sorts of functions.
+
+108
+00:04:19,795 --> 00:04:20,995
+I've written them all here.
+
+109
+00:04:20,995 --> 00:04:24,400
+One thing we haven't done
+yet is to properly introduce
+
+110
+00:04:24,400 --> 00:04:28,795
+these functions implies
+if and only if x or,
+
+111
+00:04:28,795 --> 00:04:30,970
+I mean, you've done exercises
+with them, we've done them,
+
+112
+00:04:30,970 --> 00:04:32,020
+but we haven't
+discussed them and I'm
+
+113
+00:04:32,020 --> 00:04:33,685
+not gonna do that today.
+
+114
+00:04:33,685 --> 00:04:36,880
+But I do want to point
+out to you that they will
+
+115
+00:04:36,880 --> 00:04:39,760
+exist in Haskell and
+they exist as these.
+
+116
+00:04:39,760 --> 00:04:42,595
+And you might want to check
+that truth table sometimes.
+
+117
+00:04:42,595 --> 00:04:43,990
+And then we can check that.
+
+118
+00:04:43,990 --> 00:04:46,000
+You can check it. And some of
+
+119
+00:04:46,000 --> 00:04:48,130
+those at least we've
+translated like this.
+
+120
+00:04:48,130 --> 00:04:50,650
+And we could lift all
+functions if we wanted to.
+
+121
+00:04:50,650 --> 00:04:52,705
+And we can again go between
+
+122
+00:04:52,705 --> 00:04:55,825
+this view when we're thinking
+of them as functions.
+
+123
+00:04:55,825 --> 00:04:57,910
+And a slightly more
+abstract view where we
+
+124
+00:04:57,910 --> 00:05:00,560
+say a predicate is a function,
+
+125
+00:05:00,560 --> 00:05:02,120
+but I'll forget about
+the function b,
+
+126
+00:05:02,120 --> 00:05:04,220
+and then I'll just write
+the signatures like this.
+
+127
+00:05:04,220 --> 00:05:05,570
+So if you look at it like this,
+
+128
+00:05:05,570 --> 00:05:07,730
+then we've replaced
+boost with Friday,
+
+129
+00:05:07,730 --> 00:05:09,815
+but we've got the same kinds
+of operations on them.
+
+130
+00:05:09,815 --> 00:05:11,840
+Going back to my and,
+
+131
+00:05:11,840 --> 00:05:13,970
+and using a lambda to
+
+132
+00:05:13,970 --> 00:05:16,970
+define it makes the
+type seem more natural.
+
+133
+00:05:16,970 --> 00:05:22,145
+Now we can write this
+operation on predicates as
+
+134
+00:05:22,145 --> 00:05:24,530
+a and B is
+
+135
+00:05:24,530 --> 00:05:28,835
+the function which given
+x gives me a x and b x.
+
+136
+00:05:28,835 --> 00:05:30,080
+But I've wrapped that up.
+
+137
+00:05:30,080 --> 00:05:34,020
+So maybe now it looks
+a bit more actual.

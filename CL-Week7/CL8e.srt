@@ -1,0 +1,314 @@
+1
+00:00:00,000 --> 00:00:03,060
+We will have a
+number of assertions
+
+2
+00:00:03,060 --> 00:00:06,330
+like that that we want
+to solve simultaneously.
+
+3
+00:00:06,330 --> 00:00:08,220
+So we want to find
+
+4
+00:00:08,220 --> 00:00:10,905
+a model in which all
+of these are valid,
+
+5
+00:00:10,905 --> 00:00:14,070
+will develop the ideas
+working with a tiny example
+
+6
+00:00:14,070 --> 00:00:17,820
+with four or five letters
+and four clauses.
+
+7
+00:00:17,820 --> 00:00:21,210
+But the ideas will translate
+into code that runs
+
+8
+00:00:21,210 --> 00:00:25,290
+efficiently on 300 letters
+and 8 thousand clauses.
+
+9
+00:00:25,290 --> 00:00:26,835
+So we got this.
+
+10
+00:00:26,835 --> 00:00:28,440
+And really what we
+want to do is to find
+
+11
+00:00:28,440 --> 00:00:31,425
+a state such that this
+is universally valid.
+
+12
+00:00:31,425 --> 00:00:35,190
+What delta could
+do this and this,
+
+13
+00:00:35,190 --> 00:00:36,405
+and this, and this.
+
+14
+00:00:36,405 --> 00:00:39,670
+Once we know that delta
+will say something like
+
+15
+00:00:39,670 --> 00:00:43,520
+a is true and B is false
+and something else.
+
+16
+00:00:43,520 --> 00:00:45,425
+And that's enough to
+show this is happening.
+
+17
+00:00:45,425 --> 00:00:46,775
+Let's see what might happen.
+
+18
+00:00:46,775 --> 00:00:50,150
+But rather than try
+every delta which says,
+
+19
+00:00:50,150 --> 00:00:52,160
+I misstate, I give a value
+
+20
+00:00:52,160 --> 00:00:54,320
+to every one of your
+propositional letters.
+
+21
+00:00:54,320 --> 00:00:55,490
+That's what the state does.
+
+22
+00:00:55,490 --> 00:00:57,170
+States as this one's true,
+
+23
+00:00:57,170 --> 00:00:58,940
+this one's false, that's
+when true, this one's false.
+
+24
+00:00:58,940 --> 00:01:01,940
+These valuations don't
+have to say everything.
+
+25
+00:01:01,940 --> 00:01:04,685
+I can just say something
+and leave the rest unsaid.
+
+26
+00:01:04,685 --> 00:01:06,109
+That won't give us a solution,
+
+27
+00:01:06,109 --> 00:01:09,530
+but it often gives us a way
+of simplifying the problem.
+
+28
+00:01:09,530 --> 00:01:12,995
+So we're going to start by
+adding one literal at a time.
+
+29
+00:01:12,995 --> 00:01:15,920
+So what would happen
+if I put a here,
+
+30
+00:01:15,920 --> 00:01:19,160
+then I be looking for a
+delta that works with these,
+
+31
+00:01:19,160 --> 00:01:22,955
+put a comma delta,
+see what happens.
+
+32
+00:01:22,955 --> 00:01:24,230
+So I'm going to leave
+
+33
+00:01:24,230 --> 00:01:25,730
+the deltas out because
+they get in the way.
+
+34
+00:01:25,730 --> 00:01:28,265
+But that's really a gel to
+that where we might add more.
+
+35
+00:01:28,265 --> 00:01:32,255
+Can we simplify any of these
+expressions using reduction?
+
+36
+00:01:32,255 --> 00:01:34,310
+How about this one?
+How would you simplify
+
+37
+00:01:34,310 --> 00:01:36,440
+that using reduction?
+It's immediate.
+
+38
+00:01:36,440 --> 00:01:39,575
+How will we simplify this
+one using reduction?
+
+39
+00:01:39,575 --> 00:01:40,715
+There's only a No.
+
+40
+00:01:40,715 --> 00:01:42,740
+The only thing here
+is what role will
+
+41
+00:01:42,740 --> 00:01:44,870
+be apply and what
+would that give?
+
+42
+00:01:44,870 --> 00:01:47,015
+This is a set. So
+what would that give?
+
+43
+00:01:47,015 --> 00:01:50,735
+This is a set where I have
+2a is it's the same as 1A.
+
+44
+00:01:50,735 --> 00:01:53,210
+So I could take this a over to
+
+45
+00:01:53,210 --> 00:01:56,000
+the left and I only have
+one a e. So I've got this,
+
+46
+00:01:56,000 --> 00:01:58,715
+I got this, and these
+two have disappeared.
+
+47
+00:01:58,715 --> 00:02:00,125
+We've seen two cases here.
+
+48
+00:02:00,125 --> 00:02:04,025
+One is, if not a occurs
+on the right here,
+
+49
+00:02:04,025 --> 00:02:08,120
+we choose to make a true
+ten knots disappears,
+
+50
+00:02:08,120 --> 00:02:09,845
+but it is just one
+of the rules we had.
+
+51
+00:02:09,845 --> 00:02:13,460
+If a occurs on the right and
+we choose to make a true,
+
+52
+00:02:13,460 --> 00:02:15,065
+we no longer lead that rule.
+
+53
+00:02:15,065 --> 00:02:16,370
+There is a third case.
+
+54
+00:02:16,370 --> 00:02:18,110
+Finally, if a doesn't
+
+55
+00:02:18,110 --> 00:02:20,270
+occur at all and that
+one is unchanged.
+
+56
+00:02:20,270 --> 00:02:23,120
+So if I decide to make a true,
+
+57
+00:02:23,120 --> 00:02:25,850
+then I can solve the
+simpler problem of
+
+58
+00:02:25,850 --> 00:02:29,120
+finding a valuation
+that makes this true.
+
+59
+00:02:29,120 --> 00:02:30,470
+But I've already gel with a,
+
+60
+00:02:30,470 --> 00:02:31,670
+so I don't have to
+worry about that.
+
+61
+00:02:31,670 --> 00:02:34,070
+I just need to find values
+of a, b, c, d, e, f,
+
+62
+00:02:34,070 --> 00:02:36,965
+g. The rest of the
+letters make this true.
+
+63
+00:02:36,965 --> 00:02:41,149
+So in order to simplify
+a set of clauses,
+
+64
+00:02:41,149 --> 00:02:44,540
+we can choose some literal,
+
+65
+00:02:44,540 --> 00:02:46,040
+choose to make it true,
+
+66
+00:02:46,040 --> 00:02:48,305
+and then reduce the problem
+
+67
+00:02:48,305 --> 00:02:51,930
+to one that doesn't
+involve that literal.

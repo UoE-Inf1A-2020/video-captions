@@ -1,0 +1,477 @@
+1
+00:00:00,000 --> 00:00:02,460
+To introduce the
+algorithm will go back to
+
+2
+00:00:02,460 --> 00:00:04,710
+the simple example that we were
+
+3
+00:00:04,710 --> 00:00:07,425
+looking at at the end
+of last time, we said,
+
+4
+00:00:07,425 --> 00:00:10,770
+suppose that we've started
+from here and we've
+
+5
+00:00:10,770 --> 00:00:13,010
+arrived at cnf server
+
+6
+00:00:13,010 --> 00:00:15,000
+some places we had
+the immediate rule,
+
+7
+00:00:15,000 --> 00:00:17,010
+but up here, here, here and here,
+
+8
+00:00:17,010 --> 00:00:18,600
+we actually get the everything on
+
+9
+00:00:18,600 --> 00:00:20,250
+the right version
+of a simple rule.
+
+10
+00:00:20,250 --> 00:00:20,910
+In other words, you've just
+
+11
+00:00:20,910 --> 00:00:22,020
+moved everything over because it
+
+12
+00:00:22,020 --> 00:00:23,925
+shows us what the
+disjunction looked like.
+
+13
+00:00:23,925 --> 00:00:26,880
+So that says this is valid if and
+
+14
+00:00:26,880 --> 00:00:29,910
+only if I can find something
+that this or this,
+
+15
+00:00:29,910 --> 00:00:31,890
+or this and this, or this,
+
+16
+00:00:31,890 --> 00:00:33,270
+or this and this,
+
+17
+00:00:33,270 --> 00:00:35,730
+or this or this and
+this or this or this.
+
+18
+00:00:35,730 --> 00:00:37,800
+So that reduces this problem
+
+19
+00:00:37,800 --> 00:00:39,270
+of finding something
+that satisfies
+
+20
+00:00:39,270 --> 00:00:41,340
+this problem of
+finding something that
+
+21
+00:00:41,340 --> 00:00:43,925
+satisfies the associated CNN.
+
+22
+00:00:43,925 --> 00:00:46,130
+And I have put up a little
+bit of this before.
+
+23
+00:00:46,130 --> 00:00:47,930
+I'm going to, it's very hard to
+
+24
+00:00:47,930 --> 00:00:50,300
+describe algorithms in
+words, it's possible,
+
+25
+00:00:50,300 --> 00:00:52,640
+but it's much easier
+to describe them in
+
+26
+00:00:52,640 --> 00:00:54,980
+a language designed for
+describing algorithms.
+
+27
+00:00:54,980 --> 00:00:57,365
+The language you're learning
+right now is Haskell.
+
+28
+00:00:57,365 --> 00:00:59,240
+So we're going to
+use that language to
+
+29
+00:00:59,240 --> 00:01:01,775
+describe and in fact to
+implement the algorithm,
+
+30
+00:01:01,775 --> 00:01:03,830
+we want to make a cnf,
+
+31
+00:01:03,830 --> 00:01:06,530
+something we can
+manipulate in Haskell.
+
+32
+00:01:06,530 --> 00:01:09,200
+So we want a data type
+of things that a CNF,
+
+33
+00:01:09,200 --> 00:01:11,540
+so a clausal forms,
+I use the word form.
+
+34
+00:01:11,540 --> 00:01:13,805
+So we have roles than
+
+35
+00:01:13,805 --> 00:01:16,879
+disjunctions of lists
+of literals or closes,
+
+36
+00:01:16,879 --> 00:01:20,720
+and conjunctions of lists
+of clauses or forms.
+
+37
+00:01:20,720 --> 00:01:23,450
+Because we got lots of
+lists of things around.
+
+38
+00:01:23,450 --> 00:01:25,520
+And we've already seen
+with the example of
+
+39
+00:01:25,520 --> 00:01:28,415
+the empty set a few lectures ago.
+
+40
+00:01:28,415 --> 00:01:31,910
+If we use the same
+thing to represent what
+
+41
+00:01:31,910 --> 00:01:33,740
+a really two different
+kinds of things we can
+
+42
+00:01:33,740 --> 00:01:35,945
+get into knots if
+we confuse them.
+
+43
+00:01:35,945 --> 00:01:39,829
+So to stop ourselves
+confusing these lists,
+
+44
+00:01:39,829 --> 00:01:41,180
+we could say, well,
+
+45
+00:01:41,180 --> 00:01:42,200
+these are lists of literals
+
+46
+00:01:42,200 --> 00:01:43,550
+and these are lists of clauses.
+
+47
+00:01:43,550 --> 00:01:45,650
+But it's helpful sometimes to,
+
+48
+00:01:45,650 --> 00:01:47,420
+to remind ourselves
+that we think this
+
+49
+00:01:47,420 --> 00:01:49,340
+is an or and this is an end.
+
+50
+00:01:49,340 --> 00:01:51,875
+New type is just like
+theta except when you're
+
+51
+00:01:51,875 --> 00:01:54,800
+only doing one constructor,
+
+52
+00:01:54,800 --> 00:01:58,385
+one argument, it's a bit
+more efficient to do this.
+
+53
+00:01:58,385 --> 00:01:59,645
+There are other issues about it
+
+54
+00:01:59,645 --> 00:02:01,025
+that you probably
+learn about later.
+
+55
+00:02:01,025 --> 00:02:03,890
+A literal is either an atom said
+
+56
+00:02:03,890 --> 00:02:06,830
+positively or an atom
+said negatively.
+
+57
+00:02:06,830 --> 00:02:09,665
+Our atom are going
+to be things like S,
+
+58
+00:02:09,665 --> 00:02:12,890
+i, j, k, where S i,
+
+59
+00:02:12,890 --> 00:02:17,540
+j and k for the Sudoku
+problem may in square i j,
+
+60
+00:02:17,540 --> 00:02:19,460
+we have the entry k Am I
+
+61
+00:02:19,460 --> 00:02:21,665
+won't say it's true that
+will write it positively.
+
+62
+00:02:21,665 --> 00:02:22,760
+When we want to say it's false
+
+63
+00:02:22,760 --> 00:02:24,035
+that will write it negatively.
+
+64
+00:02:24,035 --> 00:02:26,525
+And then there's a
+negation von literals,
+
+65
+00:02:26,525 --> 00:02:28,250
+which says the negation
+of saying something
+
+66
+00:02:28,250 --> 00:02:30,455
+positively is saying
+it negatively,
+
+67
+00:02:30,455 --> 00:02:31,775
+and the negation of net saying
+
+68
+00:02:31,775 --> 00:02:33,920
+negatively, saying it positively.
+
+69
+00:02:33,920 --> 00:02:36,455
+Now for this little
+example that I am doing,
+
+70
+00:02:36,455 --> 00:02:40,430
+instead of having all 729
+propositional variables
+
+71
+00:02:40,430 --> 00:02:41,780
+that we'll have to sudoku,
+
+72
+00:02:41,780 --> 00:02:45,245
+we'll just have these eight
+just to do these examples.
+
+73
+00:02:45,245 --> 00:02:47,870
+So now I'm taking these things as
+
+74
+00:02:47,870 --> 00:02:51,470
+an example of a conjunction
+of disjunctions.
+
+75
+00:02:51,470 --> 00:02:53,135
+And actually there's
+a point to make here.
+
+76
+00:02:53,135 --> 00:02:56,705
+Someone on Piazza asked a
+very reasonable question.
+
+77
+00:02:56,705 --> 00:02:59,210
+Why is d count as a disjunction?
+
+78
+00:02:59,210 --> 00:03:00,800
+We don't write it
+as a disjunction.
+
+79
+00:03:00,800 --> 00:03:02,240
+Maybe I should put
+brackets round.
+
+80
+00:03:02,240 --> 00:03:04,475
+It's a disjunction of one thing.
+
+81
+00:03:04,475 --> 00:03:06,995
+When I say a disjunction
+of literals,
+
+82
+00:03:06,995 --> 00:03:10,115
+one literal is a
+disjunction of itself.
+
+83
+00:03:10,115 --> 00:03:12,680
+We also consider the
+empty set of literals,
+
+84
+00:03:12,680 --> 00:03:14,465
+which will be very
+important as we go on.
+
+85
+00:03:14,465 --> 00:03:16,250
+And then a valuation.
+
+86
+00:03:16,250 --> 00:03:18,035
+I'm not going to
+decorate this one.
+
+87
+00:03:18,035 --> 00:03:20,165
+Evaluation is a list of literals.
+
+88
+00:03:20,165 --> 00:03:22,820
+What we're going to look for
+a list of literals here,
+
+89
+00:03:22,820 --> 00:03:24,170
+which will say
+something like a is
+
+90
+00:03:24,170 --> 00:03:25,655
+positive, v is negative,
+
+91
+00:03:25,655 --> 00:03:28,820
+c is positive, such
+that if I make a true,
+
+92
+00:03:28,820 --> 00:03:31,385
+be false and C true,
+then I make this thing.
+
+93
+00:03:31,385 --> 00:03:33,245
+In other words, we are
+looking for a list of things.
+
+94
+00:03:33,245 --> 00:03:35,150
+When I say a in my evaluation,
+
+95
+00:03:35,150 --> 00:03:36,350
+it means i is true.
+
+96
+00:03:36,350 --> 00:03:38,450
+When I say not a
+in my evaluation,
+
+97
+00:03:38,450 --> 00:03:40,880
+that means a is false in
+terms of the sequence.
+
+98
+00:03:40,880 --> 00:03:43,250
+It means we put the
+valuation on the left of
+
+99
+00:03:43,250 --> 00:03:44,690
+the turnstile and the thing
+
+100
+00:03:44,690 --> 00:03:46,265
+we're looking at on the right.
+
+101
+00:03:46,265 --> 00:03:47,630
+And if these things,
+
+102
+00:03:47,630 --> 00:03:49,400
+if this is true, this
+is false, this is true.
+
+103
+00:03:49,400 --> 00:03:52,355
+Whatever makes this true
+than we've satisfied it.
+
+104
+00:03:52,355 --> 00:03:54,930
+That's what satisfies means.

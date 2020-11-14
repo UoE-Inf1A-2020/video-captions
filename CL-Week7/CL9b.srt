@@ -1,0 +1,534 @@
+1
+00:00:00,000 --> 00:00:03,150
+As I've said before, going
+to apply this to sudoku,
+
+2
+00:00:03,150 --> 00:00:05,880
+does this problem
+have a solution?
+
+3
+00:00:05,880 --> 00:00:08,040
+Some ways of putting numbers in,
+
+4
+00:00:08,040 --> 00:00:10,830
+in a Sudoku board will
+not have any solution.
+
+5
+00:00:10,830 --> 00:00:12,705
+You can't fill in
+the other places
+
+6
+00:00:12,705 --> 00:00:13,950
+such you got a solution.
+
+7
+00:00:13,950 --> 00:00:15,780
+For instance, if I
+put a four here,
+
+8
+00:00:15,780 --> 00:00:17,580
+you know that you can complete it
+
+9
+00:00:17,580 --> 00:00:19,650
+because you've already
+breaking one of the rules.
+
+10
+00:00:19,650 --> 00:00:21,645
+The rules are the same.
+
+11
+00:00:21,645 --> 00:00:24,840
+Digit doesn't occur
+twice in any row,
+
+12
+00:00:24,840 --> 00:00:26,160
+but it does occur once.
+
+13
+00:00:26,160 --> 00:00:28,800
+In other words, it occurs
+exactly once in any row.
+
+14
+00:00:28,800 --> 00:00:31,620
+It occurs exactly
+once in any column.
+
+15
+00:00:31,620 --> 00:00:33,870
+And it occurs exactly once in any
+
+16
+00:00:33,870 --> 00:00:36,165
+one of these big squares.
+That's the rule.
+
+17
+00:00:36,165 --> 00:00:39,135
+And we using the digits
+one to nine to fill it in,
+
+18
+00:00:39,135 --> 00:00:42,040
+satisfying those rules,
+it's perfectly possible.
+
+19
+00:00:42,040 --> 00:00:44,390
+Put in a collection things that
+
+20
+00:00:44,390 --> 00:00:47,030
+amongst themselves
+satisfy the rules.
+
+21
+00:00:47,030 --> 00:00:48,350
+They don't break the rules yet,
+
+22
+00:00:48,350 --> 00:00:50,645
+but such that there's no
+way of solving the problem.
+
+23
+00:00:50,645 --> 00:00:52,205
+Because everywhere you try,
+
+24
+00:00:52,205 --> 00:00:53,645
+you just can't do it. Does this.
+
+25
+00:00:53,645 --> 00:00:55,715
+Sudoku problems have a solution?
+
+26
+00:00:55,715 --> 00:00:57,005
+We're going to do this.
+
+27
+00:00:57,005 --> 00:00:58,700
+We'll produce cnf.
+
+28
+00:00:58,700 --> 00:01:02,945
+It's called Sudoku, which
+says and of Rs where Rs,
+
+29
+00:01:02,945 --> 00:01:05,450
+lots of clauses, constraints,
+
+30
+00:01:05,450 --> 00:01:07,415
+disjunctions all
+mean the same thing.
+
+31
+00:01:07,415 --> 00:01:09,064
+A real list of clauses,
+
+32
+00:01:09,064 --> 00:01:12,080
+the end of them expresses
+the rules of Sudoku.
+
+33
+00:01:12,080 --> 00:01:13,580
+And I showed you
+a couple already.
+
+34
+00:01:13,580 --> 00:01:17,525
+If I want to say that every
+square is filled, then I say,
+
+35
+00:01:17,525 --> 00:01:20,090
+and overall the squares
+or over the ones,
+
+36
+00:01:20,090 --> 00:01:23,285
+the nines and overall squares
+gives me some i's and j's.
+
+37
+00:01:23,285 --> 00:01:26,030
+I and j, both of them
+coming from 0 to nine.
+
+38
+00:01:26,030 --> 00:01:27,575
+And then o, k,
+
+39
+00:01:27,575 --> 00:01:29,630
+one of the case is
+in this position.
+
+40
+00:01:29,630 --> 00:01:31,160
+So we express the rules of
+
+41
+00:01:31,160 --> 00:01:33,545
+Sudoku by saying that
+and other pieces.
+
+42
+00:01:33,545 --> 00:01:35,465
+And then we'll have a cnf saying,
+
+43
+00:01:35,465 --> 00:01:37,700
+this is the problem
+that we'll just say
+
+44
+00:01:37,700 --> 00:01:40,130
+there's a seven in the squared
+as an eight in the square,
+
+45
+00:01:40,130 --> 00:01:41,375
+there's a two in the square.
+
+46
+00:01:41,375 --> 00:01:43,280
+So that's very easy to translate.
+
+47
+00:01:43,280 --> 00:01:45,950
+So we've got the rules of
+Sudoku and the problem.
+
+48
+00:01:45,950 --> 00:01:47,900
+And then we put together the end
+
+49
+00:01:47,900 --> 00:01:50,225
+of all the rules and all the
+things that the problem.
+
+50
+00:01:50,225 --> 00:01:52,055
+And we say, can I solve that?
+
+51
+00:01:52,055 --> 00:01:55,130
+We're going to give a version
+of this algorithm D PLL,
+
+52
+00:01:55,130 --> 00:01:56,975
+which dates to 1962,
+
+53
+00:01:56,975 --> 00:01:58,640
+back when solving Sudoku
+
+54
+00:01:58,640 --> 00:02:00,380
+with it would've
+taken about 30 hours.
+
+55
+00:02:00,380 --> 00:02:02,360
+On modern hardware, it can solve
+
+56
+00:02:02,360 --> 00:02:07,040
+Sudoku problems with 10
+thousand, by the way.
+
+57
+00:02:07,040 --> 00:02:09,410
+Only recently
+learned about these.
+
+58
+00:02:09,410 --> 00:02:13,265
+But as a national does an
+international standard
+
+59
+00:02:13,265 --> 00:02:19,070
+for powers of two to the ten.
+
+60
+00:02:19,070 --> 00:02:22,685
+So 100 into four is
+a natural number.
+
+61
+00:02:22,685 --> 00:02:26,555
+It's a natural, natural number
+to use often in computing.
+
+62
+00:02:26,555 --> 00:02:29,360
+Because if you have ten bits,
+
+63
+00:02:29,360 --> 00:02:32,195
+then you have 1024 possibilities.
+
+64
+00:02:32,195 --> 00:02:36,020
+So often when we say we've
+got a megabyte of memory,
+
+65
+00:02:36,020 --> 00:02:38,525
+we don't mean we've got
+a thousand bytes memory.
+
+66
+00:02:38,525 --> 00:02:40,235
+I sorry, a million
+bytes of memory.
+
+67
+00:02:40,235 --> 00:02:43,070
+We may, we've got 1024 times
+
+68
+00:02:43,070 --> 00:02:48,260
+1024 times whatever
+bytes of memory.
+
+69
+00:02:48,260 --> 00:02:51,605
+Okay? So we use those as sort of
+
+70
+00:02:51,605 --> 00:02:55,190
+like kilo and mega,
+but they're binary.
+
+71
+00:02:55,190 --> 00:02:58,145
+So there's actually,
+this is pronounced KB.
+
+72
+00:02:58,145 --> 00:03:01,279
+Apparently, KI means kilo,
+
+73
+00:03:01,279 --> 00:03:05,435
+but with 1024 now, 13 zeros.
+
+74
+00:03:05,435 --> 00:03:07,355
+Okay, anyway, that wasn't aside,
+
+75
+00:03:07,355 --> 00:03:10,730
+or Madonna or reddish can
+solve a Sudoku problem very
+
+76
+00:03:10,730 --> 00:03:14,510
+easily in a couple of seconds,
+modern SAT-solvers lift.
+
+77
+00:03:14,510 --> 00:03:17,285
+And this changed
+about 20 years ago.
+
+78
+00:03:17,285 --> 00:03:20,270
+20 years ago, there was
+suddenly a renewed interest
+
+79
+00:03:20,270 --> 00:03:23,435
+in SAT-solvers because
+Intel built a chip,
+
+80
+00:03:23,435 --> 00:03:24,695
+had a mistake in it,
+
+81
+00:03:24,695 --> 00:03:27,020
+and it cost them billions
+of pounds because it
+
+82
+00:03:27,020 --> 00:03:29,630
+costs an awful lot to
+produce the masks for chip.
+
+83
+00:03:29,630 --> 00:03:31,475
+And then recall it might
+the Mosque and it's,
+
+84
+00:03:31,475 --> 00:03:32,840
+it's really quite amazing
+
+85
+00:03:32,840 --> 00:03:34,640
+the amount of upfront
+money you have to put
+
+86
+00:03:34,640 --> 00:03:36,080
+in to make chips that are very
+
+87
+00:03:36,080 --> 00:03:37,805
+cheap because you
+make so many of them,
+
+88
+00:03:37,805 --> 00:03:40,670
+but you putting millions
+of pounds to get setup,
+
+89
+00:03:40,670 --> 00:03:42,140
+Intel had a problem.
+
+90
+00:03:42,140 --> 00:03:44,000
+They really didn't
+have any good way of
+
+91
+00:03:44,000 --> 00:03:46,580
+checking that design to check
+that they wouldn't have
+
+92
+00:03:46,580 --> 00:03:49,400
+similar problems in the
+future until people started
+
+93
+00:03:49,400 --> 00:03:50,930
+realizing that using kind
+
+94
+00:03:50,930 --> 00:03:52,505
+of algorithms we're
+now talking about,
+
+95
+00:03:52,505 --> 00:03:54,560
+you could do it, but
+then it became important
+
+96
+00:03:54,560 --> 00:03:56,795
+to make them faster
+in the late nineties.
+
+97
+00:03:56,795 --> 00:03:58,370
+And until now there have been
+
+98
+00:03:58,370 --> 00:04:02,555
+huge improvements going back
+to what was there in 1962.
+
+99
+00:04:02,555 --> 00:04:04,355
+So the general problem
+is called SAT,
+
+100
+00:04:04,355 --> 00:04:06,635
+it's boolean
+satisfiability problem.
+
+101
+00:04:06,635 --> 00:04:08,000
+If I give you a cnf,
+
+102
+00:04:08,000 --> 00:04:09,680
+is there a state
+that satisfies that?
+
+103
+00:04:09,680 --> 00:04:11,000
+For the Intel example,
+
+104
+00:04:11,000 --> 00:04:12,290
+we want to make sure
+nothing goes wrong.
+
+105
+00:04:12,290 --> 00:04:14,015
+We want to do it in
+reasonable time.
+
+106
+00:04:14,015 --> 00:04:15,245
+Practical applications,
+
+107
+00:04:15,245 --> 00:04:17,735
+fabrication of
+hardware, software,
+
+108
+00:04:17,735 --> 00:04:20,855
+finite state machines,
+communication protocols,
+
+109
+00:04:20,855 --> 00:04:23,465
+also used in AI planning.
+
+110
+00:04:23,465 --> 00:04:24,620
+When you're trying to do a plan,
+
+111
+00:04:24,620 --> 00:04:26,375
+you're not an express
+what you're trying to do
+
+112
+00:04:26,375 --> 00:04:29,315
+using logic and then
+solve a SAT problem.
+
+113
+00:04:29,315 --> 00:04:30,980
+And even in things like genomics,
+
+114
+00:04:30,980 --> 00:04:33,770
+where you want to find
+out what combinations of
+
+115
+00:04:33,770 --> 00:04:36,890
+genes go together to form
+things called haplotypes,
+
+116
+00:04:36,890 --> 00:04:40,560
+which I don't really
+understand, but sat helps.
