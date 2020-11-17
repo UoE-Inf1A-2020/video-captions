@@ -1,0 +1,1117 @@
+1
+00:00:00,000 --> 00:00:01,530
+What I want to do
+now is to get down
+
+2
+00:00:01,530 --> 00:00:03,285
+to a piece of nitty-gritty.
+
+3
+00:00:03,285 --> 00:00:06,000
+Once we have these
+formal languages
+
+4
+00:00:06,000 --> 00:00:07,920
+as things we can
+handle and manipulate.
+
+5
+00:00:07,920 --> 00:00:09,570
+And the best way to understand
+what I mean by that
+
+6
+00:00:09,570 --> 00:00:11,790
+is things we can
+encode in Haskell,
+
+7
+00:00:11,790 --> 00:00:15,270
+then we can write algorithms
+to work on the languages.
+
+8
+00:00:15,270 --> 00:00:16,725
+And that's what
+you've been doing.
+
+9
+00:00:16,725 --> 00:00:18,660
+We're going to show
+how we can take
+
+10
+00:00:18,660 --> 00:00:21,765
+any expression in this
+language has and,
+
+11
+00:00:21,765 --> 00:00:23,040
+or if and only if,
+
+12
+00:00:23,040 --> 00:00:27,000
+if then or not and variables
+and turn it into a CNF,
+
+13
+00:00:27,000 --> 00:00:28,590
+which is something where
+
+14
+00:00:28,590 --> 00:00:30,720
+the only negations
+are in literals.
+
+15
+00:00:30,720 --> 00:00:31,800
+In other words,
+they're always way
+
+16
+00:00:31,800 --> 00:00:32,850
+down there at the bottom,
+
+17
+00:00:32,850 --> 00:00:35,220
+then the literals
+are contained in
+
+18
+00:00:35,220 --> 00:00:37,680
+disjunctions and we have
+a conjunction of those.
+
+19
+00:00:37,680 --> 00:00:38,880
+In fact, it's something we could
+
+20
+00:00:38,880 --> 00:00:41,040
+translate into our
+language of forms,
+
+21
+00:00:41,040 --> 00:00:43,745
+but we can do, leave it in
+this language for the moment.
+
+22
+00:00:43,745 --> 00:00:46,070
+And the way we're going to
+do that is in three stages.
+
+23
+00:00:46,070 --> 00:00:47,945
+Now I've seen some discussion on
+
+24
+00:00:47,945 --> 00:00:50,105
+Piazza saying you could
+just do these together.
+
+25
+00:00:50,105 --> 00:00:51,710
+You probably can, but
+
+26
+00:00:51,710 --> 00:00:53,480
+you're more likely
+to make mistakes.
+
+27
+00:00:53,480 --> 00:00:55,190
+It's much easier to separate
+
+28
+00:00:55,190 --> 00:00:57,635
+out the different parts
+of what's going on.
+
+29
+00:00:57,635 --> 00:00:58,940
+Make sure they're eat right,
+
+30
+00:00:58,940 --> 00:01:00,590
+and then put them
+together to make
+
+31
+00:01:00,590 --> 00:01:03,500
+some complicated thing that
+depends on some reasoning of,
+
+32
+00:01:03,500 --> 00:01:04,625
+well, if I do this, then this,
+
+33
+00:01:04,625 --> 00:01:05,840
+those kinds of arguments.
+
+34
+00:01:05,840 --> 00:01:07,430
+You don't want to
+make complicated
+
+35
+00:01:07,430 --> 00:01:08,765
+arguments about your code,
+
+36
+00:01:08,765 --> 00:01:10,640
+certainly not the first
+time you write it.
+
+37
+00:01:10,640 --> 00:01:12,290
+If you then find that it
+
+38
+00:01:12,290 --> 00:01:14,150
+runs slowly and to
+make it faster,
+
+39
+00:01:14,150 --> 00:01:15,290
+you have to do
+something that needs
+
+40
+00:01:15,290 --> 00:01:17,075
+a complicated argument, fine.
+
+41
+00:01:17,075 --> 00:01:18,530
+First of all, get it running
+
+42
+00:01:18,530 --> 00:01:20,360
+properly with simple arguments.
+
+43
+00:01:20,360 --> 00:01:24,020
+And I believe that if you do
+the experiment between doing
+
+44
+00:01:24,020 --> 00:01:26,000
+this cnf transformation with
+
+45
+00:01:26,000 --> 00:01:28,340
+a complicated single
+pass and doing it with
+
+46
+00:01:28,340 --> 00:01:30,920
+what looks like three
+simpler passes,
+
+47
+00:01:30,920 --> 00:01:33,620
+you will find that Haskell
+actually makes them almost
+
+48
+00:01:33,620 --> 00:01:35,030
+indistinguishable
+in terms of what
+
+49
+00:01:35,030 --> 00:01:36,515
+actually happens
+inside the machine.
+
+50
+00:01:36,515 --> 00:01:38,480
+We're going to take
+this simple example and
+
+51
+00:01:38,480 --> 00:01:40,850
+see how this procedure were.
+
+52
+00:01:40,850 --> 00:01:43,670
+The first thing we want to
+do is to eliminate if and
+
+53
+00:01:43,670 --> 00:01:45,170
+only ifs and implies
+where we've only
+
+54
+00:01:45,170 --> 00:01:46,955
+got one if and only if here.
+
+55
+00:01:46,955 --> 00:01:50,450
+And this is the step
+of replacing if
+
+56
+00:01:50,450 --> 00:01:54,305
+and only if by a implies
+b and b implies a.
+
+57
+00:01:54,305 --> 00:01:58,610
+And then replacing a
+implies B by not IOP,
+
+58
+00:01:58,610 --> 00:02:01,115
+which means we would
+replace b implies a bike
+
+59
+00:02:01,115 --> 00:02:03,680
+not b or I will do that.
+
+60
+00:02:03,680 --> 00:02:05,600
+That's what we've done
+here. We've taken this,
+
+61
+00:02:05,600 --> 00:02:06,695
+we've made it into that.
+
+62
+00:02:06,695 --> 00:02:08,360
+If I look down here,
+
+63
+00:02:08,360 --> 00:02:11,360
+then this line here says,
+
+64
+00:02:11,360 --> 00:02:14,540
+if I want to eliminate
+implications from a p,
+
+65
+00:02:14,540 --> 00:02:16,370
+if and only if q, I then have to
+
+66
+00:02:16,370 --> 00:02:18,635
+eliminate them from P implies Q,
+
+67
+00:02:18,635 --> 00:02:20,990
+and then end it with
+eliminating them
+
+68
+00:02:20,990 --> 00:02:22,670
+from q implies p.
+
+69
+00:02:22,670 --> 00:02:24,215
+So that's exactly what
+I've written here.
+
+70
+00:02:24,215 --> 00:02:26,180
+If I now go stage further,
+
+71
+00:02:26,180 --> 00:02:28,190
+can we use this line of code?
+
+72
+00:02:28,190 --> 00:02:30,050
+Eliminate the P implies Q,
+
+73
+00:02:30,050 --> 00:02:32,540
+we replace it by
+not the elimination
+
+74
+00:02:32,540 --> 00:02:35,255
+from P or the
+inflammation from q.
+
+75
+00:02:35,255 --> 00:02:36,500
+Everything else.
+
+76
+00:02:36,500 --> 00:02:38,810
+We just go down and
+eliminate the bits,
+
+77
+00:02:38,810 --> 00:02:41,405
+but rebuild with the
+same connective.
+
+78
+00:02:41,405 --> 00:02:43,655
+Go down, eliminate the pieces
+
+79
+00:02:43,655 --> 00:02:45,920
+rebuilt with the same connective.
+
+80
+00:02:45,920 --> 00:02:48,125
+So if we do that,
+
+81
+00:02:48,125 --> 00:02:49,520
+we've now finished, there's no
+
+82
+00:02:49,520 --> 00:02:51,005
+more implications left here.
+
+83
+00:02:51,005 --> 00:02:53,240
+The next stage is to
+make sure that there are
+
+84
+00:02:53,240 --> 00:02:56,900
+no negations except
+right at the inside.
+
+85
+00:02:56,900 --> 00:02:59,795
+So here we've got a negation
+that is not at the inside.
+
+86
+00:02:59,795 --> 00:03:02,090
+What we do in this
+example is very simple.
+
+87
+00:03:02,090 --> 00:03:04,130
+We just apply what's effectively
+
+88
+00:03:04,130 --> 00:03:07,070
+DeMorgan's law here
+to replace this not
+
+89
+00:03:07,070 --> 00:03:09,680
+a and G by not a or
+
+90
+00:03:09,680 --> 00:03:12,515
+not G. Here we have
+the code which says,
+
+91
+00:03:12,515 --> 00:03:14,420
+when we're pushing knots in,
+
+92
+00:03:14,420 --> 00:03:16,345
+if we push and not in pass,
+
+93
+00:03:16,345 --> 00:03:17,750
+true, we get false.
+
+94
+00:03:17,750 --> 00:03:19,655
+In other words, not true
+is the same as false.
+
+95
+00:03:19,655 --> 00:03:21,665
+If we push it past
+faults, we get true.
+
+96
+00:03:21,665 --> 00:03:24,365
+What's important
+about these equations
+
+97
+00:03:24,365 --> 00:03:26,615
+is that are not
+changing the meaning.
+
+98
+00:03:26,615 --> 00:03:28,400
+What's on the left here should
+
+99
+00:03:28,400 --> 00:03:30,515
+always be equivalent to
+what's on the right.
+
+100
+00:03:30,515 --> 00:03:33,860
+Because then we're going
+to push the negations in.
+
+101
+00:03:33,860 --> 00:03:36,755
+But if at every step we
+don't change the meaning,
+
+102
+00:03:36,755 --> 00:03:38,555
+we have an equivalent formula.
+
+103
+00:03:38,555 --> 00:03:39,935
+Then when we've
+done all the steps,
+
+104
+00:03:39,935 --> 00:03:42,170
+will still have an
+equivalent formula here.
+
+105
+00:03:42,170 --> 00:03:46,205
+Not, not, we just take the
+two knots away, not P and Q.
+
+106
+00:03:46,205 --> 00:03:48,035
+We do the De Morgan
+to push it in,
+
+107
+00:03:48,035 --> 00:03:49,835
+not p or q,
+
+108
+00:03:49,835 --> 00:03:51,860
+we do the De Morgan
+to push it in.
+
+109
+00:03:51,860 --> 00:03:54,830
+Then the others, we just
+push in and rebuild.
+
+110
+00:03:54,830 --> 00:03:57,410
+And these are very
+common patterns of
+
+111
+00:03:57,410 --> 00:04:00,530
+recursion for these
+kinds of data type.
+
+112
+00:04:00,530 --> 00:04:02,450
+And you'll be using lots
+of such data types,
+
+113
+00:04:02,450 --> 00:04:03,755
+not just for languages.
+
+114
+00:04:03,755 --> 00:04:05,780
+In general. They stated type is
+
+115
+00:04:05,780 --> 00:04:07,940
+an example of a tree data type.
+
+116
+00:04:07,940 --> 00:04:11,090
+It's a rather special one
+cuz it's got some constants.
+
+117
+00:04:11,090 --> 00:04:14,885
+It's got away of forming
+leaves, our variables.
+
+118
+00:04:14,885 --> 00:04:17,540
+It's got various ways of forming
+
+119
+00:04:17,540 --> 00:04:18,890
+trees out of other ones which are
+
+120
+00:04:18,890 --> 00:04:20,600
+labelled with and's
+and or's and implies,
+
+121
+00:04:20,600 --> 00:04:21,905
+but it's still a tree.
+
+122
+00:04:21,905 --> 00:04:23,870
+And algorithms on trees will be
+
+123
+00:04:23,870 --> 00:04:26,165
+very important in
+the next few weeks.
+
+124
+00:04:26,165 --> 00:04:29,540
+So that as taking it to this
+stage and the next stage
+
+125
+00:04:29,540 --> 00:04:33,110
+is to push o's inside the ends.
+
+126
+00:04:33,110 --> 00:04:34,910
+If you look at this example,
+
+127
+00:04:34,910 --> 00:04:37,370
+this is an orange side already.
+
+128
+00:04:37,370 --> 00:04:39,560
+There's an and. So
+what we need to do is
+
+129
+00:04:39,560 --> 00:04:41,990
+push this or inside that.
+
+130
+00:04:41,990 --> 00:04:44,660
+And, and I hope that
+you will know how
+
+131
+00:04:44,660 --> 00:04:47,540
+to do that because we've
+done the distributivity.
+
+132
+00:04:47,540 --> 00:04:48,920
+Think of the or as
+
+133
+00:04:48,920 --> 00:04:51,770
+a times I know it really
+behaves like a plus.
+
+134
+00:04:51,770 --> 00:04:54,425
+But if you want to think
+about this distributive law,
+
+135
+00:04:54,425 --> 00:04:58,640
+it's easier if you think of
+this is not r times a plus g,
+
+136
+00:04:58,640 --> 00:05:00,035
+What would you write down?
+
+137
+00:05:00,035 --> 00:05:02,120
+You write not r times
+
+138
+00:05:02,120 --> 00:05:06,545
+a plus not a times g. So
+you use that rule though,
+
+139
+00:05:06,545 --> 00:05:11,240
+in this case, we're interpreting
+times as the awe and,
+
+140
+00:05:11,240 --> 00:05:12,980
+and as the plus.
+
+141
+00:05:12,980 --> 00:05:15,815
+I've done that there
+and we finished.
+
+142
+00:05:15,815 --> 00:05:17,255
+Unfortunately,
+
+143
+00:05:17,255 --> 00:05:18,650
+if you think about it a little
+
+144
+00:05:18,650 --> 00:05:19,820
+bit and think what if there
+
+145
+00:05:19,820 --> 00:05:21,740
+were other places where things
+
+146
+00:05:21,740 --> 00:05:23,945
+were disjunctions and they
+were outside each other,
+
+147
+00:05:23,945 --> 00:05:25,310
+how would we how would we
+
+148
+00:05:25,310 --> 00:05:26,825
+make sure we've done all of them?
+
+149
+00:05:26,825 --> 00:05:28,340
+It's not easy.
+
+150
+00:05:28,340 --> 00:05:30,950
+Try making some bigger
+examples and thinking.
+
+151
+00:05:30,950 --> 00:05:33,740
+Not only how do I do this
+example, you can all do that.
+
+152
+00:05:33,740 --> 00:05:34,865
+You'll just work until you've
+
+153
+00:05:34,865 --> 00:05:36,020
+got it pushed into the middle.
+
+154
+00:05:36,020 --> 00:05:38,630
+How can I tell a machine
+to do this example?
+
+155
+00:05:38,630 --> 00:05:41,195
+Turns out to be slightly taxing.
+
+156
+00:05:41,195 --> 00:05:42,410
+So the secret of
+
+157
+00:05:42,410 --> 00:05:46,160
+this recursion is that
+you start at the bottom.
+
+158
+00:05:46,160 --> 00:05:49,865
+So you say, I'm going to
+make the lowest level.
+
+159
+00:05:49,865 --> 00:05:51,680
+Cnf will allow US labour law that
+
+160
+00:05:51,680 --> 00:05:53,780
+just literals are constants.
+
+161
+00:05:53,780 --> 00:05:56,734
+And now we'll express
+those as cnf,
+
+162
+00:05:56,734 --> 00:05:58,850
+and then we'll say
+how to build them up.
+
+163
+00:05:58,850 --> 00:06:02,450
+So we've taken away our
+implies an if and only if.
+
+164
+00:06:02,450 --> 00:06:05,840
+So, I've only got ands
+and nots and all the not.
+
+165
+00:06:05,840 --> 00:06:06,965
+So right at the bottom.
+
+166
+00:06:06,965 --> 00:06:09,110
+And we've got some
+ores and that's fine.
+
+167
+00:06:09,110 --> 00:06:11,030
+So we make the walls
+into little lists,
+
+168
+00:06:11,030 --> 00:06:13,355
+civil wars, and if we
+add them, that's fine.
+
+169
+00:06:13,355 --> 00:06:14,750
+So we then got a cnf.
+
+170
+00:06:14,750 --> 00:06:16,835
+But if, if I then find,
+
+171
+00:06:16,835 --> 00:06:20,285
+I've got to cnf here and
+I've got a C and F here,
+
+172
+00:06:20,285 --> 00:06:22,820
+and I've got to all those to CNS.
+
+173
+00:06:22,820 --> 00:06:26,825
+Then what happens if
+I take one cnf and,
+
+174
+00:06:26,825 --> 00:06:29,330
+AND it with another? That's fine.
+
+175
+00:06:29,330 --> 00:06:31,565
+Maybe in thinking of this code,
+
+176
+00:06:31,565 --> 00:06:33,875
+thinking of how would you,
+
+177
+00:06:33,875 --> 00:06:37,880
+or two forms together is a
+good way of thinking of it.
+
+178
+00:06:37,880 --> 00:06:39,860
+The point is to go back to
+
+179
+00:06:39,860 --> 00:06:42,035
+something we did look
+at along time ago.
+
+180
+00:06:42,035 --> 00:06:48,575
+What does a plus B in brackets
+times C plus d. If you,
+
+181
+00:06:48,575 --> 00:06:50,465
+how many terms for
+
+182
+00:06:50,465 --> 00:06:52,610
+you cross multiply
+the different pairs.
+
+183
+00:06:52,610 --> 00:06:54,125
+So you'd say all four terms.
+
+184
+00:06:54,125 --> 00:06:55,730
+If I had a plus B,
+
+185
+00:06:55,730 --> 00:06:58,490
+C plus D, and E plus F,
+
+186
+00:06:58,490 --> 00:07:00,050
+how many terms would I get?
+
+187
+00:07:00,050 --> 00:07:02,615
+I get eight because you
+take the selections.
+
+188
+00:07:02,615 --> 00:07:04,565
+So that's what's going on here.
+
+189
+00:07:04,565 --> 00:07:09,095
+It says, Take a close
+from the left one,
+
+190
+00:07:09,095 --> 00:07:12,290
+take a clause from the right
+
+191
+00:07:12,290 --> 00:07:13,520
+one and put them
+
+192
+00:07:13,520 --> 00:07:16,505
+together and then now
+counted as all together.
+
+193
+00:07:16,505 --> 00:07:18,365
+That's just like saying,
+
+194
+00:07:18,365 --> 00:07:22,790
+take a c times and take
+a d times and take B,
+
+195
+00:07:22,790 --> 00:07:24,980
+C and times and take bd times.
+
+196
+00:07:24,980 --> 00:07:27,770
+Then that says, Take
+one from one side,
+
+197
+00:07:27,770 --> 00:07:29,555
+take one from the other side,
+
+198
+00:07:29,555 --> 00:07:31,280
+and then put them together
+because these are
+
+199
+00:07:31,280 --> 00:07:33,455
+two clause is being put
+together an altogether,
+
+200
+00:07:33,455 --> 00:07:35,570
+if there are ten clauses in
+
+201
+00:07:35,570 --> 00:07:38,300
+this cnf and ten
+clauses in this cnf,
+
+202
+00:07:38,300 --> 00:07:39,650
+how many paths do we get?
+
+203
+00:07:39,650 --> 00:07:42,710
+A 100. So this piece of code
+
+204
+00:07:42,710 --> 00:07:46,190
+hides quite a lot
+of stuff going on.
+
+205
+00:07:46,190 --> 00:07:48,440
+Luckily, if you're doing
+something on paper
+
+206
+00:07:48,440 --> 00:07:49,550
+to make it small enough so
+
+207
+00:07:49,550 --> 00:07:50,900
+that you can do it on the paper.
+
+208
+00:07:50,900 --> 00:07:52,730
+But it's good to understand what
+
+209
+00:07:52,730 --> 00:07:54,680
+the issues are once
+you've done that.
+
+210
+00:07:54,680 --> 00:07:57,545
+So we've now got this in the
+form of a list of lists.
+
+211
+00:07:57,545 --> 00:08:00,740
+Tend to take that list of
+lists and then put it back.
+
+212
+00:08:00,740 --> 00:08:04,640
+We just simply say if it's
+a now lists of lists,
+
+213
+00:08:04,640 --> 00:08:06,290
+then it means true if,
+
+214
+00:08:06,290 --> 00:08:07,700
+and this is a library function.
+
+215
+00:08:07,700 --> 00:08:11,435
+If any now x is, then it's false.
+
+216
+00:08:11,435 --> 00:08:14,150
+Any now x is a library
+function that is
+
+217
+00:08:14,150 --> 00:08:17,375
+exactly equivalent to the
+function we've called some.
+
+218
+00:08:17,375 --> 00:08:21,380
+X is null. So flip
+any is our sum.
+
+219
+00:08:21,380 --> 00:08:23,345
+Ok, the thing that we say,
+
+220
+00:08:23,345 --> 00:08:26,765
+something from this
+list has this property.
+
+221
+00:08:26,765 --> 00:08:28,610
+That's what it says,
+except it takes
+
+222
+00:08:28,610 --> 00:08:31,160
+the property first and then
+it takes the list second.
+
+223
+00:08:31,160 --> 00:08:32,510
+That's what any
+girls, in terms of
+
+224
+00:08:32,510 --> 00:08:34,685
+translating logic into Haskell.
+
+225
+00:08:34,685 --> 00:08:38,060
+It seems much better to
+have some, and every,
+
+226
+00:08:38,060 --> 00:08:39,725
+the way we've done it,
+because it looks more like
+
+227
+00:08:39,725 --> 00:08:42,170
+a mathematical notation
+for the same things.
+
+228
+00:08:42,170 --> 00:08:45,980
+Otherwise, this fold
+L1 is just a trick.
+
+229
+00:08:45,980 --> 00:08:48,845
+What it says is,
+if I get that far,
+
+230
+00:08:48,845 --> 00:08:51,590
+I know it's not the empty
+list or with the inner one.
+
+231
+00:08:51,590 --> 00:08:53,630
+I know that is not
+the empty list.
+
+232
+00:08:53,630 --> 00:08:56,585
+So I can just take the,
+
+233
+00:08:56,585 --> 00:08:58,850
+and of all the things
+in the list or the,
+
+234
+00:08:58,850 --> 00:09:01,490
+or of all the things in the
+list fold one just says you
+
+235
+00:09:01,490 --> 00:09:02,960
+don't need to give me
+initial thing because
+
+236
+00:09:02,960 --> 00:09:04,550
+I'm working on a non empty list.
+
+237
+00:09:04,550 --> 00:09:06,350
+So i will just
+apply this thing to
+
+238
+00:09:06,350 --> 00:09:07,790
+the first thing in the list and
+
+239
+00:09:07,790 --> 00:09:09,020
+then fold them altogether.
+
+240
+00:09:09,020 --> 00:09:10,655
+So that's what that code is.
+
+241
+00:09:10,655 --> 00:09:14,690
+So the upshot of this is
+we have these stages,
+
+242
+00:09:14,690 --> 00:09:18,410
+we eliminate that and
+eliminate these to get
+
+243
+00:09:18,410 --> 00:09:22,460
+here and push in the
+negation to get here,
+
+244
+00:09:22,460 --> 00:09:25,160
+then to this, to get there.
+
+245
+00:09:25,160 --> 00:09:29,910
+So this is r if and
+only if a and g.

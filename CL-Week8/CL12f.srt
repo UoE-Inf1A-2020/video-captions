@@ -1,0 +1,415 @@
+1
+00:00:00,000 --> 00:00:04,650
+Uh-huh. What's more complicated
+about this example?
+
+2
+00:00:04,650 --> 00:00:06,210
+What do we do when
+we see an example?
+
+3
+00:00:06,210 --> 00:00:09,390
+We first cheque whether
+there's a repeated datum.
+
+4
+00:00:09,390 --> 00:00:11,835
+We got Bay and
+that's the only one.
+
+5
+00:00:11,835 --> 00:00:13,380
+So what's the rule now,
+
+6
+00:00:13,380 --> 00:00:18,435
+any line we draw has to
+go between not B and B.
+
+7
+00:00:18,435 --> 00:00:19,815
+And it will have to go,
+
+8
+00:00:19,815 --> 00:00:21,360
+even if not p was above NP
+
+9
+00:00:21,360 --> 00:00:23,335
+was beloved still
+have to go between.
+
+10
+00:00:23,335 --> 00:00:25,235
+So it has to go between.
+
+11
+00:00:25,235 --> 00:00:26,570
+And that actually simplifies
+
+12
+00:00:26,570 --> 00:00:28,280
+the problem provided
+you notice it,
+
+13
+00:00:28,280 --> 00:00:31,040
+because it means you put zeros on
+
+14
+00:00:31,040 --> 00:00:34,160
+the things that don't
+go between the two BCE.
+
+15
+00:00:34,160 --> 00:00:36,335
+So this is like
+what we did before,
+
+16
+00:00:36,335 --> 00:00:39,050
+except that we now have a 0 up
+
+17
+00:00:39,050 --> 00:00:41,840
+here and a 0 down here,
+because they're not legal.
+
+18
+00:00:41,840 --> 00:00:43,505
+We count these three,
+
+19
+00:00:43,505 --> 00:00:45,455
+that uses two 3's here,
+
+20
+00:00:45,455 --> 00:00:47,900
+a one here, that gives
+us the seven there,
+
+21
+00:00:47,900 --> 00:00:49,310
+but we only have
+two ways of getting
+
+22
+00:00:49,310 --> 00:00:51,170
+out with seven, that's 14.
+
+23
+00:00:51,170 --> 00:00:53,960
+And then again, this problem
+has two lattices missing.
+
+24
+00:00:53,960 --> 00:00:56,105
+So it's 14 times 2X squared.
+
+25
+00:00:56,105 --> 00:00:57,320
+There were two letters missing.
+
+26
+00:00:57,320 --> 00:00:59,435
+So instead of multiplying by two,
+
+27
+00:00:59,435 --> 00:01:01,895
+we multiply by two twice.
+
+28
+00:01:01,895 --> 00:01:04,550
+Here's another example
+where we see that we get
+
+29
+00:01:04,550 --> 00:01:08,135
+the same result whichever
+way we approach problems.
+
+30
+00:01:08,135 --> 00:01:09,800
+Let's go back just to
+
+31
+00:01:09,800 --> 00:01:11,225
+this learning. Take
+a minute or two.
+
+32
+00:01:11,225 --> 00:01:13,370
+We have now our original problem.
+
+33
+00:01:13,370 --> 00:01:16,000
+We've got a mixture of B's,
+
+34
+00:01:16,000 --> 00:01:19,370
+not B's and A's and nowadays,
+
+35
+00:01:19,370 --> 00:01:20,750
+so we're going to
+put everything and
+
+36
+00:01:20,750 --> 00:01:22,250
+we're going to draw
+the whole thing.
+
+37
+00:01:22,250 --> 00:01:26,000
+So we'll do both the
+B's and C's and B's.
+
+38
+00:01:26,000 --> 00:01:29,525
+And so I've John that diagram.
+
+39
+00:01:29,525 --> 00:01:30,890
+And frankly, this is
+
+40
+00:01:30,890 --> 00:01:32,510
+difficult to do with
+pencil and paper.
+
+41
+00:01:32,510 --> 00:01:34,580
+It's actually easier
+to do on the machine.
+
+42
+00:01:34,580 --> 00:01:36,620
+Cuz I can drag things
+around and align,
+
+43
+00:01:36,620 --> 00:01:38,090
+stay together and you can play,
+
+44
+00:01:38,090 --> 00:01:39,950
+but we will draw the diagram.
+
+45
+00:01:39,950 --> 00:01:42,575
+This is more complicated than
+I would expect you to do,
+
+46
+00:01:42,575 --> 00:01:44,330
+but it's fun to play
+
+47
+00:01:44,330 --> 00:01:46,745
+pulling things around a
+bit from that diagram.
+
+48
+00:01:46,745 --> 00:01:48,425
+We get to this diagram.
+
+49
+00:01:48,425 --> 00:01:50,615
+By the time we've caused
+it to this diagram,
+
+50
+00:01:50,615 --> 00:01:52,475
+you can work it out.
+
+51
+00:01:52,475 --> 00:01:55,430
+One consequence of the
+arrow rules that I
+
+52
+00:01:55,430 --> 00:01:59,045
+haven't talked about is
+that if we have a cycle,
+
+53
+00:01:59,045 --> 00:02:00,590
+then I can never draw a line
+
+54
+00:02:00,590 --> 00:02:02,450
+through that cycle
+because if I did,
+
+55
+00:02:02,450 --> 00:02:03,830
+it would cut one error one
+
+56
+00:02:03,830 --> 00:02:05,810
+way and one arrow another ways.
+
+57
+00:02:05,810 --> 00:02:07,625
+You can never cut
+through a cycle.
+
+58
+00:02:07,625 --> 00:02:09,080
+Either we gotta be
+
+59
+00:02:09,080 --> 00:02:11,660
+completely below that
+or completely above it.
+
+60
+00:02:11,660 --> 00:02:13,085
+Similarly with this cycle,
+
+61
+00:02:13,085 --> 00:02:17,570
+we've also got the D.
+We have to go between
+
+62
+00:02:17,570 --> 00:02:23,200
+d not d. So I can't
+do a line down here.
+
+63
+00:02:23,200 --> 00:02:24,865
+If I come in here,
+
+64
+00:02:24,865 --> 00:02:30,265
+I have to go out above
+D and I can't come out.
+
+65
+00:02:30,265 --> 00:02:34,000
+They're somehow because that
+
+66
+00:02:34,000 --> 00:02:36,460
+would make that would make
+this one go the wrong way.
+
+67
+00:02:36,460 --> 00:02:39,250
+So we have to come out
+above the, so in fact,
+
+68
+00:02:39,250 --> 00:02:42,880
+for this example is simply
+that one and that one.
+
+69
+00:02:42,880 --> 00:02:46,000
+So there are only two
+possibilities for the courses
+
+70
+00:02:46,000 --> 00:02:47,605
+you can take with those rules
+
+71
+00:02:47,605 --> 00:02:49,420
+that I mentioned
+at the beginning.
+
+72
+00:02:49,420 --> 00:02:52,195
+Some ways that it's just a toy.
+
+73
+00:02:52,195 --> 00:02:55,030
+But it's, it's actually
+a fact that problems,
+
+74
+00:02:55,030 --> 00:02:57,820
+that can be phrased
+as 2-SAT problems
+
+75
+00:02:57,820 --> 00:03:00,730
+where every clause
+is a binary clause,
+
+76
+00:03:00,730 --> 00:03:02,880
+can be solved in polynomial time.
+
+77
+00:03:02,880 --> 00:03:06,095
+Whereas the moment you get
+to three SAT problems,
+
+78
+00:03:06,095 --> 00:03:08,660
+then that NP-complete there among
+
+79
+00:03:08,660 --> 00:03:10,940
+the hardest problems,
+we know there,
+
+80
+00:03:10,940 --> 00:03:13,220
+as hard as all the
+other hard problems,
+
+81
+00:03:13,220 --> 00:03:16,880
+satisfiability is
+really a key point.
+
+82
+00:03:16,880 --> 00:03:19,430
+And the, if you look
+at what happens with
+
+83
+00:03:19,430 --> 00:03:23,780
+unit propagation in
+the, in the, the PLL,
+
+84
+00:03:23,780 --> 00:03:28,235
+what it's doing is when things
+are down to two literals,
+
+85
+00:03:28,235 --> 00:03:31,550
+then it creating unit clauses
+and propagating them.
+
+86
+00:03:31,550 --> 00:03:33,110
+And doing that efficiently.
+
+87
+00:03:33,110 --> 00:03:34,235
+So it's taking the,
+
+88
+00:03:34,235 --> 00:03:36,170
+the easy bits of the problem and
+
+89
+00:03:36,170 --> 00:03:38,030
+doing it efficiently
+and then leaving
+
+90
+00:03:38,030 --> 00:03:40,040
+the heartbeats
+isolated rather than
+
+91
+00:03:40,040 --> 00:03:43,380
+treating the easy bits in the
+same way as the heartbeats.

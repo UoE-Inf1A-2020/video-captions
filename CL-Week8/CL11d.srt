@@ -1,0 +1,846 @@
+1
+00:00:00,000 --> 00:00:02,610
+Here's a DNA. I've
+written it in two ways.
+
+2
+00:00:02,610 --> 00:00:03,690
+I've written it first of all,
+
+3
+00:00:03,690 --> 00:00:06,270
+without any parentheses because
+
+4
+00:00:06,270 --> 00:00:09,315
+the and binds more
+closely than the or,
+
+5
+00:00:09,315 --> 00:00:11,220
+it actually means the same as
+
+6
+00:00:11,220 --> 00:00:14,160
+the expression below that
+has the parentheses.
+
+7
+00:00:14,160 --> 00:00:18,629
+If I take that and
+make it into a CNF,
+
+8
+00:00:18,629 --> 00:00:21,930
+how many clauses will I have
+before we had a plus B,
+
+9
+00:00:21,930 --> 00:00:23,610
+C plus D. We multiply them.
+
+10
+00:00:23,610 --> 00:00:25,950
+We got four. If we put
+two more, we got eight.
+
+11
+00:00:25,950 --> 00:00:27,370
+How many did we get now?
+
+12
+00:00:27,370 --> 00:00:29,465
+64. So you can see that,
+
+13
+00:00:29,465 --> 00:00:31,955
+that gets big very quickly.
+
+14
+00:00:31,955 --> 00:00:34,700
+Suppose we now do
+this circuit trick.
+
+15
+00:00:34,700 --> 00:00:36,740
+Can anyone tell me
+or at least give
+
+16
+00:00:36,740 --> 00:00:39,320
+an estimate of how many
+clauses we need to
+
+17
+00:00:39,320 --> 00:00:43,970
+describe this circuit
+that R if and only if
+
+18
+00:00:43,970 --> 00:00:49,220
+a and B corresponds to
+one of these and gates.
+
+19
+00:00:49,220 --> 00:00:52,880
+It says, if I take a and b here,
+
+20
+00:00:52,880 --> 00:00:54,770
+then the signal here is
+
+21
+00:00:54,770 --> 00:00:57,380
+the end of the signals
+here provided.
+
+22
+00:00:57,380 --> 00:00:59,720
+And then we had, how
+many clauses do we have?
+
+23
+00:00:59,720 --> 00:01:00,860
+We have one clause with
+
+24
+00:01:00,860 --> 00:01:03,440
+three literals and two
+clauses with two literal,
+
+25
+00:01:03,440 --> 00:01:06,065
+three clauses that describe this.
+
+26
+00:01:06,065 --> 00:01:07,940
+And actually, you'll
+see in a moment that
+
+27
+00:01:07,940 --> 00:01:10,565
+the OR gate also
+takes three clauses.
+
+28
+00:01:10,565 --> 00:01:11,885
+How many gates we got.
+
+29
+00:01:11,885 --> 00:01:13,430
+This is a matter of
+simple counting.
+
+30
+00:01:13,430 --> 00:01:14,870
+I'm talking my
+instances of gates,
+
+31
+00:01:14,870 --> 00:01:16,415
+not different kinds of gate,
+
+32
+00:01:16,415 --> 00:01:17,960
+but how many actual gates on
+
+33
+00:01:17,960 --> 00:01:20,300
+this circuit everyone
+understands, I hope,
+
+34
+00:01:20,300 --> 00:01:23,840
+the link between the circuit
+and the expression we take a
+
+35
+00:01:23,840 --> 00:01:27,815
+and B that is computed by
+that first AND gate here.
+
+36
+00:01:27,815 --> 00:01:29,360
+And then we all it with
+
+37
+00:01:29,360 --> 00:01:32,420
+the sandy that's computed
+by the second AND gate,
+
+38
+00:01:32,420 --> 00:01:34,130
+these things associate
+to the left.
+
+39
+00:01:34,130 --> 00:01:35,630
+So this really is a picture
+
+40
+00:01:35,630 --> 00:01:37,190
+of what the computation
+looks like.
+
+41
+00:01:37,190 --> 00:01:39,670
+It's, take these to
+all of them together.
+
+42
+00:01:39,670 --> 00:01:41,780
+Take this one or this one,
+
+43
+00:01:41,780 --> 00:01:44,105
+or it will take this
+one or this one.
+
+44
+00:01:44,105 --> 00:01:47,240
+Or if that's exactly what
+this expression means,
+
+45
+00:01:47,240 --> 00:01:48,620
+if you parenthesize it fully.
+
+46
+00:01:48,620 --> 00:01:50,630
+How many clauses?
+Three for each game?
+
+47
+00:01:50,630 --> 00:01:53,510
+How many clauses? 33.
+Yes, that was hard.
+
+48
+00:01:53,510 --> 00:01:56,780
+This is called the
+SAT in procedure.
+
+49
+00:01:56,780 --> 00:02:00,035
+It doesn't give an
+equivalent formula
+
+50
+00:02:00,035 --> 00:02:01,520
+because it gives a formula which
+
+51
+00:02:01,520 --> 00:02:03,110
+has more variables in it,
+
+52
+00:02:03,110 --> 00:02:04,700
+but it's aqueous, satisfiable.
+
+53
+00:02:04,700 --> 00:02:06,620
+What that means is if I have
+
+54
+00:02:06,620 --> 00:02:09,965
+a satisfying valuation
+for the original formula,
+
+55
+00:02:09,965 --> 00:02:12,050
+then I have a
+satisfying valuation
+
+56
+00:02:12,050 --> 00:02:14,420
+for the new formula
+and vice versa.
+
+57
+00:02:14,420 --> 00:02:16,730
+And it's easiest
+to see that here.
+
+58
+00:02:16,730 --> 00:02:20,580
+If I have evaluation
+that satisfies this.
+
+59
+00:02:22,150 --> 00:02:24,770
+If I have any inputs here,
+
+60
+00:02:24,770 --> 00:02:26,675
+I know that because
+I have an AND gate,
+
+61
+00:02:26,675 --> 00:02:29,495
+I get determined outputs here.
+
+62
+00:02:29,495 --> 00:02:31,505
+When we look forward at the cnf,
+
+63
+00:02:31,505 --> 00:02:34,520
+will see that the CNF has
+a particular form such
+
+64
+00:02:34,520 --> 00:02:35,870
+that if I set one of
+
+65
+00:02:35,870 --> 00:02:37,910
+the inputs or if I set
+enough of the inputs,
+
+66
+00:02:37,910 --> 00:02:39,275
+then it determines the output.
+
+67
+00:02:39,275 --> 00:02:42,215
+And we'll see that that
+links into what goes on
+
+68
+00:02:42,215 --> 00:02:45,395
+in our DP ALL when we
+have unit clauses,
+
+69
+00:02:45,395 --> 00:02:47,420
+any values on the inputs
+
+70
+00:02:47,420 --> 00:02:50,525
+determine the values on
+these internal wires.
+
+71
+00:02:50,525 --> 00:02:53,585
+Therefore determine the values
+on these internal wires,
+
+72
+00:02:53,585 --> 00:02:55,715
+and therefore
+determine the output.
+
+73
+00:02:55,715 --> 00:02:59,525
+So really, the extra variables
+don't give us more choice.
+
+74
+00:02:59,525 --> 00:03:01,610
+Because once I know
+what the inputs are,
+
+75
+00:03:01,610 --> 00:03:03,995
+the extra variables are
+absolutely determined.
+
+76
+00:03:03,995 --> 00:03:05,270
+And the only question is,
+
+77
+00:03:05,270 --> 00:03:08,780
+is the output we get at the
+end here true? And if it is.
+
+78
+00:03:08,780 --> 00:03:10,310
+The whole thing is satisfiable.
+
+79
+00:03:10,310 --> 00:03:11,810
+If it's not, it's not.
+
+80
+00:03:11,810 --> 00:03:14,870
+So as well as putting
+together the causes for this,
+
+81
+00:03:14,870 --> 00:03:16,055
+causes for this closest,
+
+82
+00:03:16,055 --> 00:03:17,690
+closest to this, to describe
+
+83
+00:03:17,690 --> 00:03:19,115
+the behaviour of the circuit,
+
+84
+00:03:19,115 --> 00:03:20,495
+we also have to say,
+
+85
+00:03:20,495 --> 00:03:21,935
+and the output is true.
+
+86
+00:03:21,935 --> 00:03:24,200
+We'll do a simple
+example to show you.
+
+87
+00:03:24,200 --> 00:03:26,135
+But the point is on
+simple examples,
+
+88
+00:03:26,135 --> 00:03:28,520
+this is more complicated
+
+89
+00:03:28,520 --> 00:03:30,290
+than just doing the
+Boolean algebra,
+
+90
+00:03:30,290 --> 00:03:33,110
+but on any realistically
+sized example,
+
+91
+00:03:33,110 --> 00:03:34,684
+doing the Boolean algebra
+
+92
+00:03:34,684 --> 00:03:36,620
+leads to this
+exponential blow up.
+
+93
+00:03:36,620 --> 00:03:40,115
+Whereas doing it with
+Satan is linear.
+
+94
+00:03:40,115 --> 00:03:42,905
+There are three
+clauses for each gate.
+
+95
+00:03:42,905 --> 00:03:46,250
+We just take three times
+the number of gates,
+
+96
+00:03:46,250 --> 00:03:47,735
+say the output is true
+
+97
+00:03:47,735 --> 00:03:50,690
+and that's done it in
+a way that's linear.
+
+98
+00:03:50,690 --> 00:03:52,970
+And the number of gates
+that we started with,
+
+99
+00:03:52,970 --> 00:03:54,080
+which is the number of
+
+100
+00:03:54,080 --> 00:03:56,000
+connectives in the
+expression we started with.
+
+101
+00:03:56,000 --> 00:03:57,515
+So we start from the expression.
+
+102
+00:03:57,515 --> 00:03:59,600
+We draw an equivalent
+circuit wire for
+
+103
+00:03:59,600 --> 00:04:01,580
+each subexpression logic gate for
+
+104
+00:04:01,580 --> 00:04:03,815
+each operator and input
+for each variable.
+
+105
+00:04:03,815 --> 00:04:06,065
+And then we describe
+that circuit.
+
+106
+00:04:06,065 --> 00:04:07,400
+So here we have,
+
+107
+00:04:07,400 --> 00:04:10,190
+for instance, if and
+only if a and b,
+
+108
+00:04:10,190 --> 00:04:11,495
+which is what we saw before,
+
+109
+00:04:11,495 --> 00:04:12,680
+and derived both by
+
+110
+00:04:12,680 --> 00:04:14,870
+Boolean algebra and
+by a Karnaugh map.
+
+111
+00:04:14,870 --> 00:04:17,885
+And if we do if and only if AOB,
+
+112
+00:04:17,885 --> 00:04:20,090
+it's very similar
+except that it's
+
+113
+00:04:20,090 --> 00:04:23,000
+not everywhere or other,
+it's negated everything.
+
+114
+00:04:23,000 --> 00:04:24,230
+Well, that's just two, Morgan,
+
+115
+00:04:24,230 --> 00:04:27,590
+you would expect this when
+we translate it to all,
+
+116
+00:04:27,590 --> 00:04:28,850
+to turn to this with
+
+117
+00:04:28,850 --> 00:04:31,025
+everything negative with
+respect to that one,
+
+118
+00:04:31,025 --> 00:04:32,615
+that basically the same fact
+
+119
+00:04:32,615 --> 00:04:34,100
+can work them out separately.
+
+120
+00:04:34,100 --> 00:04:35,450
+So we have those two.
+
+121
+00:04:35,450 --> 00:04:37,880
+And then I'm going to
+say, first of all,
+
+122
+00:04:37,880 --> 00:04:40,475
+given equation for
+this, that's that,
+
+123
+00:04:40,475 --> 00:04:43,700
+then given equation for
+this, that's this one,
+
+124
+00:04:43,700 --> 00:04:45,605
+x if and only if a and B,
+
+125
+00:04:45,605 --> 00:04:48,320
+I've got R if and
+only if a and b,
+
+126
+00:04:48,320 --> 00:04:50,540
+I want x if and only
+if a and b I just
+
+127
+00:04:50,540 --> 00:04:52,700
+put x instead of r.
+That's very easy.
+
+128
+00:04:52,700 --> 00:04:55,250
+Substitution there now
+will do the other side.
+
+129
+00:04:55,250 --> 00:04:59,255
+And we'll say, we've
+got this one over here.
+
+130
+00:04:59,255 --> 00:05:01,040
+We got, here, we got OK if and
+
+131
+00:05:01,040 --> 00:05:03,350
+only if a OP, which is that.
+
+132
+00:05:03,350 --> 00:05:07,790
+And we formalise this
+one as R if and only if
+
+133
+00:05:07,790 --> 00:05:10,010
+X or C. So the r
+
+134
+00:05:10,010 --> 00:05:13,084
+stays the same this time
+we'll substitute opera,
+
+135
+00:05:13,084 --> 00:05:17,285
+but we've got a substitute
+x for a and C for B.
+
+136
+00:05:17,285 --> 00:05:19,610
+So if we do that, we'll
+get X where we had an
+
+137
+00:05:19,610 --> 00:05:23,120
+a and see where we had a P
+and the r stays the same.
+
+138
+00:05:23,120 --> 00:05:27,740
+So if I now take this bottom
+line and can join those two,
+
+139
+00:05:27,740 --> 00:05:30,140
+so I have three
+clauses for the first,
+
+140
+00:05:30,140 --> 00:05:32,195
+three clauses for the second guy,
+
+141
+00:05:32,195 --> 00:05:34,775
+and also say R is true.
+
+142
+00:05:34,775 --> 00:05:36,800
+So what I'm going to do is
+to say what happens if I
+
+143
+00:05:36,800 --> 00:05:39,050
+take these and I make are true.
+
+144
+00:05:39,050 --> 00:05:40,820
+It doesn't add an extra clause.
+
+145
+00:05:40,820 --> 00:05:43,310
+It actually simplifies
+these and you know how
+
+146
+00:05:43,310 --> 00:05:45,995
+to simplify clauses
+when you make are true.
+
+147
+00:05:45,995 --> 00:05:48,755
+That's exactly what we did
+when we were writing the PLL.
+
+148
+00:05:48,755 --> 00:05:50,210
+We simplify the set of clauses
+
+149
+00:05:50,210 --> 00:05:51,845
+by making some literal true.
+
+150
+00:05:51,845 --> 00:05:53,390
+This is just using
+that knowledge.
+
+151
+00:05:53,390 --> 00:05:55,505
+Again, if I make are true,
+
+152
+00:05:55,505 --> 00:05:56,825
+what do I do here?
+
+153
+00:05:56,825 --> 00:05:58,315
+I just erase the Ya,
+
+154
+00:05:58,315 --> 00:06:01,355
+so I've got x or c.
+If I make are true,
+
+155
+00:06:01,355 --> 00:06:02,930
+this one is true,
+it adds nothing.
+
+156
+00:06:02,930 --> 00:06:04,430
+This one is true, so
+I don't say them.
+
+157
+00:06:04,430 --> 00:06:07,235
+So this one comes down
+here and these two vanish.
+
+158
+00:06:07,235 --> 00:06:08,780
+That really is exactly the thing
+
+159
+00:06:08,780 --> 00:06:10,340
+we were doing before
+when we were looking at
+
+160
+00:06:10,340 --> 00:06:12,050
+examples of clauses in
+
+161
+00:06:12,050 --> 00:06:15,410
+the PLL and saying I
+have these clauses,
+
+162
+00:06:15,410 --> 00:06:17,375
+what happens if I make are true?
+
+163
+00:06:17,375 --> 00:06:18,680
+If I make are true,
+
+164
+00:06:18,680 --> 00:06:20,180
+then I can't make not our true.
+
+165
+00:06:20,180 --> 00:06:21,710
+So I have to make a or C True.
+
+166
+00:06:21,710 --> 00:06:23,150
+And if I've made are
+true, then these
+
+167
+00:06:23,150 --> 00:06:24,905
+don't say anything
+so I can drop them.
+
+168
+00:06:24,905 --> 00:06:28,115
+So this cnf is satisfiable.
+
+169
+00:06:28,115 --> 00:06:32,630
+A and B or C went to
+gates are connected.
+
+170
+00:06:32,630 --> 00:06:36,095
+Cns share a variable
+when they share a wire,
+
+171
+00:06:36,095 --> 00:06:38,480
+that variable gives
+you the relationship
+
+172
+00:06:38,480 --> 00:06:40,880
+between this clause
+and this clause.
+
+173
+00:06:40,880 --> 00:06:44,540
+So you see the x occurs
+both in, in this part,
+
+174
+00:06:44,540 --> 00:06:47,045
+which corresponds
+to the AND gate,
+
+175
+00:06:47,045 --> 00:06:49,700
+and in this part which
+corresponds to the OR gate,
+
+176
+00:06:49,700 --> 00:06:52,370
+the wires are just
+doing those linkings.
+
+177
+00:06:52,370 --> 00:06:54,950
+If we now think of doing
+the PLL with something
+
+178
+00:06:54,950 --> 00:06:57,710
+that involves this
+and we make a false,
+
+179
+00:06:57,710 --> 00:06:59,510
+then we make a false here.
+
+180
+00:06:59,510 --> 00:07:02,900
+That means that not x
+becomes a unit clause which
+
+181
+00:07:02,900 --> 00:07:04,505
+says that I must make X
+
+182
+00:07:04,505 --> 00:07:06,755
+false and that propagates
+through the circuit.
+
+183
+00:07:06,755 --> 00:07:09,050
+So that's unit clauses
+that come up in
+
+184
+00:07:09,050 --> 00:07:13,980
+the DP ALL serve to propagate
+values through the circuit.

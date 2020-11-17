@@ -1,0 +1,634 @@
+1
+00:00:00,000 --> 00:00:04,335
+That's a bit boring because
+we could already draw that.
+
+2
+00:00:04,335 --> 00:00:06,840
+We're going to look
+at problems which are
+
+3
+00:00:06,840 --> 00:00:10,270
+formed from such
+binary constraints.
+
+4
+00:00:16,430 --> 00:00:18,555
+So here's an example.
+
+5
+00:00:18,555 --> 00:00:20,730
+Universities have very
+weird regulation.
+
+6
+00:00:20,730 --> 00:00:22,470
+Sometimes you may not take
+
+7
+00:00:22,470 --> 00:00:24,555
+both archaeology
+and cameras three,
+
+8
+00:00:24,555 --> 00:00:26,775
+not a or not see.
+
+9
+00:00:26,775 --> 00:00:28,770
+You can't take both of them.
+
+10
+00:00:28,770 --> 00:00:31,470
+That's how we say
+you can't get both.
+
+11
+00:00:31,470 --> 00:00:34,080
+You say not one or the other.
+
+12
+00:00:34,080 --> 00:00:35,910
+And that came up in the exercise
+
+13
+00:00:35,910 --> 00:00:37,754
+that we're doing
+for your tutorial.
+
+14
+00:00:37,754 --> 00:00:39,060
+If you take biology,
+
+15
+00:00:39,060 --> 00:00:40,980
+you must K chemistries
+
+16
+00:00:40,980 --> 00:00:43,580
+that biology Implies
+chemistry or not.
+
+17
+00:00:43,580 --> 00:00:47,210
+B or c, you must take
+biology or archaeology.
+
+18
+00:00:47,210 --> 00:00:49,070
+And B or a. If you
+
+19
+00:00:49,070 --> 00:00:51,395
+take chemistry, your
+mistake, divinity.
+
+20
+00:00:51,395 --> 00:00:54,320
+And you may not take both
+divinity and biology.
+
+21
+00:00:54,320 --> 00:00:56,615
+So again, it's not the
+or not be question.
+
+22
+00:00:56,615 --> 00:00:59,360
+What combinations of
+course is can you take?
+
+23
+00:00:59,360 --> 00:01:01,970
+So we have a, B,
+
+24
+00:01:01,970 --> 00:01:05,060
+C, D, four different courses.
+
+25
+00:01:05,060 --> 00:01:08,990
+So there are 16 possible
+combinations of cost is
+
+26
+00:01:08,990 --> 00:01:10,430
+that we could take and which of
+
+27
+00:01:10,430 --> 00:01:12,950
+those combinations
+satisfy these rules?
+
+28
+00:01:12,950 --> 00:01:14,390
+It's not immediately obvious,
+
+29
+00:01:14,390 --> 00:01:15,710
+but what we're going to do is
+
+30
+00:01:15,710 --> 00:01:17,570
+say a method that
+makes it obvious,
+
+31
+00:01:17,570 --> 00:01:18,875
+we can translate this,
+
+32
+00:01:18,875 --> 00:01:23,585
+not BOC Back to the b implies
+c that it originally had.
+
+33
+00:01:23,585 --> 00:01:27,290
+We can translate this
+to a implies Nazi,
+
+34
+00:01:27,290 --> 00:01:31,160
+we can translate this
+to not B implies a,
+
+35
+00:01:31,160 --> 00:01:33,440
+and this one to C implies D,
+
+36
+00:01:33,440 --> 00:01:36,005
+And this one to
+the implies not B.
+
+37
+00:01:36,005 --> 00:01:39,560
+So we can translate each
+of those conditions into
+
+38
+00:01:39,560 --> 00:01:41,240
+an implication by saying that
+
+39
+00:01:41,240 --> 00:01:45,470
+this o corresponds
+to r implies not a.
+
+40
+00:01:45,470 --> 00:01:48,380
+They saw corresponds
+to not a implies
+
+41
+00:01:48,380 --> 00:01:51,725
+that this corresponds
+to not r implies a,
+
+42
+00:01:51,725 --> 00:01:53,960
+and this corresponds
+to north of this,
+
+43
+00:01:53,960 --> 00:01:55,745
+which is our implies B.
+
+44
+00:01:55,745 --> 00:01:57,380
+You can do that two ways,
+
+45
+00:01:57,380 --> 00:02:02,630
+as well as saying the Nada
+or a means r implies not a.
+
+46
+00:02:02,630 --> 00:02:05,075
+It also means the
+contrapositive that
+
+47
+00:02:05,075 --> 00:02:09,080
+a implies not r. And
+similarly with this one,
+
+48
+00:02:09,080 --> 00:02:11,870
+vitals meaning not
+a implies not g,
+
+49
+00:02:11,870 --> 00:02:14,300
+It also means g implies a.
+
+50
+00:02:14,300 --> 00:02:17,885
+Each time we have a
+clause with two literals,
+
+51
+00:02:17,885 --> 00:02:19,220
+then it corresponds to
+
+52
+00:02:19,220 --> 00:02:22,190
+two equivalent implications
+that both equivalent.
+
+53
+00:02:22,190 --> 00:02:24,845
+So all three things
+here were equivalent.
+
+54
+00:02:24,845 --> 00:02:26,960
+Sometimes with the method
+that we're going to look at,
+
+55
+00:02:26,960 --> 00:02:29,330
+you need to use only
+one of these forms and
+
+56
+00:02:29,330 --> 00:02:32,375
+sometimes you'll have to
+actually both of those.
+
+57
+00:02:32,375 --> 00:02:34,190
+That's just showing
+how that comes.
+
+58
+00:02:34,190 --> 00:02:37,055
+Because of course this
+disjunction is symmetric.
+
+59
+00:02:37,055 --> 00:02:39,890
+Not r or not a is the
+same as not a or not are.
+
+60
+00:02:39,890 --> 00:02:42,650
+If I have clauses
+with two literals,
+
+61
+00:02:42,650 --> 00:02:44,615
+they correspond to implications.
+
+62
+00:02:44,615 --> 00:02:47,060
+In fact, each one because
+of contraposition,
+
+63
+00:02:47,060 --> 00:02:48,890
+corresponds to two implications.
+
+64
+00:02:48,890 --> 00:02:50,989
+So we can think of them
+in terms of implication.
+
+65
+00:02:50,989 --> 00:02:53,270
+But that means that
+we can try drawing
+
+66
+00:02:53,270 --> 00:02:55,010
+diagram rather like that one
+
+67
+00:02:55,010 --> 00:02:56,870
+just for a implies b that I had.
+
+68
+00:02:56,870 --> 00:03:00,365
+And think about how truth
+values might work for them.
+
+69
+00:03:00,365 --> 00:03:02,405
+Remember, a implies b is true.
+
+70
+00:03:02,405 --> 00:03:03,680
+If a is less than or equal to
+
+71
+00:03:03,680 --> 00:03:05,300
+b and we're giving things value,
+
+72
+00:03:05,300 --> 00:03:07,354
+we're giving them Boolean values,
+
+73
+00:03:07,354 --> 00:03:10,415
+making something's true
+and something's false.
+
+74
+00:03:10,415 --> 00:03:13,040
+And if there is an arrow
+going from a to b,
+
+75
+00:03:13,040 --> 00:03:15,335
+then if we make a true,
+
+76
+00:03:15,335 --> 00:03:16,775
+we have to make be true.
+
+77
+00:03:16,775 --> 00:03:18,980
+That means that the head
+of the arrow either
+
+78
+00:03:18,980 --> 00:03:21,230
+must be on the same side as a.
+
+79
+00:03:21,230 --> 00:03:23,630
+So we've got a arrow
+b, b's at the head.
+
+80
+00:03:23,630 --> 00:03:24,770
+If a is false,
+
+81
+00:03:24,770 --> 00:03:26,150
+the head can be anywhere it can
+
+82
+00:03:26,150 --> 00:03:27,935
+be true, or it can be below.
+
+83
+00:03:27,935 --> 00:03:29,270
+The value of a has to be
+
+84
+00:03:29,270 --> 00:03:30,755
+less than or equal
+to the value of B.
+
+85
+00:03:30,755 --> 00:03:31,955
+If I separate them,
+
+86
+00:03:31,955 --> 00:03:33,650
+ones above, that's fine.
+
+87
+00:03:33,650 --> 00:03:35,075
+If I put them both above,
+
+88
+00:03:35,075 --> 00:03:37,160
+that's fine because there's
+two less than or equal.
+
+89
+00:03:37,160 --> 00:03:39,155
+But if I try and go
+the other way round,
+
+90
+00:03:39,155 --> 00:03:42,110
+I'm not giving them values
+that are less than or equal.
+
+91
+00:03:42,110 --> 00:03:43,475
+So I can cut here,
+
+92
+00:03:43,475 --> 00:03:45,740
+and that makes these two true.
+
+93
+00:03:45,740 --> 00:03:47,240
+I can cut here, and that makes
+
+94
+00:03:47,240 --> 00:03:49,565
+this one true. And
+that one's false.
+
+95
+00:03:49,565 --> 00:03:52,715
+And cut here, and that
+makes both of them false.
+
+96
+00:03:52,715 --> 00:03:56,360
+That's the rule for
+a single arrow.
+
+97
+00:03:56,360 --> 00:03:58,745
+And if you've got a rule
+for a single arrow,
+
+98
+00:03:58,745 --> 00:04:00,170
+then you really got this
+
+99
+00:04:00,170 --> 00:04:02,135
+because all you have
+to do then is to
+
+100
+00:04:02,135 --> 00:04:03,980
+make sure that for however
+
+101
+00:04:03,980 --> 00:04:05,990
+many arrows you've
+got on your diagram,
+
+102
+00:04:05,990 --> 00:04:08,525
+for each of them, you follow
+the rule for a single arrow.
+
+103
+00:04:08,525 --> 00:04:10,190
+The rule is if an arrow
+
+104
+00:04:10,190 --> 00:04:12,650
+crosses the line
+between true and false,
+
+105
+00:04:12,650 --> 00:04:14,090
+then it must point upwards where
+
+106
+00:04:14,090 --> 00:04:15,905
+it crosses, not downwards.
+
+107
+00:04:15,905 --> 00:04:18,690
+Evaluation make
+some literals true.
+
+108
+00:04:18,690 --> 00:04:20,585
+Of course the negation is false.
+
+109
+00:04:20,585 --> 00:04:22,130
+So we can always
+draw a picture of
+
+110
+00:04:22,130 --> 00:04:25,010
+evaluation by saying these
+are the ones that are true.
+
+111
+00:04:25,010 --> 00:04:26,285
+And we'll put them
+above the line,
+
+112
+00:04:26,285 --> 00:04:28,820
+and this one's false and we'll
+put them below the line.
+
+113
+00:04:28,820 --> 00:04:32,630
+Now suppose I have that
+valuation and I say,
+
+114
+00:04:32,630 --> 00:04:37,325
+does that valuation make
+a arrow is be true?
+
+115
+00:04:37,325 --> 00:04:40,370
+Does that valuation
+make arrows be true?
+
+116
+00:04:40,370 --> 00:04:44,090
+The answer is, you just
+draw the arrow from a to
+
+117
+00:04:44,090 --> 00:04:45,755
+b and you cheque that where it
+
+118
+00:04:45,755 --> 00:04:48,110
+crosses the line,
+it goes upwards.
+
+119
+00:04:48,110 --> 00:04:51,980
+Does this valuation
+make D arrows a true?
+
+120
+00:04:51,980 --> 00:04:55,295
+No, because if I draw the
+line from here to here,
+
+121
+00:04:55,295 --> 00:04:57,620
+then it's a bad line,
+it goes the wrong way.
+
+122
+00:04:57,620 --> 00:05:01,970
+If we have the evaluation
+here and you asked question,
+
+123
+00:05:01,970 --> 00:05:04,730
+is this arrow satisfied or not,
+
+124
+00:05:04,730 --> 00:05:06,845
+then you can easily
+Aren't. You draw them.
+
+125
+00:05:06,845 --> 00:05:07,940
+And if you find an error, you
+
+126
+00:05:07,940 --> 00:05:09,230
+have to cross out like that,
+
+127
+00:05:09,230 --> 00:05:11,539
+then you haven't satisfied
+all the conditions.
+
+128
+00:05:11,539 --> 00:05:14,405
+Are we going to do is
+to use that backwards.
+
+129
+00:05:14,405 --> 00:05:15,800
+We're going to say,
+
+130
+00:05:15,800 --> 00:05:18,140
+suppose I have the arrows,
+
+131
+00:05:18,140 --> 00:05:20,525
+but I don't yet
+have the valuation.
+
+132
+00:05:20,525 --> 00:05:23,990
+Can I use the diagram
+with the arrows to draw
+
+133
+00:05:23,990 --> 00:05:28,175
+a line that makes evaluation
+that satisfies the rules.
+
+134
+00:05:28,175 --> 00:05:31,355
+So this was, we have
+evaluation, we draw a line.
+
+135
+00:05:31,355 --> 00:05:34,535
+What we're going to do
+next is we have a diagram.
+
+136
+00:05:34,535 --> 00:05:36,814
+We draw a line and that
+gives us evaluation.
+
+137
+00:05:36,814 --> 00:05:38,480
+The line we draw has to be such.
+
+138
+00:05:38,480 --> 00:05:41,280
+It doesn't break
+any of these rules.

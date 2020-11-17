@@ -1,0 +1,831 @@
+1
+00:00:00,000 --> 00:00:02,955
+What happens if some
+of them are negated?
+
+2
+00:00:02,955 --> 00:00:06,150
+So suppose I have some of
+these that have a NOT on them.
+
+3
+00:00:06,150 --> 00:00:07,875
+But what does that
+valuation mean?
+
+4
+00:00:07,875 --> 00:00:10,170
+It makes S true.
+
+5
+00:00:10,170 --> 00:00:12,240
+It makes Q false.
+
+6
+00:00:12,240 --> 00:00:13,860
+What does it do to our,
+
+7
+00:00:13,860 --> 00:00:15,809
+makes not our true.
+
+8
+00:00:15,809 --> 00:00:17,325
+So it makes our false.
+
+9
+00:00:17,325 --> 00:00:20,175
+Similarly, it makes not P false.
+
+10
+00:00:20,175 --> 00:00:22,360
+So it makes Pete True.
+
+11
+00:00:23,350 --> 00:00:26,420
+Everyone understand how
+we read the valuation
+
+12
+00:00:26,420 --> 00:00:29,180
+of the literals that we're
+making true and they're above,
+
+13
+00:00:29,180 --> 00:00:30,230
+and the literals that we're
+
+14
+00:00:30,230 --> 00:00:31,580
+making false when they're below.
+
+15
+00:00:31,580 --> 00:00:33,170
+So if it's a negated literal,
+
+16
+00:00:33,170 --> 00:00:35,480
+then it makes an
+atom the opposite.
+
+17
+00:00:35,480 --> 00:00:38,615
+What happens if I
+repeat something?
+
+18
+00:00:38,615 --> 00:00:41,105
+So here I've got not p
+
+19
+00:00:41,105 --> 00:00:44,840
+and p. Now as well
+as the rule says,
+
+20
+00:00:44,840 --> 00:00:48,530
+you must always cross an arrow
+going upwards, or sorry,
+
+21
+00:00:48,530 --> 00:00:49,670
+crystalline, an arrow must
+
+22
+00:00:49,670 --> 00:00:51,995
+always cross the
+line going upwards.
+
+23
+00:00:51,995 --> 00:00:53,390
+We've also got the rule,
+
+24
+00:00:53,390 --> 00:00:54,800
+when I have a valuation,
+
+25
+00:00:54,800 --> 00:00:58,070
+I've gotta put not something on
+
+26
+00:00:58,070 --> 00:01:01,985
+the other side from our
+something's whereby put a true,
+
+27
+00:01:01,985 --> 00:01:03,815
+there has to be false.
+
+28
+00:01:03,815 --> 00:01:07,295
+I make a false that
+nasa has to be true.
+
+29
+00:01:07,295 --> 00:01:10,520
+So if they both occur,
+
+30
+00:01:10,520 --> 00:01:13,280
+and there I've got
+a p and a not pay,
+
+31
+00:01:13,280 --> 00:01:15,230
+any legal line has to go
+
+32
+00:01:15,230 --> 00:01:18,350
+between p and not pay
+for this problem.
+
+33
+00:01:18,350 --> 00:01:19,790
+Instead of having all
+
+34
+00:01:19,790 --> 00:01:22,130
+five of the lines
+that we had before
+
+35
+00:01:22,130 --> 00:01:23,600
+for the earlier
+problem that look the
+
+36
+00:01:23,600 --> 00:01:25,940
+same but didn't have
+the p repeated.
+
+37
+00:01:25,940 --> 00:01:27,890
+We have to go between
+the p and not
+
+38
+00:01:27,890 --> 00:01:30,350
+p. This is a consequence
+of something
+
+39
+00:01:30,350 --> 00:01:32,450
+called ps is r2 NOT P
+
+40
+00:01:32,450 --> 00:01:35,735
+implies P of I have an
+arrow from NOT P to P,
+
+41
+00:01:35,735 --> 00:01:38,645
+then I have to draw the
+line between these two.
+
+42
+00:01:38,645 --> 00:01:40,220
+Therefore, p must be true.
+
+43
+00:01:40,220 --> 00:01:42,710
+What happens now
+here's an example.
+
+44
+00:01:42,710 --> 00:01:47,060
+R implies Q and R
+implies S. So I draw
+
+45
+00:01:47,060 --> 00:01:48,590
+the diagram and I can
+
+46
+00:01:48,590 --> 00:01:52,145
+certainly make this true
+by drawing this line.
+
+47
+00:01:52,145 --> 00:01:54,965
+If I make all of
+our Q and S false,
+
+48
+00:01:54,965 --> 00:01:57,020
+then because the
+implications are true
+
+49
+00:01:57,020 --> 00:01:59,345
+when both their
+arguments are false,
+
+50
+00:01:59,345 --> 00:02:00,995
+this lines perfectly fine.
+
+51
+00:02:00,995 --> 00:02:03,515
+How many other lines can we draw?
+
+52
+00:02:03,515 --> 00:02:06,590
+The lines don't have to be
+horizontal, latent be wiggly.
+
+53
+00:02:06,590 --> 00:02:09,500
+They've just got to cut
+the arrows the right way.
+
+54
+00:02:09,500 --> 00:02:10,760
+So each line has a,
+
+55
+00:02:10,760 --> 00:02:12,380
+a red side and the
+green side that
+
+56
+00:02:12,380 --> 00:02:14,180
+we don't normally draw
+them in red and green.
+
+57
+00:02:14,180 --> 00:02:15,680
+We don't have red
+and green pencils.
+
+58
+00:02:15,680 --> 00:02:16,880
+It just to make you think of
+
+59
+00:02:16,880 --> 00:02:18,875
+the two sides, draw the line.
+
+60
+00:02:18,875 --> 00:02:20,300
+And it's got a side
+that's below it,
+
+61
+00:02:20,300 --> 00:02:21,530
+an aside that's above it.
+
+62
+00:02:21,530 --> 00:02:23,030
+And we've got to cross so that
+
+63
+00:02:23,030 --> 00:02:25,475
+the below side has the
+tales of any arrows,
+
+64
+00:02:25,475 --> 00:02:27,605
+and the above side has
+the heads of the arrows.
+
+65
+00:02:27,605 --> 00:02:30,350
+Where else can I draw a
+line? I've drawn one?
+
+66
+00:02:30,350 --> 00:02:31,880
+Can you draw for more?
+
+67
+00:02:31,880 --> 00:02:35,495
+We can come here in here and
+we can go straight across.
+
+68
+00:02:35,495 --> 00:02:38,270
+But we can also come in
+here and go down there.
+
+69
+00:02:38,270 --> 00:02:40,985
+We can come in here and
+go straight across.
+
+70
+00:02:40,985 --> 00:02:43,550
+But we can also come
+in here and go there.
+
+71
+00:02:43,550 --> 00:02:45,380
+And we can also go across here.
+
+72
+00:02:45,380 --> 00:02:47,195
+Helpful sometimes.
+
+73
+00:02:47,195 --> 00:02:49,670
+When things get more
+complicated to count,
+
+74
+00:02:49,670 --> 00:02:51,050
+how many ways are there of
+
+75
+00:02:51,050 --> 00:02:52,820
+coming from here towards there.
+
+76
+00:02:52,820 --> 00:02:54,245
+This is a different
+kind of arrow.
+
+77
+00:02:54,245 --> 00:02:55,610
+This is, I'm coming from here,
+
+78
+00:02:55,610 --> 00:02:57,575
+coming from here. How
+many ways there is?
+
+79
+00:02:57,575 --> 00:02:59,720
+One way I can get to
+that line because I've
+
+80
+00:02:59,720 --> 00:03:02,000
+just started as one way
+I get to that line.
+
+81
+00:03:02,000 --> 00:03:03,380
+But once I'm in here,
+
+82
+00:03:03,380 --> 00:03:05,870
+there are two ways I
+could have gotten here.
+
+83
+00:03:05,870 --> 00:03:07,070
+So when I came out, there were
+
+84
+00:03:07,070 --> 00:03:08,600
+two ways I could get there.
+
+85
+00:03:08,600 --> 00:03:11,465
+In two ways I could get the
+here, there's just one.
+
+86
+00:03:11,465 --> 00:03:13,580
+So down here I can
+count two plus two
+
+87
+00:03:13,580 --> 00:03:15,980
+plus one is five altogether.
+
+88
+00:03:15,980 --> 00:03:17,945
+Sometimes helpful
+just to keep tally.
+
+89
+00:03:17,945 --> 00:03:22,230
+This is just going through
+those various valuations.
+
+90
+00:03:26,860 --> 00:03:29,855
+What do we do now?
+
+91
+00:03:29,855 --> 00:03:31,940
+So I want you to work out
+
+92
+00:03:31,940 --> 00:03:34,670
+how many ways there are of
+
+93
+00:03:34,670 --> 00:03:37,745
+drawing a line there that
+satisfies the rules.
+
+94
+00:03:37,745 --> 00:03:41,030
+First cheque, do we have
+any repeated atoms?
+
+95
+00:03:41,030 --> 00:03:42,470
+In other words, do we have, well,
+
+96
+00:03:42,470 --> 00:03:45,500
+either something repeated,
+in which case they both,
+
+97
+00:03:45,500 --> 00:03:47,690
+if I have a and a has
+gotta be the same,
+
+98
+00:03:47,690 --> 00:03:49,640
+same side of the line if
+you've written it twice,
+
+99
+00:03:49,640 --> 00:03:51,245
+but I would advise
+not doing that.
+
+100
+00:03:51,245 --> 00:03:52,880
+Link it together instead.
+
+101
+00:03:52,880 --> 00:03:56,090
+But do we have an a and not
+a or an hour not on them.
+
+102
+00:03:56,090 --> 00:03:58,370
+So we can just go ahead
+and count the lines.
+
+103
+00:03:58,370 --> 00:04:00,305
+We don't have to worry
+about the second rule.
+
+104
+00:04:00,305 --> 00:04:03,260
+If we draw one's coming in there,
+
+105
+00:04:03,260 --> 00:04:08,360
+11111, what number
+am I going to put?
+
+106
+00:04:08,360 --> 00:04:10,820
+What number am I
+going to put here?
+
+107
+00:04:10,820 --> 00:04:13,970
+Last time we looked at
+an example where there
+
+108
+00:04:13,970 --> 00:04:16,220
+were two ways of coming
+in on this side.
+
+109
+00:04:16,220 --> 00:04:18,230
+So we put a two on those
+
+110
+00:04:18,230 --> 00:04:20,765
+because there were two ways
+we could have got here,
+
+111
+00:04:20,765 --> 00:04:22,745
+but now there are three
+ways of getting in.
+
+112
+00:04:22,745 --> 00:04:24,410
+So now we will put a three
+
+113
+00:04:24,410 --> 00:04:26,900
+here and three here,
+and three here.
+
+114
+00:04:26,900 --> 00:04:28,940
+Now we just count the
+ways we can get out
+
+115
+00:04:28,940 --> 00:04:31,550
+altogether one way
+here, three there,
+
+116
+00:04:31,550 --> 00:04:33,380
+because they count
+for the three ways
+
+117
+00:04:33,380 --> 00:04:35,330
+we could have come
+in, going out there,
+
+118
+00:04:35,330 --> 00:04:36,530
+three here because they count
+
+119
+00:04:36,530 --> 00:04:37,730
+for the three ways
+we could have come
+
+120
+00:04:37,730 --> 00:04:39,140
+in getting out there
+
+121
+00:04:39,140 --> 00:04:40,910
+and three here because
+of the three ways.
+
+122
+00:04:40,910 --> 00:04:43,445
+So in total, how many do we have?
+
+123
+00:04:43,445 --> 00:04:44,945
+I've got one at the top,
+
+124
+00:04:44,945 --> 00:04:46,790
+one at the bottom, and
+three times three.
+
+125
+00:04:46,790 --> 00:04:49,370
+So I've got 11, that's
+the one at the top here,
+
+126
+00:04:49,370 --> 00:04:52,205
+the three, the 331 at the bottom.
+
+127
+00:04:52,205 --> 00:04:54,050
+We can come through here and just
+
+128
+00:04:54,050 --> 00:04:56,885
+make all of these literals true.
+
+129
+00:04:56,885 --> 00:04:59,735
+Or we can go through the top
+and make all of them false,
+
+130
+00:04:59,735 --> 00:05:01,190
+or we split them up.
+
+131
+00:05:01,190 --> 00:05:03,500
+And there are three ways that
+
+132
+00:05:03,500 --> 00:05:06,125
+make you not P false and Q true.
+
+133
+00:05:06,125 --> 00:05:09,035
+There are three ways
+that make Q false,
+
+134
+00:05:09,035 --> 00:05:11,120
+not are true, and there are
+
+135
+00:05:11,120 --> 00:05:14,105
+three ways that may not
+have false and true.
+
+136
+00:05:14,105 --> 00:05:16,100
+So I put one on each of
+
+137
+00:05:16,100 --> 00:05:18,230
+these places I can
+get into the diagram.
+
+138
+00:05:18,230 --> 00:05:19,400
+If I'm in this region,
+
+139
+00:05:19,400 --> 00:05:21,245
+I had three ways
+of getting there.
+
+140
+00:05:21,245 --> 00:05:23,300
+Through here, through
+here, through here.
+
+141
+00:05:23,300 --> 00:05:26,120
+So on the ways I get
+out of that region,
+
+142
+00:05:26,120 --> 00:05:27,875
+I label them each with a three.
+
+143
+00:05:27,875 --> 00:05:30,080
+Because the number
+of lines that get
+
+144
+00:05:30,080 --> 00:05:32,360
+to here could be that one,
+
+145
+00:05:32,360 --> 00:05:33,845
+that one, or that one.
+
+146
+00:05:33,845 --> 00:05:35,360
+And the number of
+lines to get to here
+
+147
+00:05:35,360 --> 00:05:36,845
+could be that one, that one,
+
+148
+00:05:36,845 --> 00:05:39,500
+or that one number here
+could be that one,
+
+149
+00:05:39,500 --> 00:05:40,700
+that one or that one.
+
+150
+00:05:40,700 --> 00:05:42,395
+So that's why I've got a
+three on each of these.
+
+151
+00:05:42,395 --> 00:05:43,910
+I've still got the possibility of
+
+152
+00:05:43,910 --> 00:05:45,920
+this line which is
+that one there,
+
+153
+00:05:45,920 --> 00:05:47,930
+and this line which
+is that one there.
+
+154
+00:05:47,930 --> 00:05:51,275
+So these two accounted separately
+and then we got three.
+
+155
+00:05:51,275 --> 00:05:55,145
+We got three plus three
+plus three to give us 11.
+
+156
+00:05:55,145 --> 00:05:56,645
+You will get practise on this.
+
+157
+00:05:56,645 --> 00:05:59,120
+It can be very confusing
+if you just try and draw
+
+158
+00:05:59,120 --> 00:06:02,540
+the lines that some
+lines drawn on it.
+
+159
+00:06:02,540 --> 00:06:08,210
+Do we have 11123456?
+
+160
+00:06:08,210 --> 00:06:09,935
+I think we don't have 11.
+
+161
+00:06:09,935 --> 00:06:11,210
+Which one's missing?
+
+162
+00:06:11,210 --> 00:06:13,010
+It's much easier to do
+
+163
+00:06:13,010 --> 00:06:15,785
+the counting them to
+dry and draw the lines.
+
+164
+00:06:15,785 --> 00:06:18,620
+The hint of what's missing is we
+
+165
+00:06:18,620 --> 00:06:21,635
+know that there should
+be three ways of,
+
+166
+00:06:21,635 --> 00:06:23,420
+three ways of coming out here.
+
+167
+00:06:23,420 --> 00:06:25,115
+So we only have two,
+
+168
+00:06:25,115 --> 00:06:28,250
+so that one's missing and
+that one's missing amino,
+
+169
+00:06:28,250 --> 00:06:29,450
+there should be three coming out
+
+170
+00:06:29,450 --> 00:06:31,115
+here, so that one's missing.
+
+171
+00:06:31,115 --> 00:06:34,280
+And I think then we've
+got all the lines.
+
+172
+00:06:34,280 --> 00:06:38,015
+But the counting, except in
+the simplest cases is easier.
+
+173
+00:06:38,015 --> 00:06:40,190
+The other way of
+thinking about it
+
+174
+00:06:40,190 --> 00:06:42,470
+is the other way of
+thinking about it.
+
+175
+00:06:42,470 --> 00:06:44,720
+The other way of thinking
+about it is I have
+
+176
+00:06:44,720 --> 00:06:45,800
+three ways of getting in
+
+177
+00:06:45,800 --> 00:06:48,140
+here and three ways
+of coming out here.
+
+178
+00:06:48,140 --> 00:06:49,580
+So I've got three times,
+
+179
+00:06:49,580 --> 00:06:52,385
+three ways of going
+through here altogether.
+
+180
+00:06:52,385 --> 00:06:55,370
+Okay, that's also a way of
+thinking about it which works.
+
+181
+00:06:55,370 --> 00:06:56,840
+But you want a single
+block like this,
+
+182
+00:06:56,840 --> 00:07:01,200
+but we'll see examples soon
+where that's more difficult.

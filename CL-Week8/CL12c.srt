@@ -1,0 +1,510 @@
+1
+00:00:00,000 --> 00:00:03,300
+What we're going to do
+next is we have a diagram.
+
+2
+00:00:03,300 --> 00:00:05,579
+We draw a line and that
+gives us evaluation.
+
+3
+00:00:05,579 --> 00:00:07,260
+The line we draw has to be such.
+
+4
+00:00:07,260 --> 00:00:10,020
+It doesn't break any of
+these rules. We couldn't.
+
+5
+00:00:10,020 --> 00:00:11,504
+Here are some arrows.
+
+6
+00:00:11,504 --> 00:00:13,560
+The arrows either stay on
+
+7
+00:00:13,560 --> 00:00:17,670
+the same side of the line
+or cross it upwards.
+
+8
+00:00:17,670 --> 00:00:19,035
+And then other valid,
+
+9
+00:00:19,035 --> 00:00:21,075
+This one here is not valid.
+
+10
+00:00:21,075 --> 00:00:24,360
+For a valid this one
+isn't, as I've said there.
+
+11
+00:00:24,360 --> 00:00:26,340
+So the valuation
+makes the implication
+
+12
+00:00:26,340 --> 00:00:29,370
+true unless the arrow
+goes from true to false.
+
+13
+00:00:29,370 --> 00:00:33,900
+We can also, of course have
+things like Not the arrows,
+
+14
+00:00:33,900 --> 00:00:36,075
+not a, but interestingly,
+
+15
+00:00:36,075 --> 00:00:39,565
+because the deer on
+other sides of the line,
+
+16
+00:00:39,565 --> 00:00:41,780
+not the arrow is not a and
+
+17
+00:00:41,780 --> 00:00:44,375
+not a and a are on other
+sides of the line.
+
+18
+00:00:44,375 --> 00:00:48,935
+Not D or not a actually
+corresponds to also that arrow.
+
+19
+00:00:48,935 --> 00:00:51,290
+So if one of these
+arrows is valid
+
+20
+00:00:51,290 --> 00:00:53,825
+for an implication
+than the other one is,
+
+21
+00:00:53,825 --> 00:00:56,390
+this is exactly what
+contraposition is about.
+
+22
+00:00:56,390 --> 00:00:58,460
+Contraposition puts each thing
+
+23
+00:00:58,460 --> 00:00:59,825
+on the other side of the line.
+
+24
+00:00:59,825 --> 00:01:01,430
+Because when you
+negate something,
+
+25
+00:01:01,430 --> 00:01:03,140
+you move it from being
+
+26
+00:01:03,140 --> 00:01:05,435
+true to false and
+being false to true.
+
+27
+00:01:05,435 --> 00:01:09,335
+So it doesn't matter which one
+of these arrows we put in.
+
+28
+00:01:09,335 --> 00:01:10,610
+It has the same force.
+
+29
+00:01:10,610 --> 00:01:11,810
+But when we put things together,
+
+30
+00:01:11,810 --> 00:01:13,100
+you'll find that sometimes
+
+31
+00:01:13,100 --> 00:01:14,330
+you need to put both of them in.
+
+32
+00:01:14,330 --> 00:01:17,570
+It doesn't matter which way
+we represent the fact that
+
+33
+00:01:17,570 --> 00:01:22,280
+not a or D nausea ODE
+corresponds to a implies D,
+
+34
+00:01:22,280 --> 00:01:25,865
+but it also corresponds
+to not the implies not a.
+
+35
+00:01:25,865 --> 00:01:27,200
+And the rule will be the same
+
+36
+00:01:27,200 --> 00:01:28,775
+no matter which way we drew them.
+
+37
+00:01:28,775 --> 00:01:31,715
+We can't have arrows
+going from top to bottom.
+
+38
+00:01:31,715 --> 00:01:33,080
+And this is just showing how
+
+39
+00:01:33,080 --> 00:01:35,810
+the contraposition
+works in various ways.
+
+40
+00:01:35,810 --> 00:01:37,820
+Contraposition works here in
+
+41
+00:01:37,820 --> 00:01:39,680
+the way that I just indicated.
+
+42
+00:01:39,680 --> 00:01:42,170
+But if I have something
+up here than it is
+
+43
+00:01:42,170 --> 00:01:44,360
+contraposition down the bottom
+
+44
+00:01:44,360 --> 00:01:46,505
+is also completely
+down the bottom.
+
+45
+00:01:46,505 --> 00:01:49,805
+So contraposition works
+fine with this rule.
+
+46
+00:01:49,805 --> 00:01:52,625
+So this gives us three
+possible valuations.
+
+47
+00:01:52,625 --> 00:01:55,730
+Suppose I extend this
+diagram and I say,
+
+48
+00:01:55,730 --> 00:02:00,350
+not only does a
+arrow B be arrows c,
+
+49
+00:02:00,350 --> 00:02:02,150
+c would be another stage
+
+50
+00:02:02,150 --> 00:02:03,920
+and true would have
+to move further up.
+
+51
+00:02:03,920 --> 00:02:06,710
+We put false at the
+bottom and true at
+
+52
+00:02:06,710 --> 00:02:08,210
+the top just to remind ourselves
+
+53
+00:02:08,210 --> 00:02:10,175
+which way the diagrams going.
+
+54
+00:02:10,175 --> 00:02:13,055
+Of course, we can
+never make true false.
+
+55
+00:02:13,055 --> 00:02:14,720
+So we can't put
+our line above the
+
+56
+00:02:14,720 --> 00:02:17,120
+true and we never
+make false true.
+
+57
+00:02:17,120 --> 00:02:18,410
+So we never put our line below
+
+58
+00:02:18,410 --> 00:02:19,910
+the false airline has to
+
+59
+00:02:19,910 --> 00:02:21,515
+cut somewhere between
+true and false.
+
+60
+00:02:21,515 --> 00:02:26,120
+Suppose I put an extra
+arrow in here from B to C,
+
+61
+00:02:26,120 --> 00:02:27,635
+and then from C to true,
+
+62
+00:02:27,635 --> 00:02:31,145
+how many valuations could
+I make that would make
+
+63
+00:02:31,145 --> 00:02:35,810
+both a implies b and
+b implies c valid?
+
+64
+00:02:35,810 --> 00:02:38,540
+Draw the diagram or
+in your mind's eye,
+
+65
+00:02:38,540 --> 00:02:40,655
+draw the diagram.
+Let's try and draw it.
+
+66
+00:02:40,655 --> 00:02:42,350
+Let's pretend this is
+
+67
+00:02:42,350 --> 00:02:46,235
+a c true up there and
+we'll put an arrow there.
+
+68
+00:02:46,235 --> 00:02:49,055
+How many more
+valuations do I get?
+
+69
+00:02:49,055 --> 00:02:50,540
+This valuation makes a,
+
+70
+00:02:50,540 --> 00:02:51,770
+b, and c true.
+
+71
+00:02:51,770 --> 00:02:55,100
+So certainly a is
+true and B is true.
+
+72
+00:02:55,100 --> 00:02:56,780
+So a implies b is true,
+
+73
+00:02:56,780 --> 00:02:58,670
+and B is true and C is true.
+
+74
+00:02:58,670 --> 00:02:59,900
+So be inside, c is true.
+
+75
+00:02:59,900 --> 00:03:01,610
+So this valuation slow works.
+
+76
+00:03:01,610 --> 00:03:03,560
+This one still works.
+
+77
+00:03:03,560 --> 00:03:05,555
+A is false, B is true,
+
+78
+00:03:05,555 --> 00:03:06,740
+and B and C are both true.
+
+79
+00:03:06,740 --> 00:03:08,870
+So it's fine that
+valuation works.
+
+80
+00:03:08,870 --> 00:03:11,390
+The only evaluation we
+didn't have this this one.
+
+81
+00:03:11,390 --> 00:03:13,295
+So there's one more valuation,
+
+82
+00:03:13,295 --> 00:03:16,805
+which is I can either
+make c true or false.
+
+83
+00:03:16,805 --> 00:03:18,425
+If I make B true,
+
+84
+00:03:18,425 --> 00:03:19,490
+I have to make c true.
+
+85
+00:03:19,490 --> 00:03:22,400
+If I make a true, I have
+to make B and C True.
+
+86
+00:03:22,400 --> 00:03:24,440
+But when I make the
+other two false,
+
+87
+00:03:24,440 --> 00:03:27,380
+I can either may see
+true or makes a false.
+
+88
+00:03:27,380 --> 00:03:30,920
+So we get for evaluation 1234,
+
+89
+00:03:30,920 --> 00:03:32,870
+there are 26 letters
+in the alphabet.
+
+90
+00:03:32,870 --> 00:03:37,415
+Suppose I have a implies
+B implies C, and so on.
+
+91
+00:03:37,415 --> 00:03:40,775
+All the way to X
+implies Y implies said,
+
+92
+00:03:40,775 --> 00:03:43,520
+how many valuations make all
+
+93
+00:03:43,520 --> 00:03:46,070
+of those 25 arrows connecting
+
+94
+00:03:46,070 --> 00:03:49,250
+the 26 letters of the alphabet in
+
+95
+00:03:49,250 --> 00:03:53,585
+a line says 26 letters the
+alphabet, there's 25 arrows.
+
+96
+00:03:53,585 --> 00:03:55,445
+How many cuts can I make?
+
+97
+00:03:55,445 --> 00:03:56,690
+There are two extra arrows.
+
+98
+00:03:56,690 --> 00:03:58,490
+One that comes from false to a,
+
+99
+00:03:58,490 --> 00:04:01,340
+and one that comes
+from zed to true.
+
+100
+00:04:01,340 --> 00:04:04,715
+So that's 25, arrow
+is plus two is 27.
+
+101
+00:04:04,715 --> 00:04:07,190
+If we have a chain of
+implications like that,
+
+102
+00:04:07,190 --> 00:04:08,390
+we've now worked that out.
+
+103
+00:04:08,390 --> 00:04:10,040
+If you thought about
+it for a little while,
+
+104
+00:04:10,040 --> 00:04:11,600
+you would've got to that answer.
+
+105
+00:04:11,600 --> 00:04:14,780
+If I have any chain of
+implications going up,
+
+106
+00:04:14,780 --> 00:04:18,020
+then I can cut in any
+one of these gaps.
+
+107
+00:04:18,020 --> 00:04:19,535
+Anyone of those cuts will work.
+
+108
+00:04:19,535 --> 00:04:23,495
+You've got 12345 for that
+example, possible valuations.
+
+109
+00:04:23,495 --> 00:04:25,279
+So if we had this problem,
+
+110
+00:04:25,279 --> 00:04:26,585
+which is this problem,
+
+111
+00:04:26,585 --> 00:04:28,535
+we draw that diagram.
+
+112
+00:04:28,535 --> 00:04:30,620
+So we have a chain of N things.
+
+113
+00:04:30,620 --> 00:04:34,920
+We get n plus one valuations.

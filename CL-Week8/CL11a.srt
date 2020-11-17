@@ -1,0 +1,910 @@
+1
+00:00:00,000 --> 00:00:02,370
+Stage when we're
+starting to bring
+
+2
+00:00:02,370 --> 00:00:05,760
+various different ways of
+looking at logic together.
+
+3
+00:00:05,760 --> 00:00:07,860
+And in fact, today and tomorrow,
+
+4
+00:00:07,860 --> 00:00:09,720
+we'll finish off
+the logic section.
+
+5
+00:00:09,720 --> 00:00:11,070
+We'll come back to it before
+
+6
+00:00:11,070 --> 00:00:12,900
+the exam for a revision period,
+
+7
+00:00:12,900 --> 00:00:16,125
+but we'll start next week
+on looking at machines.
+
+8
+00:00:16,125 --> 00:00:18,030
+So we got quite a lot to
+
+9
+00:00:18,030 --> 00:00:19,995
+to pull together over
+the next couple of days.
+
+10
+00:00:19,995 --> 00:00:22,350
+Hopefully, every one of
+
+11
+00:00:22,350 --> 00:00:26,040
+these pictures makes
+some sense to you.
+
+12
+00:00:26,040 --> 00:00:28,275
+So at the bottom we have the,
+
+13
+00:00:28,275 --> 00:00:31,910
+the rules of Boolean
+algebra that you have
+
+14
+00:00:31,910 --> 00:00:35,480
+actually in tutorial derived
+or at least tried to derive.
+
+15
+00:00:35,480 --> 00:00:37,625
+And then in the tutorial seen
+how you could have done it.
+
+16
+00:00:37,625 --> 00:00:40,430
+On the, on the right here
+we have a Venn diagram.
+
+17
+00:00:40,430 --> 00:00:43,085
+Anyone know what that
+Venn diagram is for which
+
+18
+00:00:43,085 --> 00:00:47,075
+which particular operation
+is that band diagram for?
+
+19
+00:00:47,075 --> 00:00:49,370
+That's a puzzle for you,
+which I'll leave you with.
+
+20
+00:00:49,370 --> 00:00:52,070
+On the left, we've
+got a Karnaugh maps
+
+21
+00:00:52,070 --> 00:00:54,950
+and you know how to use a
+Karnaugh map to make a cnf.
+
+22
+00:00:54,950 --> 00:00:57,590
+And at the top we've got
+the circuits that I talked
+
+23
+00:00:57,590 --> 00:01:00,335
+about briefly at the
+end of last week.
+
+24
+00:01:00,335 --> 00:01:03,005
+Now I want to return to a slide,
+
+25
+00:01:03,005 --> 00:01:04,985
+essentially we've shown before.
+
+26
+00:01:04,985 --> 00:01:06,785
+But to show you a little
+bit more about it,
+
+27
+00:01:06,785 --> 00:01:08,690
+this was about languages,
+
+28
+00:01:08,690 --> 00:01:10,730
+and I gave the example of
+
+29
+00:01:10,730 --> 00:01:13,250
+arithmetic expressions
+in algebra.
+
+30
+00:01:13,250 --> 00:01:15,770
+Here we have the tree that's
+
+31
+00:01:15,770 --> 00:01:18,620
+associated with this statement.
+
+32
+00:01:18,620 --> 00:01:22,115
+On the left we have an
+expression x times y plus z.
+
+33
+00:01:22,115 --> 00:01:23,630
+On the right we have
+an expression x
+
+34
+00:01:23,630 --> 00:01:25,565
+times y plus x times z.
+
+35
+00:01:25,565 --> 00:01:27,605
+And this is a formal statement.
+
+36
+00:01:27,605 --> 00:01:29,975
+Now last time I said
+we can put numbers
+
+37
+00:01:29,975 --> 00:01:32,660
+in place at the variables
+and then evaluate.
+
+38
+00:01:32,660 --> 00:01:34,090
+So we can put these numbers in,
+
+39
+00:01:34,090 --> 00:01:36,590
+in place of the
+variables and evaluate.
+
+40
+00:01:36,590 --> 00:01:37,925
+And that's what's done here.
+
+41
+00:01:37,925 --> 00:01:40,640
+And if we do those
+sums three times five
+
+42
+00:01:40,640 --> 00:01:43,475
+plus seven is three times
+five plus three times seven.
+
+43
+00:01:43,475 --> 00:01:45,440
+If you were just given
+that very quickly,
+
+44
+00:01:45,440 --> 00:01:46,970
+you'd have to think a
+moment to work out.
+
+45
+00:01:46,970 --> 00:01:50,674
+They rearrange, but they do,
+and they both come to 36.
+
+46
+00:01:50,674 --> 00:01:52,280
+Now one thing that's
+puzzled Some of
+
+47
+00:01:52,280 --> 00:01:55,505
+you recently with the
+tutorial you are doing.
+
+48
+00:01:55,505 --> 00:01:57,530
+Php at the moment is when we do,
+
+49
+00:01:57,530 --> 00:01:59,480
+when we don't use parentheses.
+
+50
+00:01:59,480 --> 00:02:01,280
+Here, you're very
+familiar with saying
+
+51
+00:02:01,280 --> 00:02:03,860
+three times five plus
+seven in brackets,
+
+52
+00:02:03,860 --> 00:02:06,620
+equals three times five
+plus three times seven.
+
+53
+00:02:06,620 --> 00:02:08,179
+And you don't put any parentheses
+
+54
+00:02:08,179 --> 00:02:09,650
+in because you know that
+
+55
+00:02:09,650 --> 00:02:12,950
+the time spines more
+closely than the plus.
+
+56
+00:02:12,950 --> 00:02:16,160
+So that's told to
+Haskell by saying times
+
+57
+00:02:16,160 --> 00:02:19,550
+has a higher precedence
+than plus up here.
+
+58
+00:02:19,550 --> 00:02:21,350
+Anyone, any idea what's
+going on up here?
+
+59
+00:02:21,350 --> 00:02:23,150
+No, it's not Boolean algebra.
+
+60
+00:02:23,150 --> 00:02:25,085
+There were twos and
+zeros and ones.
+
+61
+00:02:25,085 --> 00:02:27,395
+You've been doing this algebra,
+you've done a lot of it.
+
+62
+00:02:27,395 --> 00:02:28,760
+This is linear algebra,
+
+63
+00:02:28,760 --> 00:02:30,395
+is a two by two matrices.
+
+64
+00:02:30,395 --> 00:02:33,050
+And I am substituting
+matrices in here and saying
+
+65
+00:02:33,050 --> 00:02:37,295
+this time this plus this
+equals this times this,
+
+66
+00:02:37,295 --> 00:02:38,585
+plus this times this.
+
+67
+00:02:38,585 --> 00:02:40,400
+So if you do the
+matrix algebra and
+
+68
+00:02:40,400 --> 00:02:43,205
+I'll let you look at
+it in your own time.
+
+69
+00:02:43,205 --> 00:02:44,450
+But I think I've got it right.
+
+70
+00:02:44,450 --> 00:02:46,535
+Do you find that either way?
+
+71
+00:02:46,535 --> 00:02:48,035
+You get the, the,
+
+72
+00:02:48,035 --> 00:02:49,430
+the resultant matrix is
+
+73
+00:02:49,430 --> 00:02:52,460
+2153 independent of
+which way you do this.
+
+74
+00:02:52,460 --> 00:02:54,950
+This brings out the
+difference between
+
+75
+00:02:54,950 --> 00:02:56,750
+the algebra where we have
+
+76
+00:02:56,750 --> 00:02:59,345
+these formal expressions
+and the arithmetic,
+
+77
+00:02:59,345 --> 00:03:01,910
+because I've got the same
+piece of algebra being
+
+78
+00:03:01,910 --> 00:03:05,104
+interpreted as in one
+case about integers.
+
+79
+00:03:05,104 --> 00:03:08,135
+And the other case about
+two-by-two matrices,
+
+80
+00:03:08,135 --> 00:03:11,885
+we could interpret about n by
+n matrices if we wanted to.
+
+81
+00:03:11,885 --> 00:03:13,730
+In Haskell, we can not
+
+82
+00:03:13,730 --> 00:03:17,435
+only make you enumerated
+types we started off with,
+
+83
+00:03:17,435 --> 00:03:20,630
+or even the label
+types like or of
+
+84
+00:03:20,630 --> 00:03:22,670
+a list and end of a list that
+
+85
+00:03:22,670 --> 00:03:24,995
+we use in our language a forms,
+
+86
+00:03:24,995 --> 00:03:27,320
+but we can make them recursive.
+
+87
+00:03:27,320 --> 00:03:31,730
+So this datatype says OAuth
+is either a variable,
+
+88
+00:03:31,730 --> 00:03:33,125
+that's what that v stands for.
+
+89
+00:03:33,125 --> 00:03:36,500
+A variable which is an atom
+a or a constant T or a
+
+90
+00:03:36,500 --> 00:03:38,270
+constant f or not
+
+91
+00:03:38,270 --> 00:03:40,400
+of some wolf you've
+already constructed,
+
+92
+00:03:40,400 --> 00:03:42,380
+or the, or of
+
+93
+00:03:42,380 --> 00:03:45,200
+some woofs you've already
+constructed or the end of them,
+
+94
+00:03:45,200 --> 00:03:47,405
+or the implies or
+the if and only if.
+
+95
+00:03:47,405 --> 00:03:50,090
+Along with that, to
+explain the Haskell
+
+96
+00:03:50,090 --> 00:03:53,210
+how to both paths
+expressions like that,
+
+97
+00:03:53,210 --> 00:03:55,370
+that words read them
+when we write them and
+
+98
+00:03:55,370 --> 00:03:57,770
+how to express them
+when it prints them,
+
+99
+00:03:57,770 --> 00:04:00,320
+we tell it these
+rules about fixity.
+
+100
+00:04:00,320 --> 00:04:02,045
+And again, the end
+
+101
+00:04:02,045 --> 00:04:04,700
+behaves like the times
+in ordinary algebra.
+
+102
+00:04:04,700 --> 00:04:06,110
+It finds more closely,
+
+103
+00:04:06,110 --> 00:04:08,390
+just as we did with the algebra,
+
+104
+00:04:08,390 --> 00:04:12,650
+interpreting it in terms of
+both integers and matrices.
+
+105
+00:04:12,650 --> 00:04:14,900
+So it is useful to
+
+106
+00:04:14,900 --> 00:04:18,650
+interpret the Boolean
+algebra in different terms.
+
+107
+00:04:18,650 --> 00:04:21,455
+So here's a piece
+of Boolean algebra.
+
+108
+00:04:21,455 --> 00:04:25,760
+Here we're putting not
+equals but satisfies.
+
+109
+00:04:25,760 --> 00:04:30,889
+But we've got essentially
+the same equation.
+
+110
+00:04:30,889 --> 00:04:33,380
+But this time instead
+of plus and times,
+
+111
+00:04:33,380 --> 00:04:35,225
+we've got or an end.
+
+112
+00:04:35,225 --> 00:04:37,895
+So we can interpret
+that in the Booleans
+
+113
+00:04:37,895 --> 00:04:40,940
+where the or is this all
+and the end is this end.
+
+114
+00:04:40,940 --> 00:04:43,325
+We have these in fixes
+that we remember.
+
+115
+00:04:43,325 --> 00:04:47,250
+But we can also interpreted
+what's going on here.
+
+116
+00:04:48,430 --> 00:04:52,610
+Where are we interpreting
+it that way back,
+
+117
+00:04:52,610 --> 00:04:54,260
+we defined these operations.
+
+118
+00:04:54,260 --> 00:04:56,490
+What are the operations on?
+
+119
+00:04:58,600 --> 00:05:01,310
+Those were operations
+on predicate.
+
+120
+00:05:01,310 --> 00:05:02,795
+So we can interpret
+
+121
+00:05:02,795 --> 00:05:04,520
+our Boolean algebra by writer
+
+122
+00:05:04,520 --> 00:05:06,590
+substituting Boolean values in
+
+123
+00:05:06,590 --> 00:05:08,930
+o predicates in the code looks
+
+124
+00:05:08,930 --> 00:05:12,200
+complicated until you look
+at it about three times.
+
+125
+00:05:12,200 --> 00:05:14,600
+Once you've looked at
+it about three times,
+
+126
+00:05:14,600 --> 00:05:17,420
+you notice that my gosh,
+this is a pattern.
+
+127
+00:05:17,420 --> 00:05:19,460
+This was the way we
+declared this type.
+
+128
+00:05:19,460 --> 00:05:20,480
+I put at the end,
+
+129
+00:05:20,480 --> 00:05:22,460
+I supposed to make it just
+like the way we declared it.
+
+130
+00:05:22,460 --> 00:05:24,245
+I could have put the top,
+
+131
+00:05:24,245 --> 00:05:26,675
+but I put it at the
+end in order to
+
+132
+00:05:26,675 --> 00:05:29,210
+write a function
+that takes a wolf,
+
+133
+00:05:29,210 --> 00:05:31,490
+then I have to say what
+it does with any Wolf.
+
+134
+00:05:31,490 --> 00:05:33,920
+So I say what it does
+for each of the patents,
+
+135
+00:05:33,920 --> 00:05:35,390
+true and false for the constants,
+
+136
+00:05:35,390 --> 00:05:37,955
+what it does for the variables,
+what it does for not p,
+
+137
+00:05:37,955 --> 00:05:39,830
+what it does, EOQ,
+
+138
+00:05:39,830 --> 00:05:41,840
+what he does for p and
+q, what is the p-n?
+
+139
+00:05:41,840 --> 00:05:44,270
+I just list those out.
+Go back to algebra.
+
+140
+00:05:44,270 --> 00:05:46,715
+That's rather like
+saying, if I have,
+
+141
+00:05:46,715 --> 00:05:48,770
+if I have any set of things with
+
+142
+00:05:48,770 --> 00:05:51,545
+two operations which I'll
+call plus and times.
+
+143
+00:05:51,545 --> 00:05:53,180
+It could be matrices,
+
+144
+00:05:53,180 --> 00:05:56,210
+could be integers,
+it could be reals.
+
+145
+00:05:56,210 --> 00:05:59,360
+We can even add and
+multiply functions if we
+
+146
+00:05:59,360 --> 00:06:02,780
+say f times g of x is
+f of x times g of x.
+
+147
+00:06:02,780 --> 00:06:04,280
+If we say things like
+that, we can interpret and
+
+148
+00:06:04,280 --> 00:06:06,890
+functions to substitute
+for variables.
+
+149
+00:06:06,890 --> 00:06:08,420
+We simply substituted
+the variables at
+
+150
+00:06:08,420 --> 00:06:10,775
+the bottom and then rebuild
+it with the same operation
+
+151
+00:06:10,775 --> 00:06:13,640
+to evaluate if I take
+something where I've
+
+152
+00:06:13,640 --> 00:06:16,955
+already put booleans
+instead of the variables.
+
+153
+00:06:16,955 --> 00:06:19,550
+So I've taken the variables
+and I've substituted
+
+154
+00:06:19,550 --> 00:06:22,760
+Booleans just as we did
+in that little example.
+
+155
+00:06:22,760 --> 00:06:26,420
+Then I can evaluate that by using
+
+156
+00:06:26,420 --> 00:06:30,410
+the operations on pools
+to do the evaluation.
+
+157
+00:06:30,410 --> 00:06:32,630
+And the pattern of the
+function definition
+
+158
+00:06:32,630 --> 00:06:34,280
+is exactly the same as before.
+
+159
+00:06:34,280 --> 00:06:37,010
+Here we were saying to substitute
+
+160
+00:06:37,010 --> 00:06:41,150
+f of a for the
+variable a of the SMA.
+
+161
+00:06:41,150 --> 00:06:43,610
+I will put those
+in at the bottom.
+
+162
+00:06:43,610 --> 00:06:46,850
+That's what that says. And
+then rebuild by saying, well,
+
+163
+00:06:46,850 --> 00:06:49,010
+what happens if I want to
+look at P if and only if
+
+164
+00:06:49,010 --> 00:06:52,670
+Q I substituted in P and
+I substitute to enqueue,
+
+165
+00:06:52,670 --> 00:06:54,215
+and I put them
+together the same way.
+
+166
+00:06:54,215 --> 00:06:55,415
+So we just rebuild it.
+
+167
+00:06:55,415 --> 00:06:58,325
+Here we're evaluating,
+can evaluate using
+
+168
+00:06:58,325 --> 00:07:01,550
+anything which has
+the write operations,
+
+169
+00:07:01,550 --> 00:07:04,535
+these ones to match those ones.
+
+170
+00:07:04,535 --> 00:07:06,260
+And we can also use
+
+171
+00:07:06,260 --> 00:07:09,650
+a similar pattern to interpret
+woofs as predicates.
+
+172
+00:07:09,650 --> 00:07:11,900
+A map from woofs where I've
+
+173
+00:07:11,900 --> 00:07:15,064
+substituted predicates for
+the variables to predicates.
+
+174
+00:07:15,064 --> 00:07:17,210
+And this is really just
+the same as before.
+
+175
+00:07:17,210 --> 00:07:20,720
+We interpret true as the
+predicate that's always true,
+
+176
+00:07:20,720 --> 00:07:23,135
+false as the predicate
+that's always false.
+
+177
+00:07:23,135 --> 00:07:24,590
+Not P is the Negev,
+
+178
+00:07:24,590 --> 00:07:26,090
+the interpretation,
+the predicate.
+
+179
+00:07:26,090 --> 00:07:28,010
+Similarly, we use
+these operations
+
+180
+00:07:28,010 --> 00:07:29,555
+on predicates over here.
+
+181
+00:07:29,555 --> 00:07:33,890
+This isn't only for ordinary
+algebra or Boolean algebra.
+
+182
+00:07:33,890 --> 00:07:35,690
+It's much, much more than that.
+
+183
+00:07:35,690 --> 00:07:39,290
+When you start doing programming
+languages and compilers,
+
+184
+00:07:39,290 --> 00:07:41,495
+you'll be doing the
+same kinds of things.
+
+185
+00:07:41,495 --> 00:07:43,444
+You'll be saying.
+Here's a compiler,
+
+186
+00:07:43,444 --> 00:07:45,710
+here's what it means to
+do such and such with it.
+
+187
+00:07:45,710 --> 00:07:47,780
+And you'll have the
+same kinds of things
+
+188
+00:07:47,780 --> 00:07:50,180
+going on in a more
+complicated setting.
+
+189
+00:07:50,180 --> 00:07:51,560
+So it's worth sitting down with
+
+190
+00:07:51,560 --> 00:07:52,880
+these and try and
+get your head round.
+
+191
+00:07:52,880 --> 00:07:55,700
+First of all, what's going
+with the ordinary algebra,
+
+192
+00:07:55,700 --> 00:07:57,710
+then understanding how
+that really is the
+
+193
+00:07:57,710 --> 00:08:00,155
+same as what we're doing
+with the Boolean algebra.
+
+194
+00:08:00,155 --> 00:08:02,390
+And then we're
+ready for next year
+
+195
+00:08:02,390 --> 00:08:05,400
+when you have to look at
+it in more general things.
